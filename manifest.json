@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+   "content_scripts": [ {
+      "matches": ["*://*/*", "file:///*/*"],
+      "exclude_globs": ["*://docs.google.com/*"],
+      "css": [ "accesibility.css" ]
+   } ],
+   "description": "Format pages using the OpenDyslexic font and low contrast help.",
+   "homepage_url": "http://opendyslexic.org",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "name": "OpenDyslexic",
+   "permissions": [ "tabs", "*://*/*", "http://*/*", "https://*/*", "<all_urls>" ],
+   "web_accessible_resources": [
+    "fonts/OpenDyslexic-Bold.otf",
+    "fonts/OpenDyslexic-BoldItalic.otf",
+    "fonts/OpenDyslexic-Italic.otf",
+    "fonts/OpenDyslexic-Regular.otf"
+    ],
+   "version": "3.1.5"
+}
