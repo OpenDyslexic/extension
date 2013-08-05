@@ -1,5 +1,5 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
    "content_scripts": [ {
       "matches": ["*://*/*", "file:///*/*"],
       "exclude_globs": ["*://docs.google.com/*"],
@@ -20,5 +20,5 @@
     "fonts/OpenDyslexic-Italic.otf",
     "fonts/OpenDyslexic-Regular.otf"
     ],
-   "version": "3.1.5"
+   "version": "3.5.3"
 }
