@@ -16,19 +16,22 @@
 	font-weight: bold;
 	font-style: normal;
 }
-
 @font-face{
-	font-family: "opendyslexic";
-	   src:url('chrome-extension://__MSG_@@extension_id__/fonts/OpenDyslexic-BoldItalic.otf');
+	font-family: "opendyslexic";	   src:url('chrome-extension://__MSG_@@extension_id__/fonts/OpenDyslexic-BoldItalic.otf');
 	font-weight: bold;
 	font-style: italic;
 }
 
+@font-face {
+	font-family: "opendyslexicmono";
+src:url('chrome-extension://__MSG_@@extension_id__/fonts/OpenDyslexicMono-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
 
 body {
 	color: rgb(25, 26, 66); 
-	font-family: opendyslexic !important;
-	line-height: 150%;
+	font-family: opendyslexic;
 }
 
 p:nth-child(even), li:nth-child(even) {
@@ -40,12 +43,23 @@ p:hover, li:hover {
    background-color: rgba(0,0,0, 0.09) !important;
 }
 
-* {
+p {
     font-family: opendyslexic !important;
-   -webkit-text-shadow: rgba(255,255,255,0.01) 0 0 1px !important;
-   text-shadow: 0px 0px 1px rgba(0, 0, 0, .1) !important;
-   line-height: 150%;
+    line-height: 150%;
 }
+
+* {
+    font-family: opendyslexic;
+}
+
+pre, code {
+    font-family: opendyslexicmono !important;
+    line-height: 150%;
+}
+.ace_text-input, .prettyprint {
+    font-family: opendyslexicmono !important;
+}
+
 
 .original-tweet {
     background-color: #fff !important;
