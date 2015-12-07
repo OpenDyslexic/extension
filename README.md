@@ -1,8 +1,28 @@
-opendyslexic-chrome
-===================
-
-opendyslexic chrome extension
+# Open Dyslexic Chrome App
 
 This is the source code for the chrome extension that's in the app store. Feel free to suggest changes and improvements. :)
+
+
+
+##About 
+OpenDyslexic is a new open source font created to increase readability for readers with dyslexia. The typeface includes regular, bold, italic, and bold-italic styles. It is being updated continually and improved based on input from dyslexic users. OpenDyslexic is free for Commercial and Personal use.
+
+#Info
+Number of Users : 22,000
+Version Number : 3.0 
+
+
+##Install
+
+- Clone this repo locally ``` git clone  https://github.com/antijingoist/opendyslexic-chrome```
+- Open up Google chrome
+- Go the Google Chrome Settings
+- Go to extensions
+- Click enable developer mode.
+- Load unpackaged extensions.
+- Pick the opendyslexic-chrome folder.
+
+
+
 
 To install, check the chrome webstore for opendyslexic. :)
