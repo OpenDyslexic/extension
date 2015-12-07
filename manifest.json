@@ -1,24 +1,29 @@
 {
+    "name": "OpenDyslexic",
+    "version": "4",
     "manifest_version": 2,
-   "content_scripts": [ {
-      "matches": ["*://*/*", "file:///*/*"],
-      "exclude_globs": ["*://docs.google.com/*"],
-      "css": [ "accesibility.css" ]
-   } ],
-   "description": "Format pages using the OpenDyslexic font and low contrast help.",
-   "homepage_url": "http://opendyslexic.org",
-   "icons": {
-      "128": "icon-128.png",
-      "16": "icon-16.png",
-      "48": "icon-48.png"
-   },
-   "name": "OpenDyslexic",
-   "permissions": [ "tabs", "*://*/*", "http://*/*", "https://*/*", "<all_urls>" ],
-   "web_accessible_resources": [
-    "fonts/OpenDyslexic-Bold.otf",
-    "fonts/OpenDyslexic-BoldItalic.otf",
-    "fonts/OpenDyslexic-Italic.otf",
-    "fonts/OpenDyslexic-Regular.otf"
-    ],
-   "version": "3.5.3"
+    "description": "Format pages using the OpenDyslexic font and low contrast help.",
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "128": "assets/img/icons/icon-128.png",
+        "16": "assets/img/icons/icon-16.png",
+        "48": "assets/img/icons/icon-48.png"
+    },
+
+    "permissions": ["tabs", "*://*/*", "http://*/*", "https://*/*", "<all_urls>"],
+
+
+    "content_scripts": [{
+        "matches": ["*://*/*", "file:///*/*"],
+        "exclude_globs": ["*://docs.google.com/*"],
+        "css": ["assets/css/accesibility.css"]
+   }],
+    "web_accessible_resources": [
+    "assets/fonts/OpenDyslexic-Bold.otf",
+    "assets/fonts/OpenDyslexic-BoldItalic.otf",
+    "assets/fonts/OpenDyslexic-Italic.otf",
+    "assets/fonts/OpenDyslexic-Regular.otf"
+    ]
 }
