@@ -9,7 +9,10 @@ OpenDyslexic is a new open source font created to increase readability for reade
 
 #Info
 Number of Users : 22,000
+
 Version Number : 3.0 
+
+Download from the [chrome store](https://chrome.google.com/webstore/detail/opendyslexic/cdnapgfjopgaggbmfgbiinmmbdcglnam?hl=en)
 
 
 ##Install
@@ -23,6 +26,3 @@ Version Number : 3.0
 - Pick the opendyslexic-chrome folder.
 
 
-
-
-To install, check the chrome webstore for opendyslexic. :)
