@@ -26,3 +26,9 @@ Download from the [chrome store](https://chrome.google.com/webstore/detail/opend
 - Pick the opendyslexic-chrome folder.
 
 
+##Build Files
+Open up command line or termial
+Naviagate to the opendyslexic-chrome folder
+Run ```npm install ```
+Then ``` gulp build ```
+This will create a folder called dist and compress all css, and javascript :)
