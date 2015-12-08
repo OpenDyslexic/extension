@@ -6,9 +6,13 @@
     <link href="assets/css/bootstrap/roboto.min.css" rel="stylesheet">
     <link href="assets/css/bootstrap/material.min.css" rel="stylesheet">
     <link href="assets/css/bootstrap/ripples.min.css" rel="stylesheet">
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/angular-chrome-storage.js"></script>
+    <script src="assets/js/core.js"></script>
+
 </head>
 
-<body>
+<body ng-app="opendyslexic" ng-controller="core"  data-ng-init="init()">
     <h1>OpenDyslexic</h1>
     <h4>Free and Open Source Dyslexia Typeface</h4>
     <div class="container-fluid main">
@@ -20,8 +24,6 @@
         </div>
 
 
-        <br/>
-        <br/>
 
     </div>
 
@@ -30,11 +32,6 @@
     <script src="assets/js/ripples.min.js"></script>
     <script src="assets/js/material.js"></script>
     <script src="assets/js/start.js"></script>
-
-    <script src="assets/js/options.js"></script>
-
-
-
 </body>
 
 </html>

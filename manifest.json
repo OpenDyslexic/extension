@@ -7,12 +7,12 @@
         "default_popup": "index.html"
     },
     "icons": {
-        "128": "assets/img/icons/icon-128.png",
-        "16": "assets/img/icons/icon-16.png",
-        "48": "assets/img/icons/icon-48.png"
+        "128": "./assets/img/icons/icon-128.png",
+        "16": "./assets/img/icons/icon-16.png",
+        "48": "./assets/img/icons/icon-48.png"
     },
 
-    "permissions": ["tabs", "*://*/*", "http://*/*", "https://*/*", "<all_urls>"],
+    "permissions": ["tabs", "*://*/*", "http://*/*", "https://*/*", "<all_urls>",  "storage"],
 
 
     "content_scripts": [{
@@ -21,9 +21,9 @@
         "css": ["assets/css/accesibility.css"]
    }],
     "web_accessible_resources": [
-    "assets/fonts/OpenDyslexic-Bold.otf",
-    "assets/fonts/OpenDyslexic-BoldItalic.otf",
-    "assets/fonts/OpenDyslexic-Italic.otf",
-    "assets/fonts/OpenDyslexic-Regular.otf"
+    "./assets/fonts/OpenDyslexic-Bold.otf",
+    "./assets/fonts/OpenDyslexic-BoldItalic.otf",
+    "./assets/fonts/OpenDyslexic-Italic.otf",
+    "./assets/fonts/OpenDyslexic-Regular.otf"
     ]
 }
