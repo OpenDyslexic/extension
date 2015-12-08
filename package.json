@@ -4,13 +4,14 @@
   "author": "Robert Gabriel & Abbie Gonzalez",
   "dependencies": {},
   "devDependencies": {
-    "browser-sync": "*",
     "gulp": "*",
-    "gulp-jshint": "*",
     "gulp-less": "*",
     "gulp-minify-css": "*",
     "gulp-uglify": "^1.4.0",
-    "gulp-util": "*"
+    "gulp-util": "*",
+       "gulp-logger": "*",
+       "gulp-rename": "*"
+
   },
   "engine": "node >= 0.4.1"
 }
