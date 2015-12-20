@@ -2,7 +2,7 @@ var app = angular.module("opendyslexic", []);
 app.controller("core", function ($scope) {
 
 
-var sync,elem, code, style;
+    var sync, elem, code, style;
 
     $scope.init = function () {
         console.log('sssssss');
@@ -10,14 +10,17 @@ var sync,elem, code, style;
         chrome.storage.sync.get({
             booleans: true
         }, function (items) {
-            document.getElementById('like').checked = items.booleans;
+            console.log("core" + items.booleans);
+            if (items.booleans === true) {
+                document.getElementById('like').checked = 1;
+                turnOnHelperBird();
+            } else {
+                turnOffHelperBird();
+                document.getElementById('like').checked = 0;
+            }
         });
+
     };
-
-
-
-
-
 
     /**
      * Adds Saves the Optoins 
@@ -45,6 +48,25 @@ var sync,elem, code, style;
 
 
 
+    function turnOffHelperBird() {
+
+        if (document.getElementById("opendyslexic") != null) { // available
+            elem = document.getElementById("opendyslexic");
+            elem.parentNode.removeChild(elem);
+            (document.head || document.documentElement)
+            .removeChild(elem);
+            reloadPage();
+        }
+    }
+
+    function turnOnHelperBird() {
+        style = document.createElement('link');
+        style.rel = 'stylesheet';
+        style.type = 'text/css';
+        style.setAttribute("id", "opendyslexic");
+        style.href = chrome.extension.getURL('assets/dist/css/opendyslexic/accesibility.min.css');
+        (document.head || document.documentElement).appendChild(style);
+    }
 
 
 
