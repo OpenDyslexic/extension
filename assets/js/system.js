@@ -1,21 +1,22 @@
 var chrome, elem, code, style;
 
-var helperBird = {
+
+var openDyslexic = {
     Init: function () {
         checkStatus(); // Check if the check box is set.
     }
 };
-helperBird.Init();
+openDyslexic.Init();
 
 function checkStatus() {
     chrome.storage.sync.get({
         booleans: true
     }, function (items) {
         if (items.booleans === true) {
-            turnOnHelperBird();
+            turnOnOpenDyslexic();
             setLike(1);
         } else {
-            turnOffHelperBird();
+            turnOffOpenDyslexic();
             setLike(0);
         }
     });
@@ -30,7 +31,7 @@ function setLike(bool) {
 
 
 
-function turnOffHelperBird() {
+function turnOffOpenDyslexic() {
     if (document.getElementById("opendyslexic") != null) { // available
         elem = document.getElementById("opendyslexic");
         elem.parentNode.removeChild(elem);
@@ -40,7 +41,7 @@ function turnOffHelperBird() {
     }
 }
 
-function turnOnHelperBird() {
+function turnOnOpenDyslexic() {
     style = document.createElement('link');
     style.rel = 'stylesheet';
     style.type = 'text/css';

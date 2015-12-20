@@ -22,11 +22,11 @@
         "all_frames": true
    }],
     "web_accessible_resources": [
-    "./assets/dist/fonts/OpenDyslexic-Bold.otf",
-    "./assets/dist/fonts/OpenDyslexic-BoldItalic.otf",
-    "./assets/dist/fonts/OpenDyslexic-Italic.otf",
-    "./assets/dist/fonts/OpenDyslexic-Regular.otf",
-        "./assets/dist/fonts/OpenDyslexic-Regular.otf",
-        "/assets/dist/css/opendyslexic/accesibility.min.css"
+    "/assets/dist/fonts/OpenDyslexic-Bold.otf",
+    "/assets/dist/fonts/OpenDyslexic-BoldItalic.otf",
+    "/assets/dist/fonts/OpenDyslexic-Italic.otf",
+    "/assets/dist/fonts/OpenDyslexic-Regular.otf",
+    "/assets/dist/fonts/OpenDyslexicMono-Regular.otf",
+    "/assets/dist/css/opendyslexic/accesibility.min.css"
     ]
 }

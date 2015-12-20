@@ -1,30 +1,30 @@
 @font-face {
     font-family: "opendyslexic";
-    src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/OpenDyslexic-Regular.otf');
+    src: url('chrome-extension://__MSG_@@extension_id__/assets/dist/fonts/OpenDyslexic-Regular.otf');
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "opendyslexic";
-    src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/OpenDyslexic-Italic.otf');
+    src: url('chrome-extension://__MSG_@@extension_id__/assets/dist/fonts/OpenDyslexic-Italic.otf');
     font-style: italic;
     font-weight: normal;
 }
 @font-face {
     font-family: "opendyslexic";
-    src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/OpenDyslexic-Bold.otf');
+    src: url('chrome-extension://__MSG_@@extension_id__/assets/dist/fonts/OpenDyslexic-Bold.otf');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: "opendyslexic";
-    src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/OpenDyslexic-BoldItalic.otf');
+    src: url('chrome-extension://__MSG_@@extension_id__/assets/dist/fonts/OpenDyslexic-BoldItalic.otf');
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
     font-family: "opendyslexicmono";
-    src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/OpenDyslexicMono-Regular.otf');
+    src: url('chrome-extension://__MSG_@@extension_id__/assets/dist/fonts/OpenDyslexicMono-Regular.otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -40,7 +40,18 @@ p:hover,
 li:hover {
     background-color: rgba(0, 0, 0, 0.09) !important;
 }
-p {
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+ul,
+span,
+font,
+strong {
     font-family: opendyslexic !important;
     line-height: 150%;
 }
@@ -48,6 +59,7 @@ p {
     font-family: opendyslexic !imporant;
 }
 pre,
+span,
 code {
     font-family: opendyslexicmono !important;
     line-height: 150%;
