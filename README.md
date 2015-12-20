@@ -15,9 +15,19 @@ Version Number : 3.0
 Download from the [chrome store](https://chrome.google.com/webstore/detail/opendyslexic/cdnapgfjopgaggbmfgbiinmmbdcglnam?hl=en)
 
 
-##Install
+##Set up
 
+**Prerequisites:** [Node](http://nodejs.org/) and the following global node modules:  gulp (if you have none of these modules, just run npm run global-deps).
 - Clone this repo locally ``` git clone  https://github.com/antijingoist/opendyslexic-chrome```
+- Open up either terimal or CMD
+- Naviagte to the repo 
+- Run the following command inside the repo ```npm install```
+- Then run ```gulp build```, which build all javascript and css.
+
+
+
+##Install 
+- See set up first 
 - Open up Google chrome
 - Go the Google Chrome Settings
 - Go to extensions
