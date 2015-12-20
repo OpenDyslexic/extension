@@ -1,4 +1,4 @@
-# Open Dyslexic Chrome App
+# OpenDyslexic Chrome App
 
 This is the source code for the chrome extension that's in the app store. Feel free to suggest changes and improvements. :)
 
@@ -42,3 +42,7 @@ Download from the [chrome store](https://chrome.google.com/webstore/detail/opend
 - Run ```npm install ```
 - Then ``` gulp build ```
 - This will create a folder called dist and compress all css, and javascript :)
+
+##Screenshot
+
+![Display of icon for chrome](assets/img/screenshot/indexExample.png)
