@@ -43,6 +43,13 @@ Download from the [chrome store](https://chrome.google.com/webstore/detail/opend
 - Then ``` gulp build ```
 - This will create a folder called dist and compress all css, and javascript :)
 
+
+##Important Notice
+
+- system.js handles the turning on and off of the font on the page
+- core.js handles the button click using angler.js
+- Gulp Watch will be added in soon.
+
 ##Screenshot
 
 ![Display of icon for chrome](assets/img/screenshot/indexExample.png)
