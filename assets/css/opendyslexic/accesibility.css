@@ -30,7 +30,7 @@
 }
 body {
     color: rgb(25, 26, 66);
-    font-family: opendyslexic !imporant;
+    font-family: opendyslexic;
 }
 p:nth-child(even),
 li:nth-child(even) {
@@ -52,11 +52,11 @@ ul,
 span,
 font,
 strong {
-    font-family: opendyslexic !important;
+    font-family: opendyslexic;
     line-height: 150%;
 }
 * {
-    font-family: opendyslexic !imporant;
+    font-family: opendyslexic;
 }
 pre,
 span,
