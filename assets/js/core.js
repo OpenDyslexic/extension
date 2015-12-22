@@ -1,91 +1,51 @@
-var chrome, elem, code, style;
-
-var helperBird = {
-    Init: function () {
-        checkStatus(); // Check if the check box is set.
-    }
-};
-helperBird.Init();
-
-function checkStatus() {
-    chrome.storage.sync.get({
-        booleans: true,
-        fontSizes: "12"
-    }, function (items) {
-        if (items.booleans === true) {
-            turnOnHelperBird();
-            turnOnChangeFont(items.fontSizes);
-            setLike(1);
-            setNumberVaule(items.fontSizes);
-        } else {
-            turnOffHelperBird();
-            removeChangeFont();
-            setLike(0);
-            setNumberVaule(items.fontSizes);
-        }
-    });
-}
+var app = angular.module("opendyslexic", []);
+app.controller("core", function ($scope) {
 
 
-function setLike(bool) {
-    if (document.getElementById("like") != null) { // available
-        document.getElementById("like").checked = bool;
-    }
-}
+    var sync, elem, code, style;
 
-function setNumberVaule(fontSizes) {
-    if (document.getElementById("number") != null) { // available
-        document.getElementById("number").value = fontSizes;
-    }
-}
+    $scope.init = function () {
 
-function turnOffHelperBird() {
-    if (document.getElementById("helperBird") != null) { // available
-        elem = document.getElementById("helperBird");
-        elem.parentNode.removeChild(elem);
-        (document.head || document.documentElement)
-        .removeChild(elem);
-        reloadPage();
-    }
-}
+        chrome.storage.sync.get({
+            booleans: true
+        }, function (items) {
 
-function turnOnHelperBird() {
-    style = document.createElement('link');
-    style.rel = 'stylesheet';
-    style.type = 'text/css';
-    style.setAttribute("id", "helperBird");
-    style.href = chrome.extension.getURL('assets/css/myStyles.css');
-    (document.head || document.documentElement).appendChild(style);
-}
+            if (items.booleans === true) {
+                document.getElementById('like').checked = 1;
 
-
-
-function removeChangeFont() {
-    if (document.getElementById("helperColor") != null) { // available
-        elem = document.getElementById("helperColor");
-        elem.parentNode.removeChild(elem);
-        (document.head || document.documentElement).removeChild(elem);
-        reloadPage();
-    }
-}
-
-function turnOnChangeFont(fontSizes) {
-    style = document.createElement('style');
-    style.setAttribute("id", "helperColor");
-    style.innerHTML = "p,span,li,a,ul{font-size:" + fontSizes + "px!important;}";
-
-    (document.head || document.documentElement).appendChild(style);
-}
-
-
-
-
-
-function reloadPage() {
-    chrome.tabs.getSelected(null, function (tab) {
-        code = 'window.location.reload();';
-        chrome.tabs.executeScript(tab.id, {
-            code: code
+            } else {
+                document.getElementById('like').checked = 0;
+            }
         });
-    });
-}
+
+    };
+
+    /**
+     * Adds Saves the Optoins 
+     */
+    $scope.openDyslexic = function () { // Saves options to chrome.storage
+
+        checkBox = document.getElementById('like').checked;
+        chrome.storage.sync.set({
+            booleans: checkBox
+        }, function () { // Update status to let user know options were saved.
+            reload();
+        });
+    };
+
+
+    function reload() {
+        chrome.tabs.getSelected(null, function (tab) {
+            code = 'window.location.reload();';
+            chrome.tabs.executeScript(tab.id, {
+                code: code
+            });
+        });
+    }
+
+
+
+
+
+
+});
