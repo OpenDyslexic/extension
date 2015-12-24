@@ -1,5 +1,5 @@
 
-![alt text](assets/img/example.png "Logo Title Text 1")
+![alt text](assets/img/readme.png "OpenDyslexic")
 
 
 
