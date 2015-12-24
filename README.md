@@ -1,6 +1,5 @@
-# OpenDyslexic Chrome App
 
-This is the source code for the chrome extension that's in the app store. Feel free to suggest changes and improvements. :)
+![alt text](assets/img/example.png "Logo Title Text 1")
 
 
 
