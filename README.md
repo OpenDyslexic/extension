@@ -50,5 +50,9 @@ Download from the [chrome store](https://chrome.google.com/webstore/detail/opend
 - Gulp Watch will be added in soon.
 
 ##Screenshot
+####Before 
+![Display of icon for chrome](assets/img/screenshot/chrome/before.png)
+####After 
+![Display of icon for chrome](assets/img/screenshot/chrome/after.png)
 
-![Display of icon for chrome](assets/img/screenshot/indexExample.png)
+
