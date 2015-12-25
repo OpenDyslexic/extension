@@ -9,16 +9,21 @@ app.controller("core", function ($scope) {
         chrome.storage.sync.get({
             booleans: true
         }, function (items) {
-
             if (items.booleans === true) {
                 document.getElementById('like').checked = 1;
-
+                document.getElementById('message').innerHTML = "On";
             } else {
                 document.getElementById('like').checked = 0;
+                document.getElementById('message').innerHTML = "Off";
             }
         });
 
     };
+
+
+
+
+
 
     /**
      * Adds Saves the Optoins 
@@ -29,6 +34,11 @@ app.controller("core", function ($scope) {
         chrome.storage.sync.set({
             booleans: checkBox
         }, function () { // Update status to let user know options were saved.
+            if (checkBox === true) {
+                document.getElementById('message').innerHTML = "On";
+            } else {
+                document.getElementById('message').innerHTML = "Off";
+            }
             reload();
         });
     };

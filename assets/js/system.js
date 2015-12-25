@@ -15,9 +15,11 @@ function checkStatus() {
         if (items.booleans === true) {
             turnOnOpenDyslexic();
             setLike(1);
+            setMessage("On");
         } else {
             turnOffOpenDyslexic();
             setLike(0);
+            setMessage("Off");
         }
     });
 }
@@ -26,6 +28,13 @@ function checkStatus() {
 function setLike(bool) {
     if (document.getElementById("like") != null) { // available
         document.getElementById("like").checked = bool;
+    }
+}
+
+
+function setMessage(text) {
+    if (document.getElementById("message") != null) { // available
+        document.getElementById('message').innerHTML = text;
     }
 }
 
