@@ -4,15 +4,21 @@
 
 
 ##About 
-OpenDyslexic is a new open source font created to increase readability for readers with dyslexia. The typeface includes regular, bold, italic, and bold-italic styles. It is being updated continually and improved based on input from dyslexic users. OpenDyslexic is free for Commercial and Personal use.
+Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on webpages with the OpenDyslexic font, and formats pages to be more easily readable. 
+
+Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of "gravity" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter, and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.
+
+Open-Dyslexic has recently received favorable coverage from the [BBC](http://bbc.com/news/technology-19734341), and is included in many iOS and Android apps. 
+
+Unlike many other dyslexia or DRD typefaces, OpenDyslexic is completely free for individuals, companies, schools, and in short: everyone. 
+
 
 #Info
-Number of Users : 22,000
-
-Version Number : 3.0 
-
-Download from the [chrome store](https://chrome.google.com/webstore/detail/opendyslexic/cdnapgfjopgaggbmfgbiinmmbdcglnam?hl=en)
-
+- Number of Users : 22,000
+- Version Number : 3.0 
+- Download from the [chrome store](https://chrome.google.com/webstore/detail/opendyslexic/cdnapgfjopgaggbmfgbiinmmbdcglnam?hl=en)
+- Check out [opendyslexic.org](http://OpenDyslexic.org) for more information and resources!
+- Copying is Love. <3
 
 ##Set up
 
