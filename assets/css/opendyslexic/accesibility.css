@@ -51,7 +51,7 @@ input,
 ul,
 span,
 font,
-strong {
+strong{
     font-family: opendyslexic;
     line-height: 150%;
 }
@@ -59,7 +59,6 @@ strong {
     font-family: opendyslexic;
 }
 pre,
-span,
 code {
     font-family: opendyslexicmono !important;
     line-height: 150%;
