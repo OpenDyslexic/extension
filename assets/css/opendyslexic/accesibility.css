@@ -51,7 +51,17 @@ input,
 ul,
 span,
 font,
-strong{
+strong, 
+.story.theme-summary .summary,
+.span-ab-bottom-region .story.theme-summary .summary,
+.inside-nyt .story.theme-summary .story-heading,
+.well .column ul li .story .story-heading,
+.inside-nyt .story.theme-summary.no-thumb .story-heading,
+.inside-nyt .story.theme-summary .summary,
+.recommendations ol li .story-heading,
+.tone-news .story.theme-main .story-header .story-heading,
+.type-size-small .story.theme-main .story-body-text,
+.story.theme-summary .story-heading {
     font-family: opendyslexic;
     line-height: 150%;
 }
