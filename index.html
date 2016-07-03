@@ -15,23 +15,23 @@
 
 <body ng-app="opendyslexic" ng-controller="core" data-ng-init="init()" id="frames">
 
-    <div class="header-panel shadow-z-0" style="background-color:#4285F4">
+    <div class="header-panel shadow-z-0" style="background-color:#4285F4;height: 48px;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
-                    <h5 style="color:white">OpenDyslexic</h5>
+                    <h5 id="headerText"style="color:white">OpenDyslexic</h5>
                 </div>
             </div>
         </div>
     </div>
     <div class="container-fluid main" style="height: 100%;">
-        <div style="margin-bottom:20px;"></div>
-        <h6>Options</h6>
+        <div style="margin-bottom:25px;"></div>
+        <h6 class="subtitle">Options</h6>
         <form class="form-horizontal">
             <fieldset>
                 <div class="form-group">
                     <div class="col-md-10">
-                        <label id="messageOpenDyslexic" class="col-md-2 control-label" style="float:left;">off</label>
+                        <label id="messageOpenDyslexic" class="col-md-2 control-label" style="margin-left: -10px;float:left;">off</label>
                         <div class="togglebutton" style="float:right;">
                             <label id="stat">
                                 <input type="checkbox" id="likeOpenDyslexic" ng-click="openDyslexic()" checked="0">
@@ -46,7 +46,7 @@
         <div class="container-fluid main">
             <div class="row">
                 <div class="col-md-10">
-                    <p class="small" style="line-height: 27px;"> &copy; 2016 <a href="http://opendyslexic.org/" target="_blank">OpenDyslexic.org</a> </p>
+                    <p class="small" style="line-height: 27px;"> &copy; 2016 <a href="http://opendyslexic.org/" style="color:#666"target="_blank">OpenDyslexic.org</a> </p>
                 </div>
 
             </div>
