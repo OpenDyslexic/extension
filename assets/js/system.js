@@ -56,9 +56,16 @@ function turnOnOpenDyslexic() {
     style.type = 'text/css';
     style.setAttribute("id", "opendyslexic");
     style.href = chrome.extension.getURL('assets/dist/css/opendyslexic/accesibility.min.css');
+
     (document.head || document.documentElement).appendChild(style);
+
 }
 
+function regexUrlextensioncheck(n) {
+  var s = document.URL,
+      e = new RegExp(n);
+  return e.test(s);
+}
 function reloadPage() {
     chrome.tabs.getSelected(null, function (tab) {
         code = 'window.location.reload();';

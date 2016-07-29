@@ -4,59 +4,67 @@ var gutil = require('gulp-util');
 var minifyCSS = require('gulp-minify-css');
 var uglify = require('gulp-uglify');
 var chalk = require('chalk');
-var logger =  require('gulp-logger');
+var logger = require('gulp-logger');
 var rename = require('gulp-rename');
+var runSequence = require('run-sequence');
 
-
-gulp.task('css', function () {
+gulp.task('css', function() {
     gulp.src('assets/css/*/*')
-        .pipe(minifyCSS({keepSpecialComments: 1}))
+        .pipe(minifyCSS({
+            keepSpecialComments: 1
+        }))
         .pipe(logger({
             before: 'Compressing Css ',
             after: 'Compressing finished!',
             extname: '.min.css',
             showChange: true
         }))
-       .pipe(rename({
+        .pipe(rename({
             suffix: '.min'
         }))
 
-        .pipe(gulp.dest('./assets/dist/css'));
+    .pipe(gulp.dest('./assets/dist/css'));
 })
 
-gulp.task('fonts', function () {
+gulp.task('fonts', function() {
     gulp.src('assets/fonts/*.*')
-.pipe(logger({
+        .pipe(logger({
             before: 'Moving Fonts ',
             after: 'Moving finished!',
             extname: '',
             showChange: true
         }))
 
-        .pipe(gulp.dest('./assets/dist/fonts'));
+    .pipe(gulp.dest('./assets/dist/fonts'));
 })
 
-gulp.task('scripts', function () {
+gulp.task('scripts', function() {
     gulp.src('assets/js/*')
         .pipe(uglify({
-       preserveComments:'all'
-     }))
-         .pipe(logger({
+            preserveComments: 'all'
+        }))
+        .pipe(logger({
             before: 'Starting Compressing Javascript',
             after: 'Compressing complete!',
             extname: '.js',
             showChange: true
         }))
 
-       .pipe(rename({
-            suffix: '.min'
-        }))
+    .pipe(rename({
+        suffix: '.min'
+    }))
 
-        .pipe(gulp.dest('./assets/dist/js'));
+    .pipe(gulp.dest('./assets/dist/js'));
 })
 
+gulp.task('build', function(callback) {
+    runSequence(
+        'css',
+        'fonts',
+        'scripts',
+        callback);
+});
 
-gulp.task('build', ['css','fonts','scripts']);
 
 
 gulp.task('default', ['build']);
