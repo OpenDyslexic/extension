@@ -16,6 +16,7 @@
 
 
     "content_scripts": [{
+      
         "matches": ["*://*/*", "file:///*/*"],
         "js": ["assets/dist/js/system.min.js"],
         "all_frames": true
