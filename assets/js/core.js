@@ -3,30 +3,45 @@ app.controller("core", function($scope) {
 
 
     var sync, elem, code, style;
-
+    var opendyslexicInput = document.getElementById('likeOpenDyslexic');
+    var betaInput = document.getElementById('likeDocsBeta');
     $scope.init = function() {
 
         chrome.storage.sync.get({
-            booleans: true,
-            docsBeta: false
+            enableOpendyslexic: true,
+            docsBeta: true
         }, function(items) {
-            if (items.booleans === true) {
-                document.getElementById('likeOpenDyslexic').checked = true;
+            console.log(items);
+            if (items.enableOpendyslexic === true) {
+                opendyslexicInput.checked = true;
                 document.getElementById('messageOpenDyslexic').innerHTML = "On";
-                  document.getElementById('likeOpenDyslexic').setAttribute("checked", "true");
-            } else if (items.docsBeta === true) {
-                document.getElementById('likeDocsBeta').checked = true;
-                document.getElementById('messageDocsBeta').innerHTML = "On";
+                opendyslexicInput.setAttribute("checked", "true");
 
-                document.getElementById('likeDocsBeta').setAttribute("checked", "true");
-            } else if (items.docsBeta === false) {
-                document.getElementById('likeDocsBeta').checked = false;
-                document.getElementById('likeDocsBeta').setAttribute("checked", "false");
-                document.getElementById('messageDocsBeta').innerHTML = "Off";
-            } else {
-                document.getElementById('likeOpenDyslexic').checked = false;
-                document.getElementById('likeOpenDyslexic').setAttribute("checked", "false");
+            } else if (items.enableOpendyslexic === false) {
+
+                betaInput.checked = false;
+                document.getElementById('messageBeta').innerHTML = "Off";
+                betaInput.setAttribute("checked", "false");
+                opendyslexicInput.checked = false;
                 document.getElementById('messageOpenDyslexic').innerHTML = "Off";
+                opendyslexicInput.setAttribute("checked", "false");
+
+            } else if (items.docsBeta === false) {
+
+                betaInput.checked = false;
+                document.getElementById('messageBeta').innerHTML = "Off";
+                betaInput.setAttribute("checked", "false");
+
+            } else if (items.docsBeta === true) {
+
+                betaInput.checked = true;
+                document.getElementById('messageBeta').innerHTML = "On";
+                betaInput.setAttribute("checked", "true");
+
+                opendyslexicInput.checked = true;
+                document.getElementById('messageOpenDyslexic').innerHTML = "One";
+                opendyslexicInput.setAttribute("checked", "true");
+
             }
         });
 
@@ -41,7 +56,7 @@ app.controller("core", function($scope) {
         checkBox = document.getElementById('likeOpenDyslexic').checked;
         checkBoxBeta = document.getElementById('likeDocsBeta').checked;
         chrome.storage.sync.set({
-            booleans: checkBox,
+            enableOpendyslexic: checkBox,
             docsBeta: checkBoxBeta
         }, function() { // Update status to let user know options were saved.
             if (checkBox === true) {
@@ -49,9 +64,16 @@ app.controller("core", function($scope) {
             } else {
                 document.getElementById('messageOpenDyslexic').innerHTML = "Off";
             }
+
+            if (checkBoxBeta === true) {
+                document.getElementById('messageBeta').innerHTML = "On";
+            } else {
+                document.getElementById('messageBeta').innerHTML = "Off";
+            }
             reload();
         });
     };
+
 
     /**
      * Adds Saves the Optoins
@@ -61,19 +83,17 @@ app.controller("core", function($scope) {
         checkBox = document.getElementById('likeOpenDyslexic').checked;
         checkBoxBeta = document.getElementById('likeDocsBeta').checked;
         chrome.storage.sync.set({
-            booleans: checkBox,
+            enableOpendyslexic: checkBox,
             docsBeta: checkBoxBeta
         }, function() { // Update status to let user know options were saved.
             if (checkBoxBeta === true) {
-              document.getElementById('likeDocsBeta').checked = true;
+                document.getElementById('messageBeta').innerHTML = "On";
             } else {
-              document.getElementById('likeDocsBeta').checked = false;
+                document.getElementById('messageBeta').innerHTML = "Off";
             }
             reload();
         });
     };
-
-
 
 
     function reload() {
@@ -84,10 +104,5 @@ app.controller("core", function($scope) {
             });
         });
     }
-
-
-
-
-
 
 });

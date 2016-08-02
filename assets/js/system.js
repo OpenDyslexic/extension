@@ -10,17 +10,27 @@ openDyslexic.Init();
 
 function checkStatus() {
     chrome.storage.sync.get({
-        booleans: true,
+        enableOpendyslexic: true,
         docsBeta: true
     }, function(items) {
         docsBeta = items.docsBeta;
-        if (items.booleans) {
+        if (items.enableOpendyslexic) {
             turnOnOpenDyslexic();
-            setLike(1);
+            setLike(true);
             setMessage("On");
-        }else {
+        } else {
             turnOffOpenDyslexic();
-            setLike(0);
+            setLike(false);
+            setMessage("Off");
+        }
+
+        if (items.docsBeta) {
+            turnOnOpenDyslexic();
+            setLike(true);
+            setMessage("On");
+        } else {
+            turnOffOpenDyslexic();
+            setLike(false);
             setMessage("Off");
         }
     });
@@ -28,9 +38,11 @@ function checkStatus() {
 
 
 function setLike(bool) {
+
     if (document.getElementById("likeOpenDyslexic") != null) { // available
         document.getElementById("likeOpenDyslexic").checked = bool;
-    } else if (document.getElementById("likeDocsBeta") != null) {
+    }
+    if (document.getElementById("likeDocsBeta") != null) {
         document.getElementById("likeDocsBeta").checked = bool;
     }
 }
@@ -39,8 +51,9 @@ function setLike(bool) {
 function setMessage(text) {
     if (document.getElementById("messageOpenDyslexic") != null) { // available
         document.getElementById('messageOpenDyslexic').innerHTML = text;
-    } else if (document.getElementById("likeDocsBeta") != null) {
-        document.getElementById("likeDocsBeta").checked = bool;
+    }
+    if (document.getElementById("likeDocsBeta") != null) {
+        document.getElementById('messageBeta').innerHTML = text;
     }
 }
 
@@ -62,7 +75,7 @@ function turnOnOpenDyslexic() {
     style.setAttribute("id", "opendyslexic");
     style.href = chrome.extension.getURL('assets/dist/css/opendyslexic/accesibility.min.css');
 
-    docsBeta === true ?   (document.head || document.documentElement).appendChild(style) : null;
+    docsBeta === true ? (document.head || document.documentElement).appendChild(style) : null;
 
 
 

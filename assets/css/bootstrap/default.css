@@ -10,10 +10,11 @@ p {
     margin: 0px !important;
 }
 #headerText {
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     outline: none;
-    line-height: 24px;
+    line-height: 28px;
+    margin-left: 11px;
     text-decoration: none;
 }
 .subtitle {
