@@ -1,17 +1,18 @@
 {
- "name": "OpenDyslexic",
- "description": "Format pages using the OpenDyslexic font and low contrast help.",
+  "name": "OpenDyslexic",
+  "description": "Format pages using the OpenDyslexic font and low contrast help.",
   "author": "Robert Gabriel & Abbie Gonzalez",
-  "dependencies": {},
+  "dependencies": {
+    "run-sequence": "^1.2.2"
+  },
   "devDependencies": {
     "gulp": "*",
     "gulp-less": "*",
     "gulp-minify-css": "*",
     "gulp-uglify": "^1.4.0",
     "gulp-util": "*",
-       "gulp-logger": "*",
-       "gulp-rename": "*"
-
+    "gulp-logger": "*",
+    "gulp-rename": "*"
   },
   "engine": "node >= 0.4.1"
 }

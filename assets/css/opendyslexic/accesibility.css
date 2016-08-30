@@ -59,6 +59,9 @@ strong
 * {
     font-family: opendyslexic;
 }
+span{
+  font-family: opendyslexicmono !important;
+}
 pre,
 code {
     font-family: opendyslexicmono !important;
@@ -86,7 +89,7 @@ textarea {
 .recommendations ol li .story-heading,
 .tone-news .story.theme-main .story-header .story-heading,
 .type-size-small .story.theme-main .story-body-text,
-.story.theme-summary .story-heading 
+.story.theme-summary .story-heading
 {
     font-family: opendyslexic;
     line-height: 150%;
@@ -99,4 +102,3 @@ article p
     font-family: opendyslexic;
     line-height: 150%;
 }
-

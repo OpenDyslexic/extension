@@ -15,7 +15,7 @@
 
 <body ng-app="opendyslexic" ng-controller="core" data-ng-init="init()" id="frames">
 
-    <div class="header-panel shadow-z-0" style="background-color:#4285F4;height: 48px;">
+    <div class="header-panel shadow-z-0 withripple" data-ripple-color="red" style="background-color:#4285F4;height: 48px; margin-bottom:20px">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
@@ -24,9 +24,9 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid main" style="height: 100%;">
-        <div style="margin-bottom:25px;"></div>
-        <h6 class="subtitle">Options</h6>
+    <div class="container-fluid main panel" style="height: 100%;width: 250px;">
+        <div style=" border-top:1px solid rgba(0,0,0,0.06)"></div>
+        <h6 class="subtitle">Enable font</h6>
         <form class="form-horizontal">
             <fieldset>
                 <div class="form-group">
@@ -34,11 +34,29 @@
                         <label id="messageOpenDyslexic" class="col-md-2 control-label" style="margin-left: -10px;float:left;">off</label>
                         <div class="togglebutton" style="float:right;">
                             <label id="stat">
-                                <input type="checkbox" id="likeOpenDyslexic" ng-click="openDyslexic()" checked="0">
+                                <input type="checkbox" id="likeOpenDyslexic" ng-click="openDyslexic()">
                             </label>
                         </div>
                     </div>
                 </div>
+
+            </fieldset>
+        </form>
+        <div style="border-top:1px solid rgba(0,0,0,0.06)"> </div>
+        <h6 class="subtitle">Beta: Google Docs</h6>
+        <form class="form-horizontal">
+            <fieldset>
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <label id="messageBeta" class="col-md-2 control-label" style="margin-left: -10px;float:left;">Off</label>
+                        <div class="togglebutton" style="float:right;">
+                            <label id="stat">
+                                <input type="checkbox" id="likeDocsBeta" ng-click="docsBeta()" >
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
             </fieldset>
         </form>
     </div>
@@ -46,7 +64,7 @@
         <div class="container-fluid main">
             <div class="row">
                 <div class="col-md-10">
-                    <p class="small" style="line-height: 27px;"> &copy; 2016 <a href="http://opendyslexic.org/" style="color:#666"target="_blank">OpenDyslexic.org</a> </p>
+                    <p class="small" style="line-height: 27px;"> &copy; 2016 <a href="http://opendyslexic.org/" style="color:#666"target="_blank">OpenDyslexic.org</a></p>
                 </div>
 
             </div>
