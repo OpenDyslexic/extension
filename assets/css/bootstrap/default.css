@@ -1,21 +1,70 @@
 #frames {
     width: 300px;
-    height: 205px;
+    height: 235px;
 }
-html{
-  max-width: 300px;
-  max-height: 205px;
+
+html {
+    max-width: 300px;
+    height: 235px;
 }
+
+body {
+    background-color: #F7F7F7;
+}
+
 p {
     margin: 0px !important;
 }
+
+.header-panel {
+    background-color: #4285f4;
+    height: 48px;
+    margin-bottom: 25px;
+}
+
+.main-holder {
+    height: 100% !important;
+}
+
+.container-fluid>.row {
+    margin-bottom: 25px;
+}
+
+footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+footer>.container-fluid {
+    height: auto;
+    padding-top: 5px;
+padding-bottom: 5px;
+}
+
+footer>.container-fluid>.row {
+    margin-bottom: 0px;
+}
+
+#messageOpenDyslexic, #changeLog {
+    margin-left: -10px;
+    float: left;
+}
+
+.togglebutton {
+    float: right;
+}
+
+.panel-heading {
+    background-color: #0097A7 !important;
+}
+
 #headerText {
-    font-size: 16px;
+    font-size: 17px;
     color: #fff;
     outline: none;
     line-height: 24px;
     text-decoration: none;
 }
+
 .subtitle {
     color: #666;
     font-size: 16px;

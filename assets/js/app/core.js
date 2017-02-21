@@ -7,9 +7,10 @@ app.controller("core", function($scope) {
     $scope.init = function() {
 
         chrome.storage.sync.get({
-            booleans: true
+            booleans: false
         }, function(items) {
-            if (items.booleans === true) {
+          console.log(items);
+            if (items.booleans) {
                 document.getElementById('likeOpenDyslexic').checked = 1;
                 document.getElementById('messageOpenDyslexic').innerHTML = "On";
             } else {
@@ -30,7 +31,7 @@ app.controller("core", function($scope) {
         chrome.storage.sync.set({
             booleans: checkBox
         }, function() { // Update status to let user know options were saved.
-            if (checkBox === true) {
+            if (checkBox) {
                 document.getElementById('messageOpenDyslexic').innerHTML = "On";
             } else {
                 document.getElementById('messageOpenDyslexic').innerHTML = "Off";
