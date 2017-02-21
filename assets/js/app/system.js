@@ -12,7 +12,6 @@ function checkStatus() {
     chrome.storage.sync.get({
         booleans: false
     }, function(items) {
-        console.log(items);
         if (items.booleans) {
             turnOnOpenDyslexic();
             setLike(1);

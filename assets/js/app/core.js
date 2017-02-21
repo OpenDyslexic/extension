@@ -9,7 +9,6 @@ app.controller("core", function($scope) {
         chrome.storage.sync.get({
             booleans: false
         }, function(items) {
-          console.log(items);
             if (items.booleans) {
                 document.getElementById('likeOpenDyslexic').checked = 1;
                 document.getElementById('messageOpenDyslexic').innerHTML = "On";
