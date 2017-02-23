@@ -18,7 +18,7 @@
     "content_scripts": [{
         "matches": ["*://*/*", "file:///*/*"],
         "exclude_globs": ["*://docs.google.com/*"],
-        "js": ["assets/dist/js/system.min.js"],
+        "js": ["/assets/dist/js/app/system.min.js"],
         "all_frames": true
     }],
     "web_accessible_resources": [
