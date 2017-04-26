@@ -35,7 +35,7 @@ app.controller 'core', ($scope) ->
     checkBox = document.getElementById('likeOpenDyslexic').checked
     chrome.storage.sync.set { booleans: checkBox }, ->
       # Update status to let user know options were saved.
-      reload()
+       $scope.reload()
       return
     return
 
@@ -43,25 +43,8 @@ app.controller 'core', ($scope) ->
 
 
 
-$scope.turnOffOpenDyslexic = ->
-  if document.getElementById('opendyslexic') != null
-    # available
-    elem = document.getElementById('opendyslexic')
-    elem.parentNode.removeChild elem
-    (document.head or document.documentElement).removeChild elem
-    reloadPage()
-  return
 
 
-
-$scope.turnOnOpenDyslexic = ->
-  style = document.createElement('link')
-  style.rel = 'stylesheet'
-  style.type = 'text/css'
-  style.setAttribute 'id', 'opendyslexic'
-  style.href = chrome.extension.getURL('assets/dist/css/opendyslexic/accesibility.min.css')
-  (document.head or document.documentElement).appendChild style
-  return
 
 
 
@@ -72,4 +55,4 @@ $scope.reloadPage = ->
     return
   return
 
-  return
+return

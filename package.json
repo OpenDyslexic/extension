@@ -23,12 +23,13 @@
   },
   "devDependencies": {
     "gulp": "*",
+    "gulp-concat": "^2.6.1",
     "gulp-less": "*",
-    "gulp-minify-css": "*",
-    "gulp-uglify": "^1.4.0",
-    "gulp-util": "*",
     "gulp-logger": "*",
-    "gulp-rename": "*"
+    "gulp-minify-css": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "^1.4.0",
+    "gulp-util": "*"
   },
   "engine": "node >= 6.9.2"
 }

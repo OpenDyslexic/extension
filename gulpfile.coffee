@@ -7,6 +7,7 @@ chalk = require('chalk')
 logger = require('gulp-logger')
 rename = require('gulp-rename')
 coffee = require('gulp-coffee')
+concat = require('gulp-concat')
 
 gulp.task 'app_css', ->
   gulp.src([
@@ -35,29 +36,53 @@ gulp.task 'app_fonts', ->
 
 
 gulp.task 'app_scripts', ->
-  gulp.src('assets/js/app/*.coffee')
-  .pipe(uglify(preserveComments: 'all'))
+  gulp.src([
+    'assets/js/app/core.coffee'
+  ])
   .pipe(logger(
     before: 'Starting Compressing Javascript'
     after: 'Compressing complete!'
     extname: '.js'
     showChange: true))
   .pipe(coffee())
+  .pipe(uglify())
+  .pipe(concat('app.js'))
   .pipe(rename(suffix: '.min'))
   .pipe gulp.dest('./assets/dist/js/app')
   return
 
+gulp.task 'app_system', ->
+  gulp.src([
+    'assets/js/app/system.coffee'
+  ])
+  .pipe(logger(
+    before: 'Starting Compressing Javascript'
+    after: 'Compressing complete!'
+    extname: '.js'
+    showChange: true))
+  .pipe(coffee())
+  .pipe(uglify())
+  .pipe(concat('system.js'))
+  .pipe(rename(suffix: '.min'))
+  .pipe gulp.dest('./assets/dist/js/app')
+  return
 
 gulp.task 'vendor_scripts', ->
-  gulp.src('assets/js/vendor/*')
+  gulp.src([
+    'assets/js/vendor/jquery.js'
+    'assets/js/vendor/bootstrap.js'
+    'assets/js/vendor/ripples.js'
+    'assets/js/vendor/material.js'
+    ])
   .pipe(uglify(preserveComments: 'all'))
   .pipe(logger(
     before: 'Starting Compressing Javascript'
     after: 'Compressing complete!'
     extname: '.js'
     showChange: true))
+  .pipe(concat('vendor.js'))
   .pipe(rename(suffix: '.min'))
-  .pipe gulp.dest('./assets/dist/js/vendor')
+  .pipe gulp.dest('./assets/dist/js/vendor/')
   return
 
 
@@ -65,6 +90,7 @@ gulp.task 'build', [
   'app_css'
   'app_fonts'
   'app_scripts'
+  'app_system'
   'vendor_scripts'
 ]
 gulp.task 'default', [ 'build' ]
