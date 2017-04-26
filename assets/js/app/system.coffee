@@ -1,7 +1,4 @@
-chrome = undefined
-elem = undefined
-code = undefined
-style = undefined
+
 openDyslexic = Init: ->
   checkStatus()
   # Check if the check box is set.

@@ -11,7 +11,11 @@ concat = require('gulp-concat')
 
 gulp.task 'app_css', ->
   gulp.src([
-    'assets/css/*/*'
+    'assets/css/vendor/bootstrap.css'
+    'assets/css/vendor/icon.css'
+    'assets/css/vendor/material.css'
+    'assets/css/vendor/ripples.css'
+    'assets/css/vendor/default.css'
     ])
     .pipe(minifyCSS(keepSpecialComments: 1))
     .pipe(logger(
@@ -45,11 +49,12 @@ gulp.task 'app_scripts', ->
     extname: '.js'
     showChange: true))
   .pipe(coffee())
-  .pipe(uglify())
   .pipe(concat('app.js'))
   .pipe(rename(suffix: '.min'))
   .pipe gulp.dest('./assets/dist/js/app')
   return
+
+  
 
 gulp.task 'app_system', ->
   gulp.src([

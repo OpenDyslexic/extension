@@ -3,18 +3,17 @@
 <head>
     <title>OpenDyslexic</title>
     <link href="assets/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/dist/css/vendor/roboto.min.css" rel="stylesheet">
     <link href="assets/dist/css/vendor/material.min.css" rel="stylesheet">
     <link href="assets/dist/css/vendor/ripples.min.css" rel="stylesheet">
     <link href="assets/dist/css/app/default.min.css" rel="stylesheet">
     <script src="assets/js/vendor/angular.js"></script>
     <script src="assets/js/vendor/angular-chrome-storage.js"></script>
-    <script src="assets/dist/js/app/all.min.js" ></script>
+    <script src="assets/dist/js/app/app.min.js"></script>
 </head>
 
-<body ng-app="opendyslexic" ng-controller="core" data-ng-init="init()" id="frames" >
+<body ng-app="opendyslexic" ng-controller="core" data-ng-init="init()" id="frames">
 
-    <div class="header-panel shadow-z-1" >
+    <div class="header-panel shadow-z-1">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
@@ -24,41 +23,28 @@
         </div>
     </div>
     <div class="container-fluid main main-holder">
-        <div class="row" >
+        <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
                 <div class="panel panel-info">
-                    <div class="panel-heading" >
+                    <div class="panel-heading">
                         <h3 class="panel-title">Options</h3>
                     </div>
                     <div class="panel-body">
                         <div class="form-group">
-                            <label ng-bind="name" class="col-md-2 control-label">off</label>
-                            <div class="togglebutton">
-                                <label id="stat">
-                                    <input type="checkbox" id="likeOpenDyslexic" ng-click="openDyslexic()" checked="0" value="0">
-                                </label>
+                            <div class="col-md-offset-2 col-md-10">
+                                <label ng-model="message" class="col-md-2 control-label">off</label>
+                                <div class="togglebutton">
+                                    <label id="stat">
+                      <input type="checkbox"  id="likeOpenDyslexic"  ng-model="enabled" ng-click="openDyslexic()" checked="0" value="0"><span class="toggle"></span>
+                    </label>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
-                <!---
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Updates</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="form-group">
-                            <label  class="col-md-2 control-label" id="changeLog" >Change Log</label>
-                            <div class="togglebutton" >
-                                <label id="stat">
-                                    <a href="https://github.com/antijingoist/opendyslexic-chrome/blob/master/updates.md"  style="margin:0px"class="btn btn-warning btn-xs" target="_blank">View</a>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            -->
+
             </div>
             <div class="col-sm-2"></div>
         </div>
