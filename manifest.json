@@ -1,6 +1,6 @@
 {
    "name":"OpenDyslexic",
-   "version":"4.5.4",
+   "version":"4.5.5",
    "manifest_version":2,
    "description":"Format pages using the OpenDyslexic font and low contrast help.",
    "browser_action":{
@@ -25,9 +25,6 @@
             "*://*/*",
             "file:///*/*"
          ],
-         "exclude_globs":[
-            "*://docs.google.com/*"
-         ],
          "js":[
             "/assets/dist/js/app/system.min.js"
          ],
@@ -40,6 +37,6 @@
       "/assets/dist/fonts/OpenDyslexic-Italic.otf",
       "/assets/dist/fonts/OpenDyslexic-Regular.otf",
       "/assets/dist/fonts/OpenDyslexicMono-Regular.otf",
-      "/assets/dist/css/opendyslexic/accesibility.min.css"
+      "/assets/dist/css/app/accesibility.min.css"
    ]
 }

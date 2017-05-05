@@ -10,13 +10,9 @@ coffee = require('gulp-coffee')
 concat = require('gulp-concat')
 
 gulp.task 'app_css', ->
-  gulp.src([
-    'assets/css/vendor/bootstrap.css'
-    'assets/css/vendor/icon.css'
-    'assets/css/vendor/material.css'
-    'assets/css/vendor/ripples.css'
-    'assets/css/vendor/default.css'
-    ])
+  gulp.src(
+    'assets/css/**/*'
+    )
     .pipe(minifyCSS(keepSpecialComments: 1))
     .pipe(logger(
         before: 'Compressing Css '
@@ -54,7 +50,6 @@ gulp.task 'app_scripts', ->
   .pipe gulp.dest('./assets/dist/js/app')
   return
 
-  
 
 gulp.task 'app_system', ->
   gulp.src([

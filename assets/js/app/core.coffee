@@ -6,10 +6,10 @@ app.controller 'core', ($scope) ->
   $scope.message =  if $scope.enabled then "On" else "Off"
 
 
-  $scope.init = ->  
-    chrome.storage.sync.get { booleans: false }, (items) ->
+  $scope.init = ->
+    chrome.storage.sync.get { enabled: false }, (items) ->
       console.log items
-      if items.booleans
+      if items.enabled
         $scope.enabled = 1
       else
         $scope.enabled = 0
@@ -22,9 +22,9 @@ app.controller 'core', ($scope) ->
   ###
   $scope.openDyslexic = ->
     # Saves options to chrome.storage
-    chrome.storage.sync.set { booleans: $scope.enabled }, ->
+    chrome.storage.sync.set { enabled: $scope.enabled }, ->
       # Update status to let user know options were saved.
-       $scope.reloadPage()
+      $scope.reloadPage()
       return
     return
 

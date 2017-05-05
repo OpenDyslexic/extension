@@ -1,64 +1,55 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-    <title>OpenDyslexic</title>
-    <link href="assets/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/dist/css/vendor/material.min.css" rel="stylesheet">
-    <link href="assets/dist/css/vendor/ripples.min.css" rel="stylesheet">
-    <link href="assets/dist/css/app/default.min.css" rel="stylesheet">
-    <script src="assets/js/vendor/angular.js"></script>
-    <script src="assets/js/vendor/angular-chrome-storage.js"></script>
-    <script src="assets/dist/js/app/app.min.js"></script>
+	<title>OpenDyslexic</title>
+	<link href="assets/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/dist/css/vendor/material.min.css" rel="stylesheet">
+	<link href="assets/dist/css/vendor/ripples.min.css" rel="stylesheet">
+	<link href="assets/dist/css/app/default.min.css" rel="stylesheet">
+	<script src="assets/js/vendor/angular.js">
+	</script>
+	<script src="assets/js/vendor/angular-chrome-storage.js">
+	</script>
+	<script src="assets/dist/js/app/app.min.js">
+	</script>
 </head>
-
 <body ng-app="opendyslexic" ng-controller="core" data-ng-init="init()" id="frames">
-
-    <div class="header-panel shadow-z-1">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h5 id="headerText" style="color:white">OpenDyslexic</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid main main-holder">
-        <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Options</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="form-group">
-                            <div class="col-md-offset-2 col-md-10">
-                                <label ng-model="message" class="col-md-2 control-label">off</label>
-                                <div class="togglebutton">
-                                    <label id="stat">
-                      <input type="checkbox"  id="likeOpenDyslexic"  ng-model="enabled" ng-click="openDyslexic()" checked="0" value="0"><span class="toggle"></span>
-                    </label>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-sm-2"></div>
-        </div>
-    </div>
-    <footer>
-        <div class="container-fluid main">
-            <div class="row">
-                <div class="col-md-10">
-                    <p class="small" style="line-height: 27px;"> &copy; 2017 <a href="http://opendyslexic.org/" style="color:#666" target="_blank">OpenDyslexic.org</a> </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="assets/dist/js/vendor/vendor.min.js"></script>
+	<div class="container-fluid main main-holder">
+		<div class="row banner">
+			<div class="col-sm-12">
+				<h1 class="logo">OpenDyslexic</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">Options</h3>
+					</div>
+					<div class="panel-body">
+						<div class="form-group">
+							<div class="col-md-offset-2 col-md-10">
+								<label  ng-model="message" class="col-md-2 control-label">off</label>
+								<div class="togglebutton">
+									<label id="stat"><input  type="checkbox"  id="likeOpenDyslexic"  ng-model="enabled" ng-click="openDyslexic()" checked="0" value="0"><span class="toggle"></span></label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="small" style="line-height: 27px;">&copy; 2017 <a href="http://opendyslexic.org/" style="color:#666" target="_blank">OpenDyslexic.org</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="assets/dist/js/vendor/vendor.min.js">
+	</script>
 </body>
-
 </html>

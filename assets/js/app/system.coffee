@@ -1,12 +1,13 @@
 
 openDyslexic = Init: ->
+
   checkStatus()
   # Check if the check box is set.
   return
 
 checkStatus = ->
-  chrome.storage.sync.get { booleans: false }, (items) ->
-    if items.booleans
+  chrome.storage.sync.get { enabled: false }, (items) ->
+    if items.enabled
       turnOnOpenDyslexic()
       setLike 1
       setMessage 'On'
@@ -43,7 +44,7 @@ turnOnOpenDyslexic = ->
   style.rel = 'stylesheet'
   style.type = 'text/css'
   style.setAttribute 'id', 'opendyslexic'
-  style.href = chrome.extension.getURL('assets/dist/css/opendyslexic/accesibility.min.css')
+  style.href = chrome.extension.getURL('assets/dist/css/app/accesibility.min.css')
   (document.head or document.documentElement).appendChild style
   return
 
