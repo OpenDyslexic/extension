@@ -4,6 +4,7 @@
 
 
 # About 
+
 Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on webpages with the OpenDyslexic font, and formats pages to be more easily readable. 
 
 Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of "gravity" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter, and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.
@@ -26,8 +27,9 @@ Unlike many other dyslexia or DRD typefaces, OpenDyslexic is completely free for
 
 
 
-# Install 
-- See set up first 
+# Install
+
+- See set up first
 - Open up Google chrome
 - Go the Google Chrome Settings
 - Go to extensions
@@ -37,6 +39,7 @@ Unlike many other dyslexia or DRD typefaces, OpenDyslexic is completely free for
 
 
 # Build Files
+
 - Open up command line or termial
 - Naviagate to the opendyslexic-chrome folder
 - Run ```npm install ```
@@ -51,10 +54,13 @@ Unlike many other dyslexia or DRD typefaces, OpenDyslexic is completely free for
 - Gulp Watch will be added in soon.
 
 # Screenshots
-## Before 
+
+## Before
+
 ![Display of icon for chrome](assets/img/screenshot/chrome/before.png)
 
-## After 
+## After
+
 ![Display of icon for chrome](assets/img/screenshot/chrome/after.png)
 
 
