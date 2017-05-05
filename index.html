@@ -13,7 +13,7 @@
 	<script src="assets/dist/js/app/app.min.js">
 	</script>
 </head>
-<body ng-app="opendyslexic" ng-controller="core" data-ng-init="init()" id="frames">
+<body ng-app="opendyslexic" ng-controller="core" id="frames">
 	<div class="container-fluid main main-holder">
 		<div class="row banner">
 			<div class="col-sm-12">
@@ -29,9 +29,9 @@
 					<div class="panel-body">
 						<div class="form-group">
 							<div class="col-md-offset-2 col-md-10">
-								<label  ng-model="message" class="col-md-2 control-label">off</label>
+								<label  ng-bind="checkboxModel.text" class="col-md-2 control-label">off</label>
 								<div class="togglebutton">
-									<label id="stat"><input  type="checkbox"  id="likeOpenDyslexic"  ng-model="enabled" ng-click="openDyslexic()" checked="0" value="0"><span class="toggle"></span></label>
+									<label id="stat"><input  type="checkbox"  id="likeOpenDyslexic" ng-checked="checkboxModel.value"  ng-model="checkboxModel.value" ng-click="openDyslexic()" ><span class="toggle"></span></label>
 								</div>
 							</div>
 						</div>

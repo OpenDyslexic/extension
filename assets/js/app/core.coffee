@@ -2,17 +2,17 @@ app = angular.module('opendyslexic', [])
 
 app.controller 'core', ($scope) ->
 
-  $scope.enabled = false
-  $scope.message =  if $scope.enabled then "On" else "Off"
+  $scope.checkboxModel =
+    value : false
+    text : 'Off'
 
-
-  $scope.init = ->
-    chrome.storage.sync.get { enabled: false }, (items) ->
-      console.log items
-      if items.enabled
-        $scope.enabled = 1
+  angular.element(document).ready ->
+    chrome.storage.sync.get { 'enabled' }, (items) ->
+      $scope.checkboxModel.value = items.enabled
+      if $scope.checkboxModel.value == true
+        $scope.checkboxModel.text = "On"
       else
-        $scope.enabled = 0
+        $scope.checkboxModel.text = "Off"
       return
     return
 
@@ -22,8 +22,13 @@ app.controller 'core', ($scope) ->
   ###
   $scope.openDyslexic = ->
     # Saves options to chrome.storage
-    chrome.storage.sync.set { enabled: $scope.enabled }, ->
+    chrome.storage.sync.set { enabled: $scope.checkboxModel.value }, ->
       # Update status to let user know options were saved.
+      $scope.checkboxModel.value = $scope.checkboxModel.value
+      if $scope.checkboxModel.value == true
+        $scope.checkboxModel.text = "On"
+      else
+        $scope.checkboxModel.text = "Off"
       $scope.reloadPage()
       return
     return
