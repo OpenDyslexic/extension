@@ -9,8 +9,6 @@ checkStatus = ->
   chrome.storage.sync.get { enabled: false }, (items) ->
     if items.enabled
       turnOnOpenDyslexic()
-      setLike 1
-      setMessage 'On'
     else
       turnOffOpenDyslexic()
       setLike 0
@@ -18,17 +16,6 @@ checkStatus = ->
     return
   return
 
-setLike = (bool) ->
-  if document.getElementById('likeOpenDyslexic') != null
-    # available
-    document.getElementById('likeOpenDyslexic').checked = bool
-  return
-
-setMessage = (text) ->
-  if document.getElementById('messageOpenDyslexic') != null
-    # available
-    document.getElementById('messageOpenDyslexic').innerHTML = text
-  return
 
 turnOffOpenDyslexic = ->
   if document.getElementById('opendyslexic') != null
