@@ -13,7 +13,9 @@ window.onload = function() {
 		});
 	}
 
-
+    /*
+    * Load Vue
+    */
 	new Vue({
 		el: '#frames',
 		data: {
@@ -23,20 +25,29 @@ window.onload = function() {
 		created: function() {
 			this.loadSettings();
 		},
+        /*
+        * Functions
+        */
 		methods: {
+            /*
+            * Change settings
+            */
 			changeSetting: function() {
 				if (this.value) {
 					this.text = "On"
 				} else {
 					this.text = "Off"
 				}
-                
+
 				chrome.storage.sync.set({
 					enabled: this.value
 				}, function() {
 					reloadPage();
 				});
 			},
+            /*
+            * load settings function
+            */
 			loadSettings: function() {
 				console.log("ssss");
 				chrome.storage.sync.get("enabled", function(items) {

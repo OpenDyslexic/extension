@@ -37,14 +37,13 @@ gulp.task 'app_fonts', ->
 
 gulp.task 'app_scripts', ->
   gulp.src([
-    'assets/js/app/core.coffee'
+    'assets/js/app/core2.js'
   ])
   .pipe(logger(
     before: 'Starting Compressing Javascript'
     after: 'Compressing complete!'
     extname: '.js'
     showChange: true))
-  .pipe(coffee())
   .pipe(concat('app.js'))
   .pipe(rename(suffix: '.min'))
   .pipe gulp.dest('./assets/dist/js/app')

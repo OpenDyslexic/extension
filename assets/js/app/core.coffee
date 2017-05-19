@@ -25,7 +25,7 @@ app.controller 'core', ($scope) ->
     chrome.storage.sync.set { enabled: $scope.checkboxModel.value }, ->
       # Update status to let user know options were saved.
       $scope.checkboxModel.value = $scope.checkboxModel.value
-      if $scope.checkboxModel.value == true
+      if this.value == true
         $scope.checkboxModel.text = "On"
       else
         $scope.checkboxModel.text = "Off"
