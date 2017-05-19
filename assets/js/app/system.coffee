@@ -6,7 +6,7 @@ openDyslexic = Init: ->
   return
 
 checkStatus = ->
-  chrome.storage.sync.get { enabled: false }, (items) ->
+  chrome.storage.sync.get { "enabled" }, (items) ->
     if items.enabled
       turnOnOpenDyslexic()
     else
