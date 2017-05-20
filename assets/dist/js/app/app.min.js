@@ -1,8 +1,7 @@
 window.onload = function() {
-
-    /*
-    * Reload the tab
-    */
+	/*
+	 * Reload the tab
+	 */
 	function reloadPage() {
 		chrome.tabs.getSelected(null, function(tab) {
 			var code;
@@ -12,63 +11,63 @@ window.onload = function() {
 			});
 		});
 	}
-
-    /*
-    * Load Vue
-    */
+	/*
+	 * Load Vue
+	 */
 	new Vue({
 		el: '#frames',
 		data: {
 			text: "Off",
 			value: false
 		},
-		created: function() {
+		mounted: function() {
 			this.loadSettings();
 		},
-        /*
-        * Functions
-        */
+		/*
+		 * Functions
+		 */
 		methods: {
-            /*
-            * Change settings
-            */
+			/*
+			 * Change settings
+			 */
 			changeSetting: function() {
-                if (this.value == true) {
-                    console.log(this.value);
-					this.text = "On"
-				} else {
-                    console.log(this.value);
-					this.text = "Off"
-				}
-
+				var self = this;
+                var boolean = this.value;
 				chrome.storage.sync.set({
-					enabled: this.value
+					"enabled": self.value
 				}, function() {
-                          reloadPage();
-				});
-          
-			},
-            /*
-            * load settings function
-            */
-			loadSettings: function() {
-	
-				chrome.storage.sync.get("enabled", function(items) {
-					this.value = items.enabled
-                    console.log(this.value + "button");
-                    enabled = items.enabled;
-
-			        console.log(items.enabled);
-
-                		if (items.enabled == true) {
-						this.text = "On";
-                        this.value = items.enabled;
+                    console.log(boolean);
+					if (self.value) {
+						console.log(self.value);
+                        self.value = true;
+						self.text = "On"
 					} else {
-						this.text = "Off";
-                        this.value = items.enabled;
-					};
+						console.log(self.value);
+						self.text = "Off"
+                         self.value = false;
+					}
+					reloadPage();
 				});
-        
+                console.log(this.value);
+			},
+			/*
+			 * load settings function
+			 */
+			loadSettings: function() {
+				var self = this;
+				chrome.storage.sync.get("enabled", function(items) {
+					self.value = items.enabled;
+
+					if (items.enabled) {
+						self.text = "On";
+                         self.value = true;
+					} else {
+						self.text = "Off";
+                         self.value = false;
+					};
+                    reloadPage();
+				});
+                console.log(this.value);
 			}
 		}
 	});

@@ -7,12 +7,11 @@ openDyslexic = Init: ->
 
 checkStatus = ->
   chrome.storage.sync.get { "enabled" }, (items) ->
+    console.log items
     if items.enabled
       turnOnOpenDyslexic()
     else
       turnOffOpenDyslexic()
-      setLike 0
-      setMessage 'Off'
     return
   return
 
@@ -23,7 +22,6 @@ turnOffOpenDyslexic = ->
     elem = document.getElementById('opendyslexic')
     elem.parentNode.removeChild elem
     (document.head or document.documentElement).removeChild elem
-    reloadPage()
   return
 
 turnOnOpenDyslexic = ->
