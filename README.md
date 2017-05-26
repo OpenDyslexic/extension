@@ -57,10 +57,10 @@ Unlike many other dyslexia or DRD typefaces, OpenDyslexic is completely free for
 
 ## Before
 
-![Display of icon for chrome](assets/img/screenshot/chrome/before.png)
+![Display of icon for chrome](https://github.com/antijingoist/opendyslexic-chrome/blob/master/.github/images/before.png)
 
 ## After
 
-![Display of icon for chrome](assets/img/screenshot/chrome/after.png)
+![Display of icon for chrome](https://github.com/antijingoist/opendyslexic-chrome/blob/master/.github/images/after.png)
 
 
