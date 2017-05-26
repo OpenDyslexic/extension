@@ -30,8 +30,6 @@ window.onload = function() {
 			changeSetting: function() {
 				var self = this;
                 var boolean = this.value;
-				console.log("111");
-				console.log(boolean);
 				if (boolean){
 					boolean = false;
 				}else {
@@ -41,16 +39,10 @@ window.onload = function() {
 				chrome.storage.sync.set({
 					"enabled": boolean
 				}, function() {
-                    console.log(boolean);
 					if (boolean) {
-	
 						self.text = "On"
 					} else {
-				
-						console.log(boolean);
-        
 						self.text = "Off"
-               
 					}
 					reloadPage();
 				});
@@ -62,17 +54,14 @@ window.onload = function() {
 				var self = this;
 				chrome.storage.sync.get("enabled", function(items) {
 					self.value = items.enabled;
-
 					if (items.enabled) {
-								self.text = "On";
-					self.value = true;
+						self.text = "On";
+						self.value = true;
 					} else {
 						self.text = "Off";
 						self.value = false;
-				
 					};
 				});
-                console.log(this.value);
 			}
 		},
 		ready: function() {
