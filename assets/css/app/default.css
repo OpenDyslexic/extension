@@ -77,12 +77,8 @@ p {
 	margin: 0px 0 0;
 }
 
-.container-fluid>.row {
-	margin-bottom: 10px;
-}
-
 .banner {
-	margin-bottom: 20px !important;
+	margin-bottom: 15px !important;
 }
 
 footer {
@@ -94,7 +90,7 @@ footer {
 
 .small {
 	line-height: 27px;
-	width: 205px;
+	width: 170px;
 	margin-left: auto !important;
 	margin-right: auto !important;
 }

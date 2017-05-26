@@ -29,20 +29,19 @@ window.onload = function() {
 			 */
 			changeSetting: function() {
 				var self = this;
-                var boolean = this.value;
-				if (boolean){
+				var boolean = this.value;
+				if (boolean) {
 					boolean = false;
-				}else {
+				} else {
 					boolean = true;
 				}
-
 				chrome.storage.sync.set({
 					"enabled": boolean
 				}, function() {
 					if (boolean) {
-						self.text = "On"
+						self.text = "On";
 					} else {
-						self.text = "Off"
+						self.text = "Off";
 					}
 					reloadPage();
 				});
@@ -53,20 +52,21 @@ window.onload = function() {
 			loadSettings: function() {
 				var self = this;
 				chrome.storage.sync.get("enabled", function(items) {
-					self.value = items.enabled;
 					if (items.enabled) {
 						self.text = "On";
 						self.value = true;
 					} else {
 						self.text = "Off";
 						self.value = false;
-					};
+					}
 				});
 			}
 		},
 		ready: function() {
-			console.log("batmaniscool");
+			/*
+			 * Load the settings function
+			 */
 			this.loadSettings();
 		},
 	});
-}
+};
