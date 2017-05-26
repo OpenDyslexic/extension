@@ -20,9 +20,6 @@ window.onload = function() {
 			text: "Off",
 			value: false
 		},
-		mounted: function() {
-			this.loadSettings();
-		},
 		/*
 		 * Functions
 		 */
@@ -33,22 +30,30 @@ window.onload = function() {
 			changeSetting: function() {
 				var self = this;
                 var boolean = this.value;
+				console.log("111");
+				console.log(boolean);
+				if (boolean){
+					boolean = false;
+				}else {
+					boolean = true;
+				}
+
 				chrome.storage.sync.set({
-					"enabled": self.value
+					"enabled": boolean
 				}, function() {
                     console.log(boolean);
-					if (self.value) {
-						console.log(self.value);
-                        self.value = true;
+					if (boolean) {
+	
 						self.text = "On"
 					} else {
-						console.log(self.value);
+				
+						console.log(boolean);
+        
 						self.text = "Off"
-                         self.value = false;
+               
 					}
 					reloadPage();
 				});
-                console.log(this.value);
 			},
 			/*
 			 * load settings function
@@ -59,16 +64,20 @@ window.onload = function() {
 					self.value = items.enabled;
 
 					if (items.enabled) {
-						self.text = "On";
-                         self.value = true;
+								self.text = "On";
+					self.value = true;
 					} else {
 						self.text = "Off";
-                         self.value = false;
+						self.value = false;
+				
 					};
-                    reloadPage();
 				});
                 console.log(this.value);
 			}
-		}
+		},
+		ready: function() {
+			console.log("batmaniscool");
+			this.loadSettings();
+		},
 	});
 }
