@@ -37,15 +37,22 @@
 	padding: 0px;
 }
 
+.box {
+	border-radius: 5px;
+	box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .1) !important;
+	display: block;
+	padding: .3rem;
+}
+
 #frames, html {
-	width: 240px;
+	width: 220px;
 	height: 135px;
 }
 
 .logo {
 	font-family: opendyslexic !important;
 	text-align: center;
-	font-size: 25px;
+	font-size: 2.2rem;
 }
 
 body {
@@ -78,7 +85,7 @@ p {
 }
 
 .banner {
-	margin-bottom: 15px !important;
+	margin-bottom: 10px !important;
 }
 
 footer {
@@ -90,7 +97,8 @@ footer {
 
 .small {
 	line-height: 27px;
-	width: 170px;
+	text-align: center;
+	font-size: 1.1rem;
 	margin-left: auto !important;
 	margin-right: auto !important;
 }
@@ -122,7 +130,7 @@ footer>.container-fluid>.row {
 	width: 170px;
 	margin-left: auto;
 	margin-right: auto;
-    box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .12), 0 1px 6px 0 rgba(0, 0, 0, .12);
 }
 
 .panel-heading {

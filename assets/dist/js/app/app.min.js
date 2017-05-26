@@ -67,6 +67,6 @@ window.onload = function() {
 			 * Load the settings function
 			 */
 			this.loadSettings();
-		},
+		}
 	});
 };
