@@ -1,0 +1,150 @@
+@font-face {
+	font-family: "opendyslexic";
+	src: url('../../fonts/OpenDyslexic-Regular.otf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "opendyslexic";
+	src: url('../../fonts/OpenDyslexic-Italic.otf');
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "opendyslexic";
+	src: url('../../fonts/OpenDyslexic-Bold.otf');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "opendyslexic";
+	src: url('../../fonts/OpenDyslexic-BoldItalic.otf');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "opendyslexicmono";
+	src: url('../../fonts/OpenDyslexicMono-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.row {
+	padding: 0px;
+}
+
+#frames, html {
+	width: 240px;
+	height: 135px;
+}
+
+.logo {
+	font-family: opendyslexic !important;
+	text-align: center;
+	font-size: 25px;
+}
+
+body {
+	background-color: #F7F7F7;
+}
+
+p {
+	margin: 0px !important;
+}
+
+.header-panel {
+	background-color: #ffffff !important;
+	height: 48px;
+	margin-bottom: 25px;
+}
+
+.form-group label.control-label {
+	font-size: 15px;
+	font-weight: 400;
+	margin: 0;
+	padding: 0px;
+	height: 27px;
+	line-height: 27px;
+	padding-left: 0px;
+}
+
+.form-group {
+	padding-bottom: 7px;
+	margin: 0px 0 0;
+}
+
+.banner {
+	margin-bottom: 15px !important;
+}
+
+footer {
+	bottom: 0;
+	background-color: #F1F1F1;
+	width: 100%;
+	border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.small {
+	line-height: 27px;
+	width: 170px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+footer>.container-fluid {
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+footer>.container-fluid>.row {
+	margin-bottom: 0px;
+}
+
+#messageOpenDyslexic, #changeLog {
+	margin-left: -10px;
+	float: left;
+}
+
+.togglebutton {
+	float: right;
+}
+
+.panel-body {
+	padding: 0px;
+}
+
+.panel {
+	width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
+}
+
+.panel-heading {
+	background-color: #ffffff !important;
+}
+
+.panel-title {
+	color: #000;
+}
+
+#headerText {
+	font-size: 17px;
+	color: #fff;
+	outline: none;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+.subtitle {
+	color: #666;
+	font-size: 16px;
+	margin: 16px 0 4px 0;
+	padding: 4px 0;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,90 @@
+@font-face {
+	font-family: "opendyslexic";
+	src: url('chrome-extension://__MSG_@@extension_id__/assets/dist/fonts/OpenDyslexic-Regular.otf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "opendyslexic";
+	src: url('chrome-extension://__MSG_@@extension_id__/assets/dist/fonts/OpenDyslexic-Italic.otf');
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "opendyslexic";
+	src: url('chrome-extension://__MSG_@@extension_id__/assets/dist/fonts/OpenDyslexic-Bold.otf');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "opendyslexic";
+	src: url('chrome-extension://__MSG_@@extension_id__/assets/dist/fonts/OpenDyslexic-BoldItalic.otf');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "opendyslexicmono";
+	src: url('chrome-extension://__MSG_@@extension_id__/assets/dist/fonts/OpenDyslexicMono-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	color: rgb(25, 26, 66);
+	font-family: opendyslexic;
+}
+
+p:nth-child(even), li:nth-child(even) {
+	opacity: rgba(0, 0, 0, 0.03);
+}
+
+p:hover, li:hover {
+	background-color: rgba(0, 0, 0, 0.09) !important;
+}
+
+
+p, a, h1, h2, h3, h4, h5, input, ul, span, font, strong {
+	font-family: opendyslexic !important;
+	line-height: 150%;
+}
+
+* {
+	font-family: opendyslexic;
+}
+
+pre, code {
+	font-family: opendyslexicmono !important;
+	line-height: 150%;
+}
+
+.ace_text-input, .prettyprint {
+	font-family: opendyslexicmono !important;
+}
+
+.original-tweet {
+	background-color: #fff !important;
+}
+
+input, textarea {
+	font-family: opendyslexic !important;
+}
+
+
+/* NYTimes Support */
+
+.story.theme-summary .summary, .span-ab-bottom-region .story.theme-summary .summary, .inside-nyt .story.theme-summary .story-heading, .well .column ul li .story .story-heading, .inside-nyt .story.theme-summary.no-thumb .story-heading, .inside-nyt .story.theme-summary .summary, .recommendations ol li .story-heading, .tone-news .story.theme-main .story-header .story-heading, .type-size-small .story.theme-main .story-body-text, .story.theme-summary .story-heading {
+	font-family: opendyslexic;
+	line-height: 150%;
+}
+
+
+/* WSJ Support */
+
+article .article_header h1, article p {
+	font-family: opendyslexic;
+	line-height: 150%;
+}

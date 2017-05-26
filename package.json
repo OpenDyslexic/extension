@@ -1,36 +1,35 @@
 {
-    "name": "OpenDyslexic",
-    "description": "Format pages using the OpenDyslexic font and low contrast help.",
-    "author": "Abbie Gonzalez & Robert Gabriel ",
-    "license": "ISC",
-    "contributors": [
-
-        {
-            "name": "Abbie Gonzalez",
-            "email": ""
-        },
-        {
-            "name": "Robert James Gabriel",
-            "email": "robert_gabriel@outlook.com"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:antijingoist/open-dyslexic.git"
+  "name": "OpenDyslexic",
+  "description": "Format pages using the OpenDyslexic font and low contrast help.",
+  "author": "Abbie Gonzalez & Robert James Gabriel ",
+  "license": "ISC",
+  "contributors": [
+    {
+      "name": "Abbie Gonzalez",
+      "email": ""
     },
-
-    "scripts": {
-
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "gulp": "*",
-        "gulp-less": "*",
-        "gulp-minify-css": "*",
-        "gulp-uglify": "^1.4.0",
-        "gulp-util": "*",
-        "gulp-logger": "*",
-        "gulp-rename": "*"
-    },
-    "engine": "node >= 6.9.2"
+    {
+      "name": "Robert James Gabriel",
+      "email": "robert_gabriel@outlook.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:antijingoist/open-dyslexic.git"
+  },
+  "scripts": {},
+  "dependencies": {
+    "gulp-coffee": "^2.3.4"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "*",
+    "gulp-logger": "*",
+    "gulp-minify-css": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "^1.4.0",
+    "gulp-util": "*"
+  },
+  "engine": "node >= 6.9.2"
 }
