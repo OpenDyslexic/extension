@@ -15,7 +15,7 @@ gulp.task 'app_css', ->
     )
     .pipe(minifyCSS(keepSpecialComments: 1))
     .pipe(logger(
-        before: 'Compressing Css '
+        before: 'Compressing Css'
         after: 'Compressing finished!'
         extname: '.min.css'
         showChange: true))
@@ -37,7 +37,7 @@ gulp.task 'app_fonts', ->
 
 gulp.task 'app_scripts', ->
   gulp.src([
-    'assets/js/app/core2.js'
+    'assets/js/app/core.js'
   ])
   .pipe(logger(
     before: 'Starting Compressing Javascript'

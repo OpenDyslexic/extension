@@ -1,6 +1,6 @@
 {
    "name":"OpenDyslexic",
-   "version":"4.5.5",
+   "version":"5.0.0",
    "manifest_version":2,
    "description":"Format pages using the OpenDyslexic font and low contrast help.",
    "browser_action":{
