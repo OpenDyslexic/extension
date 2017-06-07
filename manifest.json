@@ -7,9 +7,9 @@
       "default_popup":"index.html"
    },
    "icons":{
-      "128":"/assets/img/icons/icon-128.png",
-      "16":"/assets/img/icons/icon-16.png",
-      "48":"/assets/img/icons/icon-48.png"
+      "128":"./assets/img/icons/icon-128.png",
+      "16":"./assets/img/icons/icon-16.png",
+      "48":"./assets/img/icons/icon-48.png"
    },
    "permissions":[
       "tabs",
