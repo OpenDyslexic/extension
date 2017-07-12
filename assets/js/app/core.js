@@ -1,49 +1,37 @@
 window.onload = function() {
 	/*
-	 * Reload the tab
-	 */
-	function reloadPage() {
-		chrome.tabs.getSelected(null, function(tab) {
-			var code;
-			code = 'window.location.reload();';
-			chrome.tabs.executeScript(tab.id, {
-				code: code
-			});
-		});
-	}
-	/*
 	 * Load Vue
 	 */
 	new Vue({
 		el: '#frames',
 		data: {
-			text: "Off",
-			value: false
+			enabled: false
 		},
 		/*
 		 * Functions
 		 */
 		methods: {
 			/*
+			 * Reload the tab
+			 */
+			reloadPage: function() {
+				chrome.tabs.getSelected(null, function(tab) {
+					var code = 'window.location.reload();';
+					chrome.tabs.executeScript(tab.id, {
+						code: code
+					});
+				});
+			},
+			/*
 			 * Change settings
 			 */
 			changeSetting: function() {
 				var self = this;
-				var boolean = this.value;
-				if (boolean) {
-					boolean = false;
-				} else {
-					boolean = true;
-				}
+				this.enabled = !this.enabled;
 				chrome.storage.sync.set({
-					"enabled": boolean
+					"enabled": this.enabled
 				}, function() {
-					if (boolean) {
-						self.text = "On";
-					} else {
-						self.text = "Off";
-					}
-					reloadPage();
+					this.reloadPage();
 				});
 			},
 			/*
@@ -52,14 +40,13 @@ window.onload = function() {
 			loadSettings: function() {
 				var self = this;
 				chrome.storage.sync.get("enabled", function(items) {
-					if (items.enabled) {
-						self.text = "On";
-						self.value = true;
-					} else {
-						self.text = "Off";
-						self.value = false;
-					}
+					self.value = items.enabled;
 				});
+			}
+		},
+		computed: {
+			text: function() {
+				return this.enabled ? "On" : "Off";
 			}
 		},
 		ready: function() {
