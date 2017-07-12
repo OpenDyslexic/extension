@@ -12,14 +12,11 @@ window.onload = function() {
 		 */
 		methods: {
 			/*
-			 * Reload the tab
+			 * reload the page
 			 */
 			reloadPage: function() {
 				chrome.tabs.getSelected(null, function(tab) {
-					var code = 'window.location.reload();';
-					chrome.tabs.executeScript(tab.id, {
-						code: code
-					});
+					chrome.tabs.reload(tab.id);
 				});
 			},
 			/*
@@ -40,7 +37,7 @@ window.onload = function() {
 			loadSettings: function() {
 				var self = this;
 				chrome.storage.sync.get("enabled", function(items) {
-					self.value = items.enabled;
+					self.enabled = items.enabled;
 				});
 			}
 		},
