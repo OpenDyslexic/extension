@@ -31,7 +31,7 @@ window.onload = function() {
 				chrome.storage.sync.set({
 					"enabled": this.enabled
 				}, function() {
-					this.reloadPage();
+					self.reloadPage();
 				});
 			},
 			/*
