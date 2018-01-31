@@ -33,9 +33,14 @@
 	font-style: normal;
 }
 
+:root {
+    --opendyslexic-chrome-sans: opendyslexic, Elusive-Icons, FontAwesome, 'Glyphicons Halflings', sans-serif;
+    --opendyslexic-chrome-mono: opendyslexicmono, Elusive-Icons, FontAwesome, 'Glyphicons Halflings', monospace;
+}
+
 html {
 	color: rgb(25, 26, 66);
-	font-family: opendyslexic;
+	font-family: var(--opendyslexic-chrome-sans);
 }
 
 p:nth-child(even), li:nth-child(even) {
@@ -48,21 +53,21 @@ p:hover, li:hover {
 
 
 p, a, h1, h2, h3, h4, h5, input, ul, span, font, strong {
-	font-family: opendyslexic !important;
+	font-family: var(--opendyslexic-chrome-sans) !important;
 	line-height: 150%;
 }
 
 * {
-	font-family: opendyslexic;
+	font-family: var(--opendyslexic-chrome-sans);
 }
 
 pre, code {
-	font-family: opendyslexicmono !important;
+	font-family: var(--opendyslexic-chrome-mono) !important;
 	line-height: 150%;
 }
 
 .ace_text-input, .prettyprint {
-	font-family: opendyslexicmono !important;
+	font-family: var(--opendyslexic-chrome-mono) !important;
 }
 
 .original-tweet {
@@ -70,14 +75,14 @@ pre, code {
 }
 
 input, textarea {
-	font-family: opendyslexic !important;
+	font-family: var(--opendyslexic-chrome-sans) !important;
 }
 
 
 /* NYTimes Support */
 
 .story.theme-summary .summary, .span-ab-bottom-region .story.theme-summary .summary, .inside-nyt .story.theme-summary .story-heading, .well .column ul li .story .story-heading, .inside-nyt .story.theme-summary.no-thumb .story-heading, .inside-nyt .story.theme-summary .summary, .recommendations ol li .story-heading, .tone-news .story.theme-main .story-header .story-heading, .type-size-small .story.theme-main .story-body-text, .story.theme-summary .story-heading {
-	font-family: opendyslexic;
+	font-family: var(--opendyslexic-chrome-sans);
 	line-height: 150%;
 }
 
@@ -85,6 +90,6 @@ input, textarea {
 /* WSJ Support */
 
 article .article_header h1, article p {
-	font-family: opendyslexic;
+	font-family: var(--opendyslexic-chrome-sans);
 	line-height: 150%;
 }
