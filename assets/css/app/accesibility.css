@@ -47,7 +47,7 @@ p:hover, li:hover {
 }
 
 
-p, a, h1, h2, h3, h4, h5, input, ul, span, font, strong {
+p, a, h1, h2, h3, h4, h5, input, ul, span, font, strong, b, em, i, div {
 	font-family: opendyslexic !important;
 	line-height: 150%;
 }
