@@ -44,7 +44,8 @@
 	padding: .3rem;
 }
 
-#frames, html {
+#frames,
+html {
 	width: 220px;
 	height: 135px;
 }
@@ -113,7 +114,8 @@ footer>.container-fluid>.row {
 	margin-bottom: 0px;
 }
 
-#messageOpenDyslexic, #changeLog {
+#messageOpenDyslexic,
+#changeLog {
 	margin-left: -10px;
 	float: left;
 }

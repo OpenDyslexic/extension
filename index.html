@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>OpenDyslexic</title>
 	<link href="assets/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
@@ -10,26 +11,31 @@
 	<script src="assets/dist/js/app/app.min.js">
 	</script>
 </head>
+
 <body>
-	<div  id="frames">
-	<div class="container-fluid main main-holder">
-		<div class="row banner">
-			<div class="col-sm-12">
-				<h1 class="logo">OpenDyslexic</h1>
+	<div id="frames">
+		<div class="container-fluid main main-holder">
+			<div class="row banner">
+				<div class="col-sm-12">
+					<h1 class="logo">OpenDyslexic</h1>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h3 class="panel-title">Options</h3>
-					</div>
-					<div class="panel-body">
-						<div class="form-group">
-							<div class="col-md-offset-2 col-md-10">
-								<label class="col-md-2 control-label">{{ text }}</label>
-								<div class="togglebutton">
-									<label id="stat"><input  type="checkbox"  id="likeOpenDyslexic"  v-on:click='changeSetting' v-model="enabled" ><span class="toggle"></span></label>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<h3 class="panel-title">Options</h3>
+						</div>
+						<div class="panel-body">
+							<div class="form-group">
+								<div class="col-md-offset-2 col-md-10">
+									<label class="col-md-2 control-label">{{ text }}</label>
+									<div class="togglebutton">
+										<label id="stat">
+											<input type="checkbox" id="likeOpenDyslexic" v-on:click='changeSetting' v-model="enabled">
+											<span class="toggle"></span>
+										</label>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -37,20 +43,22 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-					<p class="small" style="line-height: 27px;">&copy; 2017 <a href="http://opendyslexic.org/" style="color:#666" target="_blank">OpenDyslexic.org</a></p>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<p class="small" style="line-height: 27px;">&copy; 2017
+							<a href="http://opendyslexic.org/" style="color:#666" target="_blank">OpenDyslexic.org</a>
+						</p>
+					</div>
+					<div class="col-md-2"></div>
 				</div>
-				<div class="col-md-2"></div>
 			</div>
-		</div>
-	</footer>
+		</footer>
 	</div>
 	<script src="assets/dist/js/vendor/vendor.min.js">
 	</script>
 </body>
+
 </html>
