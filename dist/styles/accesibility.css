@@ -42,7 +42,7 @@ p:nth-child(even), li:nth-child(even) {
 p:hover, li:hover {
   background-color: rgba(0, 0, 0, 0.09) !important; }
 
-p, a, h1, h2, h3, h4, h5, input, ul, font, strong {
+p, a, h1, h2, h3, h4, h5, input, ul, span, font, strong {
   font-family: var(--opendyslexic-chrome-sans) !important;
   line-height: 150%; }
 
@@ -80,6 +80,5 @@ article .article_header h1, article p {
   font-family: var(--opendyslexic-chrome-sans);
   line-height: 150%; }
 
-.goog-inline-block {
-  font-family: var(--opendyslexic-chrome-sans) !important;
-  line-height: 150%; }
+.kix-lineview-content, .kix-lineview {
+  width: 100% !important; }
