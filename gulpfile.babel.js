@@ -13,7 +13,7 @@ gulp.task('extras', () => {
   return gulp.src([
     'app/*.*',
     'app/scripts/**/*.js',
-    'app/fonts/**/*.*',
+    'app/fonts/**/*',
     'app/styles/**/*.min.css',
     'app/_locales/**',
     '!app/scripts.babel',

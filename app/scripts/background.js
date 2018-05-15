@@ -36,7 +36,7 @@ function enableOpenDyslexic() {
   style.rel = 'stylesheet';
   style.type = 'text/css';
   style.setAttribute('id', 'opendyslexic');
-  style.href = chrome.extension.getURL('styles/styles.css');(document.head || document.documentElement).appendChild(style);
+  style.href = chrome.extension.getURL('styles/accesibility.css');(document.head || document.documentElement).appendChild(style);
 }
 
 function reloadPage() {
