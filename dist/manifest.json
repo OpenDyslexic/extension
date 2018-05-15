@@ -44,12 +44,6 @@
 		"/fonts/opendyslexic/OpenDyslexic-Italic.otf",
 		"/fonts/opendyslexic/OpenDyslexic-Regular.otf",
 		"/fonts/opendyslexic/OpenDyslexicMono-Regular.otf",
-		"/styles/accesibility.css",
-		"assets/fonts/opendyslexic/OpenDyslexic-Bold.otf",
-		"assets/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf",
-		"assets/fonts/opendyslexic/OpenDyslexic-Italic.otf",
-		"assets/fonts/opendyslexic/OpenDyslexic-Regular.otf",
-		"assets//fonts/opendyslexic/OpenDyslexicMono-Regular.otf",
-		"assets/styles/accesibility.css"
+		"/styles/accesibility.css"
 	]
 }

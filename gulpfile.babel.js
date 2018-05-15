@@ -76,7 +76,7 @@ gulp.task('html', () => {
 });
 
 gulp.task('sass', () => {
-  return gulp.src('app/styles/sass/styles.sass')
+  return gulp.src('app/styles/sass/accesibility.sass')
     .pipe($.sass().on('error', sass.logError))
     .pipe(gulp.dest('dist/styles/'));
 });
