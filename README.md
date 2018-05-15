@@ -1,33 +1,19 @@
+# opendyslexic-chrome [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/cdnapgfjopgaggbmfgbiinmmbdcglnam.svg?label=%20">][link-cws] <span class="badge-patreon"><a href="https://www.patreon.com/RobertJGabriel" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
+> Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on webpages with the OpenDyslexic font, and formats pages to be more easily readable. 
 
-![alt text](.github/readme.png "OpenDyslexic")
+<img src="./github/readme.png" width="752">
 
-
-
-# About 
-
-Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on webpages with the OpenDyslexic font, and formats pages to be more easily readable. 
-
-Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of "gravity" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter, and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.
-
-Open-Dyslexic has recently received favorable coverage from the [BBC](http://bbc.com/news/technology-19734341), and is included in many iOS and Android apps. 
-
-Unlike many other dyslexia or DRD typefaces, OpenDyslexic is completely free for individuals, companies, schools, and in short: everyone. 
-
-
-
-
-# Set up
+## Installation
 
 **Prerequisites:** [Node](http://nodejs.org/) and the following global node modules:  gulp (if you have none of these modules, just run npm run global-deps).
 - Clone this repo locally ``` git clone  https://github.com/antijingoist/opendyslexic-chrome```
 - Open up either terimal or CMD
 - Naviagte to the repo 
 - Run the following command inside the repo ```npm install```
-- Then run ```gulp build```, which build all javascript and css.
+- Then run ```gulp ```, which build all javascript and css.
 
 
-
-# Install
+### Setup
 
 - See set up first
 - Open up Google chrome
@@ -38,29 +24,36 @@ Unlike many other dyslexia or DRD typefaces, OpenDyslexic is completely free for
 - Pick the opendyslexic-chrome folder.
 
 
-# Build Files
+### Build Files
 
 - Open up command line or termial
 - Naviagate to the opendyslexic-chrome folder
 - Run ```npm install ```
-- Then ``` gulp build ```
+- Then ``` gulp ```
 - This will create a folder called dist and compress all css, and javascript :)
 
 
-# Important Notes
+### Important Notes
 
 - system.js handles the turning on and off of the font on the page
 - core.js handles the button click using angler.js
-- Gulp Watch will be added in soon.
 
-# Screenshots
+## Screenshots
 
-## Before
+### Before
 
 ![Display of icon for chrome](https://github.com/antijingoist/opendyslexic-chrome/blob/master/.github/images/before.png)
 
-## After
+### After
 
 ![Display of icon for chrome](https://github.com/antijingoist/opendyslexic-chrome/blob/master/.github/images/after.png)
 
+### License
 
+MIT © [Robert James Gabriel](https://www.robertgabriel.ninja)
+
+[npm-image]: https://badge.fury.io/js/opendyslexic-chrome.svg
+[npm-url]: https://npmjs.org/package/opendyslexic-chrome
+[travis-image]: https://travis-ci.org/antijingoist/opendyslexic-chrome.svg?branch=master
+[travis-url]: https://www.travis-ci.com/antijingoist/opendyslexic-chrome
+[link-cws]: https://chrome.google.com/webstore/detail/opendyslexic/cdnapgfjopgaggbmfgbiinmmbdcglnam/support?hl=en "Version published on Chrome Web Store"

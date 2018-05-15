@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'opendyslexic';
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexic-Regular.otf");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexic-Italic.otf");
+  font-style: italic;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexic-Bold.otf");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'opendyslexicmono';
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexicMono-Regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+html {
+  color: #191a42;
+  font-family: opendyslexic; }
+
+p, a, h1, h2, h3, h4, h5, input, ul, span, font, strong {
+  font-family: opendyslexic;
+  line-height: 150%; }
+
+* {
+  font-family: opendyslexic; }
