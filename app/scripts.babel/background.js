@@ -43,10 +43,15 @@ function enableOpenDyslexic () {
 }
 
 function reloadPage () {
-  chrome.tabs.getSelected(null, function (tab) {
+  chrome.tabs.query({
+    active: true,
+    lastFocusedWindow: true
+  }, function (tabs) {
+    // and use that tab to fill in out title and url
+    var tab = tabs[0];
     code = 'window.location.reload();'
     chrome.tabs.executeScript(tab.id, {
       code: code
     })
-  })
+  });
 }

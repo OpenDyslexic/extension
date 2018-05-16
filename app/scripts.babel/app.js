@@ -5,8 +5,7 @@ app.controller('core', function ($scope) {
   $scope.init = function () {
     var openDyslexicEnabled = document.getElementById('likeOpenDyslexic')
     var messageOpenDyslexic = document.getElementById('messageOpenDyslexic')
-    chrome.storage.sync.get(
-      {
+    chrome.storage.sync.get({
         enabled: false
       },
       function (items) {
@@ -29,8 +28,7 @@ app.controller('core', function ($scope) {
 
     var checkBox = document.getElementById('likeOpenDyslexic').checked
     var messageOpenDyslexic = document.getElementById('messageOpenDyslexic')
-    chrome.storage.sync.set(
-      {
+    chrome.storage.sync.set({
         enabled: checkBox
       },
       function () {
@@ -45,12 +43,19 @@ app.controller('core', function ($scope) {
     )
   }
 
-  function reload () {
-    chrome.tabs.getSelected(null, function (tab) {
+  function reload() {
+
+    chrome.tabs.query({
+      active: true,
+      lastFocusedWindow: true
+    }, function (tabs) {
+      // and use that tab to fill in out title and url
+      var tab = tabs[0];
       code = 'window.location.reload();'
       chrome.tabs.executeScript(tab.id, {
         code: code
       })
-    })
+    });
+
   }
-})
+});
