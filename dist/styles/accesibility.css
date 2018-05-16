@@ -82,3 +82,6 @@ article .article_header h1, article p {
 
 .kix-lineview-content, .kix-lineview {
   width: 100% !important; }
+
+.kix-wordhtmlgenerator-word-node {
+  font-size: initial !important; }

@@ -33,7 +33,14 @@
 
 .box {
   border-radius: 5px;
-  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1) !important;
+  position: relative;
+  margin: 14px 10px 0px;
+  background-color: #feffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 2px 9px 0px;
+  overflow: hidden;
+  cursor: pointer;
   display: block;
   padding: .3rem; }
 
@@ -105,7 +112,7 @@ footer > .container-fluid {
   width: 150px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12); }
+  margin-bottom: 30; }
 
 .panel-heading {
   background-color: #ffffff !important; }
