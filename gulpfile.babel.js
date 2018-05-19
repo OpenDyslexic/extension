@@ -157,7 +157,7 @@ gulp.task('wiredep', () => {
 gulp.task('package', () => {
   const manifest = require('./dist/manifest.json');
   return gulp.src('dist/**')
-    .pipe($.zip('chrome teamwork-' + manifest.version + '.zip'))
+    .pipe($.zip('chrome-' + manifest.version + '.zip'))
     .pipe(gulp.dest('package'));
 });
 
