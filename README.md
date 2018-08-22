@@ -1,7 +1,7 @@
 # OpenDyslexic [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/cdnapgfjopgaggbmfgbiinmmbdcglnam.svg?label=%20">][link-cws] <span class="badge-patreon"><a href="https://www.patreon.com/RobertJGabriel" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 > Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on webpages with the OpenDyslexic font, and formats pages to be more easily readable.
 
-<img src="https://github.com/antijingoist/opendyslexic-chrome/blob/master/.github/readme.png" width="752">
+<img src=".github/readme8.png" width="752">
 
 ## Getting Started
 
