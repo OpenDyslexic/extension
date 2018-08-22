@@ -1,55 +1,125 @@
-# opendyslexic-chrome [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/cdnapgfjopgaggbmfgbiinmmbdcglnam.svg?label=%20">][link-cws] <span class="badge-patreon"><a href="https://www.patreon.com/RobertJGabriel" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
-> Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on webpages with the OpenDyslexic font, and formats pages to be more easily readable. 
+# OpenDyslexic [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/cdnapgfjopgaggbmfgbiinmmbdcglnam.svg?label=%20">][link-cws] <span class="badge-patreon"><a href="https://www.patreon.com/RobertJGabriel" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
+> Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on webpages with the OpenDyslexic font, and formats pages to be more easily readable.
 
 <img src="https://github.com/antijingoist/opendyslexic-chrome/blob/master/.github/readme.png" width="752">
 
-## Installation
+## Getting Started
 
-**Prerequisites:** [Node](http://nodejs.org/) and the following global node modules:  gulp (if you have none of these modules, just run npm run global-deps).
-- Clone this repo locally ``` git clone  https://github.com/antijingoist/opendyslexic-chrome```
-- Open up either terimal or CMD
-- Naviagte to the repo 
-- Run the following command inside the repo ```npm install```
-- Then run ```gulp ```, which build all javascript and css.
+```sh
 
+# Install
 
-### Setup
+npm i && bower i
 
-- See set up first
-- Open up Google chrome
-- Go the Google Chrome Settings
-- Go to extensions
-- Click enable developer mode.
-- Load unpackaged extensions.
-- Pick the opendyslexic-chrome folder.
+# Build
+gulp
 
+# Transform updated source written by ES2015 (default option)
+gulp babel
 
-### Build Files
+# or Using watch to update source continuously
+gulp watch
 
-- Open up command line or termial
-- Naviagate to the opendyslexic-chrome folder
-- Run ```npm install ```
-- Then ``` gulp ```
-- This will create a folder called dist and compress all css, and javascript :)
+# Make a production version extension
+gulp build
+```
 
+## Test Chrome Extension
 
-### Important Notes
+To test, go to: chrome://extensions, enable Developer mode and load app as an unpacked extension.
 
-- system.js handles the turning on and off of the font on the page
-- core.js handles the button click using angler.js
+Need more information about Chrome Extension? Please visit [Google Chrome Extension Development](http://developer.chrome.com/extensions/devguide.html)
 
-## Screenshots
+## gulp tasks
 
-### Before
+### Babel
 
-![Display of icon for chrome](https://github.com/antijingoist/opendyslexic-chrome/blob/master/.github/images/before.png)
+The generator supports ES 2015 syntax through babel transforming. You may have a source files in `script.babel` if your project has been generated without `--no-babel` options. While developing, When those of source has been changed, `gulp babel` should be run before test and run a extension on Chrome.
 
-### After
+```sh
+gulp babel
+```
 
-![Display of icon for chrome](https://github.com/antijingoist/opendyslexic-chrome/blob/master/.github/images/after.png)
+If you would like to have a continuous transforming by babel you can use `watch` task
 
+### Watch
+
+Watch task helps you reduce your efforts during development extensions. If the task detects your changes of source files, re-compile your sources automatically or Livereload([chromereload.js](https://github.com/yeoman/generator-chrome-extension/blob/master/app/templates/scripts/chromereload.js)) reloads your extension. If you would like to know more about Live-reload and preview of Yeoman? Please see [Getting started with Yeoman and generator-webapp](http://youtu.be/zBt2g9ekiug?t=3m51s) for your understanding.
+
+```bash
+gulp watch
+```
+
+You need to load/reload extension after starting `gulp watch` for Live-reload to work.
+
+For content scripts you need to refresh pages where it is used.
+
+### Build and Package
+
+It will build your app as a result you can have a distribution version of the app in `dist`. Run this command to build your Chrome Extension app.
+
+```bash
+gulp build
+```
+
+You can also distribute your project with compressed file using the Chrome Developer Dashboard at Chrome Web Store. This command will compress your app built by `gulp build` command.
+
+```bash
+gulp package
+```
+
+## Options
+
+* `--no-babel`
+
+  If you wouldn't use [Babel](https://babeljs.io/) ES2015 transpiler.
+
+* `--skip-install`
+
+  Skips the automatic execution of `bower` and `npm` after
+  scaffolding has finished.
+
+* `--test-framework=[framework]`
+
+  Defaults to `mocha`. Can be switched for
+  another supported testing framework like `jasmine`.
+
+* `--sass`
+
+  Add support for [Sass](http://sass-lang.com/libsass).
+
+* `--all-permissions`
+
+  All of permissions of chrome extension will be shown.
+
+### ES2015 and babel
+
+ES2015 is the `default option` in the generator that means you can use es2015 now for developing the Chrome extensions. However, at this moment, you need to execute `babel` task of gulp to compile to test and run your extension on Chrome, because [ES2015 is not full functionality on Chrome as yet](http://kangax.github.io/compat-table/es6/).
+
+The sources written by es2015 is located at `scripts.babel` and runnable sources will be at `script` after compiling by `gulp babel`. May you don't want to use babel and ES2015 use `--no-babel` option when scaffolding a new project.
+
+```sh
+yo chrome-extension --no-babel
+```
+
+### Sass
+
+This generator supports `sass` through `--sass` options and generate `scss` boilerplate files at `styles.scss` that those of `scss` files will be compiled to `styles` via `gulp style` task. To do this, `libsass` is featured in the generator. Please see [this](https://github.com/yeoman/generator-gulp-webapp#libsass) for further information.
+
+```sh
+yo chrome-extension --sass
+```
+
+### All of Permissions for Chrome Extension
+
+Need to add more permissions for chrome extension? You can get all list of permissions using `--all-permissions` option when scaffolding a new project.
+
+```sh
+yo chrome-extension --all-permissions
+```
 ### License
 
+MIT © [opendyslexic.com](https://opendyslexic.com)
 
 [npm-image]: https://badge.fury.io/js/opendyslexic-chrome.svg
 [npm-url]: https://npmjs.org/package/opendyslexic-chrome
