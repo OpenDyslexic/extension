@@ -1,0 +1,57 @@
+body {
+  max-height: 600px;
+  max-width: 310px;
+  min-width: 310px;
+  overflow: auto;
+  width: 310px;
+}
+
+
+
+@font-face {
+  font-family: "opendyslexic";
+  src: url("/fonts/opendyslexic/OpenDyslexic-Regular.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "opendyslexic";
+  src: url("/fonts/opendyslexic/OpenDyslexic-Italic.otf");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "opendyslexic";
+  src: url("/fonts/opendyslexic/OpenDyslexic-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "opendyslexic";
+  src: url("/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "opendyslexicmono";
+  src: url("/fonts/opendyslexic/OpenDyslexicMono-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/icons/MaterialIcons-Regular.eot');
+  /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url('/fonts/icons/MaterialIcons-Regular.woff2') format('woff2'),
+    url('/fonts/icons/MaterialIcons-Regular.woff') format('woff'),
+    url('/fonts/icons/MaterialIcons-Regular.ttf') format('truetype');
+}

@@ -6,11 +6,15 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
   context: __dirname + '/app/',
   entry: {
-    'popup.min.js': './scripts.babel/popup.js',
+    'background.js': './scripts.babel/background.js',
+    'popup.js': './scripts.babel/popup.js',
+    'opendyslexic.min.css': [
+      '../app/styles/accesibility.css'
+    ],
     'bundle.min.css': [
       '../node_modules/vue-material/dist/vue-material.min.css',
       '../node_modules/vue-material/dist/theme/default.css',
-      '../app/styles/app/popup.css',
+      '../app/styles/app.css',
     ],
   },
   output: {

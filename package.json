@@ -13,6 +13,10 @@
       "email": "robert_gabriel@outlook.com"
     }
   ],
+  "scripts": {
+    "test": "jest",
+    "build": "gulp && gulp"
+  },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.2.0",
     "babel-core": "^6.0.0",
@@ -82,6 +86,7 @@
     "v2-lazy-list": "^2.2.5",
     "vue-loading-spinner": "^1.0.11",
     "vue-material": "^1.0.0-beta-10.2",
+    "vue-plugin-webextension-i18n": "^0.1.2",
     "vue-resource": "^1.5.1",
     "vue-spinner": "^1.0.3",
     "webpack-stream": "^5.1.1"
