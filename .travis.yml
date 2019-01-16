@@ -18,7 +18,6 @@ before_deploy:
   - git tag $TRAVIS_TAG
 
 
-  
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
