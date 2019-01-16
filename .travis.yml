@@ -1,0 +1,19 @@
+language: node_js
+
+node_js:
+  - '8'
+
+before_install:
+- npm install
+- npm install gulp -g
+
+script:
+- npm run build && gulp package
+
+deploy:
+  provider: releases
+  api_key: $GITHUB_TOKEN
+  file: "package/chrome markdown-editor-7.0.3.zip"
+  skip_cleanup: true
+  on:
+    tags: true
