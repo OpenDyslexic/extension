@@ -118,7 +118,7 @@
           </md-list-item>
           <md-list-item class="md-inset">
             <div class="md-list-item-text">
-              {{ $i18n('followAbbieToolTip') }}
+              {{ $i18n('followAbbie') }}
             </div>
             <md-tooltip md-direction="top">{{ $i18n('followAbbieToolTip') }}</md-tooltip>
             <div class="md-list-item">
