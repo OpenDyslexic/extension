@@ -3,8 +3,164 @@
     "message": "OpenDyslexic Font for Chrome",
     "description": "Format pages using the OpenDyslexic font and low contrast help."
   },
+  "appTitle": {
+    "message": "OpenDyslexic",
+    "description": "Format pages using the OpenDyslexic font and low contrast help."
+  },
   "appDescription": {
     "message": "OpenDyslexic Font for Chrome",
     "description": "Format pages using the OpenDyslexic font and low contrast help."
+  },
+  "options": {
+    "message": "Options"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "selectedFontLabel": {
+    "message": "Selected Font to use."
+  },
+  "enableFontLabel": {
+    "message": "Enable"
+  },
+  "googleDocsLabel": {
+    "message": "Google Docs"
+  },
+  "googleDocsTooltip": {
+    "message": "Enable full Google Docs support."
+  },
+  "fontColorSetting": {
+    "message": "Color"
+  },
+  "fontColorLabel": {
+    "message": "Font"
+  },
+  "fontColorTooltip": {
+    "message": "Change the font color."
+  },
+  "backgroundColorLabel": {
+    "message": "Background"
+  },
+  "backgroundColorTooltip": {
+    "message": "Change the background color."
+  },
+  "personalSetting": {
+    "message": "Personal"
+  },
+
+  "socialSetting": {
+    "message": "Social"
+  },
+  "codeSetting": {
+    "message": "Source Code"
+  },
+
+
+
+  "followDyslexic": {
+    "message": "Follow OpenDyslexic"
+  },
+
+  "followDyslexicToolTip": {
+    "message": "Follow OpenDyslexic on Twitter"
+  },
+
+
+  "followAbbie": {
+    "message": "Support Abbie Gonzalez"
+  },
+
+  "followAbbieToolTip": {
+    "message": "Support the creator of OpenDyslexic."
+  },
+  "followRobertJames": {
+    "message": "Follow Robert James"
+  },
+
+  "followRobertJamesToolTip": {
+    "message": "Follow the maintainer of this app."
+  },
+  "whatsNew": {
+    "message": "What`s new"
+  },
+
+  "firefox": {
+    "message": "Firefox Version"
+  },
+  "firefoxText": {
+    "message": "Use Firefox? Download it today."
+  },
+
+  "codeSettingToolTip": {
+    "message": "Want to hack, build or improve the app?"
+  },
+  "textToSpeechLabel": {
+    "message": "Text to Speech"
+  },
+  "textToSpeechTooltip": {
+    "message": "Select and right-click the text."
+  },
+  "blacklistLabel": {
+    "message": "Blacklist"
+  },
+  "blacklistTooltip": {
+    "message": "Don't run on the following domains."
+  },
+  "blacklistHelp": {
+    "message": "Enter comma-separated domains."
+  },
+  "supportlSetting": {
+    "message": "Support"
+  },
+
+  "supportToolTipTwo": {
+    "message": "Having an issue? Contact support."
+  },
+
+  "reviews": {
+    "message": "Reviews"
+  },
+
+  "supportToolTip": {
+    "message": "Leave or read reviews"
+  },
+  "websiteLabel": {
+    "message": "Website"
+  },
+  "websiteTooltip": {
+    "message": "Support website."
+  },
+  "logLabel": {
+    "message": "Whats New"
+  },
+  "logTooltip": {
+    "message": "See whats new!"
+  },
+  "trialOver": {
+    "message": "Your Trial is over."
+  },
+  "trialOverTwo": {
+    "message": "Upgrade for only 2.99"
+  },
+  "saved": {
+    "message": "Saved"
+  },
+  "backgroundColorMessage": {
+    "message": "Background color saved."
+  },
+  "fontColorMessage": {
+    "message": "Font color saved."
+  },
+  "blacklistMessage": {
+    "message": "Blacklist saved."
+  },
+  "reloadingMessage": {
+    "message": "Refreshing page."
+  },
+  "googleDocsMessageOn": {
+    "message": "Google Docs supported on."
+  },
+  "googleDocsMessageOff": {
+    "message": "Google Docs supported off."
   }
 }
