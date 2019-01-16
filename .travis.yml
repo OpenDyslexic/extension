@@ -1,0 +1,27 @@
+language: node_js
+
+node_js:
+  - '8'
+
+before_install:
+- npm install
+- npm install gulp -g
+
+script:
+- npm run build && gulp package
+
+before_deploy:
+  # Set up git user name and tag this commit
+  - git config --local user.name "robertjgabriel"
+  - git config --local user.email "robert_gabriel@outlook.com"
+  - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
+  - git tag $TRAVIS_TAG
+
+
+deploy:
+  provider: releases
+  api_key: $GITHUB_TOKEN
+  file: "package/chrome markdown-editor-7.0.3.zip"
+  skip_cleanup: true
+  on:
+    tags: true
