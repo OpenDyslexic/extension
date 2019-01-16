@@ -71,18 +71,14 @@
   },
 
   "followAbbieToolTip": {
-    "message": "Support Abbie Gonzalez the creator of OpenDyslexic"
+    "message": "Support the creator of OpenDyslexic."
   },
-
-
-
-
   "followRobertJames": {
-    "message": "Support Robert James"
+    "message": "Follow Robert James"
   },
 
   "followRobertJamesToolTip": {
-    "message": "Support the maintainer of this app."
+    "message": "Follow the maintainer of this app."
   },
   "whatsNew": {
     "message": "What`s new"
@@ -92,7 +88,7 @@
     "message": "Firefox Version"
   },
   "firefoxText": {
-    "message": "Source Code"
+    "message": "Use Firefox? Download it today."
   },
 
   "codeSettingToolTip": {

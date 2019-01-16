@@ -1,4 +1,3 @@
-
 <template>
   <div class="viewport">
 
@@ -48,7 +47,10 @@
         <md-list slot="md-expand">
           <md-list-item class="md-inset">
             <div class="md-list-item-text">
-              {{ $i18n('reviews') }}
+              <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/reviews"
+                target="_blank">
+                {{ $i18n('reviews') }}
+              </a>
             </div>
             <md-tooltip md-direction="top">{{ $i18n('supportToolTip') }}</md-tooltip>
             <div class="md-list-item">
@@ -60,7 +62,10 @@
           </md-list-item>
           <md-list-item class="md-inset">
             <div class="md-list-item-text">
-              {{ $i18n('supportlSetting') }}
+              <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/support"
+                target="_blank">
+                {{ $i18n('supportlSetting') }}
+              </a>
             </div>
             <md-tooltip md-direction="top">{{ $i18n('supportToolTipTwo') }}</md-tooltip>
             <div class="md-list-item">
@@ -72,7 +77,9 @@
           </md-list-item>
           <md-list-item class="md-inset">
             <div class="md-list-item-text">
-              {{ $i18n('codeSetting') }}
+              <a href="https://github.com/OpenDyslexic/opendyslexic-chrome" target="_blank">
+                {{ $i18n('codeSetting') }}
+              </a>
             </div>
             <md-tooltip md-direction="top">{{ $i18n('codeSettingToolTip') }}</md-tooltip>
             <div class="md-list-item">
@@ -83,7 +90,9 @@
           </md-list-item>
           <md-list-item class="md-inset">
             <div class="md-list-item-text">
-              {{ $i18n('firefox') }}
+              <a href="https://addons.mozilla.org/en-US/firefox/addon/opendyslexic-for-firefox/" target="_blank">
+                {{ $i18n('firefox') }}
+              </a>
             </div>
             <md-tooltip md-direction="top">{{ $i18n('firefoxText') }}</md-tooltip>
             <div class="md-list-item">
@@ -102,12 +111,12 @@
       <md-list-item md-expand>
         <md-icon>person_add</md-icon>
         <span class="md-list-item-text">{{ $i18n('socialSetting') }}</span>
-
         <md-list slot="md-expand">
           <md-list-item class="md-inset">
-
             <div class="md-list-item-text">
-              {{ $i18n('followDyslexic') }}
+              <a href="https://twitter.com/OpenDyslexic" target="_blank">
+                {{ $i18n('followDyslexic') }}
+              </a>
             </div>
             <md-tooltip md-direction="top">{{ $i18n('followDyslexicToolTip') }}</md-tooltip>
             <div class="md-list-item">
@@ -118,7 +127,9 @@
           </md-list-item>
           <md-list-item class="md-inset">
             <div class="md-list-item-text">
-              {{ $i18n('followAbbie') }}
+              <a href="https://www.patreon.com/opendyslexic" target="_blank">
+                {{ $i18n('followAbbie') }}
+              </a>
             </div>
             <md-tooltip md-direction="top">{{ $i18n('followAbbieToolTip') }}</md-tooltip>
             <div class="md-list-item">
@@ -129,7 +140,9 @@
           </md-list-item>
           <md-list-item class="md-inset">
             <div class="md-list-item-text">
-              {{ $i18n('followRobertJames') }}
+              <a href="https://twitter.com/robertjgabriel" target="_blank">
+                {{ $i18n('followRobertJames') }}
+              </a>
             </div>
             <md-tooltip md-direction="top">{{ $i18n('followRobertJamesToolTip') }}</md-tooltip>
             <div class="md-list-item">
@@ -147,7 +160,7 @@
     <md-list>
       <md-list-item md-expand>
         <md-icon>whatshot</md-icon>
-        <span class="md-list-item-text">  {{ $i18n('whatsNew') }}</span>
+        <span class="md-list-item-text"> {{ $i18n('whatsNew') }}</span>
         <md-list slot="md-expand">
           <md-list-item>
             <div class="md-list-item">
