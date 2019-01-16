@@ -44,6 +44,6 @@
 		"/fonts/opendyslexic/OpenDyslexic-Italic.otf",
 		"/fonts/opendyslexic/OpenDyslexic-Regular.otf",
 		"/fonts/opendyslexic/OpenDyslexicMono-Regular.otf",
-		"/styles/accesibility.css"
+		"/styles/core/opendyslexic.css"
 	]
 }

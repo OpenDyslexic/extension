@@ -3,19 +3,19 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const webpack = require('webpack');
 
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+
 module.exports = {
   context: __dirname + '/app/',
   entry: {
-    'background.js': './scripts.babel/background.js',
-    'popup.js': './scripts.babel/popup.js',
-    'opendyslexic.min.css': [
-      '../app/styles/accesibility.css'
-    ],
+
     'bundle.min.css': [
       '../node_modules/vue-material/dist/vue-material.min.css',
       '../node_modules/vue-material/dist/theme/default.css',
+      '../node_modules/material-icons/iconfont/material-icons.css',
       '../app/styles/app.css',
     ],
+    'background.js': './scripts.babel/background.js',
+    'popup.js': './scripts.babel/popup.js',
   },
   output: {
     path: path.resolve(__dirname, '/dist/help'),
@@ -37,7 +37,6 @@ module.exports = {
         test: /\.vue$/,
         loader: 'vue-loader'
       },
-      
         {
           test: /\.css$/,
           use: ExtractTextPlugin.extract({
@@ -53,7 +52,7 @@ module.exports = {
           options: {
             useRelativePath: false,
             name: '[name].[ext]',
-            publicPath: 'fonts/icons/',
+            publicPath: '../fonts/icons/',
             outputPath: 'fonts/'
           }
         }]

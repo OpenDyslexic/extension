@@ -17,6 +17,8 @@ gulp.task("extras", () => {
         "app/fonts/**/*.*",
         "app/scripts/**/*.js",
         "app/scripts/**/*.min.css",
+        "app/style/**/*.min.css",
+        "app/styles/**/*.css",
         "app/_locales/**",
         "!app/scripts.babel",
         "!app/manifest.json",
@@ -39,12 +41,7 @@ function lint(files, options) {
   };
 }
 
-gulp.task("sass", () => {
-  return gulp
-    .src(["app/styles/sass/fonts/*.sass", "app/styles/sass/app.sass"])
-    .pipe($.sass().on("error", sass.logError))
-    .pipe(gulp.dest("dist/styles/"));
-});
+
 
 gulp.task(
   "lint",
@@ -203,7 +200,7 @@ gulp.task("build", cb => {
   runSequence(
     "lint",
     "clean",
-    ["sass", "html", "images", "extras"],
+    [ "html", "images", "extras"],
     "babel",
     "chromeManifest",
     "size",

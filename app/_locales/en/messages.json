@@ -1,20 +1,18 @@
-
-
-
-
 {
   "appName": {
     "message": "OpenDyslexic Font for Chrome",
     "description": "Format pages using the OpenDyslexic font and low contrast help."
   },
-
-  "appTitle":{
+  "appTitle": {
     "message": "OpenDyslexic",
     "description": "Format pages using the OpenDyslexic font and low contrast help."
   },
   "appDescription": {
     "message": "OpenDyslexic Font for Chrome",
     "description": "Format pages using the OpenDyslexic font and low contrast help."
+  },
+  "options": {
+    "message": "Options"
   },
   "settings": {
     "message": "Settings"
@@ -23,7 +21,7 @@
     "message": "Selected Font to use."
   },
   "enableFontLabel": {
-    "message": "Enable Font"
+    "message": "Enable"
   },
   "googleDocsLabel": {
     "message": "Google Docs"
@@ -39,7 +37,7 @@
   },
   "fontColorTooltip": {
     "message": "Change the font color."
-  }  ,
+  },
   "backgroundColorLabel": {
     "message": "Background"
   },
@@ -48,6 +46,57 @@
   },
   "personalSetting": {
     "message": "Personal"
+  },
+
+  "socialSetting": {
+    "message": "Social"
+  },
+  "codeSetting": {
+    "message": "Source Code"
+  },
+
+
+
+  "followDyslexic": {
+    "message": "Follow OpenDyslexic"
+  },
+
+  "followDyslexicToolTip": {
+    "message": "Follow OpenDyslexic on Twitter"
+  },
+
+
+  "followAbbie": {
+    "message": "Support Abbie Gonzalez"
+  },
+
+  "followAbbieToolTip": {
+    "message": "Support Abbie Gonzalez the creator of OpenDyslexic"
+  },
+
+
+
+
+  "followRobertJames": {
+    "message": "Support Robert James"
+  },
+
+  "followRobertJamesToolTip": {
+    "message": "Support the maintainer of this app."
+  },
+  "whatsNew": {
+    "message": "What`s new"
+  },
+
+  "firefox": {
+    "message": "Firefox Version"
+  },
+  "firefoxText": {
+    "message": "Source Code"
+  },
+
+  "codeSettingToolTip": {
+    "message": "Want to hack, build or improve the app?"
   },
   "textToSpeechLabel": {
     "message": "Text to Speech"
@@ -67,6 +116,18 @@
   "supportlSetting": {
     "message": "Support"
   },
+
+  "supportToolTipTwo": {
+    "message": "Having an issue? Contact support."
+  },
+
+  "reviews": {
+    "message": "Reviews"
+  },
+
+  "supportToolTip": {
+    "message": "Leave or read reviews"
+  },
   "websiteLabel": {
     "message": "Website"
   },
@@ -85,25 +146,25 @@
   "trialOverTwo": {
     "message": "Upgrade for only 2.99"
   },
-  "saved":{
+  "saved": {
     "message": "Saved"
   },
-  "backgroundColorMessage":{
+  "backgroundColorMessage": {
     "message": "Background color saved."
   },
-  "fontColorMessage":{
+  "fontColorMessage": {
     "message": "Font color saved."
   },
-  "blacklistMessage":{
+  "blacklistMessage": {
     "message": "Blacklist saved."
   },
-  "reloadingMessage":{
+  "reloadingMessage": {
     "message": "Refreshing page."
   },
-  "googleDocsMessageOn":{
+  "googleDocsMessageOn": {
     "message": "Google Docs supported on."
   },
-  "googleDocsMessageOff":{
+  "googleDocsMessageOff": {
     "message": "Google Docs supported off."
   }
 }

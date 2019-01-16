@@ -1,3 +1,4 @@
+
 <template>
   <div class="viewport">
 
@@ -5,39 +6,51 @@
       <div class="md-title" style="flex: 1">{{ $i18n('appTitle') }}</div>
     </md-toolbar>
 
+
+    <!-- Enable font -->
     <md-list>
-      <md-subheader class="md-accent">{{ $i18n('settings') }}</md-subheader>
-
-      <md-list-item  md-expand>
-            <md-icon>help</md-icon>
-            <span class="md-list-item-text">Font</span>
-             <md-list slot="md-expand">
-               <md-list-item class="md-inset">
-                <md-field>
-                  <label for="font">{{ $i18n('selectedFontLabel') }}</label>
-                  <md-select v-model="font" @md-closed="fontChanged">
-                    <md-option value="opendyslexic">OpenDyslexic</md-option>
-                  </md-select>
-                </md-field>
-               </md-list-item>
-             </md-list>
+      <md-subheader class="md-accent">{{ $i18n('options') }}</md-subheader>
+      <md-list-item>
+        <md-icon>create</md-icon>
+        <span class="md-list-item-text"> {{ $i18n('enableFontLabel') }}</span>
+        <div class="md-list-item">
+          <md-switch v-model="enable" @change="enableDyslexica"></md-switch>
+        </div>
       </md-list-item>
-
     </md-list>
 
 
+    <!-- Enable font -->
+    <md-list>
+      <md-subheader class="md-accent">{{ $i18n('settings') }}</md-subheader>
+      <md-list-item md-expand>
+        <md-icon>create</md-icon>
+        <span class="md-list-item-text">Font</span>
+        <md-list slot="md-expand">
+          <md-list-item class="md-inset">
+            <md-field>
+              <label for="font">{{ $i18n('selectedFontLabel') }}</label>
+              <md-select v-model="font" @md-closed="fontChanged">
+                <md-option value="opendyslexic">OpenDyslexic</md-option>
+              </md-select>
+            </md-field>
+          </md-list-item>
+        </md-list>
+      </md-list-item>
+    </md-list>
 
+
+    <!-- Support section -->
     <md-list>
       <md-list-item md-expand>
         <md-icon>help</md-icon>
-        <span class="md-list-item-text">Support</span>
+        <span class="md-list-item-text">{{ $i18n('supportlSetting') }}</span>
         <md-list slot="md-expand">
           <md-list-item class="md-inset">
-
             <div class="md-list-item-text">
-              Reviews
+              {{ $i18n('reviews') }}
             </div>
-            <md-tooltip md-direction="top">Leave or read reviews</md-tooltip>
+            <md-tooltip md-direction="top">{{ $i18n('supportToolTip') }}</md-tooltip>
             <div class="md-list-item">
               <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/reviews"
                 target="_blank">
@@ -45,12 +58,11 @@
               </a>
             </div>
           </md-list-item>
-
           <md-list-item class="md-inset">
             <div class="md-list-item-text">
-              Support
+              {{ $i18n('supportlSetting') }}
             </div>
-            <md-tooltip md-direction="top">Having an issue? Contact support.</md-tooltip>
+            <md-tooltip md-direction="top">{{ $i18n('supportToolTipTwo') }}</md-tooltip>
             <div class="md-list-item">
               <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/support"
                 target="_blank">
@@ -58,46 +70,46 @@
               </a>
             </div>
           </md-list-item>
-
           <md-list-item class="md-inset">
             <div class="md-list-item-text">
-              Firefox Version
+              {{ $i18n('codeSetting') }}
             </div>
-            <md-tooltip md-direction="top">Download the Firefox verison</md-tooltip>
+            <md-tooltip md-direction="top">{{ $i18n('codeSettingToolTip') }}</md-tooltip>
+            <div class="md-list-item">
+              <a href="https://github.com/OpenDyslexic/opendyslexic-chrome" target="_blank">
+                <md-icon>code</md-icon>
+              </a>
+            </div>
+          </md-list-item>
+          <md-list-item class="md-inset">
+            <div class="md-list-item-text">
+              {{ $i18n('firefox') }}
+            </div>
+            <md-tooltip md-direction="top">{{ $i18n('firefoxText') }}</md-tooltip>
             <div class="md-list-item">
               <a href="https://addons.mozilla.org/en-US/firefox/addon/opendyslexic-for-firefox/" target="_blank">
                 <md-icon>extension</md-icon>
               </a>
             </div>
           </md-list-item>
-
         </md-list>
-
-
-
-
-
       </md-list-item>
     </md-list>
 
 
-
-
-
-
+    <!-- Social Media section -->
     <md-list>
-
       <md-list-item md-expand>
         <md-icon>person_add</md-icon>
-        <span class="md-list-item-text">Social</span>
+        <span class="md-list-item-text">{{ $i18n('socialSetting') }}</span>
 
         <md-list slot="md-expand">
           <md-list-item class="md-inset">
 
             <div class="md-list-item-text">
-              Follow OpenDyslexic
+              {{ $i18n('followDyslexic') }}
             </div>
-            <md-tooltip md-direction="top">Follow OpenDyslexic on Twitter</md-tooltip>
+            <md-tooltip md-direction="top">{{ $i18n('followDyslexicToolTip') }}</md-tooltip>
             <div class="md-list-item">
               <a href="https://twitter.com/OpenDyslexic" target="_blank">
                 <md-icon>person_add</md-icon>
@@ -106,20 +118,20 @@
           </md-list-item>
           <md-list-item class="md-inset">
             <div class="md-list-item-text">
-              Follow Abbie Gonzalez
+              {{ $i18n('followAbbieToolTip') }}
             </div>
-            <md-tooltip md-direction="top">Follow Abbie Gonzalez</md-tooltip>
+            <md-tooltip md-direction="top">{{ $i18n('followAbbieToolTip') }}</md-tooltip>
             <div class="md-list-item">
-              <a href="https://twitter.com/Antijingoist" target="_blank">
+              <a href="https://www.patreon.com/opendyslexic" target="_blank">
                 <md-icon>person_add</md-icon>
               </a>
             </div>
           </md-list-item>
           <md-list-item class="md-inset">
             <div class="md-list-item-text">
-              Follow Robert James
+              {{ $i18n('followRobertJames') }}
             </div>
-            <md-tooltip md-direction="top">Follow maintainer</md-tooltip>
+            <md-tooltip md-direction="top">{{ $i18n('followRobertJamesToolTip') }}</md-tooltip>
             <div class="md-list-item">
               <a href="https://twitter.com/robertjgabriel" target="_blank">
                 <md-icon>person_add</md-icon>
@@ -131,21 +143,22 @@
     </md-list>
 
 
-
+    <!-- Update Section -->
     <md-list>
       <md-list-item md-expand>
-        <md-icon>new_releases</md-icon>
-        <span class="md-list-item-text">What`s new</span>
+        <md-icon>whatshot</md-icon>
+        <span class="md-list-item-text">  {{ $i18n('whatsNew') }}</span>
         <md-list slot="md-expand">
-          <md-list-item class="md-inset">
-
-
+          <md-list-item>
             <div class="md-list-item">
-fjfljkfkljfjklflkjfjkljkl
+              <ul>
+                <li>Version 7.0.0</li>
+                <li>Updated Design.</li>
+                <li>Rewritten to Vue.js</li>
+                <li>Support Feature</li>
+              </ul>
             </div>
           </md-list-item>
-
-
         </md-list>
       </md-list-item>
     </md-list>
@@ -169,7 +182,7 @@ fjfljkfkljfjklflkjfjkljkl
       return {
         paid: true,
         enable: null,
-        font: null,
+        font: 'opendyslexic',
         duration: 3000,
         showSnackbar: false,
         popupMessage: '',

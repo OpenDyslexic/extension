@@ -26,7 +26,7 @@ const openDyslexic = {
           }
 
           if( enabled === true){
-            openDyslexic.enableOpenDyslexic(docs, defaultFont);
+            openDyslexic.enableOpenDyslexic(defaultFont);
           }
 
           if(enabled === false){
@@ -44,13 +44,13 @@ const openDyslexic = {
           openDyslexic.reloadPage();
       }
   },
-  enableOpenDyslexic(paid, defaultFont) {
+  enableOpenDyslexic(defaultFont) {
       let style = document.createElement('link');
       style.rel = 'stylesheet';
       style.type = 'text/css';
       style.setAttribute('id', 'opendyslexic');
   
-          style.href = chrome.extension.getURL(`styles/${defaultFont.toLowerCase()}.min.css`);
+          style.href = chrome.extension.getURL(`styles/core/${defaultFont.toLowerCase()}.css`);
 
       document.head.appendChild(style);
       openDyslexic.reloadPage();
