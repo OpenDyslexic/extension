@@ -3,55 +3,58 @@ body {
   min-width: 310px;
   overflow: auto;
   width: 310px;
+  max-height: 350px;
+  min-height: 350px;
+  height: 350px;
   background-color: #fff;
 }
 
-
-
 @font-face {
   font-family: "opendyslexic";
-  src: url("/fonts/opendyslexic/OpenDyslexic-Regular.otf");
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexic-Regular.otf");
   font-style: normal;
   font-weight: normal;
 }
-
 @font-face {
   font-family: "opendyslexic";
-  src: url("/fonts/opendyslexic/OpenDyslexic-Italic.otf");
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexic-Italic.otf");
   font-style: italic;
   font-weight: normal;
 }
-
 @font-face {
   font-family: "opendyslexic";
-  src: url("/fonts/opendyslexic/OpenDyslexic-Bold.otf");
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexic-Bold.otf");
   font-weight: bold;
   font-style: normal;
 }
-
 @font-face {
   font-family: "opendyslexic";
-  src: url("/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf");
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf");
   font-weight: bold;
   font-style: italic;
 }
-
 @font-face {
   font-family: "opendyslexicmono";
-  src: url("/fonts/opendyslexic/OpenDyslexicMono-Regular.otf");
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexicMono-Regular.otf");
   font-weight: normal;
   font-style: normal;
 }
+:root {
+  --opendyslexic-chrome-sans: opendyslexic, Elusive-Icons, FontAwesome, "Glyphicons Halflings", sans-serif;
+  --opendyslexic-chrome-mono: opendyslexicmono, Elusive-Icons, FontAwesome, "Glyphicons Halflings", monospace;
+}
 
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/icons/MaterialIcons-Regular.eot');
-  /* For IE6-8 */
-  src: local('Material Icons'),
-    local('MaterialIcons-Regular'),
-    url('/fonts/icons/MaterialIcons-Regular.woff2') format('woff2'),
-    url('/fonts/icons/MaterialIcons-Regular.woff') format('woff'),
-    url('/fonts/icons/MaterialIcons-Regular.ttf') format('truetype');
+
+.md-title {
+  font-family: var(--opendyslexic-chrome-sans) !important;
+  line-height: 150%;
+}
+
+.md-theme-default{
+background-color: transparent !important;
+}
+
+.md-snackbar .md-theme-default, .md-snackbar.md-theme-default{
+color: #fff !important;
+background-color: black !important;
 }

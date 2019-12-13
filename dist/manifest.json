@@ -1,8 +1,9 @@
 {
 	"name": "__MSG_appName__",
-	"version": "7.0.3",
+	"version": "8.0.1",
 	"manifest_version": 2,
 	"description": "__MSG_appDescription__",
+	"homepage_url": "http://opendyslexic.org",
 	"icons": {
 		"128": "images/icons/icon-128.png"
 	},
@@ -15,6 +16,15 @@
 		"scripts": [
 			"scripts/background.js"
 		]
+	},
+	"commands": {
+		"toggle-feature-foo": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+5"
+			},
+			"description": "Toggle feature foo",
+			"global": true
+		}
 	},
 	"permissions": [
 		"tabs",
@@ -33,6 +43,9 @@
 			],
 			"js": [
 				"scripts/background.js"
+			],
+			"exclude_globs": [
+				"*://docs.google.com/*"
 			],
 			"all_frames": true
 		}
