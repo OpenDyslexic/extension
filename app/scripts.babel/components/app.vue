@@ -1,81 +1,76 @@
 <template>
   <div class="viewport">
+    <md-app>
+      <md-app-toolbar>
+        <md-button class="md-icon-button" @click="menuVisible = !menuVisible">
+          <md-icon>menu</md-icon>
+        </md-button>
+        <div class="md-title" style="flex: 1">{{ $i18n('appTitle') }}</div>
+      </md-app-toolbar>
 
-    <md-toolbar md-elevation="0">
-      <div class="md-title" style="flex: 1">{{ $i18n('appTitle') }}</div>
-    </md-toolbar>
 
-
-    <!-- Enable font -->
-    <md-list>
-      <md-subheader class="md-accent">{{ $i18n('options') }}</md-subheader>
-      <md-list-item>
-        <span class="md-list-item-text"> {{ $i18n('enableFontLabel') }}</span>
-        <div class="md-list-item">
-          <md-switch v-model="enable" @change="enableDyslexica"></md-switch>
-        </div>
-      </md-list-item>
-    </md-list>
+      <md-app-drawer :md-active.sync="menuVisible">
+        <md-toolbar class="md-title" style="flex: 1" md-elevation="0"> {{ $i18n('appTitle') }}</md-toolbar>
 
 
 
-    <!-- Support section -->
 
-    <md-list>
-      <md-subheader class="md-accent">{{ $i18n('supportlSetting') }}</md-subheader>
-      <md-list-item >
-        <div class="md-list-item-text">
-          <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/reviews"
-            target="_blank">
-            {{ $i18n('reviews') }}
-          </a>
-        </div>
-        <md-tooltip md-direction="top">{{ $i18n('supportToolTip') }}</md-tooltip>
-        <div class="md-list-item">
-          <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/reviews"
-            target="_blank">
-            <md-icon>rate_review</md-icon>
-          </a>
-        </div>
-      </md-list-item>
-      <md-list-item >
-        <div class="md-list-item-text">
-          <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/support"
-            target="_blank">
-            {{ $i18n('supportlSetting') }}
-          </a>
-        </div>
-        <md-tooltip md-direction="top">{{ $i18n('supportToolTipTwo') }}</md-tooltip>
-        <div class="md-list-item">
-          <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/support"
-            target="_blank">
-            <md-icon>help</md-icon>
-          </a>
-        </div>
-      </md-list-item>
-      <md-list-item >
-        <div class="md-list-item-text">
-          <a href="https://github.com/OpenDyslexic/opendyslexic-chrome" target="_blank">
-            {{ $i18n('codeSetting') }}
-          </a>
-        </div>
-        <md-tooltip md-direction="top">{{ $i18n('codeSettingToolTip') }}</md-tooltip>
-        <div class="md-list-item">
-          <a href="https://github.com/OpenDyslexic/opendyslexic-chrome" target="_blank">
-            <md-icon>code</md-icon>
-          </a>
-        </div>
-      </md-list-item>
+        <!-- Support section -->
 
-    </md-list>
+        <md-list>
+          <md-subheader class="md-accent">{{ $i18n('supportlSetting') }}</md-subheader>
+          <md-list-item>
+            <div class="md-list-item-text">
+              <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/reviews"
+                target="_blank">
+                {{ $i18n('reviews') }}
+              </a>
+            </div>
+            <md-tooltip md-direction="top">{{ $i18n('supportToolTip') }}</md-tooltip>
+            <div class="md-list-item">
+              <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/reviews"
+                target="_blank">
+                <md-icon>rate_review</md-icon>
+              </a>
+            </div>
+          </md-list-item>
+
+          <md-list-item>
+            <div class="md-list-item-text">
+              <a href="http://opendyslexic.com/"
+                target="_blank">
+                {{ $i18n('websiteLabel') }}
+              </a>
+            </div>
+  
+            <div class="md-list-item">
+              <a href="http://opendyslexic.com/"
+                target="_blank">
+                <md-icon>rate_review</md-icon>
+              </a>
+            </div>
+          </md-list-item>
+          <md-list-item>
+            <div class="md-list-item-text">
+              <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/support"
+                target="_blank">
+                {{ $i18n('supportlSetting') }}
+              </a>
+            </div>
+            <md-tooltip md-direction="top">{{ $i18n('supportToolTipTwo') }}</md-tooltip>
+            <div class="md-list-item">
+              <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/support"
+                target="_blank">
+                <md-icon>help</md-icon>
+              </a>
+            </div>
+          </md-list-item>
+        </md-list>
 
 
-    <!-- Social Media section -->
-    
-    
-    <md-list>
-      <md-subheader class="md-accent">{{ $i18n('socialSetting') }}</md-subheader>
-               <md-list-item >
+        <md-list>
+          <md-subheader class="md-accent">{{ $i18n('socialSetting') }}</md-subheader>
+          <md-list-item>
             <div class="md-list-item-text">
               <a href="https://twitter.com/OpenDyslexic" target="_blank">
                 {{ $i18n('followDyslexic') }}
@@ -88,7 +83,7 @@
               </a>
             </div>
           </md-list-item>
-          <md-list-item >
+          <md-list-item>
             <div class="md-list-item-text">
               <a href="https://www.patreon.com/opendyslexic" target="_blank">
                 {{ $i18n('followAbbie') }}
@@ -101,7 +96,7 @@
               </a>
             </div>
           </md-list-item>
-          <md-list-item >
+          <md-list-item>
             <div class="md-list-item-text">
               <a href="https://www.helperbird.com/" target="_blank">
                 {{ $i18n('followRobertJames') }}
@@ -114,15 +109,42 @@
               </a>
             </div>
           </md-list-item>
-    </md-list>
+        </md-list>
+
+      </md-app-drawer>
+
+      <md-app-content>
+        <md-content>
+          <!-- Enable font -->
+          <md-list>
+            <md-subheader class="md-accent">{{ $i18n('options') }}</md-subheader>
+            <md-list-item>
+              <span class="md-list-item-text"> {{ $i18n('enableFontLabel') }}</span>
+              <div class="md-list-item">
+                <md-switch v-model="enable" @change="enableDyslexica"></md-switch>
+              </div>
+            </md-list-item>
+          </md-list>
+
+          <md-list>
+            <md-subheader class="md-accent">{{ $i18n('comingSoon') }}</md-subheader>
+            <md-list-item>
+              <span class="md-list-item-text"> {{ $i18n('featureTint') }}</span>
+              <div class="md-list-item">
+                <md-switch disabled></md-switch>
+              </div>
+            </md-list-item>
+          </md-list>
 
 
-    
-    
-    
-    
-    
 
+        </md-content>
+
+
+      </md-app-content>
+
+
+    </md-app>
 
 
 
@@ -148,6 +170,7 @@
         duration: 3000,
         showSnackbar: false,
         popupMessage: '',
+        menuVisible: false,
       }
     },
     mounted: function () {
@@ -207,8 +230,21 @@
     display: inline-block;
     vertical-align: top;
     border: 1px solid rgba(#000, .12);
-    min-height: fit-content;
-    height: fit-content;
+    height: 500px;
+    background-color: #fafafa;
+  }
+
+  .md-drawer.md-temporary.md-left+.md-app-container .md-content,
+  .md-list.md-theme-default {
+    background-color: #fafafa;
+  }
+
+  .md-app {
+    height: 535px;
+  }
+
+  .md-drawer.md-temporary.md-active {
+    background-color: #fafafa;
   }
 
   .full-control {

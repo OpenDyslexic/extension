@@ -45,13 +45,15 @@ body {
 }
 
 
+
 .md-title {
   font-family: var(--opendyslexic-chrome-sans) !important;
   line-height: 150%;
 }
 
-.md-theme-default{
-background-color: transparent !important;
+body,html{
+
+  background-color: transparent;
 }
 
 .md-snackbar .md-theme-default, .md-snackbar.md-theme-default{

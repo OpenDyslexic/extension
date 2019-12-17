@@ -7,33 +7,10 @@ import 'material-icons/iconfont/material-icons.css';
 
 Vue.config.productionTip = false;
 
-import {
-  MdSwitch,
-  MdCard,
-  MdToolbar,
-  MdSubheader,
-  MdIcon,
-  MdDivider,
-  MdList,
-  MdField,
-  MdTooltip,
-  MdSnackbar,
-  MdMenu
-} from 'vue-material/dist/components';
+import VueMaterial from "vue-material";
 
 
-Vue.use(MdSwitch);
-Vue.use(MdToolbar);
-Vue.use(MdSubheader);
-Vue.use(MdIcon);
-Vue.use(MdDivider);
-Vue.use(MdList);
-Vue.use(MdCard);
-Vue.use(MdField);
-Vue.use(MdTooltip);
-Vue.use(MdSnackbar);
-Vue.use(MdMenu);
-
+Vue.use(VueMaterial);
 
 new Vue({
   el: '#app',
