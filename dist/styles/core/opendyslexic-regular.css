@@ -45,7 +45,7 @@ p:hover, li:hover {
   background-color: rgba(0, 0, 0, 0.09) !important;
 }
 
-p, a, h1, h2, h3, h4, h5, input, ul, span, font, strong, th, td {
+p, a, h1, h2, h3, h4, h5, input, ul, span, font, strong, th, td  {
   font-family: var(--opendyslexic-chrome-sans) !important;
   line-height: 150%;
 }
@@ -54,7 +54,7 @@ p, a, h1, h2, h3, h4, h5, input, ul, span, font, strong, th, td {
   font-family: var(--opendyslexic-chrome-sans);
 }
 
-pre, code {
+pre, code, pre *, code *  {
   font-family: var(--opendyslexic-chrome-mono) !important;
   line-height: 150%;
 }
