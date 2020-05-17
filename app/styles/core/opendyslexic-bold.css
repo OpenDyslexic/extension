@@ -32,7 +32,7 @@
     font-family: var(--opendyslexic-chrome-sans);
   }
   
-  pre, code {
+  pre, code, pre *, code *  {
     font-family: var(--opendyslexic-chrome-mono) !important;
     line-height: 150%;
   }
