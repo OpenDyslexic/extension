@@ -17,7 +17,7 @@
     "test": "jest",
     "build": "gulp && gulp",
     "package": "npm run build && gulp package",
-    "release": "git tag -a v8.0.1 -m 'Releasing version v9.0.1' && git push origin --tags && git push origin master"
+    "release": "git tag -a v10.0.1 -m 'Releasing version v10.0.1' && git push origin --tags && git push origin master"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.2.0",
