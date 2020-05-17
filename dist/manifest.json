@@ -28,11 +28,8 @@
 	},
 	"permissions": [
 		"tabs",
-		"*://*/*",
-		"http://*/*",
-		"https://*/*",
-		"<all_urls>",
-		"storage"
+		"storage",
+		"activeTab"
 	],
 	"content_scripts": [
 		{
@@ -57,6 +54,8 @@
 		"/fonts/opendyslexic/OpenDyslexic-Italic.otf",
 		"/fonts/opendyslexic/OpenDyslexic-Regular.otf",
 		"/fonts/opendyslexic/OpenDyslexicMono-Regular.otf",
-		"/styles/core/opendyslexic.css"
+		"/styles/core/opendyslexic-regular.css",
+		"/styles/core/opendyslexic-bold.css",
+		"/styles/core/opendyslexic-italic.css"
 	]
 }

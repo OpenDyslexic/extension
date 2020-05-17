@@ -9,12 +9,7 @@ let openDyslexic = {
     }
     return true;
   },
-  setEnable(token, type) {
-    let setting = {};
-    setting[token] = type;
-    chrome.storage.sync.set(setting);
-    return setting;
-  },
+
   checkStatus() {
 
     const keysArray = [
@@ -25,19 +20,32 @@ let openDyslexic = {
     chrome.storage.sync.get(keysArray, setting => {
 
       let enabled = setting.enabled;
-      let defaultFont = 'opendyslexic';
+      let defaultFont = 'opendyslexic-regular';
+try {
+  if (this.isEmpty(setting.font) === false) {
 
-      if (this.isEmpty(setting.font) === false) {
-        defaultFont = setting.font;
-      }
+    defaultFont = `opendyslexic-${setting.font.font}`;
+  }
 
-      if (enabled === true) {
-        openDyslexic.enableOpenDyslexic(defaultFont);
-      }
+  if (enabled === true) {
+    openDyslexic.enableOpenDyslexic(defaultFont);
+  }
 
-      if (enabled === false) {
-        openDyslexic.disableOpenDyslexic();
-      }
+  if (enabled === false) {
+    openDyslexic.disableOpenDyslexic();
+  }
+} catch (error) {
+  let defaultFont = 'opendyslexic-regular';
+
+  if (enabled === true) {
+    openDyslexic.enableOpenDyslexic(defaultFont);
+  }
+
+  if (enabled === false) {
+    openDyslexic.disableOpenDyslexic();
+  }
+}
+    
 
     });
   },
@@ -47,7 +55,7 @@ let openDyslexic = {
       elem.parentNode.removeChild(elem);
       (document.head || document.documentElement)
       .removeChild(elem);
-      openDyslexic.reloadPage();
+
     }
   },
   enableOpenDyslexic(defaultFont) {
@@ -59,21 +67,25 @@ let openDyslexic = {
     style.href = chrome.extension.getURL(`styles/core/${defaultFont.toLowerCase()}.css`);
 
     document.head.appendChild(style);
-    openDyslexic.reloadPage();
-  },
-  reloadPage() {
-    chrome.tabs.query({
-      active: true,
-      lastFocusedWindow: true
-    }, function (tabs) {
-      // and use that tab to fill in out title and url
-      const currentTab = tabs[0];
-      const script = 'window.location.reload();';
-      chrome.tabs.executeScript(currentTab.id, {
-        code: script
-      });
-    });
+
   }
 };
 
 openDyslexic.init();
+
+
+
+
+chrome.runtime.onMessage.addListener(({
+  message
+}, sender, sendResponse) => {
+
+
+  if (message === 'reload') {
+    location.reload();
+  }
+
+  sendResponse({});
+
+  return true;
+});
