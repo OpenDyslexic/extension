@@ -98,6 +98,7 @@
     "vue-plugin-webextension-i18n": "^0.1.2",
     "vue-resource": "^1.5.1",
     "vue-ripple-directive": "^2.0.1",
+    "vue-select": "^3.10.3",
     "vue-spinner": "^1.0.3",
     "webpack-stream": "^5.1.1"
   }
