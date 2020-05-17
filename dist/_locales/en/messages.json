@@ -84,6 +84,9 @@
   "firefoxText": {
     "message": "Use Firefox? Download it today."
   },
+  "title_fonts":{
+    "message":"Fonts"
+  },
   "supportlSetting": {
     "message": "Support"
   },
@@ -98,6 +101,9 @@
 
   "reviews": {
     "message": "Reviews"
+  },
+  "style": {
+    "message": "Style"
   },
 
   "supportToolTip": {

@@ -192,7 +192,7 @@ gulp.task("package", () => {
   const manifest = require("./dist/manifest.json");
   return gulp
     .src("dist/**")
-    .pipe($.zip("chrome markdown-editor-" + manifest.version + ".zip"))
+    .pipe($.zip("opendyslexic-" + manifest.version + ".zip"))
     .pipe(gulp.dest("package"));
 });
 

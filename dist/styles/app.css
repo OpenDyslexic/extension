@@ -5,7 +5,7 @@ body {
   width: 310px;
   max-height: 350px;
   min-height: 350px;
-  height: 350px;
+  height: 450px;
   background-color: #fff;
 }
 
@@ -15,30 +15,35 @@ body {
   font-style: normal;
   font-weight: normal;
 }
+
 @font-face {
   font-family: "opendyslexic";
   src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexic-Italic.otf");
   font-style: italic;
   font-weight: normal;
 }
+
 @font-face {
   font-family: "opendyslexic";
   src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexic-Bold.otf");
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "opendyslexic";
   src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf");
   font-weight: bold;
   font-style: italic;
 }
+
 @font-face {
   font-family: "opendyslexicmono";
   src: url("chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexicMono-Regular.otf");
   font-weight: normal;
   font-style: normal;
 }
+
 :root {
   --opendyslexic-chrome-sans: opendyslexic, Elusive-Icons, FontAwesome, "Glyphicons Halflings", sans-serif;
   --opendyslexic-chrome-mono: opendyslexicmono, Elusive-Icons, FontAwesome, "Glyphicons Halflings", monospace;
@@ -51,12 +56,14 @@ body {
   line-height: 150%;
 }
 
-body,html{
+body,
+html {
 
   background-color: transparent;
 }
 
-.md-snackbar .md-theme-default, .md-snackbar.md-theme-default{
-color: #fff !important;
-background-color: black !important;
+.md-snackbar .md-theme-default,
+.md-snackbar.md-theme-default {
+  color: #fff !important;
+  background-color: black !important;
 }
