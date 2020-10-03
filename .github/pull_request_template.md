@@ -1,5 +1,3 @@
-![alt text](.giihub/readme.png "OpenDyslexia Logo")
-
 ## About
 A few sentences describing the overall goals of the pull request's commits.
 
@@ -8,8 +6,6 @@ A few sentences describing the overall goals of the pull request's commits.
 
 - [ ] Wrote documentation on this page
 - [ ] Formated code
-
-
 
 
 ## Impacted Areas in Application
