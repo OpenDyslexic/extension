@@ -14,8 +14,6 @@
         <md-toolbar class="md-title" style="flex: 1" md-elevation="0"> {{ $i18n('appTitle') }}</md-toolbar>
 
 
-
-
         <!-- Support section -->
 
         <md-list>
@@ -109,18 +107,15 @@
               </div>
             </md-list-item>
 
-
-
-
             <md-list-item>
-              <div class="md-list-item width-222">
+              <div class="md-list-item full_width">
 
                 <div class="md-list-item-text title topper">{{ $i18n("title_fonts") }}</div>
                 <v-select label="title" searchable=searchable clearable=clearable append-to-body v-bind:options="fonts"
                   v-model="font">
                 </v-select>
 
-                <div class="md-list-item width-222 topper">
+                <div class="md-list-item full_width topper">
                   <md-button class="md-raised md-primary button-right" @click="fontChanged"
                     :disabled='enable? false : true'>
                     Save
@@ -159,10 +154,9 @@
   import vSelect from 'vue-select'
   import i18n from 'vue-plugin-webextension-i18n';
   Vue.use(i18n);
-  module.exports = {
+  export default {
     data: function () {
       return {
-        paid: true,
         enable: null,
         font: 'opendyslexic',
         duration: 3000,
@@ -200,7 +194,6 @@
     },
     methods: {
       fontChanged: function () {
-
         this.save('font', this.font);
       },
       save: function (token, type) {
@@ -246,7 +239,7 @@
               message: 'reload'
             },
             function (response) {
-              // console.log(response);
+
             }
           );
         });
@@ -257,8 +250,6 @@
     }
   }
 </script>
-
-
 
 
 <style scoped>
@@ -318,7 +309,7 @@
     padding: 16px 0px;
   }
 
-  .width-222 {
+  .full_width {
     width: 249px;
   }
 

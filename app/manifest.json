@@ -1,6 +1,6 @@
 {
   "name": "__MSG_appName__",
-  "version": "10.0.2",
+  "version": "11.0.0",
   "manifest_version": 2,
   "description": "__MSG_appDescription__",
   "homepage_url": "https://opendyslexic.org",
@@ -12,25 +12,20 @@
     "default_popup": "index.html"
   },
   "default_locale": "en",
-  "background": {
-    "scripts": [
-      "scripts/background.js"
-    ]
-  },
   "commands": {
 
     "toggle-feature-foo": {
       "suggested_key": {
         "default": "Ctrl+Shift+5"
       },
-      "description": "Toggle feature foo",
+      "description": "Toggle feature",
       "global": true
     }
   },
   "permissions": ["tabs","storage",		"activeTab"],
   "content_scripts": [{
     "matches": ["http://*/*", "https://*/*", "file:///*/*"],
-    "js": ["scripts/background.js"],
+    "js": ["scripts/content.js"],
     "exclude_globs": ["*://docs.google.com/*"],
     "all_frames": true
 
