@@ -45,8 +45,8 @@ body {
 }
 
 :root {
-  --opendyslexic-chrome-sans: opendyslexic, Elusive-Icons, FontAwesome, "Glyphicons Halflings", sans-serif;
-  --opendyslexic-chrome-mono: opendyslexicmono, Elusive-Icons, FontAwesome, "Glyphicons Halflings", monospace;
+  --opendyslexic-chrome-sans: opendyslexic, Elusive-Icons, FontAwesome, "Font Awesome 5 Free", "Glyphicons Halflings", sans-serif;
+  --opendyslexic-chrome-mono: opendyslexicmono, Elusive-Icons, FontAwesome, "Font Awesome 5 Free", "Glyphicons Halflings", monospace;
 }
 
 
