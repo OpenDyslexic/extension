@@ -6,8 +6,8 @@
   }
 
   :root {
-    --opendyslexic-chrome-sans: opendyslexic, Elusive-Icons, FontAwesome, "Glyphicons Halflings", sans-serif;
-    --opendyslexic-chrome-mono: opendyslexicmono, Elusive-Icons, FontAwesome, "Glyphicons Halflings", monospace;
+    --opendyslexic-chrome-sans: opendyslexic, Elusive-Icons, FontAwesome, "Glyphicons Halflings", sans-seri, docons, "AzureDevOpsMDL2Assets"f;
+    --opendyslexic-chrome-mono: opendyslexicmono, Elusive-Icons, FontAwesome, "Glyphicons Halflings", monospace, docons, "AzureDevOpsMDL2Assets";
   }
   
   html {
