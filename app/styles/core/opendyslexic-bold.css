@@ -7,8 +7,8 @@
   }
 
   :root {
-    --opendyslexic-chrome-sans: opendyslexic, Elusive-Icons, FontAwesome, "Glyphicons Halflings", sans-serif;
-    --opendyslexic-chrome-mono: opendyslexicmono, Elusive-Icons, FontAwesome, "Glyphicons Halflings", monospace;
+    --opendyslexic-chrome-sans: opendyslexic, Elusive-Icons, FontAwesome, "Glyphicons Halflings", sans-serif, docons, "AzureDevOpsMDL2Assets", trellicons, "Material Icons Extended", 'Bol Symbols', Graphik, controlIcons, FontAwesome3;
+    --opendyslexic-chrome-mono: opendyslexicmono, Elusive-Icons, FontAwesome, "Glyphicons Halflings", monospace, docons, "AzureDevOpsMDL2Assets", trellicons, "Material Icons Extended", 'Bol Symbols', Graphik, controlIcons, FontAwesome3;
   }
   
   html {
