@@ -1,22 +1,26 @@
 import Vue from 'vue';
 import App from './components/app.vue';
-
-import 'vue-material/dist/vue-material.min.css';
-import 'vue-material/dist/theme/default.css';
-import 'material-icons/iconfont/material-icons.css';
-import '../styles/app.css';
-
+import { Notyf } from 'notyf';
+import i18n from 'vue-plugin-webextension-i18n';
+import 'vue-select/dist/vue-select.css';
+import 'notyf/notyf.min.css'; // for React, Vue and Svelte
+import 'vue-select/dist/vue-select.css';
+Vue.use(i18n);
 Vue.config.productionTip = false;
 
-import VueMaterial from "vue-material";
-
-
-Vue.use(VueMaterial);
-
 new Vue({
-  el: '#app',
-  components: {
-    App
-  },
-  template: '<App/>'
+	provide: () => {
+		return {
+			notyf: new Notyf({
+				duration: 2000,
+				dismissible: true,
+				position: {
+					x: 'right',
+					y: 'bottom'
+				}
+			})
+		};
+	},
+	el: '#app',
+	render: (h) => h(App)
 });

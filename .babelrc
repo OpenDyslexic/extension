@@ -1,17 +1,13 @@
 {
-  "presets": [
-      [
-          "@babel/preset-env",
-          {
-              "targets": {
-                  "browsers": [
-                      "last 2 Chrome versions"
-                  ]
-              }
-          }
-      ]
-  ],
-  "plugins": [
-      "@babel/plugin-proposal-optional-chaining"
-  ]
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+				"targets": {
+					"browsers": ["last 2 Chrome versions"]
+				}
+			}
+		]
+	],
+	"plugins": ["@babel/plugin-proposal-optional-chaining"]
 }

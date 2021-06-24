@@ -1,0 +1,4 @@
+{
+	"plugins": ["vuejs-accessibility"],
+	"extends": ["plugin:vuejs-accessibility/recommended"]
+}

@@ -1,335 +1,368 @@
 <template>
-  <div class="viewport">
-    <md-app>
-      <md-app-toolbar>
+	<div class="h-full w-full bg-base-200" style="width: 350px">
+		<div class="navbar mb-2 text-neutral-content bg-base-300">
+			<div class="flex-1 px-2 lg:flex-none">
+				<a class="text-lg font-bold">
+					{{ $i18n('appTitle') }}
+				</a>
+			</div>
+			<div class="flex justify-end flex-1 px-2">
+				<div class="flex items-stretch">
+					<div class="dropdown dropdown-end">
+						<div tabindex="0" class="btn btn-ghost rounded-btn">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="inline-block w-6 h-6 stroke-current"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+								/>
+							</svg>
+						</div>
+						<ul
+							class="
+								shadow
+								menu
+								dropdown-content
+								bg-base-100
+								rounded-box
+								w-56
+							"
+						>
+							<li>
+								<a
+									class="
+										block
+										px-4
+										py-2
+										text-sm text-base-content
+										hover:bg-base-200
+										button_strech
+									"
+									href="https://www.opendyslexic.com"
+									target="_blank"
+								>
+									Discover OpenDyslexic
+								</a>
+							</li>
 
-        <div class="md-title" style="flex: 1">{{ $i18n('appTitle') }}</div>
-        <md-button class="md-icon-button" @click="menuVisible = !menuVisible">
-          <md-icon>menu</md-icon>
-        </md-button>
-      </md-app-toolbar>
+							<li>
+								<a
+									class="
+										block
+										px-4
+										py-2
+										text-sm text-base-content
+										hover:bg-base-200
+										button_strech
+									"
+									href="https://www.helperbird.com"
+									target="_blank"
+								>
+									Discover Helperbird
+								</a>
+							</li>
+						</ul>
+					</div>
 
+					<div class="dropdown dropdown-end">
+						<div tabindex="0" class="btn btn-ghost rounded-btn">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="inline-block w-6 h-6 stroke-current"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M4 6h16M4 12h16m-7 6h7"
+								/>
+							</svg>
+						</div>
+						<ul
+							class="
+								shadow
+								menu
+								dropdown-content
+								bg-base-100
+								rounded-box
+								w-56
+							"
+						>
+							<li>
+								<a
+									class="
+										block
+										px-4
+										py-2
+										text-sm text-base-content
+										hover:bg-base-200
+										button_strech
+									"
+									href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/review"
+									target="_blank"
+								>
+									{{ $i18n('review') }}
+								</a>
+							</li>
 
-      <md-app-drawer :md-active.sync="menuVisible">
-        <md-toolbar class="md-title" style="flex: 1" md-elevation="0"> {{ $i18n('appTitle') }}</md-toolbar>
+							<li>
+								<a
+									class="
+										block
+										px-4
+										py-2
+										text-sm text-base-content
+										hover:bg-base-200
+										button_strech
+									"
+									href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/support"
+									target="_blank"
+								>
+									{{ $i18n('supportlSetting') }}
+								</a>
+							</li>
 
+							<li>
+								<a
+									class="
+										block
+										px-4
+										py-2
+										text-sm text-base-content
+										hover:bg-base-200
+										button_strech
+									"
+									href="https://twitter.com/OpenDyslexic"
+									target="_blank"
+								>
+									{{ $i18n('followDyslexic') }}
+								</a>
+							</li>
 
-        <!-- Support section -->
+							<li>
+								<a
+									class="
+										block
+										px-4
+										py-2
+										text-sm text-base-content
+										hover:bg-base-200
+										button_strech
+									"
+									href="https://www.patreon.com/opendyslexic"
+									target="_blank"
+								>
+									{{ $i18n('followAbbie') }}
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <md-list>
-          <md-subheader class="md-accent">{{ $i18n('supportlSetting') }}</md-subheader>
+		<main class="p-4">
+			<div class="card shadow-lg bordered mb-4 bg-base-100">
+				<div class="flex-row card-body">
+					<label class="flex-1">
+						<div class="flex-1">
+							<h2 class="card-title">{{
+								$i18n('title_fonts')
+							}}</h2>
+						</div>
+						<div>
+							<v-select
+								label="title"
+								:searchable="searchable"
+								:clearable="clearable"
+								class="
+									input
+									style-chooser
+									input-borded
+									text-base-content
+									px-0
+									border
+									select-lg
+								"
+								append-to-body
+								v-bind:options="fonts"
+								@input="enableDyslexica"
+								v-model="font"
+							>
+							</v-select></div
+					></label>
+				</div>
+			</div>
 
-
-          <md-list-item>
-            <div class="md-list-item-text">
-              <a href="http://opendyslexic.com/" target="_blank">
-                {{ $i18n('websiteLabel') }}
-              </a>
-            </div>
-
-            <div class="md-list-item">
-              <a href="http://opendyslexic.com/" target="_blank">
-                <md-icon>rate_review</md-icon>
-              </a>
-            </div>
-          </md-list-item>
-          <md-list-item>
-            <div class="md-list-item-text">
-              <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/support"
-                target="_blank">
-                {{ $i18n('supportlSetting') }}
-              </a>
-            </div>
-
-            <div class="md-list-item">
-              <a href="https://chrome.google.com/webstore/detail/opendyslexic-font-for-chr/cdnapgfjopgaggbmfgbiinmmbdcglnam/support"
-                target="_blank">
-                <md-icon>help</md-icon>
-              </a>
-            </div>
-          </md-list-item>
-        </md-list>
-
-
-        <md-list>
-          <md-subheader class="md-accent">{{ $i18n('socialSetting') }}</md-subheader>
-          <md-list-item>
-            <div class="md-list-item-text">
-              <a href="https://twitter.com/OpenDyslexic" target="_blank">
-                {{ $i18n('followDyslexic') }}
-              </a>
-            </div>
-
-            <div class="md-list-item">
-              <a href="https://twitter.com/OpenDyslexic" target="_blank">
-                <md-icon>person_add</md-icon>
-              </a>
-            </div>
-          </md-list-item>
-          <md-list-item>
-            <div class="md-list-item-text">
-              <a href="https://www.patreon.com/opendyslexic" target="_blank">
-                {{ $i18n('followAbbie') }}
-              </a>
-            </div>
-            <div class="md-list-item">
-              <a href="https://www.patreon.com/opendyslexic" target="_blank">
-                <md-icon>person_add</md-icon>
-              </a>
-            </div>
-          </md-list-item>
-          <md-list-item>
-            <div class="md-list-item-text">
-              <a href="https://twitter.com/RobertJGabriel" target="_blank">
-                {{ $i18n('followRobertJames') }}
-              </a>
-            </div>
-
-            <div class="md-list-item">
-              <a href="https://twitter.com/RobertJGabriel" target="_blank">
-                <md-icon>person_add</md-icon>
-              </a>
-            </div>
-          </md-list-item>
-        </md-list>
-
-      </md-app-drawer>
-
-      <md-app-content>
-        <md-content>
-          <!-- Enable font -->
-          <md-list>
-
-            <md-list-item>
-              <span class="md-list-item-text">{{ $i18n('enableFontLabel') }}</span>
-              <div class="md-list-item">
-                <md-switch v-model="enable" class="md-primary" @change="enableDyslexica"></md-switch>
-              </div>
-            </md-list-item>
-
-            <md-list-item>
-              <div class="md-list-item full_width">
-
-                <div class="md-list-item-text title topper">{{ $i18n("title_fonts") }}</div>
-                <v-select label="title" searchable=searchable clearable=clearable append-to-body v-bind:options="fonts"
-                  v-model="font">
-                </v-select>
-
-                <div class="md-list-item full_width topper">
-                  <md-button class="md-raised md-primary button-right" @click="fontChanged"
-                    :disabled='enable? false : true'>
-                    Save
-                  </md-button>
-
-                </div>
-              </div>
-
-            </md-list-item>
-
-          </md-list>
-
-
-
-        </md-content>
-
-
-      </md-app-content>
-
-
-    </md-app>
-
-
-
-    <md-snackbar :md-duration="duration" :md-active.sync="showSnackbar" v-html='popupMessage' md-persistent>
-    </md-snackbar>
-  </div>
-
-
+			<div class="card shadow-lg bordered bg-base-100">
+				<div class="card-body flex-row">
+					<div class="flex-1">
+						<h2 class="card-title m-0">
+							{{ enable ? $i18n('on') : $i18n('off') }}
+						</h2>
+					</div>
+					<label class="flex-0">
+						<div>
+							<input
+								type="checkbox"
+								checked="checked"
+								class="toggle toggle-secondary"
+								v-model="enable"
+								@change="enableDyslexica"
+							/>
+							<span class="toggle-mark"></span>
+						</div>
+					</label>
+				</div>
+			</div>
+		</main>
+	</div>
 </template>
 
 <script>
-  import Vue from 'vue';
-  import 'material-icons/iconfont/material-icons.css';
-  import 'vue-select/dist/vue-select.css';
-  import vSelect from 'vue-select'
-  import i18n from 'vue-plugin-webextension-i18n';
-  Vue.use(i18n);
-  export default {
-    data: function () {
-      return {
-        enable: null,
-        font: 'opendyslexic',
-        duration: 3000,
-        showSnackbar: false,
-        popupMessage: '',
-        menuVisible: false,
-        currentFont: null,
-        searchable: false,
-        clearable: false,
-        fonts: [{
-            title: "OpenDyslexic",
-            font: "regular"
-          },
-          {
-            title: "OpenDyslexic Bold",
-            font: "bold"
-          },
-          {
-            title: "OpenDyslexic Italic",
-            font: "italic"
-          }
-        ],
-      }
-    },
-    components: {
-      vSelect
-    },
-    mounted: function () {
-      const SETTING_KEYS = ['font', 'enabled'];
-      chrome.storage.sync.get(SETTING_KEYS, settings => {
-        this.enable = settings.enabled ? true : false;
-        this.font = settings.font ? settings.font : 'regular';
-        return this.enable;
-      });
-    },
-    methods: {
-      fontChanged: function () {
-        this.save('font', this.font);
-      },
-      save: function (token, type) {
-        let setting = {};
-        setting[token] = type;
-        chrome.storage.sync.set(setting);
-        this.reload();
-        return setting;
-      },
+	import vSelect from 'vue-select';
 
-      enableDyslexica: function () {
-        // Dont change the settings if its the same or no past
-        this.showSnackbar = true;
-        this.popupMessage = chrome.i18n.getMessage('saved');
+	import './index.css';
 
-        if (this.enable === true) {
-          chrome.browserAction.setBadgeBackgroundColor({
-            color: [236, 147, 104, 1]
-          });
-          chrome.browserAction.setBadgeText({
-            text: 'On'
-          });
-        } else {
-          chrome.browserAction.setBadgeText({
-            text: ''
-          });
-        }
+	export default {
+		inject: ['notyf'],
+		data: function () {
+			return {
+				enable: null,
+				font: 'opendyslexic',
+				duration: 3000,
+				showSnackbar: false,
+				popupMessage: '',
+				menuVisible: false,
+				currentFont: null,
+				searchable: false,
+				clearable: false,
+				fonts: [
+					{
+						title: 'OpenDyslexic',
+						font: 'regular'
+					},
+					{
+						title: 'OpenDyslexic Bold',
+						font: 'bold'
+					},
+					{
+						title: 'OpenDyslexic Italic',
+						font: 'italic'
+					}
+				]
+			};
+		},
+		components: {
+			vSelect
+		},
+		mounted: function () {
+			const SETTING_KEYS = ['font', 'enabled'];
+			chrome.storage.sync.get(SETTING_KEYS, (settings) => {
+				this.enable = settings.enabled ? true : false;
+				this.font = settings.font ? settings.font : 'regular';
+				return this.enable;
+			});
+		},
+		methods: {
+			fontChanged: function () {
+				this.save('font', this.font);
+			},
+			save: function (token, type) {
+				let setting = {};
+				setting[token] = type;
+				chrome.storage.sync.set(setting);
+				this.reload();
+				return setting;
+			},
+			snackbar: function (message, type = 'success') {
+				if (
+					message === undefined ||
+					message === '' ||
+					message === null
+				) {
+					message = 'Error';
+					type = 'error';
+				}
+				switch (type) {
+					case 'success':
+						this.notyf.success(message);
+						break;
+					case 'error':
+						this.notyf.error(message);
+						break;
+					default:
+						this.notyf.success(message);
+				}
+			},
+			enableDyslexica: function () {
+				// Dont change the settings if its the same or no past
 
-        this.save('enabled', this.enable);
-        this.reload();
-      },
-      reload: function () {
+				this.snackbar(chrome.i18n.getMessage('saved'), 'success');
+				if (this.enable === true) {
+					chrome.browserAction.setBadgeBackgroundColor({
+						color: [236, 147, 104, 1]
+					});
+					chrome.browserAction.setBadgeText({
+						text: 'On'
+					});
+				} else {
+					chrome.browserAction.setBadgeText({
+						text: ''
+					});
+				}
 
-
-        chrome.tabs.getSelected(null, function (tab) {
-          console.log(tab);
-          this.showSnackbar = true;
-          this.popupMessage = chrome.i18n.getMessage('reloadingMessage');
-          // and use that tab to fill in out title and url
-          const CURRENT_TAB = tab.id;
-          chrome.tabs.sendMessage(
-            CURRENT_TAB, {
-              message: 'reload'
-            },
-            function (response) {
-
-            }
-          );
-        });
-
-
-
-      }
-    }
-  }
+				this.save('enabled', this.enable);
+				this.reload();
+			},
+			reload: function () {
+				chrome.tabs.query(
+					{
+						active: true,
+						currentWindow: true
+					},
+					function (tabs) {
+						// and use that tab to fill in out title and url
+						const CURRENT_TAB = tabs[0].id;
+						chrome.tabs.sendMessage(
+							CURRENT_TAB,
+							{
+								message: 'reload'
+							},
+							function (response) {}
+						);
+					}
+				);
+			}
+		}
+	};
 </script>
 
+<style lang="css">
+	.style-chooser .vs__search::placeholder,
+	.style-chooser .vs__dropdown-toggle,
+	.style-chooser .vs__dropdown-menu {
+		height: 100%;
+		text-transform: lowercase;
+		font-variant: small-caps;
+	}
 
-<style scoped>
-  .viewport,
-  body {
-    width: 320px;
-    max-width: 100%;
-    display: inline-block;
-    vertical-align: top;
-    border: 1px solid rgba(#000, .12);
-    height: 450px;
-    background-color: #fafafa;
-  }
-
-  .md-drawer.md-temporary.md-left+.md-app-container .md-content,
-  .md-list.md-theme-default {
-    background-color: #fafafa;
-  }
-
-  .button-right {
-    float: right;
-  }
-
-  .md-app {
-    height: 450px;
-  }
-
-  .md-drawer.md-temporary.md-active {
-    background-color: #fafafa;
-  }
-
-  .full-control {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-  }
-
-  .list {
-    padding: 0 16px;
-  }
-
-  .full-control>.md-list {
-    width: 320px;
-    max-width: 100%;
-    height: 400px;
-    display: inline-block;
-    overflow: auto;
-    border: 1px solid rgba(#000, .12);
-    vertical-align: top;
-  }
-
-  .md-list-item-content {
-    padding: 4px 0px 4px 16px !important;
-  }
-
-  .topper {
-    padding: 16px 0px;
-  }
-
-  .full_width {
-    width: 249px;
-  }
-
-  .md-switch {
-    margin: 16px 0px 16px 0 !important;
-  }
-
-  .control {
-    min-width: 250px;
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-  }
-
-  .vs__clear {
-    display: none !important;
-  }
-
-
-  .md-button.md-theme-default.md-primary {
-    margin: 0;
-  }
+	[data-theme='dark'] .style-chooser .vs__selected {
+		color: #fff;
+	}
+	[data-theme='dark'] .style-chooser .vs__clear,
+	[data-theme='dark'] .style-chooser .vs__open-indicator {
+		fill: #fff;
+		cursor: pointer;
+	}
 </style>
