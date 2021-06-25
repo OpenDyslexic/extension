@@ -160,7 +160,7 @@
 		"jsdom": "^16.4.0",
 		"lodash.clonedeep": "^4.5.0",
 		"markdown": "^0.5.0",
-		"marked": "^0.6.2",
+		"marked": "^0.7.0",
 		"material-design-icons": "^3.0.1",
 		"material-icons": "^0.3.1",
 		"medium-editor": "^5.23.3",
