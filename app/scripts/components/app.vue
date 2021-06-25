@@ -48,7 +48,8 @@
 									href="https://www.opendyslexic.com"
 									target="_blank"
 								>
-									Discover OpenDyslexic
+				
+									{{ $i18n('OpenDyslexic') }}
 								</a>
 							</li>
 
@@ -65,7 +66,7 @@
 									href="https://www.helperbird.com"
 									target="_blank"
 								>
-									Discover Helperbird
+							{{ $i18n('helperbird') }}
 								</a>
 							</li>
 						</ul>

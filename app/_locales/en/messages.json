@@ -121,6 +121,12 @@
 	"saved": {
 		"message": "Saved"
 	},
+	"helperbird": {
+		"message": "Discover Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Discover OpenDyslexic"
+	},
 	"on": {
 		"message": "On"
 	},
