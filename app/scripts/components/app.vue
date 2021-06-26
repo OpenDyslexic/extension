@@ -177,7 +177,7 @@
 				<div class="flex-row card-body">
 					<label class="flex-1">
 						<div class="flex-1">
-							<h2 class="card-title">{{
+							<h2 class="card-title text-neutral-content">{{
 								$i18n('title_fonts')
 							}}</h2>
 						</div>
@@ -208,7 +208,7 @@
 			<div class="card shadow-lg bordered bg-base-100">
 				<div class="card-body flex-row">
 					<div class="flex-1">
-						<h2 class="card-title m-0">
+						<h2 class="card-title m-0 text-neutral-content">
 							{{ enable ? $i18n('on') : $i18n('off') }}
 						</h2>
 					</div>

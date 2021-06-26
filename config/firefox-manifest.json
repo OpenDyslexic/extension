@@ -1,10 +1,11 @@
 {
 	"name": "__MSG_appName__",
-	"version": "11.0.0",
+	"version": "12.0.0",
 	"manifest_version": 2,
 	"description": "__MSG_appDescription__",
 	"homepage_url": "https://opendyslexic.org",
 	"icons": {
+		"48": "images/icons/icon-48.png",
 		"128": "images/icons/icon-128.png"
 	},
 	"browser_action": {
@@ -21,7 +22,7 @@
 			"global": true
 		}
 	},
-	"permissions": ["tabs", "storage"],
+	"permissions": ["activeTab", "storage"],
 	"content_scripts": [
 		{
 			"matches": ["http://*/*", "https://*/*", "file:///*/*"],

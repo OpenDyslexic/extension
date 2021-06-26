@@ -13,7 +13,6 @@
 			"email": "robert.gabriel@helperbird.com"
 		}
 	],
-	
 	"scripts": {
 		"test": "jest",
 		"format": "prettier --ignore-path ./config/.prettierignore --write .",
