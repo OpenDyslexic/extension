@@ -4,12 +4,12 @@
 		"description": "Formatieren Sie Seiten mit der OpenDyslexic-Schriftart und der Hilfe mit niedrigem Kontrast."
 	},
 	"appTitle": {
-		"message": "OpenLegastheniker",
+		"message": "OpenDyslexic",
 		"description": "Formatieren Sie Seiten mit der OpenDyslexic-Schriftart und der Hilfe mit niedrigem Kontrast."
 	},
 	"appDescription": {
-		"message": "Formatieren von Seiten mit der OpenDyslexic-Schriftart und Hilfe mit geringem Kontrast contrast",
-		"description": "Formatieren von Seiten mit der OpenDyslexic-Schriftart und Hilfe mit geringem Kontrast contrast"
+		"message": "Formatieren von Seiten mit der OpenDyslexic-Schriftart und Hilfe mit geringem Kontrast",
+		"description": "Formatieren von Seiten mit der OpenDyslexic-Schriftart und Hilfe mit geringem Kontrast"
 	},
 	"options": {
 		"message": "Optionen"
@@ -66,7 +66,7 @@
 		"message": "Kommt bald"
 	},
 	"followAbbieToolTip": {
-		"message": "Unterstützen Sie den Schöpfer von OpenDyslexic."
+		"message": "Unterstützen Sie den Designer der OpenDyslexic."
 	},
 	"followRobertJames": {
 		"message": "Folgen Sie Robert James"
@@ -81,7 +81,7 @@
 		"message": "Firefox-Version"
 	},
 	"firefoxText": {
-		"message": "Firefox verwenden? Laden Sie es noch heute herunter."
+		"message": "Firefox verwenden? Heute noch herunterladen."
 	},
 	"title_fonts": {
 		"message": "Schriftarten"
@@ -114,7 +114,7 @@
 		"message": "Support-Website."
 	},
 	"saved": {
-		"message": "Gerettet"
+		"message": "Gespeichert"
 	},
 	"helperbird": {
 		"message": "Helperbird entdecken"
@@ -123,7 +123,7 @@
 		"message": "Entdecken Sie OpenDyslexic"
 	},
 	"on": {
-		"message": "Auf"
+		"message": "ein"
 	},
 	"off": {
 		"message": "aus"
