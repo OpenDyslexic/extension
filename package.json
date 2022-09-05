@@ -93,7 +93,7 @@
 		"@mozilla/readability": "^0.4.2",
 		"@postlight/mercury-parser": "^2.2.1",
 		"async": "^3.2.0",
-		"axios": "^0.20.0",
+		"axios": "^0.21.2",
 		"axios-jsonp": "^1.0.4",
 		"babel-loader": "^8.2.2",
 		"cli-strip-html": "^1.0.2",
