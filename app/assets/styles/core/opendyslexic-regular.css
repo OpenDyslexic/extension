@@ -1,10 +1,48 @@
 @font-face {
 	font-family: 'opendyslexic';
-	src: url('chrome-extension://__MSG_@@extension_id__/fonts/opendyslexic/OpenDyslexic-Bold.otf');
+	src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Regular.otf'),
+		url('moz-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Regular.otf'),
+		url('safari-web-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Regular.otf');
+
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Italic.otf'),
+		url('moz-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Italic.otf'),
+		url('safari-web-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Italic.otf');
+
+	font-style: italic;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Bold.otf'),
+		url('moz-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Bold.otf'),
+		url('safari-web-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Bold.otf');
+
 	font-weight: bold;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf'),
+		url('moz-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf'),
+		url('safari-web-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf');
 
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'opendyslexicmono';
+	src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Regular.otf'),
+		url('moz-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Regular.otf'),
+		url('safari-web-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Regular.otf');
+
+	font-weight: normal;
+	font-style: normal;
+}
 :root {
 	--opendyslexic-chrome-sans: opendyslexic, Elusive-Icons, FontAwesome,
 		'Glyphicons Halflings', sans-serif, docons, 'AzureDevOpsMDL2Assets',

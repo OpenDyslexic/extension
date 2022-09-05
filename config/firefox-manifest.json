@@ -13,15 +13,6 @@
 		"default_popup": "index.html"
 	},
 	"default_locale": "en",
-	"commands": {
-		"toggle-feature-foo": {
-			"suggested_key": {
-				"default": "Ctrl+Shift+5"
-			},
-			"description": "Toggle feature",
-			"global": true
-		}
-	},
 	"permissions": ["activeTab", "storage"],
 	"content_scripts": [
 		{

@@ -1,26 +1,21 @@
 import Vue from 'vue';
-import App from './components/app.vue';
-import { Notyf } from 'notyf';
-import i18n from 'vue-plugin-webextension-i18n';
+import VueSelect from 'vue-select';
 import 'vue-select/dist/vue-select.css';
-import 'notyf/notyf.min.css'; // for React, Vue and Svelte
-import 'vue-select/dist/vue-select.css';
-Vue.use(i18n);
-Vue.config.productionTip = false;
+import App from './app.vue';
+import { sendToContentScript } from './content/api';
+import { $helperbird_i18n } from './utils';
+
+Vue.config.productionTip = true;
+Vue.component('v-select', VueSelect);
 
 new Vue({
 	provide: () => {
 		return {
-			notyf: new Notyf({
-				duration: 2000,
-				dismissible: true,
-				position: {
-					x: 'right',
-					y: 'bottom'
-				}
-			})
+			$helperbird_i18n: $helperbird_i18n,
+			sendToContentScript: sendToContentScript
 		};
 	},
 	el: '#app',
+
 	render: (h) => h(App)
 });

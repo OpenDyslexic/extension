@@ -11,6 +11,9 @@
 		"message": "Format pages using the OpenDyslexic font and low contrast help",
 		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
+	"feature_specialized_font_options": {
+		"message": "Font options"
+	  },
 	"options": {
 		"message": "Options"
 	},
