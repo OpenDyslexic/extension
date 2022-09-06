@@ -30,6 +30,7 @@ export function sendToContentScriptChrome(object) {
 			});
 		}
 	);
+	return true; // Chrome bug
 }
 
 export function sendToContentScriptFirefox(objectMessage) {

@@ -13,6 +13,7 @@ export class database {
 			chrome.storage.sync.get(null, (settings) => {
 				this.data = settings;
 				resolve(this.data);
+				return true; // Chrome bug
 			});
 		});
 	}
@@ -28,12 +29,14 @@ export class database {
 			setting[token] = type;
 			chrome.storage.sync.set(setting);
 			resolve(setting);
+			return true; // Chrome bug
 		});
 	}
 
 	get() {
 		return new Promise((resolve) => {
 			resolve(this.data);
+			return true; // Chrome bug
 		});
 	}
 
@@ -65,6 +68,7 @@ export class database {
 			this.isEnabled = checker(ENABLED);
 
 			resolve(checker(ENABLED));
+			return true; // Chrome bug
 		});
 	}
 }

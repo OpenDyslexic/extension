@@ -199,7 +199,7 @@ export function applyEngineCss(id, CSS) {
 	HEAD.appendChild(STYLE);
 	STYLE.appendChild(document.createTextNode(CSS));
 
-	const HEAD_TWO = document.getElementById('helperbird-reader-js');
+	const HEAD_TWO = document.getElementById('opendyslexic-reader-js');
 	if (HEAD_TWO === null || HEAD === undefined) {
 		return false;
 	}

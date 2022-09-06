@@ -24,22 +24,23 @@ export class customFont {
 		}
 		return new Promise((resolve) => {
 			resolve(this.isEnabled);
+			return true; // Chrome bug
 		});
 	}
 
 	async enabled() {
 		return new Promise((resolve) => {
 			resolve(this.isEnabled);
+			return true; // Chrome bug
 		});
 	}
 
 	on() {
 		this.off(); // Turn it off if it was there.
-		console.log('font', this.font);
 
 		injectCss(
 			this.id,
-			`assets/styles/fonts/opendyslexic-${this.font.toLowerCase()}.css`
+			`assets/styles/core/opendyslexic-${this.font.toLowerCase()}.css`
 		);
 	}
 

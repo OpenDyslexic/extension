@@ -54,6 +54,7 @@ module.exports = {
 				test: /\.txt$/i,
 				use: 'raw-loader'
 			},
+
 			{
 				test: /\.vue$/,
 				loader: 'vue-loader',
@@ -105,9 +106,13 @@ module.exports = {
 
 					to: 'manifest.json'
 				},
-
 				{
-					context: __dirname + '/app/',
+					context: `${__dirname}/app/`,
+					from: 'assets/css/',
+					to: 'assets/css/'
+				},
+				{
+					context: `${__dirname}/app/`,
 					from: 'index.html',
 					from: 'index.html',
 					to: 'index.html'

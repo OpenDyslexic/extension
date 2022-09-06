@@ -5,7 +5,7 @@
 	"description": "__MSG_appDescription__",
 	"homepage_url": "https://opendyslexic.org",
 	"icons": {
-		"128": "images/icons/icon-128.png"
+		"128": "assets/images/icons/icon-128.png"
 	},
 	"action": {
 		"default_icon": "assets/images/icons/icon-128.png",
