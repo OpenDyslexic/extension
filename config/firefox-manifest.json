@@ -1,5 +1,5 @@
 {
-	"name": "__MSG_appName__",
+	"name": "__MSG_appNameFirefox__",
 	"version": "12.0.0",
 	"manifest_version": 2,
 	"description": "__MSG_appDescription__",

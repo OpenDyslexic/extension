@@ -1,4 +1,12 @@
 {
+	"appNameEdge": {
+		"message": "OpenDyslexic for Edge",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic for Firefox",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
+	},
 	"appName": {
 		"message": "Chrome- നുള്ള ഓപ്പൺ ഡിസ്‌ലെക്‌സിക്",
 		"description": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് ഫോണ്ടും കുറഞ്ഞ ദൃശ്യ തീവ്രതയും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റുചെയ്യുക."

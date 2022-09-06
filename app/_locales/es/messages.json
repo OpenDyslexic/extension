@@ -1,4 +1,12 @@
 {
+	"appNameEdge": {
+		"message": "OpenDyslexic for Edge",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic for Firefox",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
+	},
 	"appName": {
 		"message": "OpenDyslexic para Chrome",
 		"description": "Formatee las páginas con la fuente OpenDyslexic y la ayuda de bajo contraste."

@@ -8,6 +8,13 @@
 
 Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on webpages with the OpenDyslexic font, and formats pages to be more easily readable.
 
+
+# Extensions
+
+- [Chrome](https://chrome.google.com/webstore/detail/opendyslexic/aejgnokgkdlkkdckokdopfmhonfmgoek)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/opendyslexic/)
+- [Edge](https://microsoftedge.microsoft.com/addons/detail/opendyslexic/)
+
 # Supporting OpenDyslexic
 
 OpenDyslexic for Chrome is an MIT-licensed open source project with its ongoing development made possible entirely by the support of these awesome backers. If you'd like to join them, please consider:

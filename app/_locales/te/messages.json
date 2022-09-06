@@ -1,4 +1,12 @@
 {
+	"appNameEdge": {
+		"message": "OpenDyslexic for Edge",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic for Firefox",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
+	},
 	"appName": {
 		"message": "Chrome కోసం ఓపెన్ డైస్లెక్సిక్",
 		"description": "OpenDyslexic ఫాంట్ మరియు తక్కువ కాంట్రాస్ట్ సహాయాన్ని ఉపయోగించి పేజీలను ఫార్మాట్ చేయండి."

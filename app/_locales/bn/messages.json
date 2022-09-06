@@ -1,4 +1,12 @@
 {
+	"appNameEdge": {
+		"message": "OpenDyslexic for Edge",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic for Firefox",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
+	},
 	"appName": {
 		"message": "ক্রোমের জন্য ওপেনডিস্লেক্সিক",
 		"description": "ওপেনডিস্লেক্সিক ফন্ট এবং নিম্ন বিপরীতে সহায়তা ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন।"
