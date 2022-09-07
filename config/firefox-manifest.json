@@ -1,6 +1,6 @@
 {
 	"name": "__MSG_appNameFirefox__",
-	"version": "20.0.0",
+	"version": "20.1.0",
 	"manifest_version": 2,
 	"description": "__MSG_appDescription__",
 	"homepage_url": "https://opendyslexic.org",
