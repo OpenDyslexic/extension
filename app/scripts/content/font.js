@@ -2,9 +2,9 @@ import { idExists, injectCss, removeElementById } from '../utils';
 
 export class customFont {
 	constructor(database) {
-		this.font = 'opendyslexic-regular';
-		this.id = 'opendyslexic-regular';
-		console.log('customFont',database);
+		this.font = 'regular';
+		this.id = 'regular';
+
 
 
 		this.key = 'enabled';

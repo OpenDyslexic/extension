@@ -17,7 +17,15 @@
 
 		<main class="grid grid-cols-6 gap-4 m-4 h-full">
 			<div
-				class="card shadow-lg compact side bg-base-100 text-base-content col-span-6"
+				class="
+					card
+					shadow-lg
+					compact
+					side
+					bg-base-100
+					text-base-content
+					col-span-6
+				"
 			>
 				<div class="card-body">
 					<h2 class="card-title">{{
@@ -78,6 +86,7 @@
 						<div class="flex-1">
 							<div>
 								<v-select
+						
 									label="title"
 									:searchable="searchable"
 									:clearable="clearable"
@@ -104,7 +113,14 @@
 					<a
 						href="https://www.patreon.com/opendyslexic"
 						target="_blank"
-						class="text-white decoration-white no-underline hover:underline hover:text-white hover:decoration-wavy"
+						class="
+							text-white
+							decoration-white
+							no-underline
+							hover:underline
+							hover:text-white
+							hover:decoration-wavy
+						"
 						><b>OpenDyslexic</b></a
 					>
 				</p>
@@ -119,7 +135,14 @@
 					<a
 						target="_blank"
 						href="https://www.helperbird.com"
-						class="text-white decoration-white no-underline hover:underline hover:text-white hover:decoration-wavy"
+						class="
+							text-white
+							decoration-white
+							no-underline
+							hover:underline
+							hover:text-white
+							hover:decoration-wavy
+						"
 						><b>Helperbird</b></a
 					>
 				</p>
@@ -132,7 +155,14 @@
 					<a
 						target="_blank"
 						href="https://www.helperbird.com"
-						class="text-white decoration-white no-underline hover:underline hover:text-white hover:decoration-wavy"
+						class="
+							text-white
+							decoration-white
+							no-underline
+							hover:underline
+							hover:text-white
+							hover:decoration-wavy
+						"
 						><b>this extension</b></a
 					>
 				</p>
@@ -142,78 +172,119 @@
 </template>
 
 <script>
-	import './index.css';
+import './index.css';
 
-	export default {
-		inject: ['$helperbird_i18n', 'sendToContentScript'],
-		data: function () {
-			return {
-				paid: true,
-				enable: null,
-				font: 'regular',
-				number: 1,
-				menuVisible: false,
-				currentFont: null,
-				searchable: false,
-				clearable: false,
-				selectedFont: {
+export default {
+	inject: ['$helperbird_i18n', 'sendToContentScript'],
+	data: function () {
+		return {
+			paid: true,
+			enable: null,
+			font: 'regular',
+			number: 1,
+			menuVisible: false,
+			currentFont: null,
+			searchable: false,
+			clearable: false,
+			selectedFont: {
+				title: 'OpenDyslexic',
+				font: 'regular'
+			},
+			fonts: [
+				{
 					title: 'OpenDyslexic',
 					font: 'regular'
 				},
-				fonts: [
-					{
-						title: 'OpenDyslexic',
-						font: 'regular'
-					},
-					{
-						title: 'OpenDyslexic Bold',
-						font: 'bold'
-					},
-					{
-						title: 'OpenDyslexic Italic',
-						font: 'italic'
-					}
-				]
-			};
+				{
+					title: 'OpenDyslexic Bold',
+					font: 'bold'
+				},
+				{
+					title: 'OpenDyslexic Italic',
+					font: 'italic'
+				}
+			]
+		};
+	},
+
+	mounted: function () {
+		const SETTING_KEYS = ['font', 'enabled'];
+		chrome.storage.local.get(SETTING_KEYS, (settings) => {
+			let findFont = this.fonts.find((o) => o.font === settings.font);
+
+			this.selectedFont = findFont ? findFont : this.selectedFont;
+
+			this.enable = settings.enabled ? true : false;
+
+			return this.enable;
+		});
+		this.number = this.randomIntFromInterval(1, 4);
+	},
+	methods: {
+		fontChanged: function () {
+			this.save('font', this.selectedFont.font);
 		},
 
-		mounted: function () {
-			const SETTING_KEYS = ['font', 'enabled'];
-			chrome.storage.local.get(SETTING_KEYS, (settings) => {
-				let findFont = this.fonts.find((o) => o.font === settings.font);
-
-				this.selectedFont = findFont ? findFont : this.selectedFont;
-
-				this.enable = settings.enabled ? true : false;
-
-				return this.enable;
-			});
-			this.number = this.randomIntFromInterval(1, 4);
+		randomIntFromInterval: function (min, max) {
+			// min and max included
+			return Math.floor(Math.random() * (max - min + 1) + min);
 		},
-		methods: {
-			fontChanged: function () {
-				this.save('font', this.selectedFont.font);
-			},
 
-			randomIntFromInterval: function (min, max) {
-				// min and max included
-				return Math.floor(Math.random() * (max - min + 1) + min);
-			},
+		save(token, type) {
+			let setting = {};
+			setting[token] = type;
+			chrome.storage.local.set(setting);
+			return setting;
+		},
 
-			save(token, type) {
-				let setting = {};
-				setting[token] = type;
-				chrome.storage.local.set(setting);
-				return setting;
-			},
+		enableDyslexica() {
+			// Dont change the settings if its the same or no past
 
-			enableDyslexica() {
-				// Dont change the settings if its the same or no past
-
-				this.save('enabled', this.enable);
-			}
+			this.save('enabled', this.enable);
 		}
-	};
+	}
+};
 </script>
 
-<style></style>
+<style lang="css">
+:root {
+	--vs-colors--lightest: rgba(60, 60, 60, 0.26);
+	--vs-colors--light: rgba(60, 60, 60, 0.5);
+	--vs-colors--dark: #333;
+	--vs-colors--darkest: rgba(0, 0, 0, 0.15);
+  
+
+  
+
+  
+
+  
+	/* Component Controls: Clear, Open Indicator */
+	--vs-controls-color: var(--vs-colors--light);
+
+  
+	/* Selected */
+	--vs-selected-bg: #e71db7;
+	--vs-selected-color: #000000;
+
+  
+	/* Dropdown */
+	--vs-dropdown-bg: #fff;
+	--vs-dropdown-color: #000000;
+
+  
+	/* Options */
+	--vs-dropdown-option-bg: #000;
+	--vs-dropdown-option-color: var(--vs-dropdown-color);
+
+  
+	/* Active State */
+	--vs-dropdown-option--active-bg: #5897fb;
+	--vs-dropdown-option--active-color: #fff;
+  
+	/* Deselect State */
+	--vs-dropdown-option--deselect-bg: #fb5858;
+	--vs-dropdown-option--deselect-color: #fff;
+
+}
+</style>
