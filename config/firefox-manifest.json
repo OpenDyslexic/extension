@@ -1,6 +1,6 @@
 {
 	"name": "__MSG_appNameFirefox__",
-	"version": "12.0.0",
+	"version": "20.0.0",
 	"manifest_version": 2,
 	"description": "__MSG_appDescription__",
 	"homepage_url": "https://opendyslexic.org",
@@ -12,6 +12,10 @@
 		"default_icon": "assets/images/icons/icon-128.png",
 		"default_popup": "index.html"
 	},
+	"background": {
+		"scripts": ["scripts/background.js"],
+		"persistent": false
+	  },
 	"default_locale": "en",
 	"permissions": ["activeTab", "storage"],
 	"content_scripts": [
@@ -22,7 +26,7 @@
 			"all_frames": true
 		}
 	],
-	"offline_enabled": true,
+
 	"content_security_policy": "script-src 'self'; object-src 'self';",
 	"web_accessible_resources": [
 		"assets/fonts/opendyslexic/OpenDyslexic-Bold.otf",

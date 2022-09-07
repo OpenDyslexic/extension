@@ -4,16 +4,18 @@ export class customFont {
 	constructor(database) {
 		this.font = 'opendyslexic-regular';
 		this.id = 'opendyslexic-regular';
-		this.database = database;
+		console.log('customFont',database);
+
 
 		this.key = 'enabled';
 		this.isEnabled = false;
+		this.database = database;
 		this.settings = null;
 	}
 
 	async load(isRunning) {
 		this.isEnabled = this.database.hasProperty(this.key, false);
-		this.settings = await this.database.get();
+		this.settings =  this.database.get();
 
 		this.font = this.settings.font ? this.settings.font : this.font;
 

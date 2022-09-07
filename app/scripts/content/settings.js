@@ -10,7 +10,7 @@ export class database {
 
 	async load() {
 		return new Promise((resolve) => {
-			chrome.storage.sync.get(null, (settings) => {
+			chrome.storage.local.get(null, (settings) => {
 				this.data = settings;
 				resolve(this.data);
 				return true; // Chrome bug
@@ -27,17 +27,14 @@ export class database {
 		return new Promise((resolve) => {
 			let setting = {};
 			setting[token] = type;
-			chrome.storage.sync.set(setting);
+			chrome.storage.local.set(setting);
 			resolve(setting);
 			return true; // Chrome bug
 		});
 	}
 
 	get() {
-		return new Promise((resolve) => {
-			resolve(this.data);
-			return true; // Chrome bug
-		});
+		return this.data;
 	}
 
 	hasProperty(key, backup) {

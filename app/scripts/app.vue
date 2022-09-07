@@ -179,7 +179,7 @@
 
 		mounted: function () {
 			const SETTING_KEYS = ['font', 'enabled'];
-			chrome.storage.sync.get(SETTING_KEYS, (settings) => {
+			chrome.storage.local.get(SETTING_KEYS, (settings) => {
 				let findFont = this.fonts.find((o) => o.font === settings.font);
 
 				this.selectedFont = findFont ? findFont : this.selectedFont;
@@ -203,7 +203,7 @@
 			save(token, type) {
 				let setting = {};
 				setting[token] = type;
-				chrome.storage.sync.set(setting);
+				chrome.storage.local.set(setting);
 				return setting;
 			},
 

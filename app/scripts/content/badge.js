@@ -1,3 +1,4 @@
+import { isFirefox } from '../utils';
 import { sendToBackgroundScriptSlow } from './api';
 
 export class badge {
@@ -45,10 +46,18 @@ export class badge {
 	}
 
 	setColor(color) {
-		chrome.action.setBadgeBackgroundColor({ color: color });
+		if (isFirefox() === true) {
+			browser.browserAction.setBadgeBackgroundColor({ color: color });
+		} else {
+			chrome.action.setBadgeBackgroundColor({ color: color });
+		}
 	}
 
 	setText(text) {
-		chrome.action.setBadgeText({ text: text });
+		if (isFirefox() === true) {
+			browser.browserAction.setBadgeText({ text: text });
+		} else {
+			chrome.action.setBadgeText({ text: text });
+		}
 	}
 }
