@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://wwww.opendyslexic.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://wwww.opendyslexic.org" target="_blank" rel="noopener noreferrer">
       <img width="750" src="./app/images/readme.png" alt="OpenDyslexic logo">
     </a>
 </p>
