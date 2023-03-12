@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://wwww.opendyslexic.org" target="_blank" rel="noopener noreferrer">
-      <img width="750" src="./app/images/readme.png" alt="OpenDyslexic logo">
+      <img width="750" src="./app/assets/images/readme.png" alt="OpenDyslexic logo">
     </a>
 </p>
 
