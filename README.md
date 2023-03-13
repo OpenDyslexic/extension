@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://wwww.opendyslexic.com" target="_blank" rel="noopener noreferrer">
-      <img width="750" src="./app/images/readme.png" alt="OpenDyslexic logo">
+    <a href="https://wwww.opendyslexic.org" target="_blank" rel="noopener noreferrer">
+      <img width="750" src="./app/assets/images/readme.png" alt="OpenDyslexic logo">
     </a>
 </p>
 
@@ -11,8 +11,8 @@ Open-Dyslexic is an open sourced font created to increase readability for reader
 
 # Extensions
 
-- [Chrome](https://chrome.google.com/webstore/detail/opendyslexic/aejgnokgkdlkkdckokdopfmhonfmgoek)
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/opendyslexic/)
+- [Chrome](https://chrome.google.com/webstore/detail/opendyslexic-for-chrome/cdnapgfjopgaggbmfgbiinmmbdcglnam)
+- [Firefox](https://addons.mozilla.org/firefox/addon/opendyslexic-for-firefox/)
 - [Edge](https://microsoftedge.microsoft.com/addons/detail/opendyslexic/)
 
 # Supporting OpenDyslexic
