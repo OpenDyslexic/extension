@@ -27,7 +27,7 @@
 	"offline_enabled": true,
 	"web_accessible_resources": [
 		{
-			"matches": ["https://*/*"],
+			"matches": ["https://*/*", "http://*/*", "file:///*/*"],
 			"resources": [
 				"assets/fonts/opendyslexic/OpenDyslexic-Bold.otf",
 				"assets/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf",
