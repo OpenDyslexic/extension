@@ -9,7 +9,7 @@ const app = createApp(App);
 app.provide("$helperbird_i18n", $helperbird_i18n);
 app.provide("sendToContentScript", sendToContentScript);
 app.use(Toaster, {
-  position: "bottom",
+  position: "bottom-right",
   duration: 4000,
   dismissible: false,
 });
