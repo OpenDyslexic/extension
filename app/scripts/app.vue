@@ -270,9 +270,6 @@
 
 			save(featureID, selected) {
 				let key = featureID;
-				console.log(key);
-				console.log(selected);
-
 				switch (key) {
 					case 'enabled':
 						this.sync('enabled', this.enable);
