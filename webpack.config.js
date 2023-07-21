@@ -1,92 +1,89 @@
 const path = require('path');
-const webpack = require('webpack');
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const ZipPlugin = require('zip-webpack-plugin');
+const { VueLoaderPlugin } = require('vue-loader');
 
-let manifestLocation = './config/chrome-manifest.json';
+const manifestLocation = getManifestLocation(process.env.browser);
+const manifest = require(`./config/${manifestLocation}`);
+const versionNumber = manifest.version.split('.').join('-');
 
-switch (process.env.browser) {
-	case 'chrome': {
-		manifestLocation = './config/chrome-manifest.json';
-		break;
-	}
-	case 'firefox': {
-		manifestLocation = './config/firefox-manifest.json';
-		break;
-	}
-	case 'edge': {
-		manifestLocation = './config/edge-manifest.json';
-		break;
-	}
-	case 'ios': {
-		manifestLocation = './config/safari-manifest.json';
-		break;
-	}
-	default: {
-		manifestLocation = './config/chrome-manifest.json';
-		break;
+function getManifestLocation(browser) {
+	switch (browser) {
+		case 'firefox':
+			return 'firefox-manifest.json';
+		case 'edge':
+			return 'edge-manifest.json';
+		case 'ios':
+			return 'safari-manifest.json';
+		default:
+			return 'chrome-manifest.json';
 	}
 }
-let manifest = require(manifestLocation);
-
-let versionNumber = manifest.version.split('.').join('-');
 
 module.exports = {
 	mode: 'production',
-	// mode: 'development',
-	context: `${__dirname}/app/`,
+	context: path.resolve(__dirname, 'app'),
 	entry: {
-		'scripts/content.js': './scripts/content/index.js',
-
-		'scripts/background.js': './scripts/background/index.js',
-
-		'scripts/popup.js': './scripts/popup.js'
+		'scripts/content': './scripts/content/index.js',
+		'scripts/background': './scripts/background/index.js',
+		'scripts/popup': './scripts/popup.js'
 	},
-	resolve: {
-		alias: {
-			vue: 'vue/dist/vue.runtime.min.js'
-		}
-	},
+
 	module: {
 		rules: [
 			{
-				test: /\.txt$/i,
-				use: 'raw-loader'
+				test: /\.styl(us)?$/,
+				use: ['style-loader', 'css-loader', 'stylus-loader']
 			},
-
 			{
 				test: /\.vue$/,
 				loader: 'vue-loader',
 				options: {
-					esModule: true // example of setting to false
+					esModule: true
 				}
 			},
 			{
 				test: /\.js$/,
-				loader: 'babel-loader',
-
-				exclude: /(node_modules|bower_components)/
+				exclude: /(node_modules)/,
+				use: {
+					loader: 'babel-loader',
+					options: {
+						presets: ['@babel/preset-env']
+					}
+				}
 			},
-			{
-				test: /\.(ttf|eot|svg|gif|png)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-
-				loader: 'file-loader'
-			},
+		
 			{
 				test: /\.css$/,
 				use: [
 					'style-loader',
 					'css-loader',
+					
 					{
 						loader: 'postcss-loader',
 						options: {
 							postcssOptions: {
 								config: path.resolve(
 									__dirname,
-									'./config/postcss.config.js'
+									'./postcss.config.js'
 								)
 							}
+						}
+					}
+				]
+			},
+			{
+				test: /\.(txt|pdf)$/i,
+				use: "raw-loader",
+			  },
+			{
+				test: /\.(png|jpe?g|gif)$/i,
+				use: [
+					{
+						loader: 'file-loader',
+						options: {
+							name: 'images/[name].[ext]',
+							publicPath: '..'
 						}
 					}
 				]
@@ -94,63 +91,77 @@ module.exports = {
 		]
 	},
 	plugins: [
-		new webpack.DefinePlugin({
-			'process.env.NODE_ENV': JSON.stringify('web')
-		}),
+		new VueLoaderPlugin(),
 		new CopyPlugin({
 			patterns: [
+				{ 
+					context: path.resolve(__dirname, 'config'),
+					
+					from: manifestLocation, to: `${path.resolve(__dirname, 'dist')}/manifest.json` },
 				{
-					context: `${__dirname}/app/`,
-
-					from: `.${manifestLocation}`,
-
-					to: 'manifest.json'
-				},
-				{
-					context: `${__dirname}/app/`,
-					from: 'assets/css/',
+					context: path.resolve(__dirname, 'app'),
+					from: 'assets/styles/css/',
 					to: 'assets/css/'
 				},
 				{
-					context: `${__dirname}/app/`,
-					from: 'index.html',
+					context: path.resolve(__dirname, 'app'),
 					from: 'index.html',
 					to: 'index.html'
 				},
-
 				{
-					context: `${__dirname}/app/`,
+					context: path.resolve(__dirname, 'app'),
 					from: 'assets/images/',
 					to: 'assets/images/'
 				},
 				{
-					context: `${__dirname}/app/`,
+					context: path.resolve(__dirname, 'app'),
 					from: 'assets/fonts/',
 					to: 'assets/fonts/'
 				},
 				{
-					context: `${__dirname}/app/`,
+					context: path.resolve(__dirname, 'app'),
 					from: 'assets/styles/',
 					to: 'assets/styles/'
 				},
 				{
-					context: `${__dirname}/app/`,
+					context: path.resolve(__dirname, 'app'),
 					from: '_locales/',
 					to: '_locales/'
+				},
+				{
+					from: './assets/images/',
+					to: path.resolve(__dirname, 'dist/assets/images/')
+				},
+				{
+					from: 'index.html',
+					to: path.resolve(__dirname, 'dist/')
 				}
 			]
 		}),
-		new VueLoaderPlugin(),
+
 		new ZipPlugin({
 			path: `../build/${process.env.browser}/${versionNumber}/`,
 			filename: `opendyslexic-${process.env.browser}-${versionNumber}.zip`,
-			initialFile: path.resolve(__dirname, 'dist')
+			include: [
+				/\.js$/,
+				/\.json$/,
+				/\.css$/,
+				/\.html$/,
+				/\.png$/,
+				/\.jpg$/,
+				/\.jpeg$/,
+				/\.gif$/
+			]
 		})
 	],
 
-	output: {
-		publicPath: '/',
-		filename: '[name]',
-		path: path.resolve(__dirname, 'dist')
+	resolve: {
+		extensions: ['.js', '.vue', '.json'],
+		alias: {
+			'@': path.resolve(__dirname, 'app'),
+			'@assets': path.resolve(__dirname, 'app/assets'),
+			'@styles': path.resolve(__dirname, 'app/assets/styles'),
+			'@scripts': path.resolve(__dirname, 'app/scripts'),
+		}
 	}
 };

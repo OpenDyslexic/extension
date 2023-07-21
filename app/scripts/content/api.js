@@ -1,4 +1,4 @@
-import { getBrowser } from '../utils';
+import { getBrowser } from '@scripts/content/utils';
 
 export function sendToContentScript(object) {
 	let browser = getBrowser();

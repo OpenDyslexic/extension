@@ -1,21 +1,13 @@
 @font-face {
 	font-family: 'opendyslexic';
-	src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Italic.otf'),
-		url('moz-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Italic.otf'),
-		url('safari-web-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Italic.otf');
-	font-style: normal;
+	src: url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/italic.otf');
+	font-style: italic;
 	font-weight: normal;
 }
 
 :root {
-	--opendyslexic-chrome-sans: opendyslexic, Elusive-Icons, FontAwesome,
-		'Glyphicons Halflings', sans-serif, docons, 'AzureDevOpsMDL2Assets',
-		trellicons, 'Material Icons Extended', 'Bol Symbols', Graphik,
-		controlIcons, FontAwesome3;
-	--opendyslexic-chrome-mono: opendyslexicmono, Elusive-Icons, FontAwesome,
-		'Glyphicons Halflings', monospace, docons, 'AzureDevOpsMDL2Assets',
-		trellicons, 'Material Icons Extended', 'Bol Symbols', Graphik,
-		controlIcons, FontAwesome3;
+	--opendyslexic-chrome-sans: opendyslexic, sans-serif;
+	--opendyslexic-chrome-mono: opendyslexicmono, monospace;
 }
 
 html {
@@ -71,22 +63,13 @@ input,
 textarea {
 	font-family: var(--opendyslexic-chrome-sans) !important;
 }
-
 /* NYTimes Support */
 .story.theme-summary .summary,
 .span-ab-bottom-region .story.theme-summary .summary,
 .inside-nyt .story.theme-summary .story-heading,
-.well .column ul li .story .story-heading {
-	font-family: var(--opendyslexic-chrome-sans);
-	line-height: 150%;
-}
-
+.well .column ul li .story .story-heading,
 .inside-nyt .story.theme-summary.no-thumb .story-heading,
-.inside-nyt .story.theme-summary .summary {
-	font-family: var(--opendyslexic-chrome-sans);
-	line-height: 150%;
-}
-
+.inside-nyt .story.theme-summary .summary,
 .recommendations ol li .story-heading,
 .tone-news .story.theme-main .story-header .story-heading,
 .type-size-small .story.theme-main .story-body-text,
@@ -100,13 +83,4 @@ article .article_header h1,
 article p {
 	font-family: var(--opendyslexic-chrome-sans);
 	line-height: 150%;
-}
-
-.kix-lineview-content,
-.kix-lineview {
-	width: 100% !important;
-}
-
-.kix-wordhtmlgenerator-word-node {
-	font-size: initial !important;
 }

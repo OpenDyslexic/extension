@@ -1,11 +1,14 @@
-import { idExists, injectCss, removeElementById } from '../utils';
+import { idExists, injectCssInline, removeElementById } from '@scripts/content/utils.js';
 
-export class customFont {
+import opendyslexicbold from '!!raw-loader!@styles/core/opendyslexic-bold.css';
+import opendyslexicitalic from '!!raw-loader!@styles/core/opendyslexic-italic.css';
+import opendyslexic from '!!raw-loader!@styles/core/opendyslexic-regular.css';
+
+
+export class CustomFont {
 	constructor(database) {
 		this.font = 'regular';
 		this.id = 'regular';
-
-
 
 		this.key = 'enabled';
 		this.isEnabled = false;
@@ -15,7 +18,7 @@ export class customFont {
 
 	async load(isRunning) {
 		this.isEnabled = this.database.hasProperty(this.key, false);
-		this.settings =  this.database.get();
+		this.settings = this.database.get();
 
 		this.font = this.settings.font ? this.settings.font : this.font;
 
@@ -39,13 +42,53 @@ export class customFont {
 
 	on() {
 		this.off(); // Turn it off if it was there.
+		const CSS = `
+		${this.getFont().CSS}}
+  `;
 
-		injectCss(
-			this.id,
-			`assets/styles/core/opendyslexic-${this.font.toLowerCase()}.css`
-		);
+  injectCssInline(this.id, CSS);
+	
 	}
 
+	getFont() {
+		const isEnabled = this.isEnabled;
+		let REPSONSE = {
+			CSS: opendyslexic.toString()
+		  };
+	  
+		if (isEnabled === false) {
+			return '';
+		}
+
+		const FONT_KEY = this.font.toLowerCase().replace("-", "");
+		let CHOICEN_FONT = opendyslexic.toString();
+
+		if(FONT_KEY === 'regular') {
+			 CHOICEN_FONT = opendyslexic.toString();
+		}
+		if(FONT_KEY === 'bold') {
+			CHOICEN_FONT = opendyslexicbold.toString();
+		}
+
+		if(FONT_KEY === 'italic') {
+			CHOICEN_FONT = opendyslexicitalic.toString();
+		}
+
+
+		const protocol = `${this.getExtensionProtocol()}`;
+		REPSONSE.CSS = CHOICEN_FONT
+		  .split("{{$browser_extension_protocol}}")
+		  .join(protocol);
+	
+		return REPSONSE;
+
+	}
+	getExtensionProtocol() {
+		let extensionID = chrome.runtime.getURL("") || browser.runtime.id;
+	
+		return extensionID;
+	
+	  }
 	off() {
 		let isFeatureRunning = idExists(this.id);
 		if (isFeatureRunning === true) {

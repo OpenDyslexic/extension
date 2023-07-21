@@ -1,7 +1,7 @@
-import { isFirefox } from '../utils';
+import { isFirefox } from '@scripts/content/utils';
 import { sendToBackgroundScriptSlow } from './api';
 
-export class badge {
+export class Badge {
 	constructor() {}
 
 	async load() {

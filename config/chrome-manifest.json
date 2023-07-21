@@ -1,12 +1,14 @@
 {
 	"name": "__MSG_appName__",
-	"version": "20.1.0",
+	"version": "40.0.0",
 	"manifest_version": 3,
 	"description": "__MSG_appDescription__",
 	"homepage_url": "https://opendyslexic.org",
 	"icons": {
-		"128": "assets/images/icons/icon-128.png"
-	},
+			"16": "assets/images/icons/icon-16.png",
+			"48":"assets/images/icons/icon-48.png",
+			"128": "assets/images/icons/icon-128.png"
+		  },
 	"action": {
 		"default_icon": "assets/images/icons/icon-128.png",
 		"default_popup": "index.html"
@@ -29,11 +31,10 @@
 		{
 			"matches": ["https://*/*"],
 			"resources": [
-				"assets/fonts/opendyslexic/OpenDyslexic-Bold.otf",
-				"assets/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf",
-				"assets/fonts/opendyslexic/OpenDyslexic-Italic.otf",
-				"assets/fonts/opendyslexic/OpenDyslexic-Regular.otf",
-				"assets/fonts/opendyslexic/OpenDyslexicMono-Regular.otf",
+				"assets/fonts/opendyslexic/bold.otf",
+				"assets/fonts/opendyslexic/bold-italic.otf",
+				"assets/fonts/opendyslexic/italic.otf",
+				"assets/fonts/opendyslexic/regular.otf",
 				"assets/styles/core/opendyslexic-regular.css",
 				"assets/styles/core/opendyslexic-bold.css",
 				"assets/styles/core/opendyslexic-italic.css"

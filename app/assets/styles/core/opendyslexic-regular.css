@@ -1,48 +1,35 @@
+
 @font-face {
 	font-family: 'opendyslexic';
-	src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Regular.otf'),
-		url('moz-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Regular.otf'),
-		url('safari-web-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Regular.otf');
-
+	src: url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/regular.otf');
 	font-style: normal;
 	font-weight: normal;
 }
+
 @font-face {
 	font-family: 'opendyslexic';
-	src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Italic.otf'),
-		url('moz-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Italic.otf'),
-		url('safari-web-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Italic.otf');
-
+	src: url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/italic.otf');
 	font-style: italic;
-	font-weight: normal;
 }
+
 @font-face {
 	font-family: 'opendyslexic';
-	src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Bold.otf'),
-		url('moz-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Bold.otf'),
-		url('safari-web-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Bold.otf');
-
+	src: url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/bold.otf');
 	font-weight: bold;
-	font-style: normal;
 }
+
 @font-face {
 	font-family: 'opendyslexic';
-	src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf'),
-		url('moz-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf'),
-		url('safari-web-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf');
-
+	src: url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/bold-italic.otf');
 	font-weight: bold;
 	font-style: italic;
 }
+
 @font-face {
 	font-family: 'opendyslexicmono';
-	src: url('chrome-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Regular.otf'),
-		url('moz-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Regular.otf'),
-		url('safari-web-extension://__MSG_@@extension_id__/assets/fonts/opendyslexic/OpenDyslexic-Regular.otf');
-
-	font-weight: normal;
-	font-style: normal;
+	src: url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/regular.otf');
 }
+
 :root {
 	--opendyslexic-chrome-sans: opendyslexic, Elusive-Icons, FontAwesome,
 		'Glyphicons Halflings', sans-serif, docons, 'AzureDevOpsMDL2Assets',
@@ -54,8 +41,47 @@
 		controlIcons, FontAwesome3;
 }
 
-html {
+* {
 	font-family: var(--opendyslexic-chrome-sans);
+}
+
+html,
+body,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+ul,
+ol,
+span,
+font,
+strong,
+th,
+td,
+pre,
+code,
+.ace_text-input,
+.prettyprint,
+input,
+textarea,
+article .article_header h1,
+article p,
+.story.theme-summary .summary,
+.span-ab-bottom-region .story.theme-summary .summary,
+.inside-nyt .story.theme-summary .story-heading,
+.well .column ul li .story .story-heading,
+.inside-nyt .story.theme-summary.no-thumb .story-heading,
+.inside-nyt .story.theme-summary .summary,
+.recommendations ol li .story-heading,
+.tone-news .story.theme-main .story-header .story-heading,
+.type-size-small .story.theme-main .story-body-text,
+.story.theme-summary .story-heading {
+	font-family: var(--opendyslexic-chrome-sans) !important;
+	line-height: 150%;
 }
 
 p:nth-child(even),
@@ -68,61 +94,33 @@ li:hover {
 	background-color: rgba(0, 0, 0, 0.09) !important;
 }
 
-p,
-a,
-h1,
-h2,
-h3,
-h4,
-h5,
-input,
-ul,
-span,
-font,
-strong,
-th,
-td {
-	font-family: var(--opendyslexic-chrome-sans) !important;
-	line-height: 150%;
-}
-
-* {
-	font-family: var(--opendyslexic-chrome-sans);
-}
-
 pre,
 code,
 pre *,
-code * {
+code *,
+.ace_text-input,
+.prettyprint {
 	font-family: var(--opendyslexic-chrome-mono) !important;
 	line-height: 150%;
 }
 
-.ace_text-input,
-.prettyprint {
-	font-family: var(--opendyslexic-chrome-mono) !important;
+p:nth-child(even),
+li:nth-child(even) {
+	opacity: rgba(0, 0, 0, 0.03);
 }
 
-input,
-textarea {
-	font-family: var(--opendyslexic-chrome-sans) !important;
+p:hover,
+li:hover {
+	background-color: rgba(0, 0, 0, 0.09) !important;
 }
 
 /* NYTimes Support */
 .story.theme-summary .summary,
 .span-ab-bottom-region .story.theme-summary .summary,
 .inside-nyt .story.theme-summary .story-heading,
-.well .column ul li .story .story-heading {
-	font-family: var(--opendyslexic-chrome-sans);
-	line-height: 150%;
-}
-
+.well .column ul li .story .story-heading,
 .inside-nyt .story.theme-summary.no-thumb .story-heading,
-.inside-nyt .story.theme-summary .summary {
-	font-family: var(--opendyslexic-chrome-sans);
-	line-height: 150%;
-}
-
+.inside-nyt .story.theme-summary .summary,
 .recommendations ol li .story-heading,
 .tone-news .story.theme-main .story-header .story-heading,
 .type-size-small .story.theme-main .story-body-text,
@@ -136,13 +134,4 @@ article .article_header h1,
 article p {
 	font-family: var(--opendyslexic-chrome-sans);
 	line-height: 150%;
-}
-
-.kix-lineview-content,
-.kix-lineview {
-	width: 100% !important;
-}
-
-.kix-wordhtmlgenerator-word-node {
-	font-size: initial !important;
 }

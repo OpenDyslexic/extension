@@ -1,6 +1,6 @@
-import { isEmpty, isNull } from '../utils';
+import { isEmpty, isNull } from '@scripts/content/utils';
 
-export class database {
+export class Database {
 	constructor() {
 		this.id = 'settings';
 		this.isEnabled = false;

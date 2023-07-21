@@ -1,48 +1,49 @@
 @font-face {
 	font-family: 'opendyslexic';
-	src: url('/assets/fonts/opendyslexic/OpenDyslexic-Regular.otf');
+	src: url('/assets/fonts/opendyslexic/regular.otf');
 	font-style: normal;
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: 'opendyslexic';
-	src: url('/assets/fonts/opendyslexic/OpenDyslexic-Italic.otf');
+	src: url('/assets/fonts/opendyslexic/italic.otf');
 	font-style: italic;
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: 'opendyslexic';
-	src: url('/assets/fonts/opendyslexic/OpenDyslexic-Bold.otf');
+	src: url('/assets/fonts/opendyslexic/bold.otf');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'opendyslexic';
-	src: url('/assets/fonts/opendyslexic/OpenDyslexic-BoldItalic.otf');
+	src: url('/assets/fonts/opendyslexic/bold-italic.otf');
 	font-weight: bold;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'opendyslexicmono';
-	src: url('/assets/fonts/opendyslexic/OpenDyslexicMono-Regular.otf');
+	src: url('/assets/fonts/opendyslexic/regular.otf');
 	font-weight: normal;
 	font-style: normal;
 }
 
-html,
-body {
-	background-color: black;
-	color: #fff !important;
-}
 
 .viewport,
 body {
-	width: 400px;
-	max-width: 100%;
-	max-height: 400px;
+	width: 280px;
+	height: 480px;
 	font-family: 'opendyslexic';
+	background-color: #55B685;
 }
+
+.background-color-od{
+	background-color: #55B685;
+}
+
+.

@@ -1,15 +1,15 @@
-import { badge } from './badge.js'; // Done is class
-import { customFont } from './font.js';
-import { database } from './settings.js';
+import { Badge } from '@scripts/content/badge.js'; // Done is class
+import { CustomFont } from '@scripts/content/font.js';
+import { Database } from '@scripts/content/settings.js';
 
 export class OPENDYSLEXIC {
 	constructor() {
 		this.isRunning = true;
 		// Methods
-		this.DATABASE = new database();
+		this.DATABASE = new Database();
 
-		this.BADGE = new badge(this.DATABASE);
-		this.CUSTOM_FONT = new customFont(this.DATABASE);
+		this.BADGE = new Badge(this.DATABASE);
+		this.CUSTOM_FONT = new CustomFont(this.DATABASE);
 
 		this.refresh();
 		this.listener();

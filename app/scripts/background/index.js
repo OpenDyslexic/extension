@@ -1,5 +1,5 @@
-import { badge } from '../content/badge'; // Done is class
-const BADGE = new badge();
+import { Badge } from '@scripts/content/badge'; // Done is class
+const BADGE = new Badge();
 // background.js
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 	// Reload database.

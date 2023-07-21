@@ -1,21 +1,19 @@
-import Vue from 'vue';
-import VueSelect from 'vue-select';
-import 'vue-select/dist/vue-select.css';
-import App from './app.vue';
-import { sendToContentScript } from './content/api';
-import { $helperbird_i18n } from './utils';
+import { sendToContentScript } from '@scripts/content/api';
+import { $helperbird_i18n } from '@scripts/content/utils';
+import { createApp } from "vue";
+import Toaster from "@meforma/vue-toaster";
+import App from "@scripts/app.vue";
 
-Vue.config.productionTip = true;
-Vue.component('v-select', VueSelect);
+const app = createApp(App);
 
-new Vue({
-	provide: () => {
-		return {
-			$helperbird_i18n: $helperbird_i18n,
-			sendToContentScript: sendToContentScript
-		};
-	},
-	el: '#app',
-
-	render: (h) => h(App)
+app.provide("$helperbird_i18n", $helperbird_i18n);
+app.provide("sendToContentScript", sendToContentScript);
+app.use(Toaster, {
+  position: "bottom",
+  duration: 4000,
+  dismissible: false,
 });
+
+app.config.productionTip = true;
+
+app.mount("#app");
