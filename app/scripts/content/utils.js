@@ -4,8 +4,6 @@ export function $helperbird_i18n(params, replace = null) {
 		: chrome.i18n.getMessage(params, replace);
 }
 
-
-
 export function getBrowser() {
 	if (isFirefox()) {
 		return 'firefox';
@@ -25,8 +23,6 @@ export function isFirefox(agent) {
 	return /firefox/i.test(userAgent);
 }
 
-
-
 export function isEdge(agent) {
 	let userAgent = isEmpty(agent) ? navigator.userAgent : agent;
 	return /Edg/i.test(userAgent);
@@ -45,8 +41,6 @@ export function isChrome(agent, vendor) {
 	let vendorAgent = isEmpty(vendor) ? navigator.vendor : vendor;
 	return /Chrome/.test(userAgent) && /Google Inc/.test(vendorAgent);
 }
-
-
 
 export function isEmpty(value) {
 	return (
@@ -70,53 +64,25 @@ export function removeElementById(id) {
 	}
 }
 
-
-
 export function injectCssInline(id, style) {
-	let head = document.head || document.getElementsByTagName("head")[0];
-	let sheet = document.createElement("style");
-  
-	sheet.setAttribute("id", id);
-  
-	sheet.type = "text/css";
-  
+	let head = document.head || document.getElementsByTagName('head')[0];
+	let sheet = document.createElement('style');
+
+	sheet.setAttribute('id', id);
+
+	sheet.type = 'text/css';
+
 	sheet.appendChild(document.createTextNode(style));
 	head.appendChild(sheet);
-  }
-
-
-  export function idExists(id) {
-	return document.getElementById(id) !== null;
 }
 
-
-
+export function idExists(id) {
+	return document.getElementById(id) !== null;
+}
 
 export function isNull(value) {
 	return value === null;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 export default {
 	isSafari: isSafari,
