@@ -252,7 +252,7 @@
 
 				switch (TYPE) {
 					case 'success':
-						this.$toast.success(MESSAGE);
+						this.$toast.info(MESSAGE);
 						break;
 					case 'error':
 						this.$toast.error(MESSAGE);

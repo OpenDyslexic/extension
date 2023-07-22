@@ -9,8 +9,8 @@ const app = createApp(App);
 app.provide("$helperbird_i18n", $helperbird_i18n);
 app.provide("sendToContentScript", sendToContentScript);
 app.use(Toaster, {
-  position: "bottom-right",
-  duration: 4000,
+  position: "bottom",
+  duration: 2000,
   dismissible: false,
 });
 

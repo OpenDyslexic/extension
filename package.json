@@ -23,12 +23,6 @@
 		"test": "node --experimental-vm-modules ./node_modules/.bin/jest",
 		"build": "npm run clean &&  npm run chrome"
 	},
-
-	"type": "module",
-	"jest": {
-	  "testEnvironment": "node",
-	  "transformIgnorePatterns": []
-	},
 	"devDependencies": {
 		"@babel/core": "^7.22.9",
 		"@babel/preset-env": "^7.22.9",
