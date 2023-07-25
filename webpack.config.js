@@ -147,6 +147,7 @@ module.exports = {
 				/\.json$/,
 				/\.css$/,
 				/\.html$/,
+				/\.otf$/,
 				/\.png$/,
 				/\.jpg$/,
 				/\.jpeg$/,
