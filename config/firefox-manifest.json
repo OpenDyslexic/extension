@@ -15,7 +15,7 @@
 	"background": {
 		"scripts": ["scripts/background.js"],
 		"persistent": false
-	  },
+	},
 	"default_locale": "en",
 	"permissions": ["activeTab", "storage"],
 	"content_scripts": [
@@ -35,6 +35,7 @@
 		"assets/fonts/opendyslexic/regular.otf",
 		"assets/styles/core/opendyslexic-regular.css",
 		"assets/styles/core/opendyslexic-bold.css",
-		"assets/styles/core/opendyslexic-italic.css"
+		"assets/styles/core/opendyslexic-italic.css",
+		"assets/styles/core/opendyslexic.css"
 	]
 }

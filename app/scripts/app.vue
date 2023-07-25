@@ -208,6 +208,7 @@
 						href: 'https://www.helperbird.com',
 						text: 'Discover Helperbird for Chrome'
 					},
+				
 					{
 						href: 'https://www.helperbird.com',
 						text: 'Maintained by Robert James'
