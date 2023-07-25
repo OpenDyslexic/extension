@@ -1,5 +1,5 @@
 import { Badge } from '@scripts/content/badge.js'; // Done is class
-import { CustomFont } from '@scripts/content/font.js';
+import { FontInjector } from '@scripts/content/font.js';
 import { Database } from '@scripts/content/settings.js';
 
 export class OPENDYSLEXIC {
@@ -9,7 +9,7 @@ export class OPENDYSLEXIC {
 		this.DATABASE = new Database();
 
 		this.BADGE = new Badge(this.DATABASE);
-		this.CUSTOM_FONT = new CustomFont(this.DATABASE);
+		this.CUSTOM_FONT = new FontInjector(this.DATABASE);
 
 		this.refresh();
 		this.listener();

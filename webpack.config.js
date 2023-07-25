@@ -52,13 +52,13 @@ module.exports = {
 					}
 				}
 			},
-		
+
 			{
 				test: /\.css$/,
 				use: [
 					'style-loader',
 					'css-loader',
-					
+
 					{
 						loader: 'postcss-loader',
 						options: {
@@ -74,8 +74,8 @@ module.exports = {
 			},
 			{
 				test: /\.(txt|pdf)$/i,
-				use: "raw-loader",
-			  },
+				use: 'raw-loader'
+			},
 			{
 				test: /\.(png|jpe?g|gif)$/i,
 				use: [
@@ -94,39 +94,24 @@ module.exports = {
 		new VueLoaderPlugin(),
 		new CopyPlugin({
 			patterns: [
-				{ 
+				{
 					context: path.resolve(__dirname, 'config'),
-					
-					from: manifestLocation, to: `${path.resolve(__dirname, 'dist')}/manifest.json` },
-				{
-					context: path.resolve(__dirname, 'app'),
-					from: 'assets/styles/css/',
-					to: 'assets/css/'
+
+					from: manifestLocation,
+					to: `${path.resolve(__dirname, 'dist')}/manifest.json`
 				},
 				{
-					context: path.resolve(__dirname, 'app'),
-					from: 'index.html',
-					to: 'index.html'
+					from: './assets/fonts/',
+					to: path.resolve(__dirname, 'dist/assets/fonts/')
+				},
+
+				{
+					from: './assets/styles/',
+					to: path.resolve(__dirname, 'dist/assets/css/')
 				},
 				{
-					context: path.resolve(__dirname, 'app'),
-					from: 'assets/images/',
-					to: 'assets/images/'
-				},
-				{
-					context: path.resolve(__dirname, 'app'),
-					from: 'assets/fonts/',
-					to: 'assets/fonts/'
-				},
-				{
-					context: path.resolve(__dirname, 'app'),
-					from: 'assets/styles/',
-					to: 'assets/styles/'
-				},
-				{
-					context: path.resolve(__dirname, 'app'),
-					from: '_locales/',
-					to: '_locales/'
+					from: './_locales/',
+					to: path.resolve(__dirname, 'dist/_locales/')
 				},
 				{
 					from: './assets/images/',
@@ -162,7 +147,7 @@ module.exports = {
 			'@': path.resolve(__dirname, 'app'),
 			'@assets': path.resolve(__dirname, 'app/assets'),
 			'@styles': path.resolve(__dirname, 'app/assets/styles'),
-			'@scripts': path.resolve(__dirname, 'app/scripts'),
+			'@scripts': path.resolve(__dirname, 'app/scripts')
 		}
 	}
 };

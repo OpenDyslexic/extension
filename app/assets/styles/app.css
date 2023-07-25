@@ -33,17 +33,14 @@
 	font-style: normal;
 }
 
-
 .viewport,
 body {
 	width: 280px;
 	height: 480px;
 	font-family: 'opendyslexic';
-	background-color: #55B685;
+	background-color: #55b685;
 }
 
-.background-color-od{
-	background-color: #55B685;
+.background-color-od {
+	background-color: #55b685;
 }
-
-.
