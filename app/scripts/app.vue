@@ -1,122 +1,88 @@
 <template>
-	<div
-		class="relative max-w-5xl mx-auto py-12 px-4 sm:px-6 lg:px-8 h-screen flex items-center justify-center"
+	<main
+		class="max-w-md w-full mx-auto flex-grow h-full bg-transparent text-base-content p-6 overflow-hidden"
 	>
-		<div
-			class="mx-auto lg:grid lg:grid-cols-2 lg:gap-8 h-screen flex items-center justify-center"
-		>
-			<div class="here mx-auto">
-				<div class="w-full lg:border-none p-4 mb-2">
+		<div class="flex-1 p-2 h-fit mx-auto w-full flex items-center flex-col">
+			<div class="w-full">
+				<a
+					href="https://www.opendyslexic.org"
+					target="_blank"
+					class="mx-auto block text-center text-4xl text-black hover:underline btn-neutral"
+				>
+					OpenDyslexic
+				</a>
+				<p class="text-base text-black mx-auto text-center mt-2">
 					<a
-						href="https://opendyslexic.org?utm_source=opendyslexic-chrome&utm_medium=referral"
+						:href="advert.href"
 						target="_blank"
-						class="btn btn-ghost normal-case text-2xl mx-auto text-center"
+						:title="advert.text"
+						class="hover:underline"
+						><b> {{ advert.text }}</b></a
 					>
-						OpenDyslexic
-					</a>
-					<p class="text-base text-black mx-auto text-center">
-						<a
-							:href="advert.href"
-							target="_blank"
-							:title="advert.text"
-							class="text-black decoration-black no-underline hover:underline hover:text-black hover:decoration-wavy"
-							><b> {{ advert.text }}</b></a
+				</p>
+			</div>
+
+			<div class="w-full">
+				<div class="flex mb-6 mt-10">
+					<h2 class="flex-1 card-title text-black">
+						{{ $coffeeandfun_i18n('dyslexic_font', 'OpenDylexic') }}
+					</h2>
+					<label class="flex-0 flex items-center" for="enableFont">
+						<input
+							id="enableFont"
+							v-model="enable"
+							type="checkbox"
+							name="enableFont"
+							class="toggle border-2"
+							@change="turnOn"
+							@keyup.enter="turnOn"
+							:aria-checked="enable.toString()"
+						/>
+						<span class="sr-only">
+							{{
+								$coffeeandfun_i18n(
+									'dyslexic_font',
+									'OpenDylexic'
+								)
+							}}</span
 						>
-					</p>
+					</label>
 				</div>
 
-				<main class="block">
-					<div
-						class="card shadow-lg compact side bg-base-100 text-base-content col-span-6 border-2 border-stone-600"
-					>
-						<div class="card-body">
-							<div class="flex mb-8 mt-4">
-								<div class="flex-1">
-									<h2 class="card-title font-normal text-lg">
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											viewBox="0 0 24 24"
-											class="inline-block w-6 h-6 fill-current"
-										>
-											<path
-												d="M0 0h24v24H0V0z"
-												fill="none"
-											/>
-											<path
-												d="M9.93 13.5h4.14L12 7.98zM20 2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-4.05 16.5l-1.14-3H9.17l-1.12 3H5.96l5.11-13h1.86l5.11 13h-2.09z"
-											/>
-										</svg>
-										{{
-											enable === true
-												? $helperbird_i18n('on')
-												: $helperbird_i18n('off')
-										}}
-									</h2>
-								</div>
-
-								<label class="flex-0">
-									<div>
-										<input
-											type="checkbox"
-											checked="checked"
-											class="toggle toggle-primary"
-											v-model="enable"
-											@change="save('enabled')"
-										/>
-										<span class="toggle-mark"></span>
-									</div>
-								</label>
-							</div>
-							<div class="mb-8 mt-4">
-								<h2 class="card-title font-normal mb-8 text-lg">
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										viewBox="0 0 24 24"
-										class="inline-block w-6 h-6 fill-current"
-									>
-										<path d="M0 0h24v24H0z" fill="none" />
-										<path
-											d="M2.53 19.65l1.34.56v-9.03l-2.43 5.86c-.41 1.02.08 2.19 1.09 2.61zm19.5-3.7L17.07 3.98c-.31-.75-1.04-1.21-1.81-1.23-.26 0-.53.04-.79.15L7.1 5.95c-.75.31-1.21 1.03-1.23 1.8-.01.27.04.54.15.8l4.96 11.97c.31.76 1.05 1.22 1.83 1.23.26 0 .52-.05.77-.15l7.36-3.05c1.02-.42 1.51-1.59 1.09-2.6zM7.88 8.75c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-2 11c0 1.1.9 2 2 2h1.45l-3.45-8.34v6.34z"
-										/>
-									</svg>
-
-									{{ $helperbird_i18n('style') }}
-								</h2>
-
-								<div
-									class="grid grid-cols-3 gap-4 sm:gap-2 ml-8"
-								>
-									<div
-										v-for="font in text.fonts"
-										:key="font.title"
-										class="grid items-center text-center"
-									>
+				<div
+					class="card card-compact bg-base-300 border-stone-300 border-2 text-base-content block w-full mt-2"
+				>
+					<div class="card-body rounded-xl">
+						<div class="flex-1">
+							<div class="flex flex-col w-full border-opacity-50">
+								<div class="flex-1 mb-8">
+									<div class="grid grid-cols-1 gap-4">
 										<div
-											:class="[
-												'tooltip',
-												'tooltip-primary',
-												'tooltip-top'
-											]"
-											:data-tip="font.title"
+											v-for="font in text.fonts"
+											:key="font.title"
+											class="grid items-center text-center"
 										>
 											<button
+												:disabled="!enable"
 												:class="[
 													'btn',
-													'btn-square',
-													'btn-neutral',
+
+													'btn-ghost',
+
 													'normal-case',
 													`helperbird-font-${font.font}`,
-													'text-lg',
 													{
-														'btn-outline':
-															font.title !==
-															text.selectedFont
-																.title
+														'btn-neutral':
+															font.font.toLocaleLowerCase() ===
+															text.selectedFont.font.toLocaleLowerCase(),
+														'btn-active':
+															font.font.toLocaleLowerCase() ===
+															text.selectedFont.font.toLocaleLowerCase()
 													}
 												]"
-												@click="save('font', font)"
+												@click="save(font)"
 											>
-												Aa
+												{{ font.title }}
 											</button>
 										</div>
 									</div>
@@ -124,23 +90,20 @@
 							</div>
 						</div>
 					</div>
-				</main>
+				</div>
 			</div>
 		</div>
-	</div>
+	</main>
 </template>
 
 <script>
 	import './index.css';
 
 	export default {
-		inject: ['$helperbird_i18n', 'sendToContentScript'],
+		inject: ['$coffeeandfun_i18n', 'sendToContentScript'],
 		data() {
 			return {
-				paid: true,
-				enable: null,
-				font: 'regular',
-
+				enable: false,
 				text: {
 					selectedFont: {
 						title: 'OpenDyslexic',
@@ -166,6 +129,7 @@
 
 		mounted() {
 			const SETTING_KEYS = ['font', 'enabled'];
+
 			chrome.storage.local.get(SETTING_KEYS, (settings) => {
 				const findFont = this.text.fonts.find(
 					(o) => o.font === settings.font
@@ -174,6 +138,7 @@
 					? findFont
 					: this.text.selectedFont;
 				this.enable = settings.enabled ? true : false;
+				this.updateBadge();
 			});
 		},
 
@@ -192,6 +157,7 @@
 						href: 'https://twitter.com/opendyslexic',
 						text: 'Follow us on Twitter'
 					},
+
 					{
 						href: 'https://addons.mozilla.org/en-US/firefox/addon/opendyslexic-for-firefox/',
 						text: 'Available on Firefox'
@@ -208,7 +174,10 @@
 						href: 'https://www.helperbird.com',
 						text: 'Discover Helperbird for Chrome'
 					},
-				
+					{
+						href: 'https://www.helperbird.com',
+						text: 'Learn about Helperbird'
+					},
 					{
 						href: 'https://www.helperbird.com',
 						text: 'Maintained by Robert James'
@@ -232,7 +201,20 @@
 				chrome.storage.local.set(setting);
 				return setting;
 			},
+			turnOn() {
+				this.sync('enabled', this.enable);
 
+				this.updateBadge();
+			},
+			updateBadge() {
+				if (this.enable) {
+					chrome.action.setBadgeText({ text: 'on' });
+					chrome.action.setBadgeBackgroundColor({ color: '#00FF00' }); // Green color
+				} else {
+					chrome.action.setBadgeText({ text: 'off' });
+					chrome.action.setBadgeBackgroundColor({ color: '#FF0000' }); // Red color
+				}
+			},
 			isEmpty(value) {
 				return (
 					value === undefined ||
@@ -253,7 +235,7 @@
 
 				switch (TYPE) {
 					case 'success':
-						this.$toast.info(MESSAGE);
+						this.$toast.success(MESSAGE);
 						break;
 					case 'error':
 						this.$toast.error(MESSAGE);
@@ -269,23 +251,14 @@
 				}
 			},
 
-			save(featureID, selected) {
-				let key = featureID;
-				switch (key) {
-					case 'enabled':
-						this.sync('enabled', this.enable);
-						break;
-
-					case 'font':
-						if (this.isEmpty(selected) === false) {
-							this.text.selectedFont = selected;
-							this.sync('font', this.text.selectedFont.font);
-						}
-						break;
+			save(selected) {
+				if (this.isEmpty(selected) === false) {
+					this.text.selectedFont = selected;
+					this.sync('font', this.text.selectedFont.font);
 				}
 
 				const TOASTER_CONFIG = {
-					message: this.$helperbird_i18n('saved'),
+					message: this.$coffeeandfun_i18n('saved'),
 					type: 'success'
 				};
 

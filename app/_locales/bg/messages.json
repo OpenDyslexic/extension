@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic за Edge™",
+		"description": "Направете четенето онлайн по-лесно и по-приятно, като форматирате страници с шрифта OpenDyslexic."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic за Firefox™",
+		"description": "Направете четенето онлайн по-лесно и по-приятно, като форматирате страници с шрифта OpenDyslexic."
 	},
 	"appName": {
-		"message": "OpenDyslexic за Chrome",
-		"description": "Форматирайте страници с помощта на шрифта OpenDyslexic и помощ с нисък контраст."
+		"message": "OpenDyslexic за Chrome™",
+		"description": "Направете четенето онлайн по-лесно и по-приятно, като форматирате страници с шрифта OpenDyslexic."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Форматирайте страници с помощта на шрифта OpenDyslexic и помощ с нисък контраст."
+		"description": "Направете четенето онлайн по-лесно и по-приятно, като форматирате страници с шрифта OpenDyslexic."
 	},
 	"appDescription": {
-		"message": "Форматирайте страници с помощта на шрифта OpenDyslexic и помощ с нисък контраст",
-		"description": "Форматирайте страници с помощта на шрифта OpenDyslexic и помощ с нисък контраст"
+		"message": "Направете четенето онлайн по-лесно и по-приятно, като форматирате страници с шрифта OpenDyslexic.",
+		"description": "Направете четенето онлайн по-лесно и по-приятно, като форматирате страници с шрифта OpenDyslexic."
+	},
+	"feature_specialized_font_options": {
+		"message": "Опции за шрифтове"
 	},
 	"options": {
 		"message": "Настроики"
@@ -35,7 +38,7 @@
 		"message": "Гугъл документи"
 	},
 	"googleDocsTooltip": {
-		"message": "Активирайте пълната поддръжка на Google Docs."
+		"message": "Активирайте пълната поддръжка на Google Документи."
 	},
 	"fontColorSetting": {
 		"message": "Цвят"
@@ -53,7 +56,7 @@
 		"message": "Променете цвета на фона."
 	},
 	"personalSetting": {
-		"message": "Лични"
+		"message": "Лична"
 	},
 	"socialSetting": {
 		"message": "Социални"
@@ -80,7 +83,7 @@
 		"message": "Следвайте Робърт Джеймс"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Следвайте поддръжника на това приложение."
+		"message": "Следвайте поддържащия това приложение."
 	},
 	"whatsNew": {
 		"message": "Какво ново"
@@ -89,7 +92,7 @@
 		"message": "Версия на Firefox"
 	},
 	"firefoxText": {
-		"message": "Да използвате Firefox? Изтеглете го днес."
+		"message": "Използвате Firefox? Изтеглете го днес."
 	},
 	"title_fonts": {
 		"message": "Шрифтове"
@@ -98,10 +101,10 @@
 		"message": "поддържа"
 	},
 	"featureTint": {
-		"message": "Активиране на наслагването"
+		"message": "Активирайте наслагването"
 	},
 	"supportToolTipTwo": {
-		"message": "Имате проблем? Свържете се с екипа за поддръжка."
+		"message": "Имате проблем? Свържете се с поддръжката."
 	},
 	"reviews": {
 		"message": "Отзиви"
@@ -110,16 +113,16 @@
 		"message": "Преглед"
 	},
 	"style": {
-		"message": "Стил"
+		"message": "стил"
 	},
 	"supportToolTip": {
-		"message": "Оставете или прочетете отзиви"
+		"message": "Оставете или прочетете рецензии"
 	},
 	"websiteLabel": {
-		"message": "Уебсайт"
+		"message": "уебсайт"
 	},
 	"websiteTooltip": {
-		"message": "Уебсайт за поддръжка."
+		"message": "Уеб сайт за поддръжка."
 	},
 	"saved": {
 		"message": "Запазено"
@@ -130,10 +133,13 @@
 	"OpenDyslexic": {
 		"message": "Открийте OpenDyslexic"
 	},
+	"dyslexic_font": {
+		"message": "$1 шрифт"
+	},
 	"on": {
 		"message": "На"
 	},
 	"off": {
-		"message": "Изключено"
+		"message": "Изкл"
 	}
 }

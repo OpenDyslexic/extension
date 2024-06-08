@@ -1,29 +1,32 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic za Edge™",
+		"description": "Naredite branje na spletu enostavnejše in prijetnejše z oblikovanjem strani s pisavo OpenDyslexic."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic za Firefox™",
+		"description": "Naredite branje na spletu enostavnejše in prijetnejše z oblikovanjem strani s pisavo OpenDyslexic."
 	},
 	"appName": {
-		"message": "OpenDyslexic za Chrome",
-		"description": "Formatirajte strani s pomočjo pisave OpenDyslexic in pomoči z nizkim kontrastom."
+		"message": "OpenDyslexic za Chrome™",
+		"description": "Naredite branje na spletu enostavnejše in prijetnejše z oblikovanjem strani s pisavo OpenDyslexic."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Formatirajte strani s pomočjo pisave OpenDyslexic in pomoči z nizkim kontrastom."
+		"description": "Naredite branje na spletu enostavnejše in prijetnejše z oblikovanjem strani s pisavo OpenDyslexic."
 	},
 	"appDescription": {
-		"message": "Formatirajte strani s pomočjo pisave OpenDyslexic in pomoči z nizkim kontrastom",
-		"description": "Formatirajte strani s pomočjo pisave OpenDyslexic in pomoči z nizkim kontrastom"
+		"message": "Naredite branje na spletu enostavnejše in prijetnejše z oblikovanjem strani s pisavo OpenDyslexic.",
+		"description": "Naredite branje na spletu enostavnejše in prijetnejše z oblikovanjem strani s pisavo OpenDyslexic."
+	},
+	"feature_specialized_font_options": {
+		"message": "Možnosti pisave"
 	},
 	"options": {
 		"message": "Opcije"
 	},
 	"settings": {
-		"message": "Nastavitve"
+		"message": "nastavitve"
 	},
 	"selectedFontLabel": {
 		"message": "Izbrana pisava za uporabo."
@@ -35,10 +38,10 @@
 		"message": "Google Dokumenti"
 	},
 	"googleDocsTooltip": {
-		"message": "Omogočite polno podporo za Google Dokumente."
+		"message": "Omogoči popolno podporo za Google Dokumente."
 	},
 	"fontColorSetting": {
-		"message": "Barva"
+		"message": "barva"
 	},
 	"fontColorLabel": {
 		"message": "Pisava"
@@ -56,7 +59,7 @@
 		"message": "Osebno"
 	},
 	"socialSetting": {
-		"message": "Socialni"
+		"message": "Socialno"
 	},
 	"codeSetting": {
 		"message": "Izvorna koda"
@@ -65,10 +68,10 @@
 		"message": "Sledite OpenDyslexic"
 	},
 	"followDyslexicToolTip": {
-		"message": "Sledite OpenDyslexic na Twitterju"
+		"message": "Spremljajte OpenDyslexic na Twitterju"
 	},
 	"followAbbie": {
-		"message": "Podpira OpenDyslexic"
+		"message": "Podpora OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Prihaja kmalu"
@@ -86,10 +89,10 @@
 		"message": "Kaj je novega"
 	},
 	"firefox": {
-		"message": "Različica Firefox"
+		"message": "Različica Firefoxa"
 	},
 	"firefoxText": {
-		"message": "Uporabiti Firefox? Prenesite ga še danes."
+		"message": "Uporabljate Firefox? Prenesite ga še danes."
 	},
 	"title_fonts": {
 		"message": "Pisave"
@@ -113,7 +116,7 @@
 		"message": "Slog"
 	},
 	"supportToolTip": {
-		"message": "Pustite ali preberite mnenja"
+		"message": "Pustite ali preberite ocene"
 	},
 	"websiteLabel": {
 		"message": "Spletna stran"
@@ -130,10 +133,13 @@
 	"OpenDyslexic": {
 		"message": "Odkrijte OpenDyslexic"
 	},
+	"dyslexic_font": {
+		"message": "$1 pisava"
+	},
 	"on": {
 		"message": "Vklopljeno"
 	},
 	"off": {
-		"message": "Izklopljeno"
+		"message": "Izključeno"
 	}
 }

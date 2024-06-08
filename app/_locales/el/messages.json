@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic για Edge™",
+		"description": "Κάντε την ανάγνωση στο διαδίκτυο ευκολότερη και πιο ευχάριστη μορφοποιώντας σελίδες με τη γραμματοσειρά OpenDyslexic."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic για Firefox™",
+		"description": "Κάντε την ανάγνωση στο διαδίκτυο ευκολότερη και πιο ευχάριστη μορφοποιώντας σελίδες με τη γραμματοσειρά OpenDyslexic."
 	},
 	"appName": {
-		"message": "OpenDyslexic για Chrome",
-		"description": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης."
+		"message": "OpenDyslexic για Chrome™",
+		"description": "Κάντε την ανάγνωση στο διαδίκτυο ευκολότερη και πιο ευχάριστη μορφοποιώντας σελίδες με τη γραμματοσειρά OpenDyslexic."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης."
+		"description": "Κάντε την ανάγνωση στο διαδίκτυο ευκολότερη και πιο ευχάριστη μορφοποιώντας σελίδες με τη γραμματοσειρά OpenDyslexic."
 	},
 	"appDescription": {
-		"message": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης",
-		"description": "Μορφοποιήστε τις σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης"
+		"message": "Κάντε την ανάγνωση στο διαδίκτυο ευκολότερη και πιο ευχάριστη μορφοποιώντας σελίδες με τη γραμματοσειρά OpenDyslexic.",
+		"description": "Κάντε την ανάγνωση στο διαδίκτυο ευκολότερη και πιο ευχάριστη μορφοποιώντας σελίδες με τη γραμματοσειρά OpenDyslexic."
+	},
+	"feature_specialized_font_options": {
+		"message": "Επιλογές γραμματοσειράς"
 	},
 	"options": {
 		"message": "Επιλογές"
@@ -50,7 +53,7 @@
 		"message": "Ιστορικό"
 	},
 	"backgroundColorTooltip": {
-		"message": "Αλλάξτε το χρώμα φόντου."
+		"message": "Αλλάξτε το χρώμα του φόντου."
 	},
 	"personalSetting": {
 		"message": "Προσωπικός"
@@ -89,7 +92,7 @@
 		"message": "Έκδοση Firefox"
 	},
 	"firefoxText": {
-		"message": "Χρησιμοποιήστε τον Firefox; Κατεβάστε το σήμερα."
+		"message": "Χρήση Firefox; Κατεβάστε το σήμερα."
 	},
 	"title_fonts": {
 		"message": "Γραμματοσειρές"
@@ -101,7 +104,7 @@
 		"message": "Ενεργοποίηση επικάλυψης"
 	},
 	"supportToolTipTwo": {
-		"message": "Αντιμετωπίζετε κάποιο πρόβλημα; Επικοινωνήστε με την υποστήριξη."
+		"message": "Έχετε πρόβλημα; Επικοινωνήστε με την υποστήριξη."
 	},
 	"reviews": {
 		"message": "Κριτικές"
@@ -119,7 +122,7 @@
 		"message": "Δικτυακός τόπος"
 	},
 	"websiteTooltip": {
-		"message": "Ιστοσελίδα υποστήριξης."
+		"message": "Ιστότοπος υποστήριξης."
 	},
 	"saved": {
 		"message": "Αποθηκεύτηκε"
@@ -129,6 +132,9 @@
 	},
 	"OpenDyslexic": {
 		"message": "Ανακαλύψτε το OpenDyslexic"
+	},
+	"dyslexic_font": {
+		"message": "γραμματοσειρά $1"
 	},
 	"on": {
 		"message": "Επί"

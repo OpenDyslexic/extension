@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic para Edge™",
+		"description": "Haga que la lectura en línea sea más fácil y agradable formateando las páginas con la fuente OpenDyslexic."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic para Firefox™",
+		"description": "Haga que la lectura en línea sea más fácil y agradable formateando las páginas con la fuente OpenDyslexic."
 	},
 	"appName": {
-		"message": "OpenDyslexic para Chrome",
-		"description": "Formatee las páginas con la fuente OpenDyslexic y la ayuda de bajo contraste."
+		"message": "OpenDyslexic para Chrome™",
+		"description": "Haga que la lectura en línea sea más fácil y agradable formateando las páginas con la fuente OpenDyslexic."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Formatee las páginas con la fuente OpenDyslexic y la ayuda de bajo contraste."
+		"message": "AbiertoDisléxico",
+		"description": "Haga que la lectura en línea sea más fácil y agradable formateando las páginas con la fuente OpenDyslexic."
 	},
 	"appDescription": {
-		"message": "Dar formato a las páginas con la fuente OpenDyslexic y la ayuda de bajo contraste",
-		"description": "Dar formato a las páginas con la fuente OpenDyslexic y la ayuda de bajo contraste"
+		"message": "Haga que la lectura en línea sea más fácil y agradable formateando las páginas con la fuente OpenDyslexic.",
+		"description": "Haga que la lectura en línea sea más fácil y agradable formateando las páginas con la fuente OpenDyslexic."
+	},
+	"feature_specialized_font_options": {
+		"message": "Opciones de fuente"
 	},
 	"options": {
 		"message": "Opciones"
@@ -71,16 +74,16 @@
 		"message": "Soporte OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "Próximamente, en breve, pronto"
+		"message": "Muy pronto"
 	},
 	"followAbbieToolTip": {
 		"message": "Apoya al creador de OpenDyslexic."
 	},
 	"followRobertJames": {
-		"message": "Sigue a Robert James"
+		"message": "Seguir a Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Siga al encargado de mantenimiento de esta aplicación."
+		"message": "Siga al responsable de esta aplicación."
 	},
 	"whatsNew": {
 		"message": "¿Qué hay de nuevo?"
@@ -113,7 +116,7 @@
 		"message": "Estilo"
 	},
 	"supportToolTip": {
-		"message": "Deja o lee reseñas"
+		"message": "Dejar o leer reseñas"
 	},
 	"websiteLabel": {
 		"message": "Sitio web"
@@ -125,10 +128,13 @@
 		"message": "Salvado"
 	},
 	"helperbird": {
-		"message": "Descubrir Helperbird"
+		"message": "Descubra Helperbird"
 	},
 	"OpenDyslexic": {
-		"message": "Descubra OpenDyslexic"
+		"message": "Descubre OpenDyslexic"
+	},
+	"dyslexic_font": {
+		"message": "fuente de $ 1"
 	},
 	"on": {
 		"message": "En"

@@ -1,24 +1,24 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic for Edge™",
+		"description": "Make reading online easier and more enjoyable by formatting pages with the OpenDyslexic font."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic for Firefox™",
+		"description": "Make reading online easier and more enjoyable by formatting pages with the OpenDyslexic font."
 	},
 	"appName": {
-		"message": "OpenDyslexic for Chrome",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic for Chrome™",
+		"description": "Make reading online easier and more enjoyable by formatting pages with the OpenDyslexic font."
 	},
 
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"description": "Make reading online easier and more enjoyable by formatting pages with the OpenDyslexic font."
 	},
 	"appDescription": {
-		"message": "Format pages using the OpenDyslexic font and low contrast help",
-		"description": "Format pages using the OpenDyslexic font and low contrast help"
+		"message": "Make reading online easier and more enjoyable by formatting pages with the OpenDyslexic font.",
+		"description": "Make reading online easier and more enjoyable by formatting pages with the OpenDyslexic font."
 	},
 	"feature_specialized_font_options": {
 		"message": "Font options"
@@ -138,6 +138,9 @@
 	},
 	"OpenDyslexic": {
 		"message": "Discover OpenDyslexic"
+	},
+	"dyslexic_font": {
+		"message": "$1 font"
 	},
 	"on": {
 		"message": "On"

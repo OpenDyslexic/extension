@@ -1,2 +1,2 @@
-import { OPENDYSLEXIC } from './engine.js';
-new OPENDYSLEXIC();
+import { OpenDyslexic } from './engine.js';
+new OpenDyslexic();

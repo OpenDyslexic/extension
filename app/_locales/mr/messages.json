@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic for Edge™",
+		"description": "OpenDyslexic फॉन्टसह पृष्ठे स्वरूपित करून ऑनलाइन वाचन सोपे आणि अधिक आनंददायक बनवा."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "Firefox™ साठी OpenDyslexic",
+		"description": "OpenDyslexic फॉन्टसह पृष्ठे स्वरूपित करून ऑनलाइन वाचन सोपे आणि अधिक आनंददायक बनवा."
 	},
 	"appName": {
-		"message": "Chrome साठी ओपनडिस्लेक्सिक",
-		"description": "ओपनडिस्लेक्सिक फॉन्ट आणि लो कॉन्ट्रास्ट मदत वापरुन पृष्ठे स्वरूपित करा."
+		"message": "Chrome™ साठी OpenDyslexic",
+		"description": "OpenDyslexic फॉन्टसह पृष्ठे स्वरूपित करून ऑनलाइन वाचन सोपे आणि अधिक आनंददायक बनवा."
 	},
 	"appTitle": {
 		"message": "ओपनडिस्लेक्सिक",
-		"description": "ओपनडिस्लेक्सिक फॉन्ट आणि लो कॉन्ट्रास्ट मदत वापरुन पृष्ठे स्वरूपित करा."
+		"description": "OpenDyslexic फॉन्टसह पृष्ठे स्वरूपित करून ऑनलाइन वाचन सोपे आणि अधिक आनंददायक बनवा."
 	},
 	"appDescription": {
-		"message": "ओपनडिस्लेक्सिक फॉन्ट आणि लो कॉन्ट्रास्ट मदत वापरुन पृष्ठे स्वरूपित करा",
-		"description": "ओपनडिस्लेक्सिक फॉन्ट आणि लो कॉन्ट्रास्ट मदत वापरुन पृष्ठे स्वरूपित करा"
+		"message": "OpenDyslexic फॉन्टसह पृष्ठे स्वरूपित करून ऑनलाइन वाचन सोपे आणि अधिक आनंददायक बनवा.",
+		"description": "OpenDyslexic फॉन्टसह पृष्ठे स्वरूपित करून ऑनलाइन वाचन सोपे आणि अधिक आनंददायक बनवा."
+	},
+	"feature_specialized_font_options": {
+		"message": "फॉन्ट पर्याय"
 	},
 	"options": {
 		"message": "पर्याय"
@@ -32,10 +35,10 @@
 		"message": "सक्षम करा"
 	},
 	"googleDocsLabel": {
-		"message": "गूगल डॉक्स"
+		"message": "Google डॉक्स"
 	},
 	"googleDocsTooltip": {
-		"message": "पूर्ण Google डॉक्स समर्थन सक्षम करा."
+		"message": "संपूर्ण Google डॉक्स समर्थन सक्षम करा."
 	},
 	"fontColorSetting": {
 		"message": "रंग"
@@ -62,52 +65,52 @@
 		"message": "मूळ सांकेतिक शब्दकोश"
 	},
 	"followDyslexic": {
-		"message": "ओपनडिस्लेक्सिक अनुसरण करा"
+		"message": "OpenDyslexic फॉलो करा"
 	},
 	"followDyslexicToolTip": {
-		"message": "ट्विटरवर ओपनडिस्लेक्सिकचे अनुसरण करा"
+		"message": "Twitter वर OpenDyslexic फॉलो करा"
 	},
 	"followAbbie": {
-		"message": "ओपनडिस्लेक्सिक समर्थन"
+		"message": "OpenDyslexic ला सपोर्ट करा"
 	},
 	"comingSoon": {
 		"message": "लवकरच येत आहे"
 	},
 	"followAbbieToolTip": {
-		"message": "ओपनडिस्लेक्सिकच्या निर्मात्यास समर्थन द्या."
+		"message": "OpenDyslexic च्या निर्मात्याला समर्थन द्या."
 	},
 	"followRobertJames": {
-		"message": "अनुसरण करा रॉबर्ट जेम्स"
+		"message": "रॉबर्ट जेम्सचे अनुसरण करा"
 	},
 	"followRobertJamesToolTip": {
-		"message": "या अ‍ॅपच्या देखभालकाचे अनुसरण करा."
+		"message": "या ॲपच्या देखभालकर्त्याचे अनुसरण करा."
 	},
 	"whatsNew": {
-		"message": "काय नवीन आहे"
+		"message": "नवीन काय आहे"
 	},
 	"firefox": {
 		"message": "फायरफॉक्स आवृत्ती"
 	},
 	"firefoxText": {
-		"message": "फायरफॉक्स वापरायचा? आजच डाउनलोड करा."
+		"message": "फायरफॉक्स वापरायचे? आजच डाउनलोड करा."
 	},
 	"title_fonts": {
 		"message": "फॉन्ट"
 	},
 	"supportlSetting": {
-		"message": "आधार"
+		"message": "सपोर्ट"
 	},
 	"featureTint": {
 		"message": "आच्छादन सक्षम करा"
 	},
 	"supportToolTipTwo": {
-		"message": "एक समस्या आहे? समर्थन संपर्क."
+		"message": "समस्या येत आहे? समर्थनाशी संपर्क साधा."
 	},
 	"reviews": {
 		"message": "पुनरावलोकने"
 	},
 	"review": {
-		"message": "पुनरावलोकन"
+		"message": "पुनरावलोकन करा"
 	},
 	"style": {
 		"message": "शैली"
@@ -125,10 +128,13 @@
 		"message": "जतन केले"
 	},
 	"helperbird": {
-		"message": "हेल्पबर्ड शोधा"
+		"message": "हेल्परबर्ड शोधा"
 	},
 	"OpenDyslexic": {
-		"message": "ओपनडिस्लेक्सिक शोधा"
+		"message": "OpenDyslexic शोधा"
+	},
+	"dyslexic_font": {
+		"message": "$1 फॉन्ट"
 	},
 	"on": {
 		"message": "चालू"

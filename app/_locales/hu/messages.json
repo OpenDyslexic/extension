@@ -1,32 +1,35 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic for Edge™",
+		"description": "Tedd egyszerűbbé és élvezetesebbé az online olvasást az oldalak OpenDyslexic betűtípussal történő formázásával."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic for Firefox™",
+		"description": "Tegye könnyebbé és élvezetesebbé az online olvasást az oldalak OpenDyslexic betűtípussal történő formázásával."
 	},
 	"appName": {
-		"message": "OpenDyslexic for Chrome",
-		"description": "Oldalak formázása az OpenDyslexic betűtípus és az alacsony kontrasztú súgó segítségével."
+		"message": "OpenDyslexic for Chrome™",
+		"description": "Tegye könnyebbé és élvezetesebbé az online olvasást az oldalak OpenDyslexic betűtípussal történő formázásával."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Oldalak formázása az OpenDyslexic betűtípus és az alacsony kontrasztú súgó segítségével."
+		"description": "Tedd egyszerűbbé és élvezetesebbé az online olvasást az oldalak OpenDyslexic betűtípussal történő formázásával."
 	},
 	"appDescription": {
-		"message": "Oldalak formázása az OpenDyslexic betűtípus és az alacsony kontrasztú súgó segítségével",
-		"description": "Oldalak formázása az OpenDyslexic betűtípus és az alacsony kontrasztú súgó segítségével"
+		"message": "Tedd egyszerűbbé és élvezetesebbé az online olvasást az oldalak OpenDyslexic betűtípussal történő formázásával.",
+		"description": "Tedd egyszerűbbé és élvezetesebbé az online olvasást az oldalak OpenDyslexic betűtípussal történő formázásával."
+	},
+	"feature_specialized_font_options": {
+		"message": "Betűtípus-beállítások"
 	},
 	"options": {
-		"message": "Opciók"
+		"message": "Lehetőségek"
 	},
 	"settings": {
 		"message": "Beállítások"
 	},
 	"selectedFontLabel": {
-		"message": "Kiválasztott betűtípus."
+		"message": "A használni kívánt betűtípus kiválasztása."
 	},
 	"enableFontLabel": {
 		"message": "Engedélyezze"
@@ -35,7 +38,7 @@
 		"message": "Google Dokumentumok"
 	},
 	"googleDocsTooltip": {
-		"message": "Engedélyezze a Google Dokumentumok teljes támogatását."
+		"message": "A Google Dokumentumok teljes támogatásának engedélyezése."
 	},
 	"fontColorSetting": {
 		"message": "Szín"
@@ -44,52 +47,52 @@
 		"message": "Betűtípus"
 	},
 	"fontColorTooltip": {
-		"message": "Változtassa meg a betű színét."
+		"message": "Módosítsa a betűtípus színét."
 	},
 	"backgroundColorLabel": {
 		"message": "Háttér"
 	},
 	"backgroundColorTooltip": {
-		"message": "Változtassa meg a háttér színét."
+		"message": "Módosítsa a háttérszínt."
 	},
 	"personalSetting": {
 		"message": "Személyes"
 	},
 	"socialSetting": {
-		"message": "Társadalmi"
+		"message": "Szociális"
 	},
 	"codeSetting": {
 		"message": "Forráskód"
 	},
 	"followDyslexic": {
-		"message": "Kövesse az OpenDyslexic alkalmazást"
+		"message": "Kövesse az OpenDyslexic-et"
 	},
 	"followDyslexicToolTip": {
-		"message": "Kövesse az OpenDyslexic alkalmazást a Twitteren"
+		"message": "Kövesse az OpenDyslexic-et a Twitteren"
 	},
 	"followAbbie": {
-		"message": "Támogatja az OpenDyslexic alkalmazást"
+		"message": "Az OpenDyslexic támogatása"
 	},
 	"comingSoon": {
 		"message": "Hamarosan"
 	},
 	"followAbbieToolTip": {
-		"message": "Támogassa az OpenDyslexic készítőjét."
+		"message": "Támogassa az OpenDyslexic alkotóját."
 	},
 	"followRobertJames": {
-		"message": "Kövesse Robert James-t"
+		"message": "Kövesd Robert Jamest"
 	},
 	"followRobertJamesToolTip": {
 		"message": "Kövesse az alkalmazás karbantartóját."
 	},
 	"whatsNew": {
-		"message": "Mi az új"
+		"message": "Mi újság"
 	},
 	"firefox": {
 		"message": "Firefox verzió"
 	},
 	"firefoxText": {
-		"message": "Firefoxot használ? Töltse le még ma."
+		"message": "Firefoxot használsz? Töltse le még ma."
 	},
 	"title_fonts": {
 		"message": "Betűtípusok"
@@ -98,10 +101,10 @@
 		"message": "Támogatás"
 	},
 	"featureTint": {
-		"message": "Engedélyezze az átfedést"
+		"message": "Fedvény engedélyezése"
 	},
 	"supportToolTipTwo": {
-		"message": "Van valami probléma? Vegye fel a kapcsolatot az ügyfélszolgálattal."
+		"message": "Problémája van? Lépjen kapcsolatba az ügyfélszolgálattal."
 	},
 	"reviews": {
 		"message": "Vélemények"
@@ -113,7 +116,7 @@
 		"message": "Stílus"
 	},
 	"supportToolTip": {
-		"message": "Hagyjon vagy olvassa el az értékeléseket"
+		"message": "Írjon vagy olvasson véleményeket"
 	},
 	"websiteLabel": {
 		"message": "Weboldal"
@@ -125,10 +128,13 @@
 		"message": "Mentett"
 	},
 	"helperbird": {
-		"message": "Fedezze fel a Helperbird-et"
+		"message": "Fedezze fel a Helperbirdot"
 	},
 	"OpenDyslexic": {
-		"message": "Fedezze fel az OpenDyslexic alkalmazást"
+		"message": "Fedezze fel az OpenDyslexicot"
+	},
+	"dyslexic_font": {
+		"message": "$1 betűtípus"
 	},
 	"on": {
 		"message": "Tovább"

@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic for Edge™",
+		"description": "Gör läsningen online enklare och roligare genom att formatera sidor med typsnittet OpenDyslexic."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic för Firefox™",
+		"description": "Gör läsningen online enklare och roligare genom att formatera sidor med typsnittet OpenDyslexic."
 	},
 	"appName": {
-		"message": "OpenDyslexic för Chrome",
-		"description": "Formatera sidor med hjälp av OpenDyslexic-teckensnitt och hjälp med låg kontrast."
+		"message": "OpenDyslexic för Chrome™",
+		"description": "Gör det enklare och roligare att läsa online genom att formatera sidor med typsnittet OpenDyslexic."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Formatera sidor med hjälp av OpenDyslexic-teckensnitt och hjälp med låg kontrast."
+		"message": "Öppen Dyslektiker",
+		"description": "Gör det enklare och roligare att läsa online genom att formatera sidor med typsnittet OpenDyslexic."
 	},
 	"appDescription": {
-		"message": "Formatera sidor med hjälp av OpenDyslexic-teckensnitt och hjälp med låg kontrast",
-		"description": "Formatera sidor med hjälp av OpenDyslexic-teckensnitt och hjälp med låg kontrast"
+		"message": "Gör det enklare och roligare att läsa online genom att formatera sidor med typsnittet OpenDyslexic.",
+		"description": "Gör det enklare och roligare att läsa online genom att formatera sidor med typsnittet OpenDyslexic."
+	},
+	"feature_specialized_font_options": {
+		"message": "Teckensnittsalternativ"
 	},
 	"options": {
 		"message": "alternativ"
@@ -26,7 +29,7 @@
 		"message": "inställningar"
 	},
 	"selectedFontLabel": {
-		"message": "Vald typsnitt som ska användas."
+		"message": "Valt teckensnitt att använda."
 	},
 	"enableFontLabel": {
 		"message": "Gör det möjligt"
@@ -35,7 +38,7 @@
 		"message": "Google Dokument"
 	},
 	"googleDocsTooltip": {
-		"message": "Aktivera fullständigt stöd för Google Dokument."
+		"message": "Aktivera fullständig support för Google Dokument."
 	},
 	"fontColorSetting": {
 		"message": "Färg"
@@ -44,13 +47,13 @@
 		"message": "Font"
 	},
 	"fontColorTooltip": {
-		"message": "Ändra teckensnittsfärg."
+		"message": "Ändra teckensnittsfärgen."
 	},
 	"backgroundColorLabel": {
 		"message": "Bakgrund"
 	},
 	"backgroundColorTooltip": {
-		"message": "Ändra bakgrundsfärg."
+		"message": "Ändra bakgrundsfärgen."
 	},
 	"personalSetting": {
 		"message": "Personlig"
@@ -80,19 +83,19 @@
 		"message": "Följ Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Följ underhållaren av den här appen."
+		"message": "Följ underhållaren av denna app."
 	},
 	"whatsNew": {
 		"message": "Vad är nytt"
 	},
 	"firefox": {
-		"message": "Firefox-version"
+		"message": "Firefox version"
 	},
 	"firefoxText": {
-		"message": "Använd Firefox? Ladda ner den idag."
+		"message": "Använder du Firefox? Ladda ner den idag."
 	},
 	"title_fonts": {
-		"message": "Typsnitt"
+		"message": "Teckensnitt"
 	},
 	"supportlSetting": {
 		"message": "Stöd"
@@ -122,13 +125,16 @@
 		"message": "Supportwebbplats."
 	},
 	"saved": {
-		"message": "Sparat"
+		"message": "Sparad"
 	},
 	"helperbird": {
 		"message": "Upptäck Helperbird"
 	},
 	"OpenDyslexic": {
 		"message": "Upptäck OpenDyslexic"
+	},
+	"dyslexic_font": {
+		"message": "$1 teckensnitt"
 	},
 	"on": {
 		"message": "På"

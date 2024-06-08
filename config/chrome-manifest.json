@@ -1,31 +1,41 @@
 {
 	"name": "__MSG_appName__",
-	"version": "40.1.0",
+	"version": "2024.6.8",
 	"manifest_version": 3,
 	"description": "__MSG_appDescription__",
 	"homepage_url": "https://opendyslexic.org",
 	"icons": {
-		"16": "assets/images/icons/icon-16.png",
-		"48": "assets/images/icons/icon-48.png",
-		"128": "assets/images/icons/icon-128.png"
+		"16": "assets/images/icons/16.png",
+		"32": "assets/images/icons/32.png",
+		"48": "assets/images/icons/48.png",
+		"64": "assets/images/icons/64.png",
+		"128": "assets/images/icons/128.png",
+		"512": "assets/images/icons/512.png"
 	},
+
 	"action": {
-		"default_icon": "assets/images/icons/icon-128.png",
+		"default_icon": {
+			"16": "assets/images/icons/16.png",
+			"32": "assets/images/icons/32.png",
+			"48": "assets/images/icons/48.png",
+			"64": "assets/images/icons/64.png",
+			"128": "assets/images/icons/128.png",
+			"512": "assets/images/icons/512.png"
+		},
+		"default_title": "__MSG_appName__",
 		"default_popup": "index.html"
 	},
 	"default_locale": "en",
-	"permissions": ["activeTab", "storage"],
-	"background": {
-		"service_worker": "scripts/background.js"
-	},
-
+	"permissions": ["storage"],
+	"host_permissions": ["http://*/*", "https://*/*", "<all_urls>"],
 	"content_scripts": [
 		{
-			"matches": ["http://*/*", "https://*/*", "file:///*/*"],
-			"js": ["scripts/content.js"],
-			"exclude_globs": ["*://docs.google.com/*"]
+			"matches": ["<all_urls>"],
+			"all_frames": true,
+			"js": ["scripts/content.js"]
 		}
 	],
+
 	"offline_enabled": true,
 	"web_accessible_resources": [
 		{

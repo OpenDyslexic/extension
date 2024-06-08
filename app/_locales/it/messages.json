@@ -1,29 +1,32 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic per Edge™",
+		"description": "Rendi la lettura online più semplice e divertente formattando le pagine con il carattere OpenDyslexic."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic per Firefox™",
+		"description": "Rendi la lettura online più semplice e divertente formattando le pagine con il carattere OpenDyslexic."
 	},
 	"appName": {
-		"message": "OpenDyslexic per Chrome",
-		"description": "Formattare le pagine utilizzando il carattere OpenDyslexic e la guida a basso contrasto."
+		"message": "OpenDyslexic per Chrome™",
+		"description": "Rendi la lettura online più semplice e divertente formattando le pagine con il carattere OpenDyslexic."
 	},
 	"appTitle": {
-		"message": "ApriDislessico",
-		"description": "Formattare le pagine utilizzando il carattere OpenDyslexic e la guida a basso contrasto."
+		"message": "OpenDyslexic",
+		"description": "Rendi la lettura online più semplice e divertente formattando le pagine con il carattere OpenDyslexic."
 	},
 	"appDescription": {
-		"message": "Formattare le pagine utilizzando il carattere OpenDyslexic e la guida a basso contrasto",
-		"description": "Formattare le pagine utilizzando il carattere OpenDyslexic e la guida a basso contrasto"
+		"message": "Rendi la lettura online più semplice e divertente formattando le pagine con il carattere OpenDyslexic.",
+		"description": "Rendi la lettura online più semplice e divertente formattando le pagine con il carattere OpenDyslexic."
+	},
+	"feature_specialized_font_options": {
+		"message": "Opzioni dei caratteri"
 	},
 	"options": {
 		"message": "Opzioni"
 	},
 	"settings": {
-		"message": "impostazioni"
+		"message": "Impostazioni"
 	},
 	"selectedFontLabel": {
 		"message": "Carattere selezionato da utilizzare."
@@ -35,7 +38,7 @@
 		"message": "documenti Google"
 	},
 	"googleDocsTooltip": {
-		"message": "Abilita il supporto completo di Google Documenti."
+		"message": "Abilita il supporto completo di Google Docs."
 	},
 	"fontColorSetting": {
 		"message": "Colore"
@@ -47,10 +50,10 @@
 		"message": "Cambia il colore del carattere."
 	},
 	"backgroundColorLabel": {
-		"message": "sfondo"
+		"message": "Sfondo"
 	},
 	"backgroundColorTooltip": {
-		"message": "Cambia il colore di sfondo."
+		"message": "Cambia il colore dello sfondo."
 	},
 	"personalSetting": {
 		"message": "Personale"
@@ -83,16 +86,16 @@
 		"message": "Segui il manutentore di questa app."
 	},
 	"whatsNew": {
-		"message": "Cosa c'è di nuovo?"
+		"message": "Cosa c'è di nuovo"
 	},
 	"firefox": {
 		"message": "Versione Firefox"
 	},
 	"firefoxText": {
-		"message": "Usi Firefox? Scaricalo oggi."
+		"message": "Utilizzi Firefox? Scaricalo oggi."
 	},
 	"title_fonts": {
-		"message": "caratteri"
+		"message": "Caratteri"
 	},
 	"supportlSetting": {
 		"message": "Supporto"
@@ -130,10 +133,13 @@
 	"OpenDyslexic": {
 		"message": "Scopri OpenDyslexic"
 	},
+	"dyslexic_font": {
+		"message": "Carattere da $ 1"
+	},
 	"on": {
-		"message": "Sopra"
+		"message": "SU"
 	},
 	"off": {
-		"message": "spento"
+		"message": "Spento"
 	}
 }

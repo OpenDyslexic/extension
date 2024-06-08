@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic untuk Edge™",
+		"description": "Jadikan membaca online lebih mudah dan menyenangkan dengan memformat halaman dengan font OpenDyslexic."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic untuk Firefox™",
+		"description": "Jadikan membaca online lebih mudah dan menyenangkan dengan memformat halaman dengan font OpenDyslexic."
 	},
 	"appName": {
-		"message": "OpenDyslexic untuk Chrome",
-		"description": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah."
+		"message": "OpenDyslexic untuk Chrome™",
+		"description": "Jadikan membaca online lebih mudah dan menyenangkan dengan memformat halaman dengan font OpenDyslexic."
 	},
 	"appTitle": {
-		"message": "Disleksia Terbuka",
-		"description": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah."
+		"message": "Terbuka Disleksia",
+		"description": "Jadikan membaca online lebih mudah dan menyenangkan dengan memformat halaman dengan font OpenDyslexic."
 	},
 	"appDescription": {
-		"message": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah",
-		"description": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah"
+		"message": "Jadikan membaca online lebih mudah dan menyenangkan dengan memformat halaman dengan font OpenDyslexic.",
+		"description": "Jadikan membaca online lebih mudah dan menyenangkan dengan memformat halaman dengan font OpenDyslexic."
+	},
+	"feature_specialized_font_options": {
+		"message": "Opsi font"
 	},
 	"options": {
 		"message": "Pilihan"
@@ -35,19 +38,19 @@
 		"message": "Google Dokumen"
 	},
 	"googleDocsTooltip": {
-		"message": "Aktifkan dukungan penuh Google Documents."
+		"message": "Aktifkan dukungan penuh Google Dokumen."
 	},
 	"fontColorSetting": {
 		"message": "Warna"
 	},
 	"fontColorLabel": {
-		"message": "jenis huruf"
+		"message": "huruf"
 	},
 	"fontColorTooltip": {
 		"message": "Ubah warna font."
 	},
 	"backgroundColorLabel": {
-		"message": "Latar Belakang"
+		"message": "Latar belakang"
 	},
 	"backgroundColorTooltip": {
 		"message": "Ubah warna latar belakang."
@@ -71,7 +74,7 @@
 		"message": "Mendukung OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "Segera akan datang"
+		"message": "Segera hadir"
 	},
 	"followAbbieToolTip": {
 		"message": "Dukung pencipta OpenDyslexic."
@@ -83,7 +86,7 @@
 		"message": "Ikuti pengelola aplikasi ini."
 	},
 	"whatsNew": {
-		"message": "Apa yang baru?"
+		"message": "Apa yang baru"
 	},
 	"firefox": {
 		"message": "Versi Firefox"
@@ -95,19 +98,19 @@
 		"message": "font"
 	},
 	"supportlSetting": {
-		"message": "Dukung"
+		"message": "Mendukung"
 	},
 	"featureTint": {
 		"message": "Aktifkan Hamparan"
 	},
 	"supportToolTipTwo": {
-		"message": "Memiliki masalah? Hubungi dukungan."
+		"message": "Mengalami masalah? Hubungi dukungan."
 	},
 	"reviews": {
 		"message": "Ulasan"
 	},
 	"review": {
-		"message": "Ulasan"
+		"message": "Tinjauan"
 	},
 	"style": {
 		"message": "Gaya"
@@ -130,8 +133,11 @@
 	"OpenDyslexic": {
 		"message": "Temukan OpenDyslexic"
 	},
+	"dyslexic_font": {
+		"message": "$1 huruf"
+	},
 	"on": {
-		"message": "Di"
+		"message": "Pada"
 	},
 	"off": {
 		"message": "Mati"

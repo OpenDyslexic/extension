@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic สำหรับ Edge™",
+		"description": "ทำให้การอ่านออนไลน์ง่ายขึ้นและเพลิดเพลินยิ่งขึ้นด้วยการจัดรูปแบบหน้าด้วยแบบอักษร OpenDyslexic"
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic สำหรับ Firefox™",
+		"description": "ทำให้การอ่านออนไลน์ง่ายขึ้นและเพลิดเพลินยิ่งขึ้นด้วยการจัดรูปแบบหน้าด้วยแบบอักษร OpenDyslexic"
 	},
 	"appName": {
-		"message": "OpenDyslexic สำหรับ Chrome",
-		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ"
+		"message": "OpenDyslexic สำหรับ Chrome ™",
+		"description": "ทำให้การอ่านออนไลน์ง่ายขึ้นและเพลิดเพลินยิ่งขึ้นด้วยการจัดรูปแบบหน้าด้วยแบบอักษร OpenDyslexic"
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ"
+		"description": "ทำให้การอ่านออนไลน์ง่ายขึ้นและเพลิดเพลินยิ่งขึ้นด้วยการจัดรูปแบบหน้าด้วยแบบอักษร OpenDyslexic"
 	},
 	"appDescription": {
-		"message": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ",
-		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ"
+		"message": "ทำให้การอ่านออนไลน์ง่ายขึ้นและเพลิดเพลินยิ่งขึ้นด้วยการจัดรูปแบบหน้าด้วยแบบอักษร OpenDyslexic",
+		"description": "ทำให้การอ่านออนไลน์ง่ายขึ้นและเพลิดเพลินยิ่งขึ้นด้วยการจัดรูปแบบหน้าด้วยแบบอักษร OpenDyslexic"
+	},
+	"feature_specialized_font_options": {
+		"message": "ตัวเลือกแบบอักษร"
 	},
 	"options": {
 		"message": "ตัวเลือก"
@@ -26,7 +29,7 @@
 		"message": "การตั้งค่า"
 	},
 	"selectedFontLabel": {
-		"message": "ฟอนต์ที่เลือกไว้ใช้งาน"
+		"message": "แบบอักษรที่เลือกที่จะใช้"
 	},
 	"enableFontLabel": {
 		"message": "เปิดใช้งาน"
@@ -44,7 +47,7 @@
 		"message": "แบบอักษร"
 	},
 	"fontColorTooltip": {
-		"message": "เปลี่ยนสีแบบอักษร"
+		"message": "เปลี่ยนสีตัวอักษร"
 	},
 	"backgroundColorLabel": {
 		"message": "พื้นหลัง"
@@ -56,7 +59,7 @@
 		"message": "ส่วนตัว"
 	},
 	"socialSetting": {
-		"message": "สังคม"
+		"message": "ทางสังคม"
 	},
 	"codeSetting": {
 		"message": "รหัสแหล่งที่มา"
@@ -68,10 +71,10 @@
 		"message": "ติดตาม OpenDyslexic บน Twitter"
 	},
 	"followAbbie": {
-		"message": "สนับสนุน OpenDyslexic"
+		"message": "รองรับ OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "เร็ว ๆ นี้"
+		"message": "เร็วๆ นี้"
 	},
 	"followAbbieToolTip": {
 		"message": "สนับสนุนผู้สร้าง OpenDyslexic"
@@ -86,10 +89,10 @@
 		"message": "มีอะไรใหม่"
 	},
 	"firefox": {
-		"message": "เวอร์ชัน Firefox"
+		"message": "เวอร์ชันไฟร์ฟอกซ์"
 	},
 	"firefoxText": {
-		"message": "ใช้ไฟร์ฟอกซ์? ดาวน์โหลดได้แล้ววันนี้"
+		"message": "ใช้ไฟร์ฟอกซ์เหรอ? ดาวน์โหลดได้แล้ววันนี้"
 	},
 	"title_fonts": {
 		"message": "แบบอักษร"
@@ -101,13 +104,13 @@
 		"message": "เปิดใช้งานการวางซ้อน"
 	},
 	"supportToolTipTwo": {
-		"message": "มีปัญหา? ติดต่อฝ่ายสนับสนุน"
+		"message": "มีปัญหาใช่ไหม? ติดต่อฝ่ายสนับสนุน"
 	},
 	"reviews": {
-		"message": "ความคิดเห็น"
+		"message": "รีวิว"
 	},
 	"review": {
-		"message": "รีวิว"
+		"message": "ทบทวน"
 	},
 	"style": {
 		"message": "สไตล์"
@@ -125,10 +128,13 @@
 		"message": "บันทึกแล้ว"
 	},
 	"helperbird": {
-		"message": "ค้นพบ Helperbird"
+		"message": "ค้นพบเฮลเปอร์เบิร์ด"
 	},
 	"OpenDyslexic": {
 		"message": "ค้นพบ OpenDyslexic"
+	},
+	"dyslexic_font": {
+		"message": "แบบอักษร 1 ดอลลาร์"
 	},
 	"on": {
 		"message": "บน"

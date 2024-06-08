@@ -1,26 +1,29 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic pour Edge™",
+		"description": "Rendez la lecture en ligne plus facile et plus agréable en formatant les pages avec la police OpenDyslexic."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic pour Firefox™",
+		"description": "Rendez la lecture en ligne plus facile et plus agréable en formatant les pages avec la police OpenDyslexic."
 	},
 	"appName": {
-		"message": "OpenDyslexic pour Chrome",
-		"description": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste."
+		"message": "OpenDyslexic pour Chrome™",
+		"description": "Rendez la lecture en ligne plus facile et plus agréable en formatant les pages avec la police OpenDyslexic."
 	},
 	"appTitle": {
 		"message": "OuvertDyslexique",
-		"description": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste."
+		"description": "Rendez la lecture en ligne plus facile et plus agréable en formatant les pages avec la police OpenDyslexic."
 	},
 	"appDescription": {
-		"message": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste",
-		"description": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste"
+		"message": "Rendez la lecture en ligne plus facile et plus agréable en formatant les pages avec la police OpenDyslexic.",
+		"description": "Rendez la lecture en ligne plus facile et plus agréable en formatant les pages avec la police OpenDyslexic."
+	},
+	"feature_specialized_font_options": {
+		"message": "Options de police"
 	},
 	"options": {
-		"message": "Options"
+		"message": "Possibilités"
 	},
 	"settings": {
 		"message": "Paramètres"
@@ -50,13 +53,13 @@
 		"message": "Arrière-plan"
 	},
 	"backgroundColorTooltip": {
-		"message": "Changez la couleur de fond."
+		"message": "Changez la couleur d'arrière-plan."
 	},
 	"personalSetting": {
 		"message": "Personnel"
 	},
 	"socialSetting": {
-		"message": "Social"
+		"message": "Sociale"
 	},
 	"codeSetting": {
 		"message": "Code source"
@@ -71,7 +74,7 @@
 		"message": "Soutenir OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "Bientôt disponible"
+		"message": "À venir"
 	},
 	"followAbbieToolTip": {
 		"message": "Soutenez le créateur d'OpenDyslexic."
@@ -80,7 +83,7 @@
 		"message": "Suivez Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Suivez le mainteneur de cette application."
+		"message": "Suivez le responsable de cette application."
 	},
 	"whatsNew": {
 		"message": "Quoi de neuf"
@@ -89,13 +92,13 @@
 		"message": "Version Firefox"
 	},
 	"firefoxText": {
-		"message": "Utiliser Firefox ? Téléchargez-le aujourd'hui."
+		"message": "Vous utilisez Firefox ? Téléchargez-le aujourd'hui."
 	},
 	"title_fonts": {
 		"message": "Polices"
 	},
 	"supportlSetting": {
-		"message": "Support"
+		"message": "Soutien"
 	},
 	"featureTint": {
 		"message": "Activer la superposition"
@@ -116,10 +119,10 @@
 		"message": "Laisser ou lire des avis"
 	},
 	"websiteLabel": {
-		"message": "Site Internet"
+		"message": "Site web"
 	},
 	"websiteTooltip": {
-		"message": "Site Web d'assistance."
+		"message": "Site d'assistance."
 	},
 	"saved": {
 		"message": "Enregistré"
@@ -130,8 +133,11 @@
 	"OpenDyslexic": {
 		"message": "Découvrez OpenDyslexic"
 	},
+	"dyslexic_font": {
+		"message": "Police à 1 $"
+	},
 	"on": {
-		"message": "Au"
+		"message": "Sur"
 	},
 	"off": {
 		"message": "Désactivé"

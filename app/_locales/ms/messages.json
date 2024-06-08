@@ -1,47 +1,50 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic untuk Edge™",
+		"description": "Jadikan bacaan dalam talian lebih mudah dan menyeronokkan dengan memformat halaman dengan fon OpenDyslexic."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic untuk Firefox™",
+		"description": "Jadikan bacaan dalam talian lebih mudah dan menyeronokkan dengan memformat halaman dengan fon OpenDyslexic."
 	},
 	"appName": {
-		"message": "OpenDyslexic untuk Chrome",
-		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah."
+		"message": "OpenDyslexic untuk Chrome™",
+		"description": "Jadikan bacaan dalam talian lebih mudah dan menyeronokkan dengan memformat halaman dengan fon OpenDyslexic."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah."
+		"description": "Jadikan bacaan dalam talian lebih mudah dan menyeronokkan dengan memformat halaman dengan fon OpenDyslexic."
 	},
 	"appDescription": {
-		"message": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah",
-		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah"
+		"message": "Jadikan bacaan dalam talian lebih mudah dan menyeronokkan dengan memformat halaman dengan fon OpenDyslexic.",
+		"description": "Jadikan bacaan dalam talian lebih mudah dan menyeronokkan dengan memformat halaman dengan fon OpenDyslexic."
+	},
+	"feature_specialized_font_options": {
+		"message": "Pilihan fon"
 	},
 	"options": {
 		"message": "Pilihan"
 	},
 	"settings": {
-		"message": "Tetapan"
+		"message": "tetapan"
 	},
 	"selectedFontLabel": {
-		"message": "Fon Terpilih untuk digunakan."
+		"message": "Fon yang Dipilih untuk digunakan."
 	},
 	"enableFontLabel": {
-		"message": "Aktifkan"
+		"message": "Dayakan"
 	},
 	"googleDocsLabel": {
 		"message": "Dokumen Google"
 	},
 	"googleDocsTooltip": {
-		"message": "Dayakan sokongan Dokumen Google sepenuhnya."
+		"message": "Dayakan sokongan penuh Dokumen Google."
 	},
 	"fontColorSetting": {
 		"message": "Warna"
 	},
 	"fontColorLabel": {
-		"message": "Fon"
+		"message": "fon"
 	},
 	"fontColorTooltip": {
 		"message": "Tukar warna fon."
@@ -56,7 +59,7 @@
 		"message": "Peribadi"
 	},
 	"socialSetting": {
-		"message": "Sosial"
+		"message": "sosial"
 	},
 	"codeSetting": {
 		"message": "Kod sumber"
@@ -89,7 +92,7 @@
 		"message": "Versi Firefox"
 	},
 	"firefoxText": {
-		"message": "Gunakan Firefox? Muat turunnya hari ini."
+		"message": "Gunakan Firefox? Muat turun hari ini."
 	},
 	"title_fonts": {
 		"message": "Fon"
@@ -98,16 +101,16 @@
 		"message": "Sokongan"
 	},
 	"featureTint": {
-		"message": "Dayakan Hamparan"
+		"message": "Dayakan Tindanan"
 	},
 	"supportToolTipTwo": {
-		"message": "Mengalami masalah? Hubungi sokongan."
+		"message": "Menghadapi masalah? Hubungi sokongan."
 	},
 	"reviews": {
 		"message": "Ulasan"
 	},
 	"review": {
-		"message": "Kaji semula"
+		"message": "Semakan"
 	},
 	"style": {
 		"message": "Gaya"
@@ -116,7 +119,7 @@
 		"message": "Tinggalkan atau baca ulasan"
 	},
 	"websiteLabel": {
-		"message": "Laman web"
+		"message": "laman web"
 	},
 	"websiteTooltip": {
 		"message": "Laman web sokongan."
@@ -125,13 +128,16 @@
 		"message": "Disimpan"
 	},
 	"helperbird": {
-		"message": "Cari Helperbird"
+		"message": "Temui Helperbird"
 	},
 	"OpenDyslexic": {
-		"message": "Cari OpenDyslexic"
+		"message": "Temui OpenDyslexic"
+	},
+	"dyslexic_font": {
+		"message": "fon $1"
 	},
 	"on": {
-		"message": "Dihidupkan"
+		"message": "hidup"
 	},
 	"off": {
 		"message": "Mati"

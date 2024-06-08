@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic for Edge™",
+		"description": "Gjør lesing på nettet enklere og morsommere ved å formatere sider med OpenDyslexic-fonten."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic for Firefox™",
+		"description": "Gjør lesing på nettet enklere og morsommere ved å formatere sider med OpenDyslexic-fonten."
 	},
 	"appName": {
-		"message": "OpenDyslexic for Chrome",
-		"description": "Formater sider ved hjelp av OpenDyslexic-skrifttypen og hjelp med lav kontrast."
+		"message": "OpenDyslexic for Chrome™",
+		"description": "Gjør lesing på nettet enklere og morsommere ved å formatere sider med OpenDyslexic-fonten."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Formater sider ved hjelp av OpenDyslexic-skrifttypen og hjelp med lav kontrast."
+		"message": "Åpen Dyslektisk",
+		"description": "Gjør lesing på nettet enklere og morsommere ved å formatere sider med OpenDyslexic-fonten."
 	},
 	"appDescription": {
-		"message": "Formater sider ved hjelp av OpenDyslexic-skrifttypen og hjelp med lav kontrast",
-		"description": "Formater sider ved hjelp av OpenDyslexic-skrifttypen og hjelp med lav kontrast"
+		"message": "Gjør lesing på nettet enklere og morsommere ved å formatere sider med OpenDyslexic-fonten.",
+		"description": "Gjør lesing på nettet enklere og morsommere ved å formatere sider med OpenDyslexic-fonten."
+	},
+	"feature_specialized_font_options": {
+		"message": "Skriftalternativer"
 	},
 	"options": {
 		"message": "Alternativer"
@@ -26,7 +29,7 @@
 		"message": "Innstillinger"
 	},
 	"selectedFontLabel": {
-		"message": "Valgt skrift som skal brukes."
+		"message": "Valgt skrifttype som skal brukes."
 	},
 	"enableFontLabel": {
 		"message": "Muliggjøre"
@@ -86,13 +89,13 @@
 		"message": "Hva er nytt"
 	},
 	"firefox": {
-		"message": "Firefox-versjon"
+		"message": "Firefox versjon"
 	},
 	"firefoxText": {
-		"message": "Bruke Firefox? Last ned den i dag."
+		"message": "Bruker du Firefox? Last den ned i dag."
 	},
 	"title_fonts": {
-		"message": "Skrifttyper"
+		"message": "Fonter"
 	},
 	"supportlSetting": {
 		"message": "Brukerstøtte"
@@ -129,6 +132,9 @@
 	},
 	"OpenDyslexic": {
 		"message": "Oppdag OpenDyslexic"
+	},
+	"dyslexic_font": {
+		"message": "$1 skrift"
 	},
 	"on": {
 		"message": "På"

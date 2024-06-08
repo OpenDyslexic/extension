@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic voor Edge™",
+		"description": "Maak online lezen eenvoudiger en leuker door pagina's op te maken met het OpenDyslexic-lettertype."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic voor Firefox™",
+		"description": "Maak online lezen eenvoudiger en leuker door pagina's op te maken met het OpenDyslexic-lettertype."
 	},
 	"appName": {
-		"message": "OpenDyslexic voor Chrome",
-		"description": "Maak pagina's op met behulp van het OpenDyslexic-lettertype en hulp bij laag contrast."
+		"message": "OpenDyslexic voor Chrome™",
+		"description": "Maak online lezen eenvoudiger en leuker door pagina's op te maken met het OpenDyslexic-lettertype."
 	},
 	"appTitle": {
-		"message": "OpenDyslectisch",
-		"description": "Maak pagina's op met behulp van het OpenDyslexic-lettertype en hulp bij laag contrast."
+		"message": "Open Dyslectisch",
+		"description": "Maak online lezen gemakkelijker en leuker door pagina's op te maken met het OpenDyslexic-lettertype."
 	},
 	"appDescription": {
-		"message": "Pagina's opmaken met behulp van het OpenDyslexic-lettertype en hulp bij laag contrast",
-		"description": "Pagina's opmaken met behulp van het OpenDyslexic-lettertype en hulp bij laag contrast"
+		"message": "Maak online lezen gemakkelijker en leuker door pagina's op te maken met het OpenDyslexic-lettertype.",
+		"description": "Maak online lezen eenvoudiger en leuker door pagina's op te maken met het OpenDyslexic-lettertype."
+	},
+	"feature_specialized_font_options": {
+		"message": "Lettertype-opties"
 	},
 	"options": {
 		"message": "Opties"
@@ -44,7 +47,7 @@
 		"message": "Lettertype"
 	},
 	"fontColorTooltip": {
-		"message": "Verander de letterkleur."
+		"message": "Verander de kleur van het lettertype."
 	},
 	"backgroundColorLabel": {
 		"message": "Achtergrond"
@@ -53,22 +56,22 @@
 		"message": "Verander de achtergrondkleur."
 	},
 	"personalSetting": {
-		"message": "persoonlijk"
+		"message": "Persoonlijk"
 	},
 	"socialSetting": {
-		"message": "sociaal"
+		"message": "Sociaal"
 	},
 	"codeSetting": {
 		"message": "Broncode"
 	},
 	"followDyslexic": {
-		"message": "Volg OpenDyslectisch"
+		"message": "Volg OpenDyslexic"
 	},
 	"followDyslexicToolTip": {
 		"message": "Volg OpenDyslexic op Twitter"
 	},
 	"followAbbie": {
-		"message": "Ondersteuning OpenDyslectisch"
+		"message": "Ondersteuning OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Binnenkort beschikbaar"
@@ -83,7 +86,7 @@
 		"message": "Volg de beheerder van deze app."
 	},
 	"whatsNew": {
-		"message": "Wat is er nieuw?"
+		"message": "Wat is er nieuw"
 	},
 	"firefox": {
 		"message": "Firefox-versie"
@@ -95,7 +98,7 @@
 		"message": "Lettertypen"
 	},
 	"supportlSetting": {
-		"message": "Ondersteuning"
+		"message": "Steun"
 	},
 	"featureTint": {
 		"message": "Overlay inschakelen"
@@ -104,34 +107,37 @@
 		"message": "Heeft u een probleem? Contact opnemen met ondersteuning."
 	},
 	"reviews": {
-		"message": "Beoordelingen"
+		"message": "Recensies"
 	},
 	"review": {
-		"message": "Recensie"
+		"message": "Beoordeling"
 	},
 	"style": {
 		"message": "Stijl"
 	},
 	"supportToolTip": {
-		"message": "Recensies achterlaten of lezen"
+		"message": "Laat beoordelingen achter of lees ze"
 	},
 	"websiteLabel": {
 		"message": "Website"
 	},
 	"websiteTooltip": {
-		"message": "Ondersteuning website."
+		"message": "Ondersteuningswebsite."
 	},
 	"saved": {
 		"message": "Opgeslagen"
 	},
 	"helperbird": {
-		"message": "Ontdek Helperbird"
+		"message": "Ontdek Helpervogel"
 	},
 	"OpenDyslexic": {
-		"message": "Ontdek OpenDyslectisch"
+		"message": "Ontdek OpenDyslexic"
+	},
+	"dyslexic_font": {
+		"message": "$ 1 lettertype"
 	},
 	"on": {
-		"message": "Aan"
+		"message": "Op"
 	},
 	"off": {
 		"message": "Uit"

@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "Edge™ 向け OpenDyslexic",
+		"description": "OpenDyslexic フォントを使用してページをフォーマットすると、オンラインでの読書がより簡単かつ楽しくなります。"
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "Firefox™ 向け OpenDyslexic",
+		"description": "OpenDyslexic フォントを使用してページをフォーマットすると、オンラインでの読書がより簡単かつ楽しくなります。"
 	},
 	"appName": {
-		"message": "Chrome用OpenDyslexic",
-		"description": "OpenDyslexicフォントと低コントラストのヘルプを使用してページをフォーマットします。"
+		"message": "Chrome™ 向け OpenDyslexic",
+		"description": "OpenDyslexic フォントを使用してページをフォーマットすると、オンラインでの読書がより簡単かつ楽しくなります。"
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "OpenDyslexicフォントと低コントラストのヘルプを使用してページをフォーマットします。"
+		"message": "オープンディスレクシック",
+		"description": "OpenDyslexic フォントを使用してページをフォーマットすると、オンラインでの読書がより簡単かつ楽しくなります。"
 	},
 	"appDescription": {
-		"message": "OpenDyslexicフォントと低コントラストのヘルプを使用してページをフォーマットする",
-		"description": "OpenDyslexicフォントと低コントラストのヘルプを使用してページをフォーマットする"
+		"message": "OpenDyslexic フォントを使用してページをフォーマットすると、オンラインでの読書がより簡単かつ楽しくなります。",
+		"description": "OpenDyslexic フォントを使用してページをフォーマットすると、オンラインでの読書がより簡単かつ楽しくなります。"
+	},
+	"feature_specialized_font_options": {
+		"message": "フォントオプション"
 	},
 	"options": {
 		"message": "オプション"
@@ -26,7 +29,7 @@
 		"message": "設定"
 	},
 	"selectedFontLabel": {
-		"message": "使用するフォントを選択しました。"
+		"message": "使用するフォントを選択します。"
 	},
 	"enableFontLabel": {
 		"message": "有効にする"
@@ -35,7 +38,7 @@
 		"message": "Googleドキュメント"
 	},
 	"googleDocsTooltip": {
-		"message": "Googleドキュメントの完全サポートを有効にします。"
+		"message": "Google ドキュメントの完全なサポートを有効にします。"
 	},
 	"fontColorSetting": {
 		"message": "色"
@@ -47,25 +50,25 @@
 		"message": "フォントの色を変更します。"
 	},
 	"backgroundColorLabel": {
-		"message": "バックグラウンド"
+		"message": "背景"
 	},
 	"backgroundColorTooltip": {
 		"message": "背景色を変更します。"
 	},
 	"personalSetting": {
-		"message": "個人"
+		"message": "個人的"
 	},
 	"socialSetting": {
-		"message": "ソーシャル"
+		"message": "社交"
 	},
 	"codeSetting": {
 		"message": "ソースコード"
 	},
 	"followDyslexic": {
-		"message": "OpenDyslexicをフォローする"
+		"message": "OpenDyslexicをフォロー"
 	},
 	"followDyslexicToolTip": {
-		"message": "TwitterでOpenDyslexicをフォローする"
+		"message": "TwitterでOpenDyslexicをフォロー"
 	},
 	"followAbbie": {
 		"message": "OpenDyslexicをサポートする"
@@ -74,22 +77,22 @@
 		"message": "近日公開"
 	},
 	"followAbbieToolTip": {
-		"message": "OpenDyslexicの作成者をサポートします。"
+		"message": "OpenDyslexic の作成者をサポートしてください。"
 	},
 	"followRobertJames": {
-		"message": "ロバートジェームスに従ってください"
+		"message": "ロバート・ジェームズをフォロー"
 	},
 	"followRobertJamesToolTip": {
-		"message": "このアプリのメンテナに従ってください。"
+		"message": "このアプリの管理者をフォローしてください。"
 	},
 	"whatsNew": {
-		"message": "新機能"
+		"message": "新着情報"
 	},
 	"firefox": {
-		"message": "Firefoxバージョン"
+		"message": "Firefox バージョン"
 	},
 	"firefoxText": {
-		"message": "Firefoxを使用しますか？今すぐダウンロードしてください。"
+		"message": "Firefox をお使いですか? 今すぐダウンロードしてください。"
 	},
 	"title_fonts": {
 		"message": "フォント"
@@ -101,7 +104,7 @@
 		"message": "オーバーレイを有効にする"
 	},
 	"supportToolTipTwo": {
-		"message": "問題がありますか？サポート問い合わせ先。"
+		"message": "問題がありますか? サポートにお問い合わせください。"
 	},
 	"reviews": {
 		"message": "レビュー"
@@ -113,25 +116,28 @@
 		"message": "スタイル"
 	},
 	"supportToolTip": {
-		"message": "レビューを残すか読む"
+		"message": "レビューを投稿または読む"
 	},
 	"websiteLabel": {
-		"message": "ウェブサイト"
+		"message": "Webサイト"
 	},
 	"websiteTooltip": {
-		"message": "サポートWebサイト。"
+		"message": "サポートウェブサイト。"
 	},
 	"saved": {
 		"message": "保存しました"
 	},
 	"helperbird": {
-		"message": "Helperbirdを発見する"
+		"message": "Helperbird について知る"
 	},
 	"OpenDyslexic": {
-		"message": "OpenDyslexicを発見する"
+		"message": "OpenDyslexic について知る"
+	},
+	"dyslexic_font": {
+		"message": "$1 フォント"
 	},
 	"on": {
-		"message": "オン"
+		"message": "の上"
 	},
 	"off": {
 		"message": "オフ"

@@ -1,0 +1,145 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic para Edge™",
+		"description": "Torne a leitura online mais fácil e agradável formatando páginas com a fonte OpenDyslexic."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic para Firefox™",
+		"description": "Torne a leitura online mais fácil e agradável formatando páginas com a fonte OpenDyslexic."
+	},
+	"appName": {
+		"message": "OpenDyslexic para Chrome™",
+		"description": "Torne a leitura online mais fácil e agradável formatando páginas com a fonte OpenDyslexic."
+	},
+	"appTitle": {
+		"message": "OpenDysléxico",
+		"description": "Torne a leitura online mais fácil e agradável formatando páginas com a fonte OpenDyslexic."
+	},
+	"appDescription": {
+		"message": "Torne a leitura online mais fácil e agradável formatando páginas com a fonte OpenDyslexic.",
+		"description": "Torne a leitura online mais fácil e agradável formatando páginas com a fonte OpenDyslexic."
+	},
+	"feature_specialized_font_options": {
+		"message": "Opções de fonte"
+	},
+	"options": {
+		"message": "Opções"
+	},
+	"settings": {
+		"message": "Configurações"
+	},
+	"selectedFontLabel": {
+		"message": "Fonte selecionada para usar."
+	},
+	"enableFontLabel": {
+		"message": "Habilitar"
+	},
+	"googleDocsLabel": {
+		"message": "documentos Google"
+	},
+	"googleDocsTooltip": {
+		"message": "Ative o suporte completo do Google Docs."
+	},
+	"fontColorSetting": {
+		"message": "Cor"
+	},
+	"fontColorLabel": {
+		"message": "Fonte"
+	},
+	"fontColorTooltip": {
+		"message": "Altere a cor da fonte."
+	},
+	"backgroundColorLabel": {
+		"message": "Fundo"
+	},
+	"backgroundColorTooltip": {
+		"message": "Mude a cor de fundo."
+	},
+	"personalSetting": {
+		"message": "Pessoal"
+	},
+	"socialSetting": {
+		"message": "Social"
+	},
+	"codeSetting": {
+		"message": "Código fonte"
+	},
+	"followDyslexic": {
+		"message": "Siga o OpenDyslexic"
+	},
+	"followDyslexicToolTip": {
+		"message": "Siga OpenDyslexic no Twitter"
+	},
+	"followAbbie": {
+		"message": "Apoie OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Em breve"
+	},
+	"followAbbieToolTip": {
+		"message": "Apoie o criador do OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Siga Roberto James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Siga o mantenedor deste aplicativo."
+	},
+	"whatsNew": {
+		"message": "O que há de novo"
+	},
+	"firefox": {
+		"message": "Versão do Firefox"
+	},
+	"firefoxText": {
+		"message": "Usar Firefox? Baixe hoje."
+	},
+	"title_fonts": {
+		"message": "Fontes"
+	},
+	"supportlSetting": {
+		"message": "Apoiar"
+	},
+	"featureTint": {
+		"message": "Ativar sobreposição"
+	},
+	"supportToolTipTwo": {
+		"message": "Está com algum problema? Entre em contato com o suporte."
+	},
+	"reviews": {
+		"message": "Avaliações"
+	},
+	"review": {
+		"message": "Análise"
+	},
+	"style": {
+		"message": "Estilo"
+	},
+	"supportToolTip": {
+		"message": "Deixe ou leia comentários"
+	},
+	"websiteLabel": {
+		"message": "Local na rede Internet"
+	},
+	"websiteTooltip": {
+		"message": "Site de suporte."
+	},
+	"saved": {
+		"message": "Salvou"
+	},
+	"helperbird": {
+		"message": "Descubra o Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Descubra o OpenDyslexic"
+	},
+	"dyslexic_font": {
+		"message": "Fonte $ 1"
+	},
+	"on": {
+		"message": "Sobre"
+	},
+	"off": {
+		"message": "Desligado"
+	}
+}

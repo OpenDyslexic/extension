@@ -1,32 +1,35 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic za Edge™",
+		"description": "Učinite online čitanje lakšim i ugodnijim formatiranjem stranica s fontom OpenDyslexic."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic za Firefox™",
+		"description": "Učinite online čitanje lakšim i ugodnijim formatiranjem stranica s fontom OpenDyslexic."
 	},
 	"appName": {
-		"message": "OpenDyslexic za Chrome",
-		"description": "Formatirajte stranice koristeći font OpenDyslexic i pomoć pri niskom kontrastu."
+		"message": "OpenDyslexic za Chrome™",
+		"description": "Učinite online čitanje lakšim i ugodnijim formatiranjem stranica s fontom OpenDyslexic."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Formatirajte stranice koristeći font OpenDyslexic i pomoć pri niskom kontrastu."
+		"description": "Učinite online čitanje lakšim i ugodnijim formatiranjem stranica s fontom OpenDyslexic."
 	},
 	"appDescription": {
-		"message": "Formatirajte stranice koristeći font OpenDyslexic i pomoć pri niskom kontrastu",
-		"description": "Formatirajte stranice koristeći font OpenDyslexic i pomoć pri niskom kontrastu"
+		"message": "Učinite online čitanje lakšim i ugodnijim formatiranjem stranica s fontom OpenDyslexic.",
+		"description": "Učinite online čitanje lakšim i ugodnijim formatiranjem stranica s fontom OpenDyslexic."
+	},
+	"feature_specialized_font_options": {
+		"message": "Opcije fonta"
 	},
 	"options": {
-		"message": "Opcije"
+		"message": "Mogućnosti"
 	},
 	"settings": {
-		"message": "Postavke"
+		"message": "postavke"
 	},
 	"selectedFontLabel": {
-		"message": "Odabrani font za upotrebu."
+		"message": "Odabrani font za korištenje."
 	},
 	"enableFontLabel": {
 		"message": "Omogućiti"
@@ -35,7 +38,7 @@
 		"message": "Google dokumenti"
 	},
 	"googleDocsTooltip": {
-		"message": "Omogućite potpunu podršku za Google dokumente."
+		"message": "Omogućite punu podršku za Google dokumente."
 	},
 	"fontColorSetting": {
 		"message": "Boja"
@@ -62,13 +65,13 @@
 		"message": "Izvorni kod"
 	},
 	"followDyslexic": {
-		"message": "Slijedite OpenDyslexic"
+		"message": "Pratite OpenDyslexic"
 	},
 	"followDyslexicToolTip": {
-		"message": "Slijedite OpenDyslexic na Twitteru"
+		"message": "Pratite OpenDyslexic na Twitteru"
 	},
 	"followAbbie": {
-		"message": "Podrška za OpenDyslexic"
+		"message": "Podržava OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Dolazi uskoro"
@@ -89,19 +92,19 @@
 		"message": "Verzija Firefoxa"
 	},
 	"firefoxText": {
-		"message": "Koristiti Firefox? Preuzmite ga danas."
+		"message": "Koristite Firefox? Preuzmite ga danas."
 	},
 	"title_fonts": {
-		"message": "Krstionica"
+		"message": "Fontovi"
 	},
 	"supportlSetting": {
-		"message": "Podrška"
+		"message": "podrška"
 	},
 	"featureTint": {
 		"message": "Omogući preklapanje"
 	},
 	"supportToolTipTwo": {
-		"message": "Imate problem? Obratite se podršci."
+		"message": "Imate problem? Kontaktirajte podršku."
 	},
 	"reviews": {
 		"message": "Recenzije"
@@ -113,7 +116,7 @@
 		"message": "Stil"
 	},
 	"supportToolTip": {
-		"message": "Ostavite ili pročitajte kritike"
+		"message": "Ostavite ili pročitajte recenzije"
 	},
 	"websiteLabel": {
 		"message": "Web stranica"
@@ -129,6 +132,9 @@
 	},
 	"OpenDyslexic": {
 		"message": "Otkrijte OpenDyslexic"
+	},
+	"dyslexic_font": {
+		"message": "$1 font"
 	},
 	"on": {
 		"message": "Na"

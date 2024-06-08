@@ -1,49 +1,134 @@
-import { Badge } from '@scripts/content/badge.js'; // Done is class
-import { FontInjector } from '@scripts/content/font.js';
-import { Database } from '@scripts/content/settings.js';
+import { config } from '@scripts/content/config';
+import { Database } from '@scripts/content/database';
+import { debounce, injectCssInline } from '@scripts/content/utils';
+import opendyslexic from '!!raw-loader!@styles/fonts/opendyslexic.css';
 
-export class OPENDYSLEXIC {
+export class OpenDyslexic {
 	constructor() {
-		this.isRunning = true;
-		// Methods
-		this.DATABASE = new Database();
+		this.isRunning = false;
+		this.id = 'opendyslexic';
+		this.font = 'regular';
+		this.database = new Database();
+		this.init();
+	}
 
-		this.BADGE = new Badge(this.DATABASE);
-		this.CUSTOM_FONT = new FontInjector(this.DATABASE);
-
+	init() {
 		this.refresh();
-		this.listener();
+		this.start();
 	}
 
-	async on() {
-		// App settings
-		this.isRunning = this.DATABASE.isRunning();
-		await this.DATABASE.load();
-
-		if (this.isRunning === false) {
-			this.BADGE.set('off');
-		}
-
-		if (this.isRunning === true) {
-			this.BADGE.set('on');
-		}
-
-		await this.BADGE.load(this.isRunning);
-		await this.CUSTOM_FONT.load(this.isRunning);
-
-		this.FIRST_LOAD = false;
+	start() {
+		this.debouncedRefresh = debounce(
+			this.refresh.bind(this),
+			config.refresh
+		);
+		chrome.storage.onChanged.addListener(this.debouncedRefresh);
 	}
 
-	listener() {
-		chrome.storage.onChanged.addListener(() => {
-			this.refresh();
-			return true;
+	async applyClassToElements(className) {
+		const elements = await this.getNonIconElements();
+		elements.forEach((element) => element.classList.add(className));
+	}
+
+	removeFontClasses() {
+		document.querySelectorAll('*').forEach((element) => {
+			element.classList.forEach((className) => {
+				if (className.startsWith('helperbird-font-opendyslexic-')) {
+					element.classList.remove(className);
+				}
+			});
 		});
 	}
 
-	async refresh() {
-		await this.DATABASE.load();
+	isIconFont(fontFamily) {
+		const lowerFontFamily = fontFamily.toLowerCase();
+		return (
+			lowerFontFamily.includes('icon') ||
+			lowerFontFamily.includes('symbols')
+		);
+	}
 
-		this.on();
+	async getNonIconElements() {
+		try {
+			const allElements = Array.from(document.querySelectorAll('*'));
+			return allElements.filter((element) => {
+				const fontFamily = window.getComputedStyle(element).fontFamily;
+				return !this.isIconFont(fontFamily);
+			});
+		} catch {
+			// Fallback: return an empty array if an error occurs
+			return [];
+		}
+	}
+
+	getFont() {
+		if (!this.isRunning) return '';
+
+		const protocol = this.getExtensionProtocol();
+		return {
+			CSS: opendyslexic
+				.toString()
+				.replace(/\{\{\$browser_extension_protocol\}\}/g, protocol),
+			CLASS: `helperbird-font-opendyslexic-${this.font}`
+		};
+	}
+
+	getExtensionProtocol() {
+		return chrome.runtime.getURL('') || browser.runtime.id;
+	}
+	async on() {
+		try {
+			this.isRunning = await this.database.isRunning();
+
+			if (this.isRunning) {
+				const styling = this.getFont();
+				this.removeFontClasses(); // Remove old font classes before applying new ones
+				await this.applyClassToElements(styling.CLASS);
+				injectCssInline(this.id, styling.CSS);
+			} else {
+				this.toggleCSS(false);
+			}
+		} catch {
+			// Fallback: ensure CSS is removed if any error occurs
+			this.toggleCSS(false);
+		}
+	}
+	async toggleCSS(apply) {
+		try {
+			if (apply) {
+				const customCSS = (await this.database.getCSS()) || config.css;
+				let styleElement = document.getElementById(this.id);
+				if (!styleElement) {
+					styleElement = document.createElement('style');
+					styleElement.id = this.id;
+					document.head.appendChild(styleElement);
+				}
+				styleElement.textContent = customCSS;
+			} else {
+				const styleElement = document.getElementById(this.id);
+				if (styleElement) {
+					styleElement.remove();
+					this.removeFontClasses();
+				}
+			}
+		} catch {
+			// Fallback: ensure CSS is removed if any error occurs
+			const styleElement = document.getElementById(this.id);
+			if (styleElement) {
+				styleElement.remove();
+				this.removeFontClasses();
+			}
+		}
+	}
+
+	async refresh() {
+		try {
+			await this.database.load();
+			this.font = await this.database.getFont();
+			await this.on();
+		} catch {
+			// Fallback: ensure CSS is removed if any error occurs
+			this.toggleCSS(false);
+		}
 	}
 }

@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "Edge™ için OpenDyslexic",
+		"description": "Sayfaları OpenDyslexic yazı tipiyle biçimlendirerek çevrimiçi okumayı daha kolay ve daha keyifli hale getirin."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "Firefox™ için OpenDyslexic",
+		"description": "Sayfaları OpenDyslexic yazı tipiyle biçimlendirerek çevrimiçi okumayı daha kolay ve daha keyifli hale getirin."
 	},
 	"appName": {
-		"message": "Chrome için OpenDislexic",
-		"description": "OpenDyslexic yazı tipini ve düşük kontrastlı yardımı kullanarak sayfaları biçimlendirin."
+		"message": "Chrome™ için OpenDyslexic",
+		"description": "Sayfaları OpenDyslexic yazı tipiyle biçimlendirerek çevrimiçi okumayı daha kolay ve daha keyifli hale getirin."
 	},
 	"appTitle": {
-		"message": "AçıkDisleksik",
-		"description": "OpenDyslexic yazı tipini ve düşük kontrastlı yardımı kullanarak sayfaları biçimlendirin."
+		"message": "OpenDislexic",
+		"description": "Sayfaları OpenDyslexic yazı tipiyle biçimlendirerek çevrimiçi okumayı daha kolay ve daha keyifli hale getirin."
 	},
 	"appDescription": {
-		"message": "OpenDyslexic yazı tipini ve düşük kontrastlı yardımı kullanarak sayfaları biçimlendirin",
-		"description": "OpenDyslexic yazı tipini ve düşük kontrastlı yardımı kullanarak sayfaları biçimlendirin"
+		"message": "Sayfaları OpenDyslexic yazı tipiyle biçimlendirerek çevrimiçi okumayı daha kolay ve daha keyifli hale getirin.",
+		"description": "Sayfaları OpenDyslexic yazı tipiyle biçimlendirerek çevrimiçi okumayı daha kolay ve daha keyifli hale getirin."
+	},
+	"feature_specialized_font_options": {
+		"message": "Yazı tipi seçenekleri"
 	},
 	"options": {
 		"message": "Seçenekler"
@@ -26,10 +29,10 @@
 		"message": "Ayarlar"
 	},
 	"selectedFontLabel": {
-		"message": "Kullanılacak Yazı Tipi Seçildi."
+		"message": "Kullanılacak Yazı Tipi seçildi."
 	},
 	"enableFontLabel": {
-		"message": "etkinleştirme"
+		"message": "Olanak vermek"
 	},
 	"googleDocsLabel": {
 		"message": "Google Dokümanlar"
@@ -47,13 +50,13 @@
 		"message": "Yazı tipi rengini değiştirin."
 	},
 	"backgroundColorLabel": {
-		"message": "Arka fon"
+		"message": "Arka plan"
 	},
 	"backgroundColorTooltip": {
 		"message": "Arka plan rengini değiştirin."
 	},
 	"personalSetting": {
-		"message": "Kişiye özel"
+		"message": "Kişisel"
 	},
 	"socialSetting": {
 		"message": "Sosyal"
@@ -62,16 +65,16 @@
 		"message": "Kaynak kodu"
 	},
 	"followDyslexic": {
-		"message": "OpenDislexic'i takip edin"
+		"message": "OpenDyslexic'i takip edin"
 	},
 	"followDyslexicToolTip": {
 		"message": "OpenDyslexic'i Twitter'da takip edin"
 	},
 	"followAbbie": {
-		"message": "OpenDislexic'i destekleyin"
+		"message": "OpenDyslexic'i destekleyin"
 	},
 	"comingSoon": {
-		"message": "Çok yakında"
+		"message": "Yakında gelecek"
 	},
 	"followAbbieToolTip": {
 		"message": "OpenDyslexic'in yaratıcısını destekleyin."
@@ -80,19 +83,19 @@
 		"message": "Robert James'i takip edin"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Bu uygulamanın bakıcısını takip edin."
+		"message": "Bu uygulamanın sağlayıcısını takip edin."
 	},
 	"whatsNew": {
-		"message": "yenilikler"
+		"message": "Yenilikler"
 	},
 	"firefox": {
 		"message": "Firefox Sürümü"
 	},
 	"firefoxText": {
-		"message": "Firefox'u kullan? Bugün indirin."
+		"message": "Firefox'u mu kullanıyorsunuz? Bugün indirin."
 	},
 	"title_fonts": {
-		"message": "Yazı Tipleri"
+		"message": "Yazı tipleri"
 	},
 	"supportlSetting": {
 		"message": "Destek"
@@ -101,16 +104,16 @@
 		"message": "Yer Paylaşımını Etkinleştir"
 	},
 	"supportToolTipTwo": {
-		"message": "Sorun mu yaşıyorsunuz? İletişim desteği."
+		"message": "Bir sorun mu yaşıyorsunuz? İletişim desteği."
 	},
 	"reviews": {
-		"message": "İncelemeler"
+		"message": "Yorumlar"
 	},
 	"review": {
-		"message": "gözden geçirmek"
+		"message": "Gözden geçirmek"
 	},
 	"style": {
-		"message": "stil"
+		"message": "Stil"
 	},
 	"supportToolTip": {
 		"message": "Yorumları bırakın veya okuyun"
@@ -122,16 +125,19 @@
 		"message": "Destek web sitesi."
 	},
 	"saved": {
-		"message": "kaydedildi"
+		"message": "Kaydedildi"
 	},
 	"helperbird": {
-		"message": "Helperbird'ü Keşfet"
+		"message": "Helperbird'ü keşfedin"
 	},
 	"OpenDyslexic": {
-		"message": "OpenDislexic'i keşfedin"
+		"message": "OpenDyslexic'i keşfedin"
+	},
+	"dyslexic_font": {
+		"message": "1 $ yazı tipi"
 	},
 	"on": {
-		"message": "açık"
+		"message": "Açık"
 	},
 	"off": {
 		"message": "Kapalı"

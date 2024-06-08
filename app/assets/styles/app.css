@@ -33,7 +33,7 @@
 	font-style: normal;
 }
 
-.viewport,
+
 body {
 	width: 280px;
 	height: 480px;
@@ -41,6 +41,4 @@ body {
 	background-color: #55b685;
 }
 
-.background-color-od {
-	background-color: #55b685;
-}
+

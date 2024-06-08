@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "Edge™용 OpenDyslexic",
+		"description": "OpenDyslexic 글꼴로 페이지 서식을 지정하면 온라인에서 더 쉽고 즐겁게 읽을 수 있습니다."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "Firefox™용 OpenDyslexic",
+		"description": "OpenDyslexic 글꼴로 페이지 서식을 지정하면 온라인에서 더 쉽고 즐겁게 읽을 수 있습니다."
 	},
 	"appName": {
-		"message": "Chrome 용 OpenDyslexic",
-		"description": "OpenDyslexic 글꼴 및 저 대비 도움말을 사용하여 페이지 형식을 지정합니다."
+		"message": "Chrome™용 OpenDyslexic",
+		"description": "OpenDyslexic 글꼴로 페이지 서식을 지정하여 온라인 읽기를 더욱 쉽고 즐겁게 만들어 보세요."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "OpenDyslexic 글꼴 및 저 대비 도움말을 사용하여 페이지 형식을 지정합니다."
+		"message": "오픈난독증",
+		"description": "OpenDyslexic 글꼴로 페이지 서식을 지정하면 온라인에서 더 쉽고 즐겁게 읽을 수 있습니다."
 	},
 	"appDescription": {
-		"message": "OpenDyslexic 글꼴 및 저 대비 도움말을 사용하여 페이지 서식 지정",
-		"description": "OpenDyslexic 글꼴 및 저 대비 도움말을 사용하여 페이지 서식 지정"
+		"message": "OpenDyslexic 글꼴로 페이지 서식을 지정하면 온라인에서 더 쉽고 즐겁게 읽을 수 있습니다.",
+		"description": "OpenDyslexic 글꼴로 페이지 서식을 지정하면 온라인에서 더 쉽고 즐겁게 읽을 수 있습니다."
+	},
+	"feature_specialized_font_options": {
+		"message": "글꼴 옵션"
 	},
 	"options": {
 		"message": "옵션"
@@ -29,22 +32,22 @@
 		"message": "사용할 글꼴을 선택했습니다."
 	},
 	"enableFontLabel": {
-		"message": "활성화"
+		"message": "할 수 있게 하다"
 	},
 	"googleDocsLabel": {
 		"message": "구글 문서"
 	},
 	"googleDocsTooltip": {
-		"message": "전체 Google 문서 지원을 사용합니다."
+		"message": "전체 Google 문서 지원을 활성화합니다."
 	},
 	"fontColorSetting": {
-		"message": "색깔"
+		"message": "색상"
 	},
 	"fontColorLabel": {
 		"message": "폰트"
 	},
 	"fontColorTooltip": {
-		"message": "글꼴 색상을 변경하십시오."
+		"message": "글꼴 색상을 변경합니다."
 	},
 	"backgroundColorLabel": {
 		"message": "배경"
@@ -53,10 +56,10 @@
 		"message": "배경색을 변경합니다."
 	},
 	"personalSetting": {
-		"message": "개인적인"
+		"message": "개인의"
 	},
 	"socialSetting": {
-		"message": "사회적인"
+		"message": "사회의"
 	},
 	"codeSetting": {
 		"message": "소스 코드"
@@ -65,31 +68,31 @@
 		"message": "OpenDyslexic 팔로우"
 	},
 	"followDyslexicToolTip": {
-		"message": "Twitter에서 OpenDyslexic 팔로우"
+		"message": "Twitter에서 OpenDyslexic을 팔로우하세요."
 	},
 	"followAbbie": {
 		"message": "OpenDyslexic 지원"
 	},
 	"comingSoon": {
-		"message": "곧 출시"
+		"message": "곧 출시 예정"
 	},
 	"followAbbieToolTip": {
-		"message": "OpenDyslexic의 제작자를 지원하십시오."
+		"message": "OpenDyslexic의 창시자를 지원하세요."
 	},
 	"followRobertJames": {
-		"message": "Robert James 팔로우"
+		"message": "로버트 제임스를 따르라"
 	},
 	"followRobertJamesToolTip": {
-		"message": "이 앱의 관리자를 따르십시오."
+		"message": "이 앱의 관리자를 따르세요."
 	},
 	"whatsNew": {
-		"message": "새로운 기능"
+		"message": "새로운 소식"
 	},
 	"firefox": {
-		"message": "Firefox 버전"
+		"message": "파이어폭스 버전"
 	},
 	"firefoxText": {
-		"message": "Firefox를 사용하십니까? 오늘 다운로드하십시오."
+		"message": "파이어폭스를 사용하시나요? 오늘 다운로드하세요."
 	},
 	"title_fonts": {
 		"message": "글꼴"
@@ -101,13 +104,13 @@
 		"message": "오버레이 활성화"
 	},
 	"supportToolTipTwo": {
-		"message": "문제가 있습니까? 연락처 지원."
+		"message": "문제가 있나요? 연락처 지원."
 	},
 	"reviews": {
 		"message": "리뷰"
 	},
 	"review": {
-		"message": "리뷰"
+		"message": "검토"
 	},
 	"style": {
 		"message": "스타일"
@@ -116,24 +119,27 @@
 		"message": "리뷰 남기기 또는 읽기"
 	},
 	"websiteLabel": {
-		"message": "웹 사이트"
+		"message": "웹사이트"
 	},
 	"websiteTooltip": {
-		"message": "지원 웹 사이트."
+		"message": "지원 웹사이트."
 	},
 	"saved": {
-		"message": "저장 됨"
+		"message": "저장됨"
 	},
 	"helperbird": {
-		"message": "Helperbird 살펴보기"
+		"message": "헬퍼버드를 만나보세요"
 	},
 	"OpenDyslexic": {
-		"message": "OpenDyslexic 알아보기"
+		"message": "OpenDyslexic 살펴보기"
+	},
+	"dyslexic_font": {
+		"message": "$1 글꼴"
 	},
 	"on": {
-		"message": "의 위에"
+		"message": "~에"
 	},
 	"off": {
-		"message": "떨어져서"
+		"message": "끄다"
 	}
 }

@@ -1,32 +1,35 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic für Edge™",
+		"description": "Machen Sie das Online-Lesen einfacher und angenehmer, indem Sie Seiten mit der Schriftart OpenDyslexic formatieren."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic für Firefox™",
+		"description": "Machen Sie das Online-Lesen einfacher und angenehmer, indem Sie Seiten mit der Schriftart OpenDyslexic formatieren."
 	},
 	"appName": {
-		"message": "OpenDyslexic für Chrome",
-		"description": "Formatieren Sie Seiten mit der OpenDyslexic-Schriftart und der Hilfe mit niedrigem Kontrast."
+		"message": "OpenDyslexic für Chrome™",
+		"description": "Machen Sie das Online-Lesen einfacher und angenehmer, indem Sie Seiten mit der Schriftart OpenDyslexic formatieren."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Formatieren Sie Seiten mit der OpenDyslexic-Schriftart und der Hilfe mit niedrigem Kontrast."
+		"message": "OffenDyslexisch",
+		"description": "Machen Sie das Online-Lesen einfacher und angenehmer, indem Sie Seiten mit der Schriftart OpenDyslexic formatieren."
 	},
 	"appDescription": {
-		"message": "Formatieren von Seiten mit der OpenDyslexic-Schriftart und Hilfe mit geringem Kontrast",
-		"description": "Formatieren von Seiten mit der OpenDyslexic-Schriftart und Hilfe mit geringem Kontrast"
+		"message": "Machen Sie das Online-Lesen einfacher und angenehmer, indem Sie Seiten mit der Schriftart OpenDyslexic formatieren.",
+		"description": "Machen Sie das Online-Lesen einfacher und angenehmer, indem Sie Seiten mit der Schriftart OpenDyslexic formatieren."
+	},
+	"feature_specialized_font_options": {
+		"message": "Schriftartoptionen"
 	},
 	"options": {
 		"message": "Optionen"
 	},
 	"settings": {
-		"message": "die Einstellungen"
+		"message": "Einstellungen"
 	},
 	"selectedFontLabel": {
-		"message": "Ausgewählte Schriftart, die verwendet werden soll."
+		"message": "Zu verwendende Schriftart ausgewählt."
 	},
 	"enableFontLabel": {
 		"message": "Aktivieren"
@@ -71,10 +74,10 @@
 		"message": "Unterstützen Sie OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "Kommt bald"
+		"message": "Demnächst"
 	},
 	"followAbbieToolTip": {
-		"message": "Unterstützen Sie den Designer der OpenDyslexic."
+		"message": "Unterstützen Sie den Entwickler von OpenDyslexic."
 	},
 	"followRobertJames": {
 		"message": "Folgen Sie Robert James"
@@ -89,7 +92,7 @@
 		"message": "Firefox-Version"
 	},
 	"firefoxText": {
-		"message": "Firefox verwenden? Heute noch herunterladen."
+		"message": "Verwenden Sie Firefox? Laden Sie es noch heute herunter."
 	},
 	"title_fonts": {
 		"message": "Schriftarten"
@@ -98,10 +101,10 @@
 		"message": "Unterstützung"
 	},
 	"featureTint": {
-		"message": "Überlagerung aktivieren"
+		"message": "Overlay aktivieren"
 	},
 	"supportToolTipTwo": {
-		"message": "Haben Sie ein Problem? Kontaktieren Sie Support."
+		"message": "Liegt ein Problem vor? Wenden Sie sich an den Support."
 	},
 	"reviews": {
 		"message": "Bewertungen"
@@ -122,18 +125,21 @@
 		"message": "Support-Website."
 	},
 	"saved": {
-		"message": "Gespeichert"
+		"message": "Gerettet"
 	},
 	"helperbird": {
-		"message": "Helperbird entdecken"
+		"message": "Entdecken Sie Helperbird"
 	},
 	"OpenDyslexic": {
 		"message": "Entdecken Sie OpenDyslexic"
 	},
+	"dyslexic_font": {
+		"message": "$1 Schriftart"
+	},
 	"on": {
-		"message": "an"
+		"message": "An"
 	},
 	"off": {
-		"message": "aus"
+		"message": "Aus"
 	}
 }

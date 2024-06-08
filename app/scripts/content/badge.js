@@ -1,7 +1,4 @@
-import { isFirefox } from '@scripts/content/utils';
-import { sendToBackgroundScriptSlow } from './api';
-
-export class Badge {
+export class badge {
 	constructor() {}
 
 	async load() {
@@ -10,34 +7,19 @@ export class Badge {
 		});
 	}
 
-	change(object) {
-		switch (object.state) {
-			case 'on': {
-				this.on();
-				break;
-			}
-			case 'off': {
-				this.off();
-				break;
-			}
-			default:
-				this.off();
+	update(mail) {
+		if (mail.state === true) {
+			this.on();
+			return mail.state;
 		}
-	}
 
-	set(state = false) {
-		let message = {
-			app: 'badge',
-			state: state
-		};
-		sendToBackgroundScriptSlow(message);
+		this.off();
+		return mail.state;
 	}
 
 	off() {
 		this.setColor('#ff3c2f');
 		this.setText('off');
-
-		return false;
 	}
 
 	on() {
@@ -46,18 +28,10 @@ export class Badge {
 	}
 
 	setColor(color) {
-		if (isFirefox() === true) {
-			browser.browserAction.setBadgeBackgroundColor({ color: color });
-		} else {
-			chrome.action.setBadgeBackgroundColor({ color: color });
-		}
+		chrome.action.setBadgeBackgroundColor({ color: color }, () => {});
 	}
 
 	setText(text) {
-		if (isFirefox() === true) {
-			browser.browserAction.setBadgeText({ text: text });
-		} else {
-			chrome.action.setBadgeText({ text: text });
-		}
+		chrome.action.setBadgeText({ text: text }, () => {});
 	}
 }

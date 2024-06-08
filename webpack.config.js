@@ -1,31 +1,50 @@
 const path = require('path');
+const { ProvidePlugin, DefinePlugin } = require('webpack');
+const { VueLoaderPlugin } = require('vue-loader');
 const CopyPlugin = require('copy-webpack-plugin');
 const ZipPlugin = require('zip-webpack-plugin');
-const { VueLoaderPlugin } = require('vue-loader');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-const manifestLocation = getManifestLocation(process.env.browser);
-const manifest = require(`./config/${manifestLocation}`);
-const versionNumber = manifest.version.split('.').join('-');
+// Set default manifest location
+let manifestLocation = './config/chrome-manifest.json';
 
-function getManifestLocation(browser) {
-	switch (browser) {
-		case 'firefox':
-			return 'firefox-manifest.json';
-		case 'edge':
-			return 'edge-manifest.json';
-		case 'ios':
-			return 'safari-manifest.json';
-		default:
-			return 'chrome-manifest.json';
-	}
+// Only change if process.env.browser is set to a different browser
+switch (process.env.browser) {
+	case 'firefox':
+		manifestLocation = './config/firefox-manifest.json';
+		break;
+	case 'edge':
+		manifestLocation = './config/edge-manifest.json';
+		break;
+	case 'ios':
+		manifestLocation = './config/safari-manifest.json';
+		break;
+	// The 'chrome' case and 'default' case are not necessary if the default is already chrome
 }
+
+let manifest = require(manifestLocation);
+
+let versionNumber = manifest.version.split('.').join('-');
 
 module.exports = {
 	mode: 'production',
-	context: path.resolve(__dirname, 'app'),
+	target: 'web',
+	devtool: false, // Use 'source-map' instead of 'eval'
+
+	node: {
+		global: false
+	},
+	// mode: 'development',
+	context: `${__dirname}/app/`,
+	optimization: {
+		usedExports: true,
+		minimize: true,
+		emitOnErrors: false // Will not emit assets that include errors
+		// Add this to disable the generation of license files
+	},
 	entry: {
 		'scripts/content': './scripts/content/index.js',
-		'scripts/background': './scripts/background/index.js',
+
 		'scripts/popup': './scripts/popup.js'
 	},
 
@@ -36,29 +55,39 @@ module.exports = {
 				use: ['style-loader', 'css-loader', 'stylus-loader']
 			},
 			{
+				test: /\.(woff(2)?|ttf|eot|otf|gif|png)(\?v=[0-9]\.[0-9]\.[0-9])?/i,
+				type: 'asset/resource'
+			},
+			{
+				test: /\.(txt|pdf)$/i,
+				use: 'raw-loader'
+			},
+			{
 				test: /\.vue$/,
 				loader: 'vue-loader',
 				options: {
-					esModule: true
+					esModule: true // example of setting to false
 				}
 			},
 			{
-				test: /\.js$/,
-				exclude: /(node_modules)/,
-				use: {
-					loader: 'babel-loader',
-					options: {
-						presets: ['@babel/preset-env']
-					}
+				test: /\.[jt]sx?$/,
+				loader: 'esbuild-loader',
+				exclude: /(node_modules|bower_components)/,
+				options: {
+					// JavaScript version to compile to
+					target: 'es2015',
+					loader: 'js'
 				}
 			},
-
+			{
+				test: /\.(txt|pdf)$/i,
+				use: 'raw-loader'
+			},
 			{
 				test: /\.css$/,
 				use: [
 					'style-loader',
 					'css-loader',
-
 					{
 						loader: 'postcss-loader',
 						options: {
@@ -71,73 +100,87 @@ module.exports = {
 						}
 					}
 				]
-			},
-			{
-				test: /\.(txt|pdf)$/i,
-				use: 'raw-loader'
-			},
-			{
-				test: /\.(png|jpe?g|gif)$/i,
-				use: [
-					{
-						loader: 'file-loader',
-						options: {
-							name: 'images/[name].[ext]',
-							publicPath: '..'
-						}
-					}
-				]
 			}
 		]
 	},
 	plugins: [
+		new CleanWebpackPlugin(),
+		new DefinePlugin({
+			global: 'self',
+			__VUE_OPTIONS_API__: true,
+			__VUE_PROD_DEVTOOLS__: false
+		}),
+		new ProvidePlugin({
+			Buffer: ['buffer', 'Buffer']
+		}),
+
 		new VueLoaderPlugin(),
 		new CopyPlugin({
 			patterns: [
 				{
-					context: path.resolve(__dirname, 'config'),
+					context: `${__dirname}/app/`,
 
-					from: manifestLocation,
-					to: `${path.resolve(__dirname, 'dist')}/manifest.json`
+					from: `.${manifestLocation}`,
+
+					to: 'manifest.json',
+					globOptions: {
+						ignore: ['**/.DS_Store']
+					}
 				},
 				{
-					from: './assets/fonts/',
-					to: path.resolve(__dirname, 'dist/assets/fonts/')
+					context: `${__dirname}/app/`,
+					from: 'assets/images/',
+					to: 'assets/images/',
+					globOptions: {
+						ignore: ['**/.DS_Store']
+					}
 				},
 
 				{
-					from: './assets/styles/',
-					to: path.resolve(__dirname, 'dist/assets/css/')
+					context: `${__dirname}/app/`,
+					from: 'assets/fonts/',
+					to: 'assets/fonts/',
+					globOptions: {
+						ignore: ['**/.DS_Store']
+					}
 				},
 				{
-					from: './_locales/',
-					to: path.resolve(__dirname, 'dist/_locales/')
+					context: `${__dirname}/app/`,
+					from: 'assets/styles/',
+					to: 'assets/css/',
+					globOptions: {
+						ignore: ['**/.DS_Store']
+					}
+				},
+
+				{
+					context: `${__dirname}/app/`,
+					from:
+						process.env.browser === 'ios'
+							? '_locales/en/'
+							: '_locales/',
+					to:
+						process.env.browser === 'ios'
+							? '_locales/en/'
+							: '_locales/',
+					globOptions: {
+						ignore: ['**/.DS_Store']
+					}
 				},
 				{
-					from: './assets/images/',
-					to: path.resolve(__dirname, 'dist/assets/images/')
-				},
-				{
+					context: `${__dirname}/app/`,
 					from: 'index.html',
-					to: path.resolve(__dirname, 'dist/')
+					to: 'index.html',
+					globOptions: {
+						ignore: ['**/.DS_Store']
+					}
 				}
 			]
 		}),
 
 		new ZipPlugin({
 			path: `../build/${process.env.browser}/${versionNumber}/`,
-			filename: `opendyslexic-${process.env.browser}-${versionNumber}.zip`,
-			include: [
-				/\.js$/,
-				/\.json$/,
-				/\.css$/,
-				/\.html$/,
-				/\.otf$/,
-				/\.png$/,
-				/\.jpg$/,
-				/\.jpeg$/,
-				/\.gif$/
-			]
+			filename: `opendyslexic-${process.env.browser}-${versionNumber}.zip`
 		})
 	],
 

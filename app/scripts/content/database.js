@@ -1,5 +1,6 @@
 import { isEmpty, isNull } from '@scripts/content/utils';
 
+import { config } from '@/scripts/content/config';
 export class Database {
 	constructor() {
 		this.id = 'settings';
@@ -30,6 +31,20 @@ export class Database {
 			chrome.storage.local.set(setting);
 			resolve(setting);
 			return true; // Chrome bug
+		});
+	}
+
+	getCSS() {
+		return new Promise((resolve) => {
+			let css = this.hasProperty('customCSS', config.css);
+			resolve(css);
+		});
+	}
+
+	getFont() {
+		return new Promise((resolve) => {
+			let css = this.hasProperty('font', 'regular');
+			resolve(css);
 		});
 	}
 

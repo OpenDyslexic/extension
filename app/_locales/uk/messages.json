@@ -1,26 +1,29 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic для Edge™",
+		"description": "Зробіть читання онлайн легшим і приємнішим, відформатувавши сторінки за допомогою шрифту OpenDyslexic."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic для Firefox™",
+		"description": "Зробіть читання онлайн легшим і приємнішим, відформатувавши сторінки за допомогою шрифту OpenDyslexic."
 	},
 	"appName": {
-		"message": "OpenDyslexic для Chrome",
-		"description": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом."
+		"message": "OpenDyslexic для Chrome™",
+		"description": "Зробіть читання онлайн легшим і приємнішим, відформатувавши сторінки за допомогою шрифту OpenDyslexic."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом."
+		"description": "Зробіть читання онлайн легшим і приємнішим, відформатувавши сторінки за допомогою шрифту OpenDyslexic."
 	},
 	"appDescription": {
-		"message": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом",
-		"description": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом"
+		"message": "Зробіть читання онлайн легшим і приємнішим, відформатувавши сторінки за допомогою шрифту OpenDyslexic.",
+		"description": "Зробіть читання онлайн легшим і приємнішим, відформатувавши сторінки за допомогою шрифту OpenDyslexic."
+	},
+	"feature_specialized_font_options": {
+		"message": "Параметри шрифту"
 	},
 	"options": {
-		"message": "Варіанти"
+		"message": "Опції"
 	},
 	"settings": {
 		"message": "Налаштування"
@@ -38,7 +41,7 @@
 		"message": "Увімкніть повну підтримку Документів Google."
 	},
 	"fontColorSetting": {
-		"message": "Колір"
+		"message": "колір"
 	},
 	"fontColorLabel": {
 		"message": "Шрифт"
@@ -47,22 +50,22 @@
 		"message": "Змініть колір шрифту."
 	},
 	"backgroundColorLabel": {
-		"message": "Передумови"
+		"message": "Фон"
 	},
 	"backgroundColorTooltip": {
-		"message": "Змініть колір тла."
+		"message": "Змініть колір фону."
 	},
 	"personalSetting": {
 		"message": "Особистий"
 	},
 	"socialSetting": {
-		"message": "Соціальна"
+		"message": "Соціальний"
 	},
 	"codeSetting": {
 		"message": "Вихідний код"
 	},
 	"followDyslexic": {
-		"message": "Дотримуйтесь OpenDyslexic"
+		"message": "Слідкуйте за OpenDyslexic"
 	},
 	"followDyslexicToolTip": {
 		"message": "Слідкуйте за OpenDyslexic у Twitter"
@@ -74,13 +77,13 @@
 		"message": "Незабаром"
 	},
 	"followAbbieToolTip": {
-		"message": "Підтримка творця OpenDyslexic."
+		"message": "Підтримайте творця OpenDyslexic."
 	},
 	"followRobertJames": {
 		"message": "Слідуйте за Робертом Джеймсом"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Слідуйте за супровідником цього додатка."
+		"message": "Слідкуйте за розробником цієї програми."
 	},
 	"whatsNew": {
 		"message": "Що нового"
@@ -89,7 +92,7 @@
 		"message": "Версія Firefox"
 	},
 	"firefoxText": {
-		"message": "Використовувати Firefox? Завантажте його сьогодні."
+		"message": "Користуватися Firefox? Завантажте його сьогодні."
 	},
 	"title_fonts": {
 		"message": "Шрифти"
@@ -101,13 +104,13 @@
 		"message": "Увімкнути накладання"
 	},
 	"supportToolTipTwo": {
-		"message": "Виникли проблеми? Зверніться до служби підтримки."
+		"message": "Виникла проблема? Зверніться до служби підтримки."
 	},
 	"reviews": {
 		"message": "Відгуки"
 	},
 	"review": {
-		"message": "Огляд"
+		"message": "огляд"
 	},
 	"style": {
 		"message": "Стиль"
@@ -125,10 +128,13 @@
 		"message": "Збережено"
 	},
 	"helperbird": {
-		"message": "Відкрийте Helperbird"
+		"message": "Відкрийте для себе Helperbird"
 	},
 	"OpenDyslexic": {
 		"message": "Відкрийте для себе OpenDyslexic"
+	},
+	"dyslexic_font": {
+		"message": "$1 шрифт"
 	},
 	"on": {
 		"message": "Увімкнено"
