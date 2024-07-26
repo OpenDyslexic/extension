@@ -19,7 +19,7 @@ export class Database {
 	}
 
 	isRunning() {
-		this.paused = this.hasProperty('enabled', true);
+		this.paused = this.hasProperty('enabled', false);
 		return this.paused;
 	}
 
