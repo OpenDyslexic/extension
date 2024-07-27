@@ -1,24 +1,24 @@
 {
 	"name": "__MSG_appName__",
-	"version": "2024.7.26",
+	"version": "2024.7.27",
 	"manifest_version": 3,
 	"description": "__MSG_appDescription__",
 	"homepage_url": "https://opendyslexic.org",
 	"icons": {
 		"16": "assets/images/icons/icon-16.png",
+		"32": "assets/images/icons/icon-32.png",
 		"48": "assets/images/icons/icon-48.png",
-		"128": "assets/images/icons/icon-128.png"
+		"64": "assets/images/icons/icon-64.png",
+		"128": "assets/images/icons/icon-128.png",
+		"256": "assets/images/icons/icon-256.png",
+		"512": "assets/images/icons/icon-512.png"
 	},
 	"action": {
-		"default_icon": "assets/images/icons/icon-128.png",
+		"default_icon": 		 "assets/images/icons/icon-128.png",
 		"default_popup": "index.html"
 	},
 	"default_locale": "en",
 	"permissions": ["activeTab", "storage"],
-	"background": {
-		"service_worker": "scripts/background.js"
-	},
-
 	"content_scripts": [
 		{
 			"matches": ["http://*/*", "https://*/*", "file:///*/*"],

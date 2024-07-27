@@ -8,7 +8,6 @@ export class OPENDYSLEXIC {
 		// Methods
 		this.DATABASE = new Database();
 
-	
 		this.CUSTOM_FONT = new FontInjector(this.DATABASE);
 
 		this.refresh();
@@ -19,8 +18,6 @@ export class OPENDYSLEXIC {
 		// App settings
 		this.isRunning = this.DATABASE.isRunning();
 		await this.DATABASE.load();
-
-	
 
 		await this.CUSTOM_FONT.load(this.isRunning);
 

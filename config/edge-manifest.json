@@ -5,18 +5,20 @@
 	"description": "__MSG_appDescription__",
 	"homepage_url": "https://opendyslexic.org",
 	"icons": {
-		"128": "assets/images/icons/icon-128.png"
+		"16": "assets/images/icons/icon-16.png",
+		"32": "assets/images/icons/icon-32.png",
+		"48": "assets/images/icons/icon-48.png",
+		"64": "assets/images/icons/icon-64.png",
+		"128": "assets/images/icons/icon-128.png",
+		"256": "assets/images/icons/icon-256.png",
+		"512": "assets/images/icons/icon-512.png"
 	},
 	"action": {
-		"default_icon": "assets/images/icons/icon-128.png",
+		"default_icon": 		 "assets/images/icons/icon-128.png",
 		"default_popup": "index.html"
 	},
 	"default_locale": "en",
 	"permissions": ["activeTab", "storage"],
-	"background": {
-		"service_worker": "scripts/background.js"
-	},
-
 	"content_scripts": [
 		{
 			"matches": ["http://*/*", "https://*/*", "file:///*/*"],
@@ -33,9 +35,6 @@
 				"assets/fonts/opendyslexic/bold-italic.otf",
 				"assets/fonts/opendyslexic/italic.otf",
 				"assets/fonts/opendyslexic/regular.otf",
-				"assets/styles/core/opendyslexic-regular.css",
-				"assets/styles/core/opendyslexic-bold.css",
-				"assets/styles/core/opendyslexic-italic.css",
 				"assets/styles/core/opendyslexic.css"
 			]
 		}
