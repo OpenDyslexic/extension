@@ -24,8 +24,12 @@ module.exports = {
 	mode: 'production',
 	context: path.resolve(__dirname, 'app'),
 	entry: {
+		'background': {
+			import: './scripts/background/index.js',
+			filename: 'scripts/background.js'
+		},
 		'scripts/content': './scripts/content/index.js',
-		'scripts/background': './scripts/background/index.js',
+
 		'scripts/popup': './scripts/popup.js'
 	},
 

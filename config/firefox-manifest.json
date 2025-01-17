@@ -14,7 +14,7 @@
 		"512": "assets/images/icons/icon-512.png"
 	},
 	"action": {
-		"default_icon": 		 "assets/images/icons/icon-128.png",
+		"default_icon": "assets/images/icons/icon-128.png",
 		"default_popup": "index.html"
 	},
 	"default_locale": "en",
@@ -28,10 +28,10 @@
 	],
 	"browser_specific_settings": {
 		"gecko": {
-		  "id": "{759dbb01-b646-4327-bf9e-69ca2543ef8d}",
-		  "strict_min_version": "114.0"
+			"id": "{759dbb01-b646-4327-bf9e-69ca2543ef8d}",
+			"strict_min_version": "114.0"
 		}
-	  },
+	},
 	"web_accessible_resources": [
 		{
 			"matches": ["https://*/*"],

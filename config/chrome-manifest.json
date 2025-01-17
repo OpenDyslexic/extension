@@ -14,7 +14,7 @@
 		"512": "assets/images/icons/icon-512.png"
 	},
 	"action": {
-		"default_icon": 		 "assets/images/icons/icon-128.png",
+		"default_icon": "assets/images/icons/icon-128.png",
 		"default_popup": "index.html"
 	},
 	"default_locale": "en",
@@ -26,6 +26,9 @@
 			"exclude_globs": ["*://docs.google.com/*"]
 		}
 	],
+	"background": {
+		"service_worker": "scripts/background.js"
+	},
 	"offline_enabled": true,
 	"web_accessible_resources": [
 		{
