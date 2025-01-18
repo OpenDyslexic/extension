@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic for Edge",
+		"description": "使用 OpenDyslexic 字体和低对比度帮助来格式化页面。"
+	},
+	"appNameFirefox": {
+		"message": "Firefox 版 OpenDyslexic",
+		"description": "使用 OpenDyslexic 字体和低对比度帮助来格式化页面。"
+	},
+	"appName": {
+		"message": "Chrome 版 OpenDyslexic",
+		"description": "使用 OpenDyslexic 字体和低对比度帮助来格式化页面。"
+	},
+	"appTitle": {
+		"message": "开放阅读障碍",
+		"description": "使用 OpenDyslexic 字体和低对比度帮助来格式化页面。"
+	},
+	"appDescription": {
+		"message": "使用 OpenDyslexic 字体和低对比度帮助来格式化页面",
+		"description": "使用 OpenDyslexic 字体和低对比度帮助来格式化页面"
+	},
+	"feature_specialized_font_options": {
+		"message": "字体选项"
+	},
+	"options": {
+		"message": "选项"
+	},
+	"settings": {
+		"message": "设置"
+	},
+	"selectedFontLabel": {
+		"message": "选择要使用的字体。"
+	},
+	"enableFontLabel": {
+		"message": "使能够"
+	},
+	"googleDocsLabel": {
+		"message": "Google 文档"
+	},
+	"googleDocsTooltip": {
+		"message": "启用完整的 Google Docs 支持。"
+	},
+	"fontColorSetting": {
+		"message": "颜色"
+	},
+	"fontColorLabel": {
+		"message": "字体"
+	},
+	"fontColorTooltip": {
+		"message": "更改字体颜色。"
+	},
+	"backgroundColorLabel": {
+		"message": "背景"
+	},
+	"backgroundColorTooltip": {
+		"message": "改变背景颜色。"
+	},
+	"personalSetting": {
+		"message": "个人的"
+	},
+	"socialSetting": {
+		"message": "社会的"
+	},
+	"codeSetting": {
+		"message": "源代码"
+	},
+	"followDyslexic": {
+		"message": "关注 OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "我们在 Github 上"
+	},
+	"followDyslexicToolTip": {
+		"message": "在 X 上关注 OpenDyslexic"
+	},
+	"followAbbie": {
+		"message": "支持 OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "即将推出"
+	},
+	"followAbbieToolTip": {
+		"message": "支持 OpenDyslexic 的创建者。"
+	},
+	"followRobertJames": {
+		"message": "关注 Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "由 Robert James Gabriel 维护"
+	},
+	"whatsNew": {
+		"message": "最新动态"
+	},
+	"bugs": {
+		"message": "在 Discords 上报告错误"
+	},
+	"created_by": {
+		"message": "OpenDyslexic 由 Abbie Gonzalez 创建"
+	},
+	"firefox": {
+		"message": "Firefox 版本"
+	},
+	"downloadOnFirefox": {
+		"message": "可在 Firefox 上使用"
+	},
+	"firefoxText": {
+		"message": "使用 Firefox？立即下载。"
+	},
+	"title_fonts": {
+		"message": "字体"
+	},
+	"supportlSetting": {
+		"message": "支持"
+	},
+	"featureTint": {
+		"message": "启用覆盖"
+	},
+	"supportToolTipTwo": {
+		"message": "有问题？请联系支持人员。"
+	},
+	"reviews": {
+		"message": "评论"
+	},
+	"review": {
+		"message": "审查"
+	},
+	"style": {
+		"message": "风格"
+	},
+	"supportToolTip": {
+		"message": "查看此扩展"
+	},
+	"websiteLabel": {
+		"message": "网站"
+	},
+	"websiteTooltip": {
+		"message": "支持网站。"
+	},
+	"saved": {
+		"message": "已应用设置"
+	},
+	"helperbird": {
+		"message": "发现 Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "探索 OpenDyslexic"
+	},
+	"on": {
+		"message": "在"
+	},
+	"off": {
+		"message": "离开"
+	}
+}

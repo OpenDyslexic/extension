@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic для Edge",
+		"description": "Форматируйте страницы, используя шрифт OpenDyslexic и справку по низкой контрастности."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic для Firefox",
+		"description": "Форматируйте страницы, используя шрифт OpenDyslexic и справку по низкой контрастности."
+	},
+	"appName": {
+		"message": "OpenDyslexic для Chrome",
+		"description": "Форматируйте страницы, используя шрифт OpenDyslexic и справку по низкой контрастности."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Форматируйте страницы, используя шрифт OpenDyslexic и справку по низкой контрастности."
+	},
+	"appDescription": {
+		"message": "Форматирование страниц с использованием шрифта OpenDyslexic и помощь с низкой контрастностью",
+		"description": "Форматирование страниц с использованием шрифта OpenDyslexic и помощь с низкой контрастностью"
+	},
+	"feature_specialized_font_options": {
+		"message": "Параметры шрифта"
+	},
+	"options": {
+		"message": "Параметры"
+	},
+	"settings": {
+		"message": "Настройки"
+	},
+	"selectedFontLabel": {
+		"message": "Выбранный шрифт для использования."
+	},
+	"enableFontLabel": {
+		"message": "Давать возможность"
+	},
+	"googleDocsLabel": {
+		"message": "Google Документы"
+	},
+	"googleDocsTooltip": {
+		"message": "Включить полную поддержку Google Docs."
+	},
+	"fontColorSetting": {
+		"message": "Цвет"
+	},
+	"fontColorLabel": {
+		"message": "Шрифт"
+	},
+	"fontColorTooltip": {
+		"message": "Измените цвет шрифта."
+	},
+	"backgroundColorLabel": {
+		"message": "Фон"
+	},
+	"backgroundColorTooltip": {
+		"message": "Измените цвет фона."
+	},
+	"personalSetting": {
+		"message": "Личный"
+	},
+	"socialSetting": {
+		"message": "Социальный"
+	},
+	"codeSetting": {
+		"message": "Исходный код"
+	},
+	"followDyslexic": {
+		"message": "Следуйте за OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Мы на Github"
+	},
+	"followDyslexicToolTip": {
+		"message": "Подпишитесь на OpenDyslexic на X"
+	},
+	"followAbbie": {
+		"message": "Поддержка OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Вскоре"
+	},
+	"followAbbieToolTip": {
+		"message": "Поддержите создателя OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Следуйте за Робертом Джеймсом"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Поддерживает Роберт Джеймс Габриэль"
+	},
+	"whatsNew": {
+		"message": "Что нового?"
+	},
+	"bugs": {
+		"message": "Сообщить об ошибках в Discord"
+	},
+	"created_by": {
+		"message": "OpenDyslexic была создана Эбби Гонсалес"
+	},
+	"firefox": {
+		"message": "Версия Firefox"
+	},
+	"downloadOnFirefox": {
+		"message": "Доступно в Firefox"
+	},
+	"firefoxText": {
+		"message": "Используете Firefox? Загрузите его сегодня."
+	},
+	"title_fonts": {
+		"message": "Шрифты"
+	},
+	"supportlSetting": {
+		"message": "Поддерживать"
+	},
+	"featureTint": {
+		"message": "Включить наложение"
+	},
+	"supportToolTipTwo": {
+		"message": "Возникли проблемы? Обратитесь в службу поддержки."
+	},
+	"reviews": {
+		"message": "Обзоры"
+	},
+	"review": {
+		"message": "Обзор"
+	},
+	"style": {
+		"message": "Стиль"
+	},
+	"supportToolTip": {
+		"message": "Просмотрите это расширение"
+	},
+	"websiteLabel": {
+		"message": "Веб-сайт"
+	},
+	"websiteTooltip": {
+		"message": "Сайт поддержки."
+	},
+	"saved": {
+		"message": "Настройки применены"
+	},
+	"helperbird": {
+		"message": "Откройте для себя Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Откройте для себя OpenDyslexic"
+	},
+	"on": {
+		"message": "На"
+	},
+	"off": {
+		"message": "Выключенный"
+	}
+}

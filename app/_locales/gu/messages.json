@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "એજ માટે OpenDyslexic",
+		"description": "OpenDyslexic ફોન્ટ અને ઓછી કોન્ટ્રાસ્ટ મદદનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "Firefox માટે OpenDyslexic",
+		"description": "OpenDyslexic ફોન્ટ અને ઓછી કોન્ટ્રાસ્ટ મદદનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો."
 	},
 	"appName": {
-		"message": "ક્રોમ માટે ઓપનડિલેક્સિક",
-		"description": "ઓપનડિલેક્સિક ફ fontન્ટ અને લો કોન્ટ્રાસ્ટ સહાયનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો."
+		"message": "Chrome માટે OpenDyslexic",
+		"description": "OpenDyslexic ફોન્ટ અને ઓછી કોન્ટ્રાસ્ટ મદદનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો."
 	},
 	"appTitle": {
-		"message": "ઓપનડિલેક્સિક",
-		"description": "ઓપનડિલેક્સિક ફ fontન્ટ અને લો કોન્ટ્રાસ્ટ સહાયનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો."
+		"message": "ઓપનડિસલેક્સિક",
+		"description": "OpenDyslexic ફોન્ટ અને ઓછી કોન્ટ્રાસ્ટ મદદનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો."
 	},
 	"appDescription": {
-		"message": "ઓપનડિલેક્સિક ફ fontન્ટ અને લો કોન્ટ્રાસ્ટ સહાયનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો",
-		"description": "ઓપનડિલેક્સિક ફ fontન્ટ અને લો કોન્ટ્રાસ્ટ સહાયનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો"
+		"message": "OpenDyslexic ફોન્ટ અને ઓછી કોન્ટ્રાસ્ટ મદદનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો",
+		"description": "OpenDyslexic ફોન્ટ અને ઓછી કોન્ટ્રાસ્ટ મદદનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો"
+	},
+	"feature_specialized_font_options": {
+		"message": "ફોન્ટ વિકલ્પો"
 	},
 	"options": {
 		"message": "વિકલ્પો"
@@ -26,25 +29,25 @@
 		"message": "સેટિંગ્સ"
 	},
 	"selectedFontLabel": {
-		"message": "વાપરવા માટે પસંદ કરેલ ફlectedન્ટ."
+		"message": "વાપરવા માટે પસંદ કરેલ ફોન્ટ."
 	},
 	"enableFontLabel": {
 		"message": "સક્ષમ કરો"
 	},
 	"googleDocsLabel": {
-		"message": "ગૂગલ ડsક્સ"
+		"message": "Google ડૉક્સ"
 	},
 	"googleDocsTooltip": {
-		"message": "સંપૂર્ણ Google ડsક્સ સપોર્ટને સક્ષમ કરો."
+		"message": "સંપૂર્ણ Google ડૉક્સ સપોર્ટ સક્ષમ કરો."
 	},
 	"fontColorSetting": {
 		"message": "રંગ"
 	},
 	"fontColorLabel": {
-		"message": "ફontન્ટ"
+		"message": "ફોન્ટ"
 	},
 	"fontColorTooltip": {
-		"message": "ફોન્ટ રંગ બદલો."
+		"message": "ફોન્ટનો રંગ બદલો."
 	},
 	"backgroundColorLabel": {
 		"message": "પૃષ્ઠભૂમિ"
@@ -53,7 +56,7 @@
 		"message": "પૃષ્ઠભૂમિ રંગ બદલો."
 	},
 	"personalSetting": {
-		"message": "વ્યક્તિગત"
+		"message": "અંગત"
 	},
 	"socialSetting": {
 		"message": "સામાજિક"
@@ -62,37 +65,49 @@
 		"message": "સ્ત્રોત કોડ"
 	},
 	"followDyslexic": {
-		"message": "અનુસરો"
+		"message": "OpenDyslexic અનુસરો"
+	},
+	"weAreOnGithub": {
+		"message": "અમે ગીથબ પર છીએ"
 	},
 	"followDyslexicToolTip": {
-		"message": "Twitter પર OpenDyslexic ને અનુસરો"
+		"message": "X પર OpenDyslexic ને અનુસરો"
 	},
 	"followAbbie": {
-		"message": "OpenDyslexic આધાર આપે છે"
+		"message": "OpenDyslexic ને સપોર્ટ કરો"
 	},
 	"comingSoon": {
-		"message": "ટૂક સમયમાં આવી રહ્યું છે"
+		"message": "ટૂંક સમયમાં આવી રહ્યું છે"
 	},
 	"followAbbieToolTip": {
-		"message": "ઓપનડિલેક્સિકના નિર્માતાને સપોર્ટ કરો."
+		"message": "OpenDyslexic ના સર્જકને સપોર્ટ કરો."
 	},
 	"followRobertJames": {
 		"message": "રોબર્ટ જેમ્સને અનુસરો"
 	},
 	"followRobertJamesToolTip": {
-		"message": "આ એપ્લિકેશનના સંચાલકને અનુસરો."
+		"message": "રોબર્ટ જેમ્સ ગેબ્રિયલ દ્વારા જાળવણી"
 	},
 	"whatsNew": {
 		"message": "નવું શું છે"
 	},
+	"bugs": {
+		"message": "ડિસ્કોર્ડ્સ પર બગ્સની જાણ કરો"
+	},
+	"created_by": {
+		"message": "OpenDyslexic એબી ગોન્ઝાલેઝ બનાવવામાં આવી હતી"
+	},
 	"firefox": {
 		"message": "ફાયરફોક્સ સંસ્કરણ"
 	},
+	"downloadOnFirefox": {
+		"message": "ફાયરફોક્સ પર ઉપલબ્ધ છે"
+	},
 	"firefoxText": {
-		"message": "ફાયરફોક્સ વાપરો? આજે તેને ડાઉનલોડ કરો."
+		"message": "ફાયરફોક્સ વાપરો? આજે જ ડાઉનલોડ કરો."
 	},
 	"title_fonts": {
-		"message": "ફontsન્ટ્સ"
+		"message": "ફોન્ટ્સ"
 	},
 	"supportlSetting": {
 		"message": "આધાર"
@@ -101,7 +116,7 @@
 		"message": "ઓવરલે સક્ષમ કરો"
 	},
 	"supportToolTipTwo": {
-		"message": "કોઈ સમસ્યા છે? સંપર્ક આધાર."
+		"message": "કોઈ સમસ્યા આવી રહી છે? સપોર્ટનો સંપર્ક કરો."
 	},
 	"reviews": {
 		"message": "સમીક્ષાઓ"
@@ -110,25 +125,25 @@
 		"message": "સમીક્ષા"
 	},
 	"style": {
-		"message": "પ્રકાર"
+		"message": "શૈલી"
 	},
 	"supportToolTip": {
-		"message": "સમીક્ષાઓ છોડો અથવા વાંચો"
+		"message": "આ એક્સ્ટેંશનની સમીક્ષા કરો"
 	},
 	"websiteLabel": {
-		"message": "વેબસાઇટ"
+		"message": "વેબસાઈટ"
 	},
 	"websiteTooltip": {
 		"message": "સપોર્ટ વેબસાઇટ."
 	},
 	"saved": {
-		"message": "સાચવેલ"
+		"message": "સેટિંગ્સ લાગુ"
 	},
 	"helperbird": {
-		"message": "હેલ્પબર્ડ શોધો"
+		"message": "હેલ્પરબર્ડ શોધો"
 	},
 	"OpenDyslexic": {
-		"message": "ઓપનડિલેક્સિક શોધો"
+		"message": "OpenDyslexic શોધો"
 	},
 	"on": {
 		"message": "ચાલુ"

@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic Edge-ի համար",
+		"description": "Ձևաչափեք էջերը՝ օգտագործելով OpenDyslexic տառատեսակը և ցածր կոնտրաստը:"
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic Firefox-ի համար",
+		"description": "Ձևաչափեք էջերը՝ օգտագործելով OpenDyslexic տառատեսակը և ցածր հակադրություն:"
+	},
+	"appName": {
+		"message": "OpenDyslexic Chrome-ի համար",
+		"description": "Ձևաչափեք էջերը՝ օգտագործելով OpenDyslexic տառատեսակը և ցածր կոնտրաստը:"
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Ձևաչափեք էջերը՝ օգտագործելով OpenDyslexic տառատեսակը և ցածր հակադրություն:"
+	},
+	"appDescription": {
+		"message": "Ձևաչափեք էջերը՝ օգտագործելով OpenDyslexic տառատեսակը և ցածր կոնտրաստը",
+		"description": "Ձևաչափեք էջերը՝ օգտագործելով OpenDyslexic տառատեսակը և ցածր կոնտրաստը"
+	},
+	"feature_specialized_font_options": {
+		"message": "Տառատեսակի ընտրանքներ"
+	},
+	"options": {
+		"message": "Ընտրանքներ"
+	},
+	"settings": {
+		"message": "Կարգավորումներ"
+	},
+	"selectedFontLabel": {
+		"message": "Ընտրված է օգտագործման համար նախատեսված տառատեսակը:"
+	},
+	"enableFontLabel": {
+		"message": "Միացնել"
+	},
+	"googleDocsLabel": {
+		"message": "Google Փաստաթղթեր"
+	},
+	"googleDocsTooltip": {
+		"message": "Միացնել Google Փաստաթղթերի ամբողջական աջակցությունը:"
+	},
+	"fontColorSetting": {
+		"message": "Գույն"
+	},
+	"fontColorLabel": {
+		"message": "Տառատեսակ"
+	},
+	"fontColorTooltip": {
+		"message": "Փոխեք տառատեսակի գույնը:"
+	},
+	"backgroundColorLabel": {
+		"message": "Նախապատմություն"
+	},
+	"backgroundColorTooltip": {
+		"message": "Փոխեք ֆոնի գույնը:"
+	},
+	"personalSetting": {
+		"message": "Անձնական"
+	},
+	"socialSetting": {
+		"message": "Սոցիալական"
+	},
+	"codeSetting": {
+		"message": "Աղբյուրի կոդը"
+	},
+	"followDyslexic": {
+		"message": "Հետևեք OpenDyslexic-ին"
+	},
+	"weAreOnGithub": {
+		"message": "Մենք Github-ում ենք"
+	},
+	"followDyslexicToolTip": {
+		"message": "Հետևեք OpenDyslexic-ին X-ում"
+	},
+	"followAbbie": {
+		"message": "Աջակցեք OpenDyslexic-ին"
+	},
+	"comingSoon": {
+		"message": "Շուտով"
+	},
+	"followAbbieToolTip": {
+		"message": "Աջակցեք OpenDyslexic-ի ստեղծողին:"
+	},
+	"followRobertJames": {
+		"message": "Հետևեք Ռոբերտ Ջեյմսին"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Պահպանվում է Ռոբերտ Ջեյմս Գաբրիելի կողմից"
+	},
+	"whatsNew": {
+		"message": "Ինչ նորություն"
+	},
+	"bugs": {
+		"message": "Հաղորդեք սխալների մասին տարաձայնությունների մասին"
+	},
+	"created_by": {
+		"message": "OpenDyslexic-ը ստեղծվել է Abbie Gonzalez-ը"
+	},
+	"firefox": {
+		"message": "Firefox-ի տարբերակ"
+	},
+	"downloadOnFirefox": {
+		"message": "Հասանելի է Firefox-ում"
+	},
+	"firefoxText": {
+		"message": "Օգտագործե՞լ Firefox-ը: Ներբեռնեք այն այսօր:"
+	},
+	"title_fonts": {
+		"message": "Տառատեսակներ"
+	},
+	"supportlSetting": {
+		"message": "Աջակցություն"
+	},
+	"featureTint": {
+		"message": "Միացնել ծածկույթը"
+	},
+	"supportToolTipTwo": {
+		"message": "Խնդիր ունե՞ք: Կապվեք աջակցության հետ:"
+	},
+	"reviews": {
+		"message": "Կարծիքներ"
+	},
+	"review": {
+		"message": "Վերանայում"
+	},
+	"style": {
+		"message": "Ոճ"
+	},
+	"supportToolTip": {
+		"message": "Վերանայեք այս ընդլայնումը"
+	},
+	"websiteLabel": {
+		"message": "Կայք"
+	},
+	"websiteTooltip": {
+		"message": "Աջակցման կայք:"
+	},
+	"saved": {
+		"message": "Կիրառվել են կարգավորումներ"
+	},
+	"helperbird": {
+		"message": "Բացահայտեք Helperbird-ը"
+	},
+	"OpenDyslexic": {
+		"message": "Բացահայտեք OpenDyslexic-ը"
+	},
+	"on": {
+		"message": "Միացված է"
+	},
+	"off": {
+		"message": "Անջատված"
+	}
+}

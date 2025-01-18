@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"description": "Abiks on lehtede vormindamine OpenDyslexicu fondi ja madala kontrastsusega."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic Firefoxile",
+		"description": "Abiks on lehtede vormindamine OpenDyslexicu fondi ja madala kontrastsusega."
 	},
 	"appName": {
-		"message": "Chrome'i jaoks mõeldud OpenDyslexic",
-		"description": "Vormindage lehed OpenDyslexicu fondi ja madala kontrastsusega abi abil."
+		"message": "OpenDyslexic Chrome'ile",
+		"description": "Abiks on lehtede vormindamine OpenDyslexicu fondi ja madala kontrastsusega."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Vormindage lehed OpenDyslexicu fondi ja madala kontrastsusega abi abil."
+		"description": "Abiks on lehtede vormindamine OpenDyslexicu fondi ja madala kontrastsusega."
 	},
 	"appDescription": {
-		"message": "Vormindage lehed OpenDyslexicu fondi ja madala kontrastsusega abi abil",
-		"description": "Vormindage lehed OpenDyslexicu fondi ja madala kontrastsusega abi abil"
+		"message": "Abiks on lehtede vormindamine OpenDyslexicu fondi ja madala kontrastsusega",
+		"description": "Abiks on lehtede vormindamine OpenDyslexicu fondi ja madala kontrastsusega"
+	},
+	"feature_specialized_font_options": {
+		"message": "Fondi valikud"
 	},
 	"options": {
 		"message": "Valikud"
@@ -26,7 +29,7 @@
 		"message": "Seaded"
 	},
 	"selectedFontLabel": {
-		"message": "Kasutamiseks valitud font."
+		"message": "Valitud font, mida kasutada."
 	},
 	"enableFontLabel": {
 		"message": "Luba"
@@ -35,7 +38,7 @@
 		"message": "Google Docs"
 	},
 	"googleDocsTooltip": {
-		"message": "Lubage Google'i dokumentide täielik tugi."
+		"message": "Lubage Google Docsi täielik tugi."
 	},
 	"fontColorSetting": {
 		"message": "Värv"
@@ -44,7 +47,7 @@
 		"message": "Font"
 	},
 	"fontColorTooltip": {
-		"message": "Muutke fondi värvi."
+		"message": "Muuda fondi värvi."
 	},
 	"backgroundColorLabel": {
 		"message": "Taust"
@@ -62,34 +65,46 @@
 		"message": "Lähtekood"
 	},
 	"followDyslexic": {
-		"message": "Järgige OpenDyslexicut"
+		"message": "Järgige OpenDyslexicit"
+	},
+	"weAreOnGithub": {
+		"message": "Oleme Githubis"
 	},
 	"followDyslexicToolTip": {
-		"message": "Jälgige OpenDyslexicut Twitteris"
+		"message": "Jälgige OpenDyslexicit X-is"
 	},
 	"followAbbie": {
-		"message": "Toetage OpenDyslexicut"
+		"message": "Toetage OpenDyslexicit"
 	},
 	"comingSoon": {
-		"message": "Tulekul"
+		"message": "Varsti tulemas"
 	},
 	"followAbbieToolTip": {
 		"message": "Toetage OpenDyslexicu loojat."
 	},
 	"followRobertJames": {
-		"message": "Järgige Robert Jamesit"
+		"message": "Jälgi Robert Jamesi"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Järgige selle rakenduse hooldajat."
+		"message": "Hooldaja Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Mis on uut"
 	},
+	"bugs": {
+		"message": "Teatage discordide vigadest"
+	},
+	"created_by": {
+		"message": "OpenDyslexic loodi Abbie Gonzalez"
+	},
 	"firefox": {
 		"message": "Firefoxi versioon"
 	},
+	"downloadOnFirefox": {
+		"message": "Saadaval Firefoxis"
+	},
 	"firefoxText": {
-		"message": "Kas kasutada Firefoxi? Laadige see alla täna."
+		"message": "Kas kasutada Firefoxi? Laadige see alla juba täna."
 	},
 	"title_fonts": {
 		"message": "Fondid"
@@ -113,16 +128,16 @@
 		"message": "Stiil"
 	},
 	"supportToolTip": {
-		"message": "Jätke arvustusi või lugege neid"
+		"message": "Vaadake see laiendus üle"
 	},
 	"websiteLabel": {
 		"message": "Veebisait"
 	},
 	"websiteTooltip": {
-		"message": "Tugiteenuste veebisait."
+		"message": "Toetuse veebisait."
 	},
 	"saved": {
-		"message": "Salvestatud"
+		"message": "Seaded rakendatud"
 	},
 	"helperbird": {
 		"message": "Avastage Helperbird"
@@ -131,7 +146,7 @@
 		"message": "Avastage OpenDyslexic"
 	},
 	"on": {
-		"message": "Peal"
+		"message": "Sees"
 	},
 	"off": {
 		"message": "Väljas"

@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDislexic vir Edge",
+		"description": "Formateer bladsye deur die OpenDyslexic-lettertipe en lae kontrashulp te gebruik."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic vir Firefox",
+		"description": "Formateer bladsye deur die OpenDyslexic-lettertipe en lae kontrashulp te gebruik."
+	},
+	"appName": {
+		"message": "OpenDyslexic vir Chrome",
+		"description": "Formateer bladsye deur die OpenDyslexic-lettertipe en lae kontrashulp te gebruik."
+	},
+	"appTitle": {
+		"message": "Oop Disleksies",
+		"description": "Formateer bladsye deur die OpenDyslexic-lettertipe en lae kontrashulp te gebruik."
+	},
+	"appDescription": {
+		"message": "Formateer bladsye deur die OpenDyslexic-lettertipe en lae kontrashulp te gebruik",
+		"description": "Formateer bladsye deur die OpenDyslexic-lettertipe en lae kontrashulp te gebruik"
+	},
+	"feature_specialized_font_options": {
+		"message": "Lettertipe opsies"
+	},
+	"options": {
+		"message": "Opsies"
+	},
+	"settings": {
+		"message": "Instellings"
+	},
+	"selectedFontLabel": {
+		"message": "Geselekteerde lettertipe om te gebruik."
+	},
+	"enableFontLabel": {
+		"message": "Aktiveer"
+	},
+	"googleDocsLabel": {
+		"message": "Google Docs"
+	},
+	"googleDocsTooltip": {
+		"message": "Aktiveer volledige Google Docs-ondersteuning."
+	},
+	"fontColorSetting": {
+		"message": "Kleur"
+	},
+	"fontColorLabel": {
+		"message": "Lettertipe"
+	},
+	"fontColorTooltip": {
+		"message": "Verander die lettertipe kleur."
+	},
+	"backgroundColorLabel": {
+		"message": "Agtergrond"
+	},
+	"backgroundColorTooltip": {
+		"message": "Verander die agtergrondkleur."
+	},
+	"personalSetting": {
+		"message": "Persoonlik"
+	},
+	"socialSetting": {
+		"message": "Sosiaal"
+	},
+	"codeSetting": {
+		"message": "Bronkode"
+	},
+	"followDyslexic": {
+		"message": "Volg OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Ons is op Github"
+	},
+	"followDyslexicToolTip": {
+		"message": "Volg OpenDyslexic op X"
+	},
+	"followAbbie": {
+		"message": "Ondersteun OpenDislexic"
+	},
+	"comingSoon": {
+		"message": "Binnekort beskikbaar"
+	},
+	"followAbbieToolTip": {
+		"message": "Ondersteun die skepper van OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Volg Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Onderhou deur Robert James Gabriel"
+	},
+	"whatsNew": {
+		"message": "Wat is nuut"
+	},
+	"bugs": {
+		"message": "Rapporteer foute oor onenighede"
+	},
+	"created_by": {
+		"message": "OpenDyslexic is geskep Abbie Gonzalez"
+	},
+	"firefox": {
+		"message": "Firefox weergawe"
+	},
+	"downloadOnFirefox": {
+		"message": "Beskikbaar op Firefox"
+	},
+	"firefoxText": {
+		"message": "Gebruik Firefox? Laai dit vandag af."
+	},
+	"title_fonts": {
+		"message": "Lettertipes"
+	},
+	"supportlSetting": {
+		"message": "Ondersteuning"
+	},
+	"featureTint": {
+		"message": "Aktiveer oorleg"
+	},
+	"supportToolTipTwo": {
+		"message": "Het jy 'n probleem? Kontak ondersteuning."
+	},
+	"reviews": {
+		"message": "Resensies"
+	},
+	"review": {
+		"message": "Hersien"
+	},
+	"style": {
+		"message": "Styl"
+	},
+	"supportToolTip": {
+		"message": "Hersien hierdie uitbreiding"
+	},
+	"websiteLabel": {
+		"message": "Webwerf"
+	},
+	"websiteTooltip": {
+		"message": "Ondersteuningswebwerf."
+	},
+	"saved": {
+		"message": "Instellings toegepas"
+	},
+	"helperbird": {
+		"message": "Ontdek Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Ontdek OpenDyslexic"
+	},
+	"on": {
+		"message": "Aan"
+	},
+	"off": {
+		"message": "Af"
+	}
+}

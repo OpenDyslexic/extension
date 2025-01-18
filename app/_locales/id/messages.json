@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic untuk Edge",
+		"description": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic untuk Firefox",
+		"description": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah."
 	},
 	"appName": {
 		"message": "OpenDyslexic untuk Chrome",
 		"description": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah."
 	},
 	"appTitle": {
-		"message": "Disleksia Terbuka",
+		"message": "BukaDisleksia",
 		"description": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah."
 	},
 	"appDescription": {
 		"message": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah",
 		"description": "Format halaman menggunakan font OpenDyslexic dan bantuan kontras rendah"
+	},
+	"feature_specialized_font_options": {
+		"message": "Opsi font"
 	},
 	"options": {
 		"message": "Pilihan"
@@ -26,7 +29,7 @@
 		"message": "Pengaturan"
 	},
 	"selectedFontLabel": {
-		"message": "Font yang dipilih untuk digunakan."
+		"message": "Pilih Font yang akan digunakan."
 	},
 	"enableFontLabel": {
 		"message": "Memungkinkan"
@@ -35,19 +38,19 @@
 		"message": "Google Dokumen"
 	},
 	"googleDocsTooltip": {
-		"message": "Aktifkan dukungan penuh Google Documents."
+		"message": "Aktifkan dukungan penuh Google Docs."
 	},
 	"fontColorSetting": {
 		"message": "Warna"
 	},
 	"fontColorLabel": {
-		"message": "jenis huruf"
+		"message": "Huruf"
 	},
 	"fontColorTooltip": {
 		"message": "Ubah warna font."
 	},
 	"backgroundColorLabel": {
-		"message": "Latar Belakang"
+		"message": "Latar belakang"
 	},
 	"backgroundColorTooltip": {
 		"message": "Ubah warna latar belakang."
@@ -59,19 +62,22 @@
 		"message": "Sosial"
 	},
 	"codeSetting": {
-		"message": "Kode sumber"
+		"message": "Kode Sumber"
 	},
 	"followDyslexic": {
 		"message": "Ikuti OpenDyslexic"
 	},
+	"weAreOnGithub": {
+		"message": "Kami ada di Github"
+	},
 	"followDyslexicToolTip": {
-		"message": "Ikuti OpenDyslexic di Twitter"
+		"message": "Ikuti OpenDyslexic di X"
 	},
 	"followAbbie": {
-		"message": "Mendukung OpenDyslexic"
+		"message": "Dukung OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "Segera akan datang"
+		"message": "Segera hadir"
 	},
 	"followAbbieToolTip": {
 		"message": "Dukung pencipta OpenDyslexic."
@@ -80,40 +86,49 @@
 		"message": "Ikuti Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Ikuti pengelola aplikasi ini."
+		"message": "Dirawat oleh Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Apa yang baru?"
 	},
+	"bugs": {
+		"message": "Laporkan Bug di Discords"
+	},
+	"created_by": {
+		"message": "OpenDyslexic diciptakan oleh Abbie Gonzalez"
+	},
 	"firefox": {
 		"message": "Versi Firefox"
 	},
+	"downloadOnFirefox": {
+		"message": "Tersedia di Firefox"
+	},
 	"firefoxText": {
-		"message": "Gunakan Firefox? Unduh hari ini."
+		"message": "Gunakan Firefox? Unduh sekarang juga."
 	},
 	"title_fonts": {
-		"message": "font"
+		"message": "Huruf"
 	},
 	"supportlSetting": {
-		"message": "Dukung"
+		"message": "Mendukung"
 	},
 	"featureTint": {
 		"message": "Aktifkan Hamparan"
 	},
 	"supportToolTipTwo": {
-		"message": "Memiliki masalah? Hubungi dukungan."
+		"message": "Ada masalah? Hubungi dukungan."
 	},
 	"reviews": {
 		"message": "Ulasan"
 	},
 	"review": {
-		"message": "Ulasan"
+		"message": "Tinjauan"
 	},
 	"style": {
 		"message": "Gaya"
 	},
 	"supportToolTip": {
-		"message": "Tinggalkan atau baca ulasan"
+		"message": "Tinjau Ekstensi ini"
 	},
 	"websiteLabel": {
 		"message": "Situs web"
@@ -122,7 +137,7 @@
 		"message": "Situs web dukungan."
 	},
 	"saved": {
-		"message": "Diselamatkan"
+		"message": "Pengaturan Diterapkan"
 	},
 	"helperbird": {
 		"message": "Temukan Helperbird"
@@ -131,7 +146,7 @@
 		"message": "Temukan OpenDyslexic"
 	},
 	"on": {
-		"message": "Di"
+		"message": "Pada"
 	},
 	"off": {
 		"message": "Mati"

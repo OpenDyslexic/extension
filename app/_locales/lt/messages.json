@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "„OpenDyslexic“, skirta „Edge“.",
+		"description": "Padeda formatuoti puslapius naudojant OpenDyslexic šriftą ir mažą kontrastą."
+	},
+	"appNameFirefox": {
+		"message": "„OpenDyslexic“, skirta „Firefox“.",
+		"description": "Padeda formatuoti puslapius naudojant OpenDyslexic šriftą ir mažą kontrastą."
+	},
+	"appName": {
+		"message": "„OpenDyslexic“, skirta „Chrome“.",
+		"description": "Padeda formatuoti puslapius naudojant OpenDyslexic šriftą ir mažą kontrastą."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Padeda formatuoti puslapius naudojant OpenDyslexic šriftą ir mažą kontrastą."
+	},
+	"appDescription": {
+		"message": "Padeda formatuoti puslapius naudojant OpenDyslexic šriftą ir mažą kontrastą",
+		"description": "Padeda formatuoti puslapius naudojant OpenDyslexic šriftą ir mažą kontrastą"
+	},
+	"feature_specialized_font_options": {
+		"message": "Šrifto parinktys"
+	},
+	"options": {
+		"message": "Parinktys"
+	},
+	"settings": {
+		"message": "Nustatymai"
+	},
+	"selectedFontLabel": {
+		"message": "Pasirinktas naudotinas šriftas."
+	},
+	"enableFontLabel": {
+		"message": "Įgalinti"
+	},
+	"googleDocsLabel": {
+		"message": "Google dokumentai"
+	},
+	"googleDocsTooltip": {
+		"message": "Įgalinkite visą „Google“ dokumentų palaikymą."
+	},
+	"fontColorSetting": {
+		"message": "Spalva"
+	},
+	"fontColorLabel": {
+		"message": "Šriftas"
+	},
+	"fontColorTooltip": {
+		"message": "Pakeiskite šrifto spalvą."
+	},
+	"backgroundColorLabel": {
+		"message": "Fonas"
+	},
+	"backgroundColorTooltip": {
+		"message": "Pakeiskite fono spalvą."
+	},
+	"personalSetting": {
+		"message": "Asmeninis"
+	},
+	"socialSetting": {
+		"message": "Socialinis"
+	},
+	"codeSetting": {
+		"message": "Šaltinio kodas"
+	},
+	"followDyslexic": {
+		"message": "Sekite OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Mes esame „Github“."
+	},
+	"followDyslexicToolTip": {
+		"message": "Stebėkite OpenDyslexic X"
+	},
+	"followAbbie": {
+		"message": "Palaikykite OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Netrukus"
+	},
+	"followAbbieToolTip": {
+		"message": "Palaikykite OpenDyslexic kūrėją."
+	},
+	"followRobertJames": {
+		"message": "Sekite Robertą Jamesą"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Prižiūrėjo Robertas Jamesas Gabrielis"
+	},
+	"whatsNew": {
+		"message": "Kas naujo"
+	},
+	"bugs": {
+		"message": "Praneškite apie „Discord“ klaidas"
+	},
+	"created_by": {
+		"message": "OpenDyslexic buvo sukurta Abbie Gonzalez"
+	},
+	"firefox": {
+		"message": "Firefox versija"
+	},
+	"downloadOnFirefox": {
+		"message": "Galima naudoti „Firefox“."
+	},
+	"firefoxText": {
+		"message": "Naudoti Firefox? Atsisiųskite ją šiandien."
+	},
+	"title_fonts": {
+		"message": "Šriftai"
+	},
+	"supportlSetting": {
+		"message": "Palaikymas"
+	},
+	"featureTint": {
+		"message": "Įgalinti perdangą"
+	},
+	"supportToolTipTwo": {
+		"message": "Turite problemų? Susisiekite su palaikymo komanda."
+	},
+	"reviews": {
+		"message": "Atsiliepimai"
+	},
+	"review": {
+		"message": "Apžvalga"
+	},
+	"style": {
+		"message": "Stilius"
+	},
+	"supportToolTip": {
+		"message": "Peržiūrėkite šį plėtinį"
+	},
+	"websiteLabel": {
+		"message": "Svetainė"
+	},
+	"websiteTooltip": {
+		"message": "Palaikymo svetainė."
+	},
+	"saved": {
+		"message": "Nustatymai taikomi"
+	},
+	"helperbird": {
+		"message": "Atraskite Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Atraskite OpenDyslexic"
+	},
+	"on": {
+		"message": "Įjungta"
+	},
+	"off": {
+		"message": "Išjungta"
+	}
+}

@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic per a Edge",
+		"description": "Formateu les pàgines amb el tipus de lletra OpenDyslexic i ajuda amb un contrast baix."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic per a Firefox",
+		"description": "Formateu les pàgines amb el tipus de lletra OpenDyslexic i ajuda amb un contrast baix."
 	},
 	"appName": {
 		"message": "OpenDyslexic per a Chrome",
-		"description": "Formateu pàgines mitjançant el tipus de lletra OpenDyslexic i ajuda de baix contrast."
+		"description": "Formateu les pàgines amb el tipus de lletra OpenDyslexic i ajuda amb un contrast baix."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Formateu pàgines mitjançant el tipus de lletra OpenDyslexic i ajuda de baix contrast."
+		"description": "Formateu les pàgines amb el tipus de lletra OpenDyslexic i ajuda amb un contrast baix."
 	},
 	"appDescription": {
-		"message": "Formateu pàgines mitjançant el tipus de lletra OpenDyslexic i ajuda de baix contrast",
-		"description": "Formateu pàgines mitjançant el tipus de lletra OpenDyslexic i ajuda de baix contrast"
+		"message": "Formateu les pàgines amb el tipus de lletra OpenDyslexic i ajuda amb un contrast baix",
+		"description": "Formateu les pàgines amb el tipus de lletra OpenDyslexic i ajuda amb un contrast baix"
+	},
+	"feature_specialized_font_options": {
+		"message": "Opcions de lletra"
 	},
 	"options": {
 		"message": "Opcions"
@@ -26,16 +29,16 @@
 		"message": "Configuració"
 	},
 	"selectedFontLabel": {
-		"message": "Tipus de lletra seleccionat per utilitzar."
+		"message": "Font seleccionada per utilitzar."
 	},
 	"enableFontLabel": {
 		"message": "Activa"
 	},
 	"googleDocsLabel": {
-		"message": "Documents de Google"
+		"message": "Google Docs"
 	},
 	"googleDocsTooltip": {
-		"message": "Activeu l'assistència completa de Documents de Google."
+		"message": "Activa el suport complet de Google Docs."
 	},
 	"fontColorSetting": {
 		"message": "Color"
@@ -44,13 +47,13 @@
 		"message": "Font"
 	},
 	"fontColorTooltip": {
-		"message": "Canvieu el color de la lletra."
+		"message": "Canvia el color de la lletra."
 	},
 	"backgroundColorLabel": {
-		"message": "Antecedents"
+		"message": "Fons"
 	},
 	"backgroundColorTooltip": {
-		"message": "Canvieu el color de fons."
+		"message": "Canvia el color de fons."
 	},
 	"personalSetting": {
 		"message": "Personal"
@@ -64,35 +67,47 @@
 	"followDyslexic": {
 		"message": "Seguiu OpenDyslexic"
 	},
+	"weAreOnGithub": {
+		"message": "Estem a Github"
+	},
 	"followDyslexicToolTip": {
-		"message": "Seguiu OpenDyslexic a Twitter"
+		"message": "Seguiu OpenDyslexic a X"
 	},
 	"followAbbie": {
-		"message": "Suport a OpenDyslexic"
+		"message": "Suport OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "Pròximament"
+		"message": "Aviat"
 	},
 	"followAbbieToolTip": {
-		"message": "Donar suport al creador d’OpenDyslexic."
+		"message": "Doneu suport al creador d'OpenDyslexic."
 	},
 	"followRobertJames": {
-		"message": "Segueix Robert James"
+		"message": "Segueix a Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Seguiu el manteniment d'aquesta aplicació."
+		"message": "Mantingut per Robert James Gabriel"
 	},
 	"whatsNew": {
-		"message": "Què hi ha de nou?"
+		"message": "Què hi ha de nou"
+	},
+	"bugs": {
+		"message": "Informeu d'errors a Discords"
+	},
+	"created_by": {
+		"message": "OpenDyslexic va ser creat Abbie Gonzalez"
 	},
 	"firefox": {
 		"message": "Versió de Firefox"
 	},
+	"downloadOnFirefox": {
+		"message": "Disponible a Firefox"
+	},
 	"firefoxText": {
-		"message": "Voleu utilitzar Firefox? Descarregueu-lo avui mateix."
+		"message": "Utilitzeu Firefox? Descarrega'l avui."
 	},
 	"title_fonts": {
-		"message": "Tipus de lletra"
+		"message": "Fonts"
 	},
 	"supportlSetting": {
 		"message": "Suport"
@@ -101,7 +116,7 @@
 		"message": "Activa la superposició"
 	},
 	"supportToolTipTwo": {
-		"message": "Tens algun problema? Contacte de suport."
+		"message": "Tens algun problema? Contacta amb l'assistència."
 	},
 	"reviews": {
 		"message": "Ressenyes"
@@ -113,27 +128,27 @@
 		"message": "Estil"
 	},
 	"supportToolTip": {
-		"message": "Deixa o llegeix ressenyes"
+		"message": "Revisa aquesta extensió"
 	},
 	"websiteLabel": {
 		"message": "Lloc web"
 	},
 	"websiteTooltip": {
-		"message": "Lloc web d'assistència."
+		"message": "Web de suport."
 	},
 	"saved": {
-		"message": "Desat"
+		"message": "Configuració aplicada"
 	},
 	"helperbird": {
-		"message": "Descobriu Helperbird"
+		"message": "Descobreix Helperbird"
 	},
 	"OpenDyslexic": {
-		"message": "Descobriu OpenDyslexic"
+		"message": "Descobreix OpenDyslexic"
 	},
 	"on": {
 		"message": "Encès"
 	},
 	"off": {
-		"message": "Desactivat"
+		"message": "Apagat"
 	}
 }

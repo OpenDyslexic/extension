@@ -1,32 +1,35 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "এজ এর জন্য OpenDyslexic",
+		"description": "OpenDyslexic ফন্ট এবং কম কনট্রাস্ট সাহায্য ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন।"
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "ফায়ারফক্সের জন্য OpenDyslexic",
+		"description": "OpenDyslexic ফন্ট এবং কম কনট্রাস্ট সাহায্য ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন।"
 	},
 	"appName": {
-		"message": "ক্রোমের জন্য ওপেনডিস্লেক্সিক",
-		"description": "ওপেনডিস্লেক্সিক ফন্ট এবং নিম্ন বিপরীতে সহায়তা ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন।"
+		"message": "Chrome এর জন্য OpenDyslexic",
+		"description": "OpenDyslexic ফন্ট এবং কম কনট্রাস্ট সাহায্য ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন।"
 	},
 	"appTitle": {
-		"message": "ওপেনডাইলেক্সিক",
-		"description": "ওপেনডিস্লেক্সিক ফন্ট এবং নিম্ন বিপরীতে সহায়তা ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন।"
+		"message": "OpenDyslexic",
+		"description": "OpenDyslexic ফন্ট এবং কম কনট্রাস্ট সাহায্য ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন।"
 	},
 	"appDescription": {
-		"message": "ওপেনডিস্লেক্সিক ফন্ট এবং নিম্ন বিপরীতে সহায়তা ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন",
-		"description": "ওপেনডিস্লেক্সিক ফন্ট এবং নিম্ন বিপরীতে সহায়তা ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন"
+		"message": "OpenDyslexic ফন্ট এবং কম কনট্রাস্ট সাহায্য ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন",
+		"description": "OpenDyslexic ফন্ট এবং কম কনট্রাস্ট সাহায্য ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন"
+	},
+	"feature_specialized_font_options": {
+		"message": "ফন্ট বিকল্প"
 	},
 	"options": {
-		"message": "বিকল্পগুলি"
+		"message": "অপশন"
 	},
 	"settings": {
 		"message": "সেটিংস"
 	},
 	"selectedFontLabel": {
-		"message": "ব্যবহার করতে বাছাই করা ফন্ট।"
+		"message": "ব্যবহারের জন্য নির্বাচিত ফন্ট।"
 	},
 	"enableFontLabel": {
 		"message": "সক্ষম করুন"
@@ -35,7 +38,7 @@
 		"message": "Google ডক্স"
 	},
 	"googleDocsTooltip": {
-		"message": "সম্পূর্ণ Google ডক্স সমর্থন সক্ষম করুন।"
+		"message": "সম্পূর্ণ Google ডক্স সমর্থন সক্ষম করুন৷"
 	},
 	"fontColorSetting": {
 		"message": "রঙ"
@@ -62,34 +65,46 @@
 		"message": "সোর্স কোড"
 	},
 	"followDyslexic": {
-		"message": "ওপেনডিস্লেক্সিক অনুসরণ করুন"
+		"message": "OpenDyslexic অনুসরণ করুন"
+	},
+	"weAreOnGithub": {
+		"message": "আমরা গিথুবে আছি"
 	},
 	"followDyslexicToolTip": {
-		"message": "টুইটারে ওপেনডিস্লেক্সিক অনুসরণ করুন"
+		"message": "X-এ OpenDyslexic অনুসরণ করুন"
 	},
 	"followAbbie": {
-		"message": "ওপেনডিস্লেক্সিক সমর্থন করুন"
+		"message": "OpenDyslexic সমর্থন করুন"
 	},
 	"comingSoon": {
 		"message": "শীঘ্রই আসছে"
 	},
 	"followAbbieToolTip": {
-		"message": "ওপেনডাইলেক্সিকের স্রষ্টাকে সমর্থন করুন।"
+		"message": "OpenDyslexic এর নির্মাতাকে সমর্থন করুন।"
 	},
 	"followRobertJames": {
 		"message": "রবার্ট জেমস অনুসরণ করুন"
 	},
 	"followRobertJamesToolTip": {
-		"message": "এই অ্যাপ্লিকেশনটির রক্ষণাবেক্ষণকারীকে অনুসরণ করুন।"
+		"message": "রবার্ট জেমস গ্যাব্রিয়েল দ্বারা রক্ষণাবেক্ষণ"
 	},
 	"whatsNew": {
 		"message": "নতুন কি"
 	},
+	"bugs": {
+		"message": "Discords-এ বাগ রিপোর্ট করুন"
+	},
+	"created_by": {
+		"message": "OpenDyslexic তৈরি করা হয়েছিল অ্যাবি গঞ্জালেজ"
+	},
 	"firefox": {
 		"message": "ফায়ারফক্স সংস্করণ"
 	},
+	"downloadOnFirefox": {
+		"message": "ফায়ারফক্সে উপলব্ধ"
+	},
 	"firefoxText": {
-		"message": "ফায়ারফক্স ব্যবহার করবেন? আজ এটি ডাউনলোড করুন।"
+		"message": "ফায়ারফক্স ব্যবহার করবেন? আজই ডাউনলোড করুন।"
 	},
 	"title_fonts": {
 		"message": "হরফ"
@@ -101,34 +116,34 @@
 		"message": "ওভারলে সক্ষম করুন"
 	},
 	"supportToolTipTwo": {
-		"message": "একটি সমস্যা আছে? যোগাযোগ সমর্থন."
+		"message": "একটি সমস্যা হচ্ছে? সহায়তার সাথে যোগাযোগ করুন।"
 	},
 	"reviews": {
-		"message": "পর্যালোচনা"
+		"message": "রিভিউ"
 	},
 	"review": {
-		"message": "পুনঃমূল্যায়ন"
+		"message": "পর্যালোচনা"
 	},
 	"style": {
-		"message": "স্টাইল"
+		"message": "শৈলী"
 	},
 	"supportToolTip": {
-		"message": "ছেড়ে দিন বা রিভিউ পড়ুন"
+		"message": "এই এক্সটেনশন পর্যালোচনা করুন"
 	},
 	"websiteLabel": {
 		"message": "ওয়েবসাইট"
 	},
 	"websiteTooltip": {
-		"message": "সমর্থন ওয়েবসাইট।"
+		"message": "সমর্থন ওয়েবসাইট."
 	},
 	"saved": {
-		"message": "সংরক্ষিত"
+		"message": "সেটিংস প্রয়োগ করা হয়েছে"
 	},
 	"helperbird": {
-		"message": "হেল্পবার্ড আবিষ্কার করুন"
+		"message": "হেল্পারবার্ড আবিষ্কার করুন"
 	},
 	"OpenDyslexic": {
-		"message": "ওপেনডিস্লেক্সিক আবিষ্কার করুন"
+		"message": "OpenDyslexic আবিষ্কার করুন"
 	},
 	"on": {
 		"message": "চালু"

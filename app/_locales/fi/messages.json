@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic Edgelle",
+		"description": "Muotoile sivut OpenDyslexic-fontilla ja alhaisella kontrastilla."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic Firefoxille",
+		"description": "Muotoile sivut käyttämällä OpenDyslexic-fonttia ja matalakontrastista apua."
+	},
+	"appName": {
+		"message": "OpenDyslexic Chromelle",
+		"description": "Muotoile sivut OpenDyslexic-fontilla ja alhaisella kontrastilla."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Muotoile sivut OpenDyslexic-fontilla ja alhaisella kontrastilla."
+	},
+	"appDescription": {
+		"message": "Muotoile sivut käyttämällä OpenDyslexic-fonttia ja matalakontrastista apua",
+		"description": "Muotoile sivut käyttämällä OpenDyslexic-fonttia ja matalakontrastista apua"
+	},
+	"feature_specialized_font_options": {
+		"message": "Fonttivaihtoehdot"
+	},
+	"options": {
+		"message": "Vaihtoehdot"
+	},
+	"settings": {
+		"message": "Asetukset"
+	},
+	"selectedFontLabel": {
+		"message": "Valittu käytettävä fontti."
+	},
+	"enableFontLabel": {
+		"message": "Ota käyttöön"
+	},
+	"googleDocsLabel": {
+		"message": "Google-dokumentit"
+	},
+	"googleDocsTooltip": {
+		"message": "Ota täysi Google-dokumenttien tuki käyttöön."
+	},
+	"fontColorSetting": {
+		"message": "Väri"
+	},
+	"fontColorLabel": {
+		"message": "Fontti"
+	},
+	"fontColorTooltip": {
+		"message": "Muuta fontin väriä."
+	},
+	"backgroundColorLabel": {
+		"message": "Tausta"
+	},
+	"backgroundColorTooltip": {
+		"message": "Muuta taustaväriä."
+	},
+	"personalSetting": {
+		"message": "Henkilökohtainen"
+	},
+	"socialSetting": {
+		"message": "Sosiaalinen"
+	},
+	"codeSetting": {
+		"message": "Lähdekoodi"
+	},
+	"followDyslexic": {
+		"message": "Seuraa OpenDyslexicia"
+	},
+	"weAreOnGithub": {
+		"message": "Olemme Githubissa"
+	},
+	"followDyslexicToolTip": {
+		"message": "Seuraa OpenDyslexicia X:llä"
+	},
+	"followAbbie": {
+		"message": "Tuki OpenDyslexicia"
+	},
+	"comingSoon": {
+		"message": "Tulossa pian"
+	},
+	"followAbbieToolTip": {
+		"message": "Tue OpenDyslexicin luojaa."
+	},
+	"followRobertJames": {
+		"message": "Seuraa Robert Jamesia"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Ylläpitäjä Robert James Gabriel"
+	},
+	"whatsNew": {
+		"message": "Mitä uutta"
+	},
+	"bugs": {
+		"message": "Ilmoita virheistä Discordissa"
+	},
+	"created_by": {
+		"message": "OpenDyslexic luotiin Abbie Gonzalez"
+	},
+	"firefox": {
+		"message": "Firefox-versio"
+	},
+	"downloadOnFirefox": {
+		"message": "Saatavilla Firefoxissa"
+	},
+	"firefoxText": {
+		"message": "Käytätkö Firefoxia? Lataa se jo tänään."
+	},
+	"title_fonts": {
+		"message": "Fontit"
+	},
+	"supportlSetting": {
+		"message": "Tukea"
+	},
+	"featureTint": {
+		"message": "Ota peittokuva käyttöön"
+	},
+	"supportToolTipTwo": {
+		"message": "Onko sinulla ongelma? Ota yhteyttä tukeen."
+	},
+	"reviews": {
+		"message": "Arvostelut"
+	},
+	"review": {
+		"message": "Arvostelu"
+	},
+	"style": {
+		"message": "Tyyli"
+	},
+	"supportToolTip": {
+		"message": "Tarkista tämä laajennus"
+	},
+	"websiteLabel": {
+		"message": "Verkkosivusto"
+	},
+	"websiteTooltip": {
+		"message": "Tukisivusto."
+	},
+	"saved": {
+		"message": "Asetukset käytössä"
+	},
+	"helperbird": {
+		"message": "Tutustu Helperbirdiin"
+	},
+	"OpenDyslexic": {
+		"message": "Tutustu OpenDyslexiciin"
+	},
+	"on": {
+		"message": "Päällä"
+	},
+	"off": {
+		"message": "Pois"
+	}
+}

@@ -1,38 +1,28 @@
-export class Badge {
-	constructor() {}
-
-	async load() {
-		return new Promise((resolve) => {
-			// this.off();
-			resolve(true);
-		});
-	}
-
-	update(mail) {
-		if (mail.state === true) {
-			this.on();
-			return mail.state;
-		}
-
-		this.off();
+export function update(mail) {
+	console.log('ddd', mail);
+	if (mail.state === true) {
+		on();
 		return mail.state;
 	}
 
-	off() {
-		this.setColor('#ff3c2f');
-		this.setText('off');
-	}
+	off();
+	return mail.state;
+}
 
-	on() {
-		this.setColor('#34c759');
-		this.setText('on');
-	}
+export function off() {
+	setColor('#ff3c2f');
+	setText('off');
+}
 
-	setColor(color) {
-		chrome.action.setBadgeBackgroundColor({ color: color }, () => {});
-	}
+export function on() {
+	setColor('#34c759');
+	setText('on');
+}
 
-	setText(text) {
-		chrome.action.setBadgeText({ text: text }, () => {});
-	}
+function setColor(color) {
+	chrome.action.setBadgeBackgroundColor({ color: color }, () => {});
+}
+
+function setText(text) {
+	chrome.action.setBadgeText({ text: text }, () => {});
 }

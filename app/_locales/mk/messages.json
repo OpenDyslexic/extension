@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic за Edge",
+		"description": "Форматирајте ги страниците користејќи го фонтот OpenDyslexic и низок контраст."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic за Firefox",
+		"description": "Форматирајте ги страниците користејќи го фонтот OpenDyslexic и низок контраст."
+	},
+	"appName": {
+		"message": "OpenDyslexic за Хром",
+		"description": "Форматирајте ги страниците користејќи го фонтот OpenDyslexic и низок контраст."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Форматирајте ги страниците користејќи го фонтот OpenDyslexic и низок контраст."
+	},
+	"appDescription": {
+		"message": "Форматирајте ги страниците користејќи го фонтот OpenDyslexic и низок контраст",
+		"description": "Форматирајте ги страниците користејќи го фонтот OpenDyslexic и низок контраст"
+	},
+	"feature_specialized_font_options": {
+		"message": "Опции за фонтови"
+	},
+	"options": {
+		"message": "Опции"
+	},
+	"settings": {
+		"message": "Поставки"
+	},
+	"selectedFontLabel": {
+		"message": "Избран фонт за употреба."
+	},
+	"enableFontLabel": {
+		"message": "Овозможи"
+	},
+	"googleDocsLabel": {
+		"message": "Google Docs"
+	},
+	"googleDocsTooltip": {
+		"message": "Овозможете целосна поддршка за Google Docs."
+	},
+	"fontColorSetting": {
+		"message": "Боја"
+	},
+	"fontColorLabel": {
+		"message": "Фонт"
+	},
+	"fontColorTooltip": {
+		"message": "Променете ја бојата на фонтот."
+	},
+	"backgroundColorLabel": {
+		"message": "Позадина"
+	},
+	"backgroundColorTooltip": {
+		"message": "Променете ја бојата на позадината."
+	},
+	"personalSetting": {
+		"message": "Лични"
+	},
+	"socialSetting": {
+		"message": "Социјални"
+	},
+	"codeSetting": {
+		"message": "Изворниот код"
+	},
+	"followDyslexic": {
+		"message": "Следете го OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Ние сме на Github"
+	},
+	"followDyslexicToolTip": {
+		"message": "Следете OpenDyslexic на X"
+	},
+	"followAbbie": {
+		"message": "Поддршка OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Наскоро"
+	},
+	"followAbbieToolTip": {
+		"message": "Поддржете го креаторот на OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Следете го Роберт Џејмс"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Одржувано од Роберт Џејмс Габриел"
+	},
+	"whatsNew": {
+		"message": "Што има ново"
+	},
+	"bugs": {
+		"message": "Пријавете грешки за несогласувања"
+	},
+	"created_by": {
+		"message": "OpenDyslexic е создадена Аби Гонзалес"
+	},
+	"firefox": {
+		"message": "Верзија на Firefox"
+	},
+	"downloadOnFirefox": {
+		"message": "Достапно на Firefox"
+	},
+	"firefoxText": {
+		"message": "Дали користите Firefox? Преземете го денес."
+	},
+	"title_fonts": {
+		"message": "Фонтови"
+	},
+	"supportlSetting": {
+		"message": "Поддршка"
+	},
+	"featureTint": {
+		"message": "Овозможи преклопување"
+	},
+	"supportToolTipTwo": {
+		"message": "Имате проблем? Контактирајте со поддршката."
+	},
+	"reviews": {
+		"message": "Осврти"
+	},
+	"review": {
+		"message": "Преглед"
+	},
+	"style": {
+		"message": "Стил"
+	},
+	"supportToolTip": {
+		"message": "Прегледајте ја оваа наставка"
+	},
+	"websiteLabel": {
+		"message": "Веб-страница"
+	},
+	"websiteTooltip": {
+		"message": "Веб-страница за поддршка."
+	},
+	"saved": {
+		"message": "Применети се поставките"
+	},
+	"helperbird": {
+		"message": "Откријте Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Откријте OpenDyslexic"
+	},
+	"on": {
+		"message": "Вклучено"
+	},
+	"off": {
+		"message": "Исклучено"
+	}
+}

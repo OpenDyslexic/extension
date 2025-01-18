@@ -1,11 +1,11 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic untuk Edge",
+		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic untuk Firefox",
+		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah."
 	},
 	"appName": {
 		"message": "OpenDyslexic untuk Chrome",
@@ -19,29 +19,32 @@
 		"message": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah",
 		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah"
 	},
+	"feature_specialized_font_options": {
+		"message": "Pilihan fon"
+	},
 	"options": {
 		"message": "Pilihan"
 	},
 	"settings": {
-		"message": "Tetapan"
+		"message": "tetapan"
 	},
 	"selectedFontLabel": {
-		"message": "Fon Terpilih untuk digunakan."
+		"message": "Fon yang Dipilih untuk digunakan."
 	},
 	"enableFontLabel": {
-		"message": "Aktifkan"
+		"message": "Dayakan"
 	},
 	"googleDocsLabel": {
 		"message": "Dokumen Google"
 	},
 	"googleDocsTooltip": {
-		"message": "Dayakan sokongan Dokumen Google sepenuhnya."
+		"message": "Dayakan sokongan penuh Dokumen Google."
 	},
 	"fontColorSetting": {
-		"message": "Warna"
+		"message": "warna"
 	},
 	"fontColorLabel": {
-		"message": "Fon"
+		"message": "fon"
 	},
 	"fontColorTooltip": {
 		"message": "Tukar warna fon."
@@ -56,16 +59,19 @@
 		"message": "Peribadi"
 	},
 	"socialSetting": {
-		"message": "Sosial"
+		"message": "sosial"
 	},
 	"codeSetting": {
-		"message": "Kod sumber"
+		"message": "Kod Sumber"
 	},
 	"followDyslexic": {
 		"message": "Ikuti OpenDyslexic"
 	},
+	"weAreOnGithub": {
+		"message": "Kami berada di Github"
+	},
 	"followDyslexicToolTip": {
-		"message": "Ikuti OpenDyslexic di Twitter"
+		"message": "Ikuti OpenDyslexic di X"
 	},
 	"followAbbie": {
 		"message": "Sokong OpenDyslexic"
@@ -80,16 +86,25 @@
 		"message": "Ikuti Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Ikuti penyelenggara aplikasi ini."
+		"message": "Diselenggarakan oleh Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Apa yang baru"
 	},
+	"bugs": {
+		"message": "Laporkan Pepijat pada Discords"
+	},
+	"created_by": {
+		"message": "OpenDyslexic telah dicipta Abbie Gonzalez"
+	},
 	"firefox": {
 		"message": "Versi Firefox"
 	},
+	"downloadOnFirefox": {
+		"message": "Tersedia di Firefox"
+	},
 	"firefoxText": {
-		"message": "Gunakan Firefox? Muat turunnya hari ini."
+		"message": "Gunakan Firefox? Muat turun hari ini."
 	},
 	"title_fonts": {
 		"message": "Fon"
@@ -98,40 +113,40 @@
 		"message": "Sokongan"
 	},
 	"featureTint": {
-		"message": "Dayakan Hamparan"
+		"message": "Dayakan Tindanan"
 	},
 	"supportToolTipTwo": {
-		"message": "Mengalami masalah? Hubungi sokongan."
+		"message": "Menghadapi masalah? Hubungi sokongan."
 	},
 	"reviews": {
 		"message": "Ulasan"
 	},
 	"review": {
-		"message": "Kaji semula"
+		"message": "Semakan"
 	},
 	"style": {
 		"message": "Gaya"
 	},
 	"supportToolTip": {
-		"message": "Tinggalkan atau baca ulasan"
+		"message": "Semak Sambungan ini"
 	},
 	"websiteLabel": {
-		"message": "Laman web"
+		"message": "laman web"
 	},
 	"websiteTooltip": {
 		"message": "Laman web sokongan."
 	},
 	"saved": {
-		"message": "Disimpan"
+		"message": "Tetapan Digunakan"
 	},
 	"helperbird": {
-		"message": "Cari Helperbird"
+		"message": "Temui Helperbird"
 	},
 	"OpenDyslexic": {
-		"message": "Cari OpenDyslexic"
+		"message": "Temui OpenDyslexic"
 	},
 	"on": {
-		"message": "Dihidupkan"
+		"message": "hidup"
 	},
 	"off": {
 		"message": "Mati"

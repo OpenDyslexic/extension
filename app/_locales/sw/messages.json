@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic kwa Edge",
+		"description": "Fomati kurasa kwa kutumia fonti ya OpenDyslexic na usaidizi wa utofautishaji wa chini."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic kwa Firefox",
+		"description": "Fomati kurasa kwa kutumia fonti ya OpenDyslexic na usaidizi wa utofautishaji wa chini."
+	},
+	"appName": {
+		"message": "OpenDyslexic kwa Chrome",
+		"description": "Fomati kurasa kwa kutumia fonti ya OpenDyslexic na usaidizi wa utofautishaji wa chini."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Fomati kurasa kwa kutumia fonti ya OpenDyslexic na usaidizi wa utofautishaji wa chini."
+	},
+	"appDescription": {
+		"message": "Fomati kurasa kwa kutumia fonti ya OpenDyslexic na usaidizi wa utofautishaji wa chini",
+		"description": "Fomati kurasa kwa kutumia fonti ya OpenDyslexic na usaidizi wa utofautishaji wa chini"
+	},
+	"feature_specialized_font_options": {
+		"message": "Chaguzi za fonti"
+	},
+	"options": {
+		"message": "Chaguo"
+	},
+	"settings": {
+		"message": "Mipangilio"
+	},
+	"selectedFontLabel": {
+		"message": "Fonti Iliyochaguliwa kutumia."
+	},
+	"enableFontLabel": {
+		"message": "Wezesha"
+	},
+	"googleDocsLabel": {
+		"message": "Hati za Google"
+	},
+	"googleDocsTooltip": {
+		"message": "Washa usaidizi kamili wa Hati za Google."
+	},
+	"fontColorSetting": {
+		"message": "Rangi"
+	},
+	"fontColorLabel": {
+		"message": "Fonti"
+	},
+	"fontColorTooltip": {
+		"message": "Badilisha rangi ya fonti."
+	},
+	"backgroundColorLabel": {
+		"message": "Usuli"
+	},
+	"backgroundColorTooltip": {
+		"message": "Badilisha rangi ya mandharinyuma."
+	},
+	"personalSetting": {
+		"message": "Binafsi"
+	},
+	"socialSetting": {
+		"message": "Kijamii"
+	},
+	"codeSetting": {
+		"message": "Msimbo wa Chanzo"
+	},
+	"followDyslexic": {
+		"message": "Fuata OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Tuko kwenye Github"
+	},
+	"followDyslexicToolTip": {
+		"message": "Fuata OpenDyslexic kwenye X"
+	},
+	"followAbbie": {
+		"message": "Msaada OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Inakuja hivi karibuni"
+	},
+	"followAbbieToolTip": {
+		"message": "Saidia muundaji wa OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Fuata Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Imetunzwa na Robert James Gabriel"
+	},
+	"whatsNew": {
+		"message": "Nini kipya"
+	},
+	"bugs": {
+		"message": "Ripoti Hitilafu kwenye Discords"
+	},
+	"created_by": {
+		"message": "OpenDyslexic iliundwa Abbie Gonzalez"
+	},
+	"firefox": {
+		"message": "Toleo la Firefox"
+	},
+	"downloadOnFirefox": {
+		"message": "Inapatikana kwenye Firefox"
+	},
+	"firefoxText": {
+		"message": "Je, ungependa kutumia Firefox? Pakua leo."
+	},
+	"title_fonts": {
+		"message": "Fonti"
+	},
+	"supportlSetting": {
+		"message": "Msaada"
+	},
+	"featureTint": {
+		"message": "Washa Uwekeleaji"
+	},
+	"supportToolTipTwo": {
+		"message": "Je, una tatizo? Wasiliana na usaidizi."
+	},
+	"reviews": {
+		"message": "Ukaguzi"
+	},
+	"review": {
+		"message": "Kagua"
+	},
+	"style": {
+		"message": "Mtindo"
+	},
+	"supportToolTip": {
+		"message": "Kagua Kiendelezi hiki"
+	},
+	"websiteLabel": {
+		"message": "Tovuti"
+	},
+	"websiteTooltip": {
+		"message": "Tovuti ya usaidizi."
+	},
+	"saved": {
+		"message": "Mipangilio Imetumika"
+	},
+	"helperbird": {
+		"message": "Gundua Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Gundua OpenDyslexic"
+	},
+	"on": {
+		"message": "Washa"
+	},
+	"off": {
+		"message": "Imezimwa"
+	}
+}

@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic for Edge",
+		"description": "ეხმარება გვერდების ფორმატირებას OpenDyslexic შრიფტისა და დაბალი კონტრასტის გამოყენებით."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic Firefox-ისთვის",
+		"description": "გვერდების ფორმატირება OpenDyslexic შრიფტის და დაბალი კონტრასტის გამოყენებით დაგეხმარებათ."
+	},
+	"appName": {
+		"message": "OpenDyslexic Chrome-ისთვის",
+		"description": "ეხმარება გვერდების ფორმატირებას OpenDyslexic შრიფტისა და დაბალი კონტრასტის გამოყენებით."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "ეხმარება გვერდების ფორმატირებას OpenDyslexic შრიფტისა და დაბალი კონტრასტის გამოყენებით."
+	},
+	"appDescription": {
+		"message": "ეხმარება გვერდების ფორმატირებას OpenDyslexic შრიფტისა და დაბალი კონტრასტის გამოყენებით",
+		"description": "ეხმარება გვერდების ფორმატირებას OpenDyslexic შრიფტისა და დაბალი კონტრასტის გამოყენებით"
+	},
+	"feature_specialized_font_options": {
+		"message": "შრიფტის პარამეტრები"
+	},
+	"options": {
+		"message": "ოფციები"
+	},
+	"settings": {
+		"message": "პარამეტრები"
+	},
+	"selectedFontLabel": {
+		"message": "არჩეული შრიფტი გამოსაყენებლად."
+	},
+	"enableFontLabel": {
+		"message": "ჩართვა"
+	},
+	"googleDocsLabel": {
+		"message": "Google Docs"
+	},
+	"googleDocsTooltip": {
+		"message": "ჩართეთ Google Docs-ის სრული მხარდაჭერა."
+	},
+	"fontColorSetting": {
+		"message": "ფერი"
+	},
+	"fontColorLabel": {
+		"message": "შრიფტი"
+	},
+	"fontColorTooltip": {
+		"message": "შეცვალეთ შრიფტის ფერი."
+	},
+	"backgroundColorLabel": {
+		"message": "ფონი"
+	},
+	"backgroundColorTooltip": {
+		"message": "შეცვალეთ ფონის ფერი."
+	},
+	"personalSetting": {
+		"message": "პირადი"
+	},
+	"socialSetting": {
+		"message": "სოციალური"
+	},
+	"codeSetting": {
+		"message": "წყაროს კოდი"
+	},
+	"followDyslexic": {
+		"message": "მიჰყევით OpenDyslexic-ს"
+	},
+	"weAreOnGithub": {
+		"message": "ჩვენ Github-ზე ვართ"
+	},
+	"followDyslexicToolTip": {
+		"message": "მიჰყევით OpenDyslexic X-ზე"
+	},
+	"followAbbie": {
+		"message": "OpenDyslexic-ის მხარდაჭერა"
+	},
+	"comingSoon": {
+		"message": "მალე მოვა"
+	},
+	"followAbbieToolTip": {
+		"message": "მხარი დაუჭირეთ OpenDyslexic-ის შემქმნელს."
+	},
+	"followRobertJames": {
+		"message": "მიჰყევით რობერტ ჯეიმსს"
+	},
+	"followRobertJamesToolTip": {
+		"message": "შესრულებულია რობერტ ჯეიმს გაბრიელის მიერ"
+	},
+	"whatsNew": {
+		"message": "რა არის ახალი"
+	},
+	"bugs": {
+		"message": "შეატყობინეთ შეცდომები უთანხმოების შესახებ"
+	},
+	"created_by": {
+		"message": "OpenDyslexic შეიქმნა Abbie Gonzalez"
+	},
+	"firefox": {
+		"message": "Firefox-ის ვერსია"
+	},
+	"downloadOnFirefox": {
+		"message": "ხელმისაწვდომია Firefox-ზე"
+	},
+	"firefoxText": {
+		"message": "გამოიყენეთ Firefox? ჩამოტვირთეთ დღესვე."
+	},
+	"title_fonts": {
+		"message": "შრიფტები"
+	},
+	"supportlSetting": {
+		"message": "მხარდაჭერა"
+	},
+	"featureTint": {
+		"message": "გადაფარვის ჩართვა"
+	},
+	"supportToolTipTwo": {
+		"message": "გაქვთ პრობლემა? დაუკავშირდით მხარდაჭერას."
+	},
+	"reviews": {
+		"message": "მიმოხილვები"
+	},
+	"review": {
+		"message": "მიმოხილვა"
+	},
+	"style": {
+		"message": "სტილი"
+	},
+	"supportToolTip": {
+		"message": "გადახედეთ ამ გაფართოებას"
+	},
+	"websiteLabel": {
+		"message": "საიტი"
+	},
+	"websiteTooltip": {
+		"message": "მხარდაჭერის საიტი."
+	},
+	"saved": {
+		"message": "პარამეტრები გამოიყენება"
+	},
+	"helperbird": {
+		"message": "აღმოაჩინეთ Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "აღმოაჩინეთ OpenDyslexic"
+	},
+	"on": {
+		"message": "ჩართულია"
+	},
+	"off": {
+		"message": "გამორთულია"
+	}
+}

@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "ОпенДислекиц за Едге",
+		"description": "Форматирајте странице користећи ОпенДислекиц фонт и помоћ са ниским контрастом."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "ОпенДислекиц за Фирефок",
+		"description": "Форматирајте странице користећи ОпенДислекиц фонт и помоћ са ниским контрастом."
 	},
 	"appName": {
 		"message": "ОпенДислекиц за Цхроме",
-		"description": "Форматирајте странице користећи фонт ОпенДислекиц и помоћ при ниском контрасту."
+		"description": "Форматирајте странице користећи ОпенДислекиц фонт и помоћ са ниским контрастом."
 	},
 	"appTitle": {
 		"message": "ОпенДислекиц",
-		"description": "Форматирајте странице користећи фонт ОпенДислекиц и помоћ при ниском контрасту."
+		"description": "Форматирајте странице користећи ОпенДислекиц фонт и помоћ са ниским контрастом."
 	},
 	"appDescription": {
-		"message": "Форматирајте странице користећи фонт ОпенДислекиц и помоћ при ниском контрасту",
-		"description": "Форматирајте странице користећи фонт ОпенДислекиц и помоћ при ниском контрасту"
+		"message": "Форматирајте странице користећи ОпенДислекиц фонт и помоћ са ниским контрастом",
+		"description": "Форматирајте странице користећи ОпенДислекиц фонт и помоћ са ниским контрастом"
+	},
+	"feature_specialized_font_options": {
+		"message": "Опције фонта"
 	},
 	"options": {
 		"message": "Опције"
@@ -35,7 +38,7 @@
 		"message": "Гоогле документи"
 	},
 	"googleDocsTooltip": {
-		"message": "Омогућите потпуну подршку за Гоогле документе."
+		"message": "Омогућите пуну подршку за Гоогле документе."
 	},
 	"fontColorSetting": {
 		"message": "Боја"
@@ -53,10 +56,10 @@
 		"message": "Промените боју позадине."
 	},
 	"personalSetting": {
-		"message": "Лични"
+		"message": "Лично"
 	},
 	"socialSetting": {
-		"message": "Друштвени"
+		"message": "Социал"
 	},
 	"codeSetting": {
 		"message": "Изворни код"
@@ -64,29 +67,41 @@
 	"followDyslexic": {
 		"message": "Пратите ОпенДислекиц"
 	},
+	"weAreOnGithub": {
+		"message": "Ми смо на Гитхуб-у"
+	},
 	"followDyslexicToolTip": {
-		"message": "Пратите ОпенДислекиц на Твиттеру"
+		"message": "Пратите ОпенДислекиц на Кс"
 	},
 	"followAbbie": {
 		"message": "Подршка ОпенДислекиц"
 	},
 	"comingSoon": {
-		"message": "Долази ускоро"
+		"message": "Ускоро"
 	},
 	"followAbbieToolTip": {
-		"message": "Подржите творца ОпенДислекиц-а."
+		"message": "Подржите креатора ОпенДислекиц-а."
 	},
 	"followRobertJames": {
-		"message": "Пратите Роберта Јамеса"
+		"message": "Пратите Роберта Џејмса"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Пратите одржаватеља ове апликације."
+		"message": "Одржава Роберт Јамес Габриел"
 	},
 	"whatsNew": {
-		"message": "Шта је ново"
+		"message": "Шта има ново"
+	},
+	"bugs": {
+		"message": "Пријавите грешке у Дисцордс-у"
+	},
+	"created_by": {
+		"message": "ОпенДислекиц је креирана Аббие Гонзалез"
 	},
 	"firefox": {
-		"message": "Верзија Фирефок-а"
+		"message": "Фирефок верзија"
+	},
+	"downloadOnFirefox": {
+		"message": "Доступно на Фирефок-у"
 	},
 	"firefoxText": {
 		"message": "Користите Фирефок? Преузмите га данас."
@@ -101,28 +116,28 @@
 		"message": "Омогући преклапање"
 	},
 	"supportToolTipTwo": {
-		"message": "Имате проблем? Обратите се подршци."
+		"message": "Имате проблем? Контактирајте подршку."
 	},
 	"reviews": {
-		"message": "Коментара"
+		"message": "Рецензије"
 	},
 	"review": {
 		"message": "Преглед"
 	},
 	"style": {
-		"message": "Стил"
+		"message": "Стиле"
 	},
 	"supportToolTip": {
-		"message": "Оставите или прочитајте критике"
+		"message": "Прегледајте ово проширење"
 	},
 	"websiteLabel": {
-		"message": "Веб сајт"
+		"message": "Вебсите"
 	},
 	"websiteTooltip": {
 		"message": "Веб локација за подршку."
 	},
 	"saved": {
-		"message": "Сачувано"
+		"message": "Подешавања су примењена"
 	},
 	"helperbird": {
 		"message": "Откријте Хелпербирд"
@@ -131,9 +146,9 @@
 		"message": "Откријте ОпенДислекиц"
 	},
 	"on": {
-		"message": "на"
+		"message": "Он"
 	},
 	"off": {
-		"message": "Ван"
+		"message": "Офф"
 	}
 }

@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic pre Edge",
+		"description": "Formátovanie stránok pomocou písma OpenDyslexic a pomoc s nízkym kontrastom."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic pre Firefox",
+		"description": "Formátovanie stránok pomocou písma OpenDyslexic a pomoc s nízkym kontrastom."
+	},
+	"appName": {
+		"message": "OpenDyslexic pre Chrome",
+		"description": "Formátovanie stránok pomocou písma OpenDyslexic a pomoc s nízkym kontrastom."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Formátovanie stránok pomocou písma OpenDyslexic a pomoc s nízkym kontrastom."
+	},
+	"appDescription": {
+		"message": "Formátovanie stránok pomocou písma OpenDyslexic a pomoc s nízkym kontrastom",
+		"description": "Formátovanie stránok pomocou písma OpenDyslexic a pomoc s nízkym kontrastom"
+	},
+	"feature_specialized_font_options": {
+		"message": "Možnosti písma"
+	},
+	"options": {
+		"message": "Možnosti"
+	},
+	"settings": {
+		"message": "Nastavenia"
+	},
+	"selectedFontLabel": {
+		"message": "Vybrané písmo na použitie."
+	},
+	"enableFontLabel": {
+		"message": "Povoliť"
+	},
+	"googleDocsLabel": {
+		"message": "Dokumenty Google"
+	},
+	"googleDocsTooltip": {
+		"message": "Povoliť plnú podporu služby Dokumenty Google."
+	},
+	"fontColorSetting": {
+		"message": "Farba"
+	},
+	"fontColorLabel": {
+		"message": "Písmo"
+	},
+	"fontColorTooltip": {
+		"message": "Zmeňte farbu písma."
+	},
+	"backgroundColorLabel": {
+		"message": "Pozadie"
+	},
+	"backgroundColorTooltip": {
+		"message": "Zmeňte farbu pozadia."
+	},
+	"personalSetting": {
+		"message": "Osobné"
+	},
+	"socialSetting": {
+		"message": "Sociálne"
+	},
+	"codeSetting": {
+		"message": "Zdrojový kód"
+	},
+	"followDyslexic": {
+		"message": "Sledujte OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Sme na Github"
+	},
+	"followDyslexicToolTip": {
+		"message": "Sledujte OpenDyslexic na X"
+	},
+	"followAbbie": {
+		"message": "Podpora OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Už čoskoro"
+	},
+	"followAbbieToolTip": {
+		"message": "Podporte tvorcu OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Nasledujte Roberta Jamesa"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Spravuje Robert James Gabriel"
+	},
+	"whatsNew": {
+		"message": "Čo je nové"
+	},
+	"bugs": {
+		"message": "Nahláste chyby na Discordoch"
+	},
+	"created_by": {
+		"message": "OpenDyslexic bola vytvorená Abbie Gonzalez"
+	},
+	"firefox": {
+		"message": "Verzia Firefoxu"
+	},
+	"downloadOnFirefox": {
+		"message": "Dostupné vo Firefoxe"
+	},
+	"firefoxText": {
+		"message": "Používať Firefox? Stiahnite si ju ešte dnes."
+	},
+	"title_fonts": {
+		"message": "Písma"
+	},
+	"supportlSetting": {
+		"message": "Podpora"
+	},
+	"featureTint": {
+		"message": "Povoliť prekrytie"
+	},
+	"supportToolTipTwo": {
+		"message": "Máte problém? Kontaktujte podporu."
+	},
+	"reviews": {
+		"message": "Recenzie"
+	},
+	"review": {
+		"message": "recenzia"
+	},
+	"style": {
+		"message": "štýl"
+	},
+	"supportToolTip": {
+		"message": "Skontrolujte toto rozšírenie"
+	},
+	"websiteLabel": {
+		"message": "webové stránky"
+	},
+	"websiteTooltip": {
+		"message": "Webová stránka podpory."
+	},
+	"saved": {
+		"message": "Nastavenia boli použité"
+	},
+	"helperbird": {
+		"message": "Objavte Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Objavte OpenDyslexic"
+	},
+	"on": {
+		"message": "Zapnuté"
+	},
+	"off": {
+		"message": "Vypnuté"
+	}
+}

@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic for Edge",
+		"description": "Fformatio tudalennau gan ddefnyddio ffont OpenDyslexic a chymorth cyferbyniad isel."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic ar gyfer Firefox",
+		"description": "Fformatio tudalennau gan ddefnyddio ffont OpenDyslexic a chymorth cyferbyniad isel."
+	},
+	"appName": {
+		"message": "OpenDyslexic ar gyfer Chrome",
+		"description": "Fformatio tudalennau gan ddefnyddio ffont OpenDyslexic a chymorth cyferbyniad isel."
+	},
+	"appTitle": {
+		"message": "AgoredDyslecsig",
+		"description": "Fformatio tudalennau gan ddefnyddio ffont OpenDyslexic a chymorth cyferbyniad isel."
+	},
+	"appDescription": {
+		"message": "Fformatio tudalennau gan ddefnyddio ffont OpenDyslexic a chymorth cyferbyniad isel",
+		"description": "Fformatio tudalennau gan ddefnyddio ffont OpenDyslexic a chymorth cyferbyniad isel"
+	},
+	"feature_specialized_font_options": {
+		"message": "Opsiynau ffont"
+	},
+	"options": {
+		"message": "Opsiynau"
+	},
+	"settings": {
+		"message": "Gosodiadau"
+	},
+	"selectedFontLabel": {
+		"message": "Ffont a ddewiswyd i'w ddefnyddio."
+	},
+	"enableFontLabel": {
+		"message": "Galluogi"
+	},
+	"googleDocsLabel": {
+		"message": "Dogfennau Google"
+	},
+	"googleDocsTooltip": {
+		"message": "Galluogi cefnogaeth lawn Google Docs."
+	},
+	"fontColorSetting": {
+		"message": "Lliw"
+	},
+	"fontColorLabel": {
+		"message": "Ffont"
+	},
+	"fontColorTooltip": {
+		"message": "Newid lliw y ffont."
+	},
+	"backgroundColorLabel": {
+		"message": "Cefndir"
+	},
+	"backgroundColorTooltip": {
+		"message": "Newid lliw'r cefndir."
+	},
+	"personalSetting": {
+		"message": "Personol"
+	},
+	"socialSetting": {
+		"message": "Cymdeithasol"
+	},
+	"codeSetting": {
+		"message": "Cod Ffynhonnell"
+	},
+	"followDyslexic": {
+		"message": "Dilynwch OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Rydyn ni ar Github"
+	},
+	"followDyslexicToolTip": {
+		"message": "Dilynwch OpenDyslexic ar X"
+	},
+	"followAbbie": {
+		"message": "Cefnogi OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Yn dod yn fuan"
+	},
+	"followAbbieToolTip": {
+		"message": "Cefnogi crëwr OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Dilynwch Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Cynhelir gan Robert James Gabriel"
+	},
+	"whatsNew": {
+		"message": "Beth sy'n newydd"
+	},
+	"bugs": {
+		"message": "Rhoi Gwybod am Fygiau ar Anghytundebau"
+	},
+	"created_by": {
+		"message": "Crëwyd OpenDyslexic Abbie Gonzalez"
+	},
+	"firefox": {
+		"message": "Fersiwn Firefox"
+	},
+	"downloadOnFirefox": {
+		"message": "Ar gael ar Firefox"
+	},
+	"firefoxText": {
+		"message": "Defnyddio Firefox? Dadlwythwch ef heddiw."
+	},
+	"title_fonts": {
+		"message": "Ffontiau"
+	},
+	"supportlSetting": {
+		"message": "Cefnogaeth"
+	},
+	"featureTint": {
+		"message": "Galluogi Troshaen"
+	},
+	"supportToolTipTwo": {
+		"message": "Cael problem? Cysylltwch â chefnogaeth."
+	},
+	"reviews": {
+		"message": "Adolygiadau"
+	},
+	"review": {
+		"message": "Adolygu"
+	},
+	"style": {
+		"message": "Arddull"
+	},
+	"supportToolTip": {
+		"message": "Adolygu'r Estyniad hwn"
+	},
+	"websiteLabel": {
+		"message": "Gwefan"
+	},
+	"websiteTooltip": {
+		"message": "Gwefan cefnogi."
+	},
+	"saved": {
+		"message": "Gosodiadau Cymhwysol"
+	},
+	"helperbird": {
+		"message": "Darganfod Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Darganfod OpenDyslexic"
+	},
+	"on": {
+		"message": "Ar"
+	},
+	"off": {
+		"message": "I ffwrdd"
+	}
+}

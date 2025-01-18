@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "I-OpenDyslexic ye-Edge",
+		"description": "Fometha amakhasi usebenzisa ifonti ye-OpenDyslexic kanye nosizo lokungafani okuphansi."
+	},
+	"appNameFirefox": {
+		"message": "I-OpenDyslexic yeFirefox",
+		"description": "Fometha amakhasi usebenzisa ifonti ye-OpenDyslexic kanye nosizo lokungafani okuphansi."
+	},
+	"appName": {
+		"message": "I-OpenDyslexic ye-Chrome",
+		"description": "Fometha amakhasi usebenzisa ifonti ye-OpenDyslexic kanye nosizo lokungafani okuphansi."
+	},
+	"appTitle": {
+		"message": "I-OpenDyslexic",
+		"description": "Fometha amakhasi usebenzisa ifonti ye-OpenDyslexic kanye nosizo lokungafani okuphansi."
+	},
+	"appDescription": {
+		"message": "Fometha amakhasi usebenzisa ifonti ye-OpenDyslexic kanye nosizo lokungafani okuphansi",
+		"description": "Fometha amakhasi usebenzisa ifonti ye-OpenDyslexic kanye nosizo lokungafani okuphansi"
+	},
+	"feature_specialized_font_options": {
+		"message": "Izinketho zefonti"
+	},
+	"options": {
+		"message": "Izinketho"
+	},
+	"settings": {
+		"message": "Izilungiselelo"
+	},
+	"selectedFontLabel": {
+		"message": "Ifonti Ekhethiwe ozoyisebenzisa."
+	},
+	"enableFontLabel": {
+		"message": "Nika amandla"
+	},
+	"googleDocsLabel": {
+		"message": "I-Google Amadokhumenti"
+	},
+	"googleDocsTooltip": {
+		"message": "Nika amandla ukusekela okugcwele kwe-Google Amadokhumenti."
+	},
+	"fontColorSetting": {
+		"message": "Umbala"
+	},
+	"fontColorLabel": {
+		"message": "Ifonti"
+	},
+	"fontColorTooltip": {
+		"message": "Shintsha umbala wefonti."
+	},
+	"backgroundColorLabel": {
+		"message": "Ingemuva"
+	},
+	"backgroundColorTooltip": {
+		"message": "Shintsha umbala wangemuva."
+	},
+	"personalSetting": {
+		"message": "Okomuntu siqu"
+	},
+	"socialSetting": {
+		"message": "Okomphakathi"
+	},
+	"codeSetting": {
+		"message": "Ikhodi Yomthombo"
+	},
+	"followDyslexic": {
+		"message": "Landela i-OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Siku Github"
+	},
+	"followDyslexicToolTip": {
+		"message": "Landela i-OpenDyslexic ku-X"
+	},
+	"followAbbie": {
+		"message": "Sekela i-OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Kuyeza maduze"
+	},
+	"followAbbieToolTip": {
+		"message": "Sekela umdali we-OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Landela uRobert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Igcinwe nguRobert James Gabriel"
+	},
+	"whatsNew": {
+		"message": "Yini entsha"
+	},
+	"bugs": {
+		"message": "Bika iziphazamisi kuma-Discords"
+	},
+	"created_by": {
+		"message": "I-OpenDyslexic yadalwa u-Abbie Gonzalez"
+	},
+	"firefox": {
+		"message": "Inguqulo yeFirefox"
+	},
+	"downloadOnFirefox": {
+		"message": "Itholakala kuFirefox"
+	},
+	"firefoxText": {
+		"message": "Sebenzisa iFirefox? Yilande namuhla."
+	},
+	"title_fonts": {
+		"message": "Amafonti"
+	},
+	"supportlSetting": {
+		"message": "Ukusekela"
+	},
+	"featureTint": {
+		"message": "Nika amandla Imbondela"
+	},
+	"supportToolTipTwo": {
+		"message": "Unenkinga? Xhumana nosekelo."
+	},
+	"reviews": {
+		"message": "Izibuyekezo"
+	},
+	"review": {
+		"message": "Buyekeza"
+	},
+	"style": {
+		"message": "Isitayela"
+	},
+	"supportToolTip": {
+		"message": "Buyekeza lesi Sandiso"
+	},
+	"websiteLabel": {
+		"message": "Iwebhusayithi"
+	},
+	"websiteTooltip": {
+		"message": "Iwebhusayithi yokusekela."
+	},
+	"saved": {
+		"message": "Izilungiselelo zisetshenzisiwe"
+	},
+	"helperbird": {
+		"message": "Thola i-Helderbird"
+	},
+	"OpenDyslexic": {
+		"message": "Thola i-OpenDyslexic"
+	},
+	"on": {
+		"message": "Vuliwe"
+	},
+	"off": {
+		"message": "Valiwe"
+	}
+}

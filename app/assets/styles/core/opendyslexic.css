@@ -44,26 +44,26 @@
 	--opendyslexic-chrome-mono: 'OpenDyslexic';
 }
 
-.helperbird-font-opendyslexic-regular {
+.helperbird-font-opendyslexic-regular  *:not([class*="icon"]):not([class*="material"]):not([class*="symbols"]):not([class*="font"]) {
 	font-family: var(--opendyslexic-chrome-regular);
 	font-weight: normal;
 	font-style: normal;
 	line-height: 150%;
 }
 
-.helperbird-font-opendyslexic-italic {
+.helperbird-font-opendyslexic-italic  *:not([class*="icon"]):not([class*="material"]):not([class*="symbols"]):not([class*="font"]) {
 	font-family: var(--opendyslexic-chrome-italic);
 	font-style: italic;
 	line-height: 150%;
 }
 
-.helperbird-font-opendyslexic-bold {
+.helperbird-font-opendyslexic-bold  *:not([class*="icon"]):not([class*="material"]):not([class*="symbols"]):not([class*="font"]) {
 	font-family: var(--opendyslexic-chrome-bold);
 	font-weight: bold;
 	line-height: 150%;
 }
 
-.helperbird-font-opendyslexic-bold-italic {
+.helperbird-font-opendyslexic-bold-italic  *:not([class*="icon"]):not([class*="material"]):not([class*="symbols"]):not([class*="font"]) {
 	font-family: var(--opendyslexic-chrome-bold);
 	font-weight: bold;
 	line-height: 150%;

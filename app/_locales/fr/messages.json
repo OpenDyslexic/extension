@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic pour Edge",
+		"description": "Formatez les pages en utilisant la police OpenDyslexic et l'aide au faible contraste."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic pour Firefox",
+		"description": "Formatez les pages en utilisant la police OpenDyslexic et l'aide au faible contraste."
 	},
 	"appName": {
 		"message": "OpenDyslexic pour Chrome",
-		"description": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste."
+		"description": "Formatez les pages en utilisant la police OpenDyslexic et l'aide au faible contraste."
 	},
 	"appTitle": {
-		"message": "OuvertDyslexique",
-		"description": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste."
+		"message": "OpenDyslexic",
+		"description": "Formatez les pages en utilisant la police OpenDyslexic et l'aide au faible contraste."
 	},
 	"appDescription": {
-		"message": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste",
-		"description": "Formatez les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste"
+		"message": "Formater les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste",
+		"description": "Formater les pages à l'aide de la police OpenDyslexic et de l'aide à faible contraste"
+	},
+	"feature_specialized_font_options": {
+		"message": "Options de police"
 	},
 	"options": {
 		"message": "Options"
@@ -35,43 +38,46 @@
 		"message": "Google Docs"
 	},
 	"googleDocsTooltip": {
-		"message": "Activez la prise en charge complète de Google Docs."
+		"message": "Activer la prise en charge complète de Google Docs."
 	},
 	"fontColorSetting": {
 		"message": "Couleur"
 	},
 	"fontColorLabel": {
-		"message": "Police de caractère"
+		"message": "Fonte"
 	},
 	"fontColorTooltip": {
-		"message": "Changez la couleur de la police."
+		"message": "Changer la couleur de la police."
 	},
 	"backgroundColorLabel": {
 		"message": "Arrière-plan"
 	},
 	"backgroundColorTooltip": {
-		"message": "Changez la couleur de fond."
+		"message": "Changer la couleur d'arrière-plan."
 	},
 	"personalSetting": {
 		"message": "Personnel"
 	},
 	"socialSetting": {
-		"message": "Social"
+		"message": "Sociale"
 	},
 	"codeSetting": {
 		"message": "Code source"
 	},
 	"followDyslexic": {
-		"message": "Suivre OpenDyslexic"
+		"message": "Suivez OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Nous sommes sur Github"
 	},
 	"followDyslexicToolTip": {
-		"message": "Suivez OpenDyslexic sur Twitter"
+		"message": "Suivez OpenDyslexic sur X"
 	},
 	"followAbbie": {
-		"message": "Soutenir OpenDyslexic"
+		"message": "Soutenez OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "Bientôt disponible"
+		"message": "À venir"
 	},
 	"followAbbieToolTip": {
 		"message": "Soutenez le créateur d'OpenDyslexic."
@@ -80,31 +86,40 @@
 		"message": "Suivez Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Suivez le mainteneur de cette application."
+		"message": "Géré par Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Quoi de neuf"
 	},
+	"bugs": {
+		"message": "Signaler des bugs sur Discords"
+	},
+	"created_by": {
+		"message": "OpenDyslexic a été créé par Abbie Gonzalez"
+	},
 	"firefox": {
 		"message": "Version Firefox"
 	},
+	"downloadOnFirefox": {
+		"message": "Disponible sur Firefox"
+	},
 	"firefoxText": {
-		"message": "Utiliser Firefox ? Téléchargez-le aujourd'hui."
+		"message": "Vous utilisez Firefox ? Téléchargez-le dès aujourd'hui."
 	},
 	"title_fonts": {
-		"message": "Polices"
+		"message": "Polices de caractères"
 	},
 	"supportlSetting": {
-		"message": "Support"
+		"message": "Soutien"
 	},
 	"featureTint": {
 		"message": "Activer la superposition"
 	},
 	"supportToolTipTwo": {
-		"message": "Vous avez un problème ? Contactez le support."
+		"message": "Vous rencontrez un problème ? Contactez le support."
 	},
 	"reviews": {
-		"message": "Commentaires"
+		"message": "Avis"
 	},
 	"review": {
 		"message": "Revoir"
@@ -113,16 +128,16 @@
 		"message": "Style"
 	},
 	"supportToolTip": {
-		"message": "Laisser ou lire des avis"
+		"message": "Évaluer cette extension"
 	},
 	"websiteLabel": {
-		"message": "Site Internet"
+		"message": "Site web"
 	},
 	"websiteTooltip": {
-		"message": "Site Web d'assistance."
+		"message": "Site Web de soutien."
 	},
 	"saved": {
-		"message": "Enregistré"
+		"message": "Paramètres appliqués"
 	},
 	"helperbird": {
 		"message": "Découvrez Helperbird"
@@ -131,7 +146,7 @@
 		"message": "Découvrez OpenDyslexic"
 	},
 	"on": {
-		"message": "Au"
+		"message": "Sur"
 	},
 	"off": {
 		"message": "Désactivé"

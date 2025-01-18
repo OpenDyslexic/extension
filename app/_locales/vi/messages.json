@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic cho Edge",
+		"description": "Định dạng trang bằng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic cho Firefox",
+		"description": "Định dạng trang bằng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
 	},
 	"appName": {
 		"message": "OpenDyslexic dành cho Chrome",
-		"description": "Định dạng trang bằng cách sử dụng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
+		"description": "Định dạng trang bằng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Định dạng trang bằng cách sử dụng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
+		"message": "MởDyslexic",
+		"description": "Định dạng trang bằng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
 	},
 	"appDescription": {
-		"message": "Định dạng trang bằng cách sử dụng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp",
-		"description": "Định dạng trang bằng cách sử dụng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp"
+		"message": "Định dạng các trang bằng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp",
+		"description": "Định dạng các trang bằng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp"
+	},
+	"feature_specialized_font_options": {
+		"message": "Tùy chọn phông chữ"
 	},
 	"options": {
 		"message": "Tùy chọn"
@@ -26,22 +29,22 @@
 		"message": "Cài đặt"
 	},
 	"selectedFontLabel": {
-		"message": "Đã chọn Phông chữ để sử dụng."
+		"message": "Đã chọn phông chữ để sử dụng."
 	},
 	"enableFontLabel": {
-		"message": "Kích hoạt"
+		"message": "Cho phép"
 	},
 	"googleDocsLabel": {
-		"message": "Google Tài liệu"
+		"message": "Tài liệu Google"
 	},
 	"googleDocsTooltip": {
-		"message": "Bật hỗ trợ đầy đủ của Google Tài liệu."
+		"message": "Bật hỗ trợ đầy đủ cho Google Docs."
 	},
 	"fontColorSetting": {
 		"message": "Màu sắc"
 	},
 	"fontColorLabel": {
-		"message": "Nét chữ"
+		"message": "Phông chữ"
 	},
 	"fontColorTooltip": {
 		"message": "Thay đổi màu phông chữ."
@@ -53,7 +56,7 @@
 		"message": "Thay đổi màu nền."
 	},
 	"personalSetting": {
-		"message": "Cá nhân"
+		"message": "Riêng tư"
 	},
 	"socialSetting": {
 		"message": "Xã hội"
@@ -62,34 +65,46 @@
 		"message": "Mã nguồn"
 	},
 	"followDyslexic": {
-		"message": "Theo OpenDyslexic"
+		"message": "Theo dõi OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Chúng tôi đang ở trên Github"
 	},
 	"followDyslexicToolTip": {
-		"message": "Theo dõi OpenDyslexic trên Twitter"
+		"message": "Theo dõi OpenDyslexic trên X"
 	},
 	"followAbbie": {
 		"message": "Hỗ trợ OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "Sắp có"
+		"message": "Sắp ra mắt"
 	},
 	"followAbbieToolTip": {
-		"message": "Hỗ trợ người tạo OpenDyslexic."
+		"message": "Ủng hộ người sáng tạo ra OpenDyslexic."
 	},
 	"followRobertJames": {
-		"message": "Theo Robert James"
+		"message": "Theo dõi Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Theo dõi người bảo trì ứng dụng này."
+		"message": "Được duy trì bởi Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Có gì mới"
 	},
+	"bugs": {
+		"message": "Báo cáo lỗi trên Discords"
+	},
+	"created_by": {
+		"message": "OpenDyslexic được tạo ra bởi Abbie Gonzalez"
+	},
 	"firefox": {
 		"message": "Phiên bản Firefox"
 	},
+	"downloadOnFirefox": {
+		"message": "Có sẵn trên Firefox"
+	},
 	"firefoxText": {
-		"message": "Sử dụng Firefox? Tải xuống ngay hôm nay."
+		"message": "Bạn đang sử dụng Firefox? Hãy tải xuống ngay hôm nay."
 	},
 	"title_fonts": {
 		"message": "Phông chữ"
@@ -101,10 +116,10 @@
 		"message": "Bật lớp phủ"
 	},
 	"supportToolTipTwo": {
-		"message": "Bạn gặp sự cố? Liên hệ hỗ trợ."
+		"message": "Bạn gặp vấn đề? Hãy liên hệ với bộ phận hỗ trợ."
 	},
 	"reviews": {
-		"message": "Nhận xét"
+		"message": "Đánh giá"
 	},
 	"review": {
 		"message": "Ôn tập"
@@ -113,16 +128,16 @@
 		"message": "Phong cách"
 	},
 	"supportToolTip": {
-		"message": "Để lại hoặc đọc các bài đánh giá"
+		"message": "Đánh giá phần mở rộng này"
 	},
 	"websiteLabel": {
-		"message": "Trang mạng"
+		"message": "Trang web"
 	},
 	"websiteTooltip": {
 		"message": "Trang web hỗ trợ."
 	},
 	"saved": {
-		"message": "Đã lưu"
+		"message": "Cài đặt được áp dụng"
 	},
 	"helperbird": {
 		"message": "Khám phá Helperbird"
@@ -131,7 +146,7 @@
 		"message": "Khám phá OpenDyslexic"
 	},
 	"on": {
-		"message": "Trên"
+		"message": "TRÊN"
 	},
 	"off": {
 		"message": "Tắt"

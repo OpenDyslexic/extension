@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDislexic for Edge",
+		"description": "עיצוב דפים באמצעות הגופן OpenDyslexic וניגודיות נמוכה עוזרים."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic עבור Firefox",
+		"description": "עיצוב דפים באמצעות הגופן OpenDyslexic וניגודיות נמוכה עוזרים."
+	},
+	"appName": {
+		"message": "OpenDyslexic עבור Chrome",
+		"description": "עיצוב דפים באמצעות הגופן OpenDyslexic וניגודיות נמוכה עוזרים."
+	},
+	"appTitle": {
+		"message": "OpenDislexic",
+		"description": "עיצוב דפים באמצעות הגופן OpenDyslexic וניגודיות נמוכה עוזרים."
+	},
+	"appDescription": {
+		"message": "עיצוב דפים באמצעות הגופן OpenDyslexic וניגודיות נמוכה עוזרים",
+		"description": "עיצוב דפים באמצעות הגופן OpenDyslexic וניגודיות נמוכה עוזרים"
+	},
+	"feature_specialized_font_options": {
+		"message": "אפשרויות גופנים"
+	},
+	"options": {
+		"message": "אפשרויות"
+	},
+	"settings": {
+		"message": "הגדרות"
+	},
+	"selectedFontLabel": {
+		"message": "גופן נבחר לשימוש."
+	},
+	"enableFontLabel": {
+		"message": "לְאַפשֵׁר"
+	},
+	"googleDocsLabel": {
+		"message": "Google Docs"
+	},
+	"googleDocsTooltip": {
+		"message": "אפשר תמיכה מלאה של Google Docs."
+	},
+	"fontColorSetting": {
+		"message": "צֶבַע"
+	},
+	"fontColorLabel": {
+		"message": "גוֹפָן"
+	},
+	"fontColorTooltip": {
+		"message": "שנה את צבע הגופן."
+	},
+	"backgroundColorLabel": {
+		"message": "רֶקַע"
+	},
+	"backgroundColorTooltip": {
+		"message": "שנה את צבע הרקע."
+	},
+	"personalSetting": {
+		"message": "אִישִׁי"
+	},
+	"socialSetting": {
+		"message": "חֶברָתִי"
+	},
+	"codeSetting": {
+		"message": "קוד מקור"
+	},
+	"followDyslexic": {
+		"message": "עקוב אחר OpenDislexic"
+	},
+	"weAreOnGithub": {
+		"message": "אנחנו ב-Github"
+	},
+	"followDyslexicToolTip": {
+		"message": "עקוב אחר OpenDyslexic ב-X"
+	},
+	"followAbbie": {
+		"message": "תומך ב-OpenDislexic"
+	},
+	"comingSoon": {
+		"message": "בקרוב"
+	},
+	"followAbbieToolTip": {
+		"message": "תמכו ביוצר של OpenDislexic."
+	},
+	"followRobertJames": {
+		"message": "עקוב אחר רוברט ג'יימס"
+	},
+	"followRobertJamesToolTip": {
+		"message": "מתוחזק על ידי רוברט ג'יימס גבריאל"
+	},
+	"whatsNew": {
+		"message": "מה חדש"
+	},
+	"bugs": {
+		"message": "דווח על באגים בדיסקורד"
+	},
+	"created_by": {
+		"message": "OpenDyslexic נוצרה אבי גונזלס"
+	},
+	"firefox": {
+		"message": "גרסת פיירפוקס"
+	},
+	"downloadOnFirefox": {
+		"message": "זמין בפיירפוקס"
+	},
+	"firefoxText": {
+		"message": "להשתמש בפיירפוקס? הורד אותו היום."
+	},
+	"title_fonts": {
+		"message": "גופנים"
+	},
+	"supportlSetting": {
+		"message": "תְמִיכָה"
+	},
+	"featureTint": {
+		"message": "אפשר שכבת-על"
+	},
+	"supportToolTipTwo": {
+		"message": "יש לך בעיה? צור קשר עם התמיכה."
+	},
+	"reviews": {
+		"message": "ביקורות"
+	},
+	"review": {
+		"message": "סְקִירָה"
+	},
+	"style": {
+		"message": "סִגְנוֹן"
+	},
+	"supportToolTip": {
+		"message": "סקור את ההרחבה הזו"
+	},
+	"websiteLabel": {
+		"message": "אֲתַר אִינטֶרנֶט"
+	},
+	"websiteTooltip": {
+		"message": "אתר תמיכה."
+	},
+	"saved": {
+		"message": "הגדרות הוחלו"
+	},
+	"helperbird": {
+		"message": "גלה את Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "גלה את OpenDyslexic"
+	},
+	"on": {
+		"message": "עַל"
+	},
+	"off": {
+		"message": "כבוי"
+	}
+}

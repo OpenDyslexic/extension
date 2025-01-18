@@ -1,32 +1,35 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "ಎಡ್ಜ್‌ಗಾಗಿ ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್",
+		"description": "OpenDyslexic ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "ಫೈರ್‌ಫಾಕ್ಸ್‌ಗಾಗಿ ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್",
+		"description": "OpenDyslexic ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ."
 	},
 	"appName": {
-		"message": "Chrome ಗಾಗಿ ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್",
-		"description": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ."
+		"message": "Chrome ಗಾಗಿ OpenDyslexic",
+		"description": "OpenDyslexic ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ."
 	},
 	"appTitle": {
 		"message": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್",
-		"description": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ."
+		"description": "OpenDyslexic ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ."
 	},
 	"appDescription": {
-		"message": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ",
-		"description": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ"
+		"message": "OpenDyslexic ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ",
+		"description": "OpenDyslexic ಫಾಂಟ್ ಮತ್ತು ಕಡಿಮೆ ಕಾಂಟ್ರಾಸ್ಟ್ ಸಹಾಯವನ್ನು ಬಳಸಿಕೊಂಡು ಪುಟಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ"
+	},
+	"feature_specialized_font_options": {
+		"message": "ಫಾಂಟ್ ಆಯ್ಕೆಗಳು"
 	},
 	"options": {
 		"message": "ಆಯ್ಕೆಗಳು"
 	},
 	"settings": {
-		"message": "ಸಂಯೋಜನೆಗಳು"
+		"message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
 	},
 	"selectedFontLabel": {
-		"message": "ಬಳಸಲು ಫಾಂಟ್ ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ."
+		"message": "ಬಳಸಲು ಆಯ್ಕೆಮಾಡಲಾದ ಫಾಂಟ್."
 	},
 	"enableFontLabel": {
 		"message": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
@@ -64,32 +67,44 @@
 	"followDyslexic": {
 		"message": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಅನ್ನು ಅನುಸರಿಸಿ"
 	},
+	"weAreOnGithub": {
+		"message": "ನಾವು ಗಿಥಬ್‌ನಲ್ಲಿದ್ದೇವೆ"
+	},
 	"followDyslexicToolTip": {
-		"message": "ಟ್ವಿಟ್ಟರ್ನಲ್ಲಿ ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಅನ್ನು ಅನುಸರಿಸಿ"
+		"message": "ಎಕ್ಸ್ ನಲ್ಲಿ ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಅನ್ನು ಅನುಸರಿಸಿ"
 	},
 	"followAbbie": {
-		"message": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಅನ್ನು ಬೆಂಬಲಿಸಿ"
+		"message": "OpenDyslexic ಅನ್ನು ಬೆಂಬಲಿಸಿ"
 	},
 	"comingSoon": {
 		"message": "ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ"
 	},
 	"followAbbieToolTip": {
-		"message": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಸೃಷ್ಟಿಕರ್ತನನ್ನು ಬೆಂಬಲಿಸಿ."
+		"message": "OpenDyslexic ನ ಸೃಷ್ಟಿಕರ್ತನನ್ನು ಬೆಂಬಲಿಸಿ."
 	},
 	"followRobertJames": {
-		"message": "ರಾಬರ್ಟ್ ಜೇಮ್ಸ್ ಅವರನ್ನು ಅನುಸರಿಸಿ"
+		"message": "ರಾಬರ್ಟ್ ಜೇಮ್ಸ್ ಅನ್ನು ಅನುಸರಿಸಿ"
 	},
 	"followRobertJamesToolTip": {
-		"message": "ಈ ಅಪ್ಲಿಕೇಶನ್‌ನ ನಿರ್ವಹಣೆಯನ್ನು ಅನುಸರಿಸಿ."
+		"message": "ರಾಬರ್ಟ್ ಜೇಮ್ಸ್ ಗೇಬ್ರಿಯಲ್ ಅವರಿಂದ ನಿರ್ವಹಿಸಲ್ಪಟ್ಟಿದೆ"
 	},
 	"whatsNew": {
 		"message": "ಹೊಸತೇನಿದೆ"
 	},
+	"bugs": {
+		"message": "ಅಪಶ್ರುತಿಯಲ್ಲಿ ದೋಷಗಳನ್ನು ವರದಿ ಮಾಡಿ"
+	},
+	"created_by": {
+		"message": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಅನ್ನು ಅಬ್ಬಿ ಗೊನ್ಜಾಲೆಜ್ ರಚಿಸಿದರು"
+	},
 	"firefox": {
-		"message": "ಫೈರ್ಫಾಕ್ಸ್ ಆವೃತ್ತಿ"
+		"message": "ಫೈರ್‌ಫಾಕ್ಸ್ ಆವೃತ್ತಿ"
+	},
+	"downloadOnFirefox": {
+		"message": "Firefox ನಲ್ಲಿ ಲಭ್ಯವಿದೆ"
 	},
 	"firefoxText": {
-		"message": "ಫೈರ್‌ಫಾಕ್ಸ್ ಬಳಸುವುದೇ? ಇಂದು ಅದನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
+		"message": "Firefox ಬಳಸುವುದೇ? ಇಂದೇ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
 	},
 	"title_fonts": {
 		"message": "ಫಾಂಟ್‌ಗಳು"
@@ -101,31 +116,31 @@
 		"message": "ಓವರ್‌ಲೇ ಸಕ್ರಿಯಗೊಳಿಸಿ"
 	},
 	"supportToolTipTwo": {
-		"message": "ಸಮಸ್ಯೆ ಇದೆಯೇ? ಸಂಪರ್ಕ ಬೆಂಬಲ."
+		"message": "ಸಮಸ್ಯೆ ಇದೆಯೇ? ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ."
 	},
 	"reviews": {
 		"message": "ವಿಮರ್ಶೆಗಳು"
 	},
 	"review": {
-		"message": "ಸಮೀಕ್ಷೆ"
+		"message": "ವಿಮರ್ಶೆ"
 	},
 	"style": {
 		"message": "ಶೈಲಿ"
 	},
 	"supportToolTip": {
-		"message": "ವಿಮರ್ಶೆಗಳನ್ನು ಬಿಡಿ ಅಥವಾ ಓದಿ"
+		"message": "ಈ ವಿಸ್ತರಣೆಯನ್ನು ಪರಿಶೀಲಿಸಿ"
 	},
 	"websiteLabel": {
-		"message": "ಜಾಲತಾಣ"
+		"message": "ವೆಬ್‌ಸೈಟ್"
 	},
 	"websiteTooltip": {
 		"message": "ಬೆಂಬಲ ವೆಬ್‌ಸೈಟ್."
 	},
 	"saved": {
-		"message": "ಉಳಿಸಲಾಗಿದೆ"
+		"message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಲಾಗಿದೆ"
 	},
 	"helperbird": {
-		"message": "ಸಹಾಯವಾಣಿ ಅನ್ವೇಷಿಸಿ"
+		"message": "ಹೆಲ್ಪರ್‌ಬರ್ಡ್ ಅನ್ನು ಅನ್ವೇಷಿಸಿ"
 	},
 	"OpenDyslexic": {
 		"message": "ಓಪನ್ ಡಿಸ್ಲೆಕ್ಸಿಕ್ ಅನ್ನು ಅನ್ವೇಷಿಸಿ"
@@ -134,6 +149,6 @@
 		"message": "ಆನ್"
 	},
 	"off": {
-		"message": "ಆರಿಸಿ"
+		"message": "ಆಫ್"
 	}
 }

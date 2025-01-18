@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "ओपनडिस्लेक्सिक फॉर एज",
+		"description": "ओपनडिस्लेक्सिक फ़ॉन्ट और कम कंट्रास्ट सहायता का उपयोग करके पृष्ठों को प्रारूपित करें।"
+	},
+	"appNameFirefox": {
+		"message": "फ़ायरफ़ॉक्स के लिए OpenDyslexic",
+		"description": "ओपनडिस्लेक्सिक फ़ॉन्ट और कम कंट्रास्ट सहायता का उपयोग करके पृष्ठों को प्रारूपित करें।"
+	},
+	"appName": {
+		"message": "क्रोम के लिए OpenDyslexic",
+		"description": "ओपनडिस्लेक्सिक फ़ॉन्ट और कम कंट्रास्ट सहायता का उपयोग करके पृष्ठों को प्रारूपित करें।"
+	},
+	"appTitle": {
+		"message": "ओपनडिस्लेक्सिक",
+		"description": "ओपनडिस्लेक्सिक फ़ॉन्ट और कम कंट्रास्ट सहायता का उपयोग करके पृष्ठों को प्रारूपित करें।"
+	},
+	"appDescription": {
+		"message": "ओपनडिस्लेक्सिक फ़ॉन्ट और कम कंट्रास्ट सहायता का उपयोग करके पृष्ठों को प्रारूपित करें",
+		"description": "ओपनडिस्लेक्सिक फ़ॉन्ट और कम कंट्रास्ट सहायता का उपयोग करके पृष्ठों को प्रारूपित करें"
+	},
+	"feature_specialized_font_options": {
+		"message": "फ़ॉन्ट विकल्प"
+	},
+	"options": {
+		"message": "विकल्प"
+	},
+	"settings": {
+		"message": "सेटिंग्स"
+	},
+	"selectedFontLabel": {
+		"message": "उपयोग हेतु चयनित फ़ॉन्ट."
+	},
+	"enableFontLabel": {
+		"message": "सक्षम"
+	},
+	"googleDocsLabel": {
+		"message": "गूगल डॉक्स"
+	},
+	"googleDocsTooltip": {
+		"message": "पूर्ण Google डॉक्स समर्थन सक्षम करें."
+	},
+	"fontColorSetting": {
+		"message": "रंग"
+	},
+	"fontColorLabel": {
+		"message": "फ़ॉन्ट"
+	},
+	"fontColorTooltip": {
+		"message": "फ़ॉन्ट का रंग बदलें."
+	},
+	"backgroundColorLabel": {
+		"message": "पृष्ठभूमि"
+	},
+	"backgroundColorTooltip": {
+		"message": "पृष्ठभूमि का रंग बदलें."
+	},
+	"personalSetting": {
+		"message": "निजी"
+	},
+	"socialSetting": {
+		"message": "सामाजिक"
+	},
+	"codeSetting": {
+		"message": "सोर्स कोड"
+	},
+	"followDyslexic": {
+		"message": "OpenDyslexic को फ़ॉलो करें"
+	},
+	"weAreOnGithub": {
+		"message": "हम गिटहब पर हैं"
+	},
+	"followDyslexicToolTip": {
+		"message": "OpenDyslexic को X पर फ़ॉलो करें"
+	},
+	"followAbbie": {
+		"message": "OpenDyslexic का समर्थन करें"
+	},
+	"comingSoon": {
+		"message": "जल्द आ रहा है"
+	},
+	"followAbbieToolTip": {
+		"message": "ओपनडिस्लेक्सिक के निर्माता का समर्थन करें।"
+	},
+	"followRobertJames": {
+		"message": "रॉबर्ट जेम्स का अनुसरण करें"
+	},
+	"followRobertJamesToolTip": {
+		"message": "रॉबर्ट जेम्स गेब्रियल द्वारा अनुरक्षित"
+	},
+	"whatsNew": {
+		"message": "नया क्या है"
+	},
+	"bugs": {
+		"message": "डिस्कॉर्ड पर बग की रिपोर्ट करें"
+	},
+	"created_by": {
+		"message": "OpenDyslexic का निर्माण Abbie Gonzalez ने किया था"
+	},
+	"firefox": {
+		"message": "फ़ायरफ़ॉक्स संस्करण"
+	},
+	"downloadOnFirefox": {
+		"message": "फ़ायरफ़ॉक्स पर उपलब्ध"
+	},
+	"firefoxText": {
+		"message": "क्या आप फ़ायरफ़ॉक्स का उपयोग करते हैं? इसे आज ही डाउनलोड करें।"
+	},
+	"title_fonts": {
+		"message": "फ़ॉन्ट्स"
+	},
+	"supportlSetting": {
+		"message": "सहायता"
+	},
+	"featureTint": {
+		"message": "ओवरले सक्षम करें"
+	},
+	"supportToolTipTwo": {
+		"message": "कोई समस्या है? सहायता से संपर्क करें."
+	},
+	"reviews": {
+		"message": "समीक्षा"
+	},
+	"review": {
+		"message": "समीक्षा"
+	},
+	"style": {
+		"message": "शैली"
+	},
+	"supportToolTip": {
+		"message": "इस एक्सटेंशन की समीक्षा करें"
+	},
+	"websiteLabel": {
+		"message": "वेबसाइट"
+	},
+	"websiteTooltip": {
+		"message": "सहायता वेबसाइट."
+	},
+	"saved": {
+		"message": "सेटिंग्स लागू की गईं"
+	},
+	"helperbird": {
+		"message": "हेल्परबर्ड खोजें"
+	},
+	"OpenDyslexic": {
+		"message": "OpenDyslexic के बारे में जानें"
+	},
+	"on": {
+		"message": "पर"
+	},
+	"off": {
+		"message": "बंद"
+	}
+}

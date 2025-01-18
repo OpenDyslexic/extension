@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic for Edge",
+		"description": "Formáidigh na leathanaigh ag baint úsáide as an gcló OpenDyslexic agus cabhair codarsnachta íseal."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic le haghaidh Firefox",
+		"description": "Formáidigh na leathanaigh ag baint úsáide as an gcló OpenDyslexic agus cabhair codarsnachta íseal."
+	},
+	"appName": {
+		"message": "Opendyslexic do chrome",
+		"description": "Formáidigh na leathanaigh ag baint úsáide as an gcló OpenDyslexic agus cabhair codarsnachta íseal."
+	},
+	"appTitle": {
+		"message": "OscailteDisléicse",
+		"description": "Formáidigh na leathanaigh ag baint úsáide as an gcló OpenDyslexic agus cabhair codarsnachta íseal."
+	},
+	"appDescription": {
+		"message": "Formáidigh na leathanaigh ag baint úsáide as an gcló OpenDyslexic agus cabhair codarsnachta íseal",
+		"description": "Formáidigh na leathanaigh ag baint úsáide as an gcló OpenDyslexic agus cabhair codarsnachta íseal"
+	},
+	"feature_specialized_font_options": {
+		"message": "Roghanna cló"
+	},
+	"options": {
+		"message": "Roghanna"
+	},
+	"settings": {
+		"message": "Socruithe"
+	},
+	"selectedFontLabel": {
+		"message": "Cló Roghnaithe le húsáid."
+	},
+	"enableFontLabel": {
+		"message": "Cumasaigh"
+	},
+	"googleDocsLabel": {
+		"message": "Google Docs"
+	},
+	"googleDocsTooltip": {
+		"message": "Cumasaigh tacaíocht iomlán Google Docs."
+	},
+	"fontColorSetting": {
+		"message": "Dath"
+	},
+	"fontColorLabel": {
+		"message": "Cló"
+	},
+	"fontColorTooltip": {
+		"message": "Athraigh dath an chló."
+	},
+	"backgroundColorLabel": {
+		"message": "Cúlra"
+	},
+	"backgroundColorTooltip": {
+		"message": "Athraigh dath an chúlra."
+	},
+	"personalSetting": {
+		"message": "Pearsanta"
+	},
+	"socialSetting": {
+		"message": "Sóisialta"
+	},
+	"codeSetting": {
+		"message": "Cód Foinse"
+	},
+	"followDyslexic": {
+		"message": "Lean OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Tá muid ar Github"
+	},
+	"followDyslexicToolTip": {
+		"message": "Lean OpenDyslexic ar X"
+	},
+	"followAbbie": {
+		"message": "Tacaigh le OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Ag teacht go luath"
+	},
+	"followAbbieToolTip": {
+		"message": "Tacaigh le cruthaitheoir OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Lean Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Arna chothabháil ag Robert James Gabriel"
+	},
+	"whatsNew": {
+		"message": "Cad atá nua"
+	},
+	"bugs": {
+		"message": "Tuairiscigh fabhtanna ar Neamhcordaí"
+	},
+	"created_by": {
+		"message": "Cruthaíodh OpenDyslexic Abbie Gonzalez"
+	},
+	"firefox": {
+		"message": "Leagan Firefox"
+	},
+	"downloadOnFirefox": {
+		"message": "Ar fáil ar Firefox"
+	},
+	"firefoxText": {
+		"message": "Úsáid Firefox? Íosluchtaigh sé lá atá inniu ann."
+	},
+	"title_fonts": {
+		"message": "Clónna"
+	},
+	"supportlSetting": {
+		"message": "Tacaíocht"
+	},
+	"featureTint": {
+		"message": "Cumasaigh Forleagan"
+	},
+	"supportToolTipTwo": {
+		"message": "An bhfuil fadhb agat? Tacaíocht teagmhála."
+	},
+	"reviews": {
+		"message": "Léirmheasanna"
+	},
+	"review": {
+		"message": "Léirmheas"
+	},
+	"style": {
+		"message": "Stíl"
+	},
+	"supportToolTip": {
+		"message": "Déan athbhreithniú ar an Síneadh seo"
+	},
+	"websiteLabel": {
+		"message": "Suíomh Gréasáin"
+	},
+	"websiteTooltip": {
+		"message": "Suíomh gréasáin tacaíochta."
+	},
+	"saved": {
+		"message": "Socruithe Curtha i bhFeidhm"
+	},
+	"helperbird": {
+		"message": "Faigh amach Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Faigh amach OpenDyslexic"
+	},
+	"on": {
+		"message": "Ar"
+	},
+	"off": {
+		"message": "as"
+	}
+}

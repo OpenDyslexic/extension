@@ -1,32 +1,35 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic za Edge",
+		"description": "Formatirajte stranice pomoću OpenDyslexic fonta i pomoći s niskim kontrastom."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic za Firefox",
+		"description": "Formatirajte stranice pomoću OpenDyslexic fonta i pomoći s niskim kontrastom."
 	},
 	"appName": {
 		"message": "OpenDyslexic za Chrome",
-		"description": "Formatirajte stranice koristeći font OpenDyslexic i pomoć pri niskom kontrastu."
+		"description": "Formatirajte stranice pomoću OpenDyslexic fonta i pomoći s niskim kontrastom."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Formatirajte stranice koristeći font OpenDyslexic i pomoć pri niskom kontrastu."
+		"description": "Formatirajte stranice pomoću OpenDyslexic fonta i pomoći s niskim kontrastom."
 	},
 	"appDescription": {
-		"message": "Formatirajte stranice koristeći font OpenDyslexic i pomoć pri niskom kontrastu",
-		"description": "Formatirajte stranice koristeći font OpenDyslexic i pomoć pri niskom kontrastu"
+		"message": "Formatirajte stranice pomoću OpenDyslexic fonta i pomoći s niskim kontrastom",
+		"description": "Formatirajte stranice pomoću OpenDyslexic fonta i pomoći s niskim kontrastom"
+	},
+	"feature_specialized_font_options": {
+		"message": "Opcije fonta"
 	},
 	"options": {
-		"message": "Opcije"
+		"message": "Mogućnosti"
 	},
 	"settings": {
-		"message": "Postavke"
+		"message": "postavke"
 	},
 	"selectedFontLabel": {
-		"message": "Odabrani font za upotrebu."
+		"message": "Odabrani font za korištenje."
 	},
 	"enableFontLabel": {
 		"message": "Omogućiti"
@@ -35,7 +38,7 @@
 		"message": "Google dokumenti"
 	},
 	"googleDocsTooltip": {
-		"message": "Omogućite potpunu podršku za Google dokumente."
+		"message": "Omogućite punu podršku za Google dokumente."
 	},
 	"fontColorSetting": {
 		"message": "Boja"
@@ -62,13 +65,16 @@
 		"message": "Izvorni kod"
 	},
 	"followDyslexic": {
-		"message": "Slijedite OpenDyslexic"
+		"message": "Pratite OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Mi smo na Githubu"
 	},
 	"followDyslexicToolTip": {
-		"message": "Slijedite OpenDyslexic na Twitteru"
+		"message": "Pratite OpenDyslexic na X"
 	},
 	"followAbbie": {
-		"message": "Podrška za OpenDyslexic"
+		"message": "Podržava OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Dolazi uskoro"
@@ -80,28 +86,37 @@
 		"message": "Slijedite Roberta Jamesa"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Slijedite održavatelja ove aplikacije."
+		"message": "Održava Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Što je novo"
 	},
+	"bugs": {
+		"message": "Prijavite greške na Discordsu"
+	},
+	"created_by": {
+		"message": "OpenDyslexic je stvorila Abbie Gonzalez"
+	},
 	"firefox": {
 		"message": "Verzija Firefoxa"
 	},
+	"downloadOnFirefox": {
+		"message": "Dostupno na Firefoxu"
+	},
 	"firefoxText": {
-		"message": "Koristiti Firefox? Preuzmite ga danas."
+		"message": "Koristite Firefox? Preuzmite ga danas."
 	},
 	"title_fonts": {
-		"message": "Krstionica"
+		"message": "Fontovi"
 	},
 	"supportlSetting": {
-		"message": "Podrška"
+		"message": "podrška"
 	},
 	"featureTint": {
 		"message": "Omogući preklapanje"
 	},
 	"supportToolTipTwo": {
-		"message": "Imate problem? Obratite se podršci."
+		"message": "Imate problem? Kontaktirajte podršku."
 	},
 	"reviews": {
 		"message": "Recenzije"
@@ -113,7 +128,7 @@
 		"message": "Stil"
 	},
 	"supportToolTip": {
-		"message": "Ostavite ili pročitajte kritike"
+		"message": "Pregledajte ovo proširenje"
 	},
 	"websiteLabel": {
 		"message": "Web stranica"
@@ -122,7 +137,7 @@
 		"message": "Web stranica za podršku."
 	},
 	"saved": {
-		"message": "Spremljeno"
+		"message": "Postavke primijenjene"
 	},
 	"helperbird": {
 		"message": "Otkrijte Helperbird"
