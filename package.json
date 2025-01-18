@@ -21,7 +21,15 @@
 		"firefox": "browser=firefox webpack",
 		"clean": "rm -rf ./dist && rm -rf ./build",
 		"test": "node --experimental-vm-modules ./node_modules/.bin/jest",
-		"build": "npm run clean &&  npm run chrome"
+		"build": "npm run clean &&  npm run chrome",
+		"translate:1": "node tools/translate/index.js {{Google Translate code here}} app/_locales/ en  ar,bg,bn,ca,et",
+		"translate:2": "node tools/translate/index.js {{Google Translate code here}} app/_locales/ en  fa,fil,fr,ko,lv,ml,mr",
+		"translate:3": "node tools/translate/index.js {{Google Translate code here}} app/_locales/ en  ms,sv,te,th,tr,uk,vi,cs,de",
+		"translate:4": "node tools/translate/index.js {{Google Translate code here}} app/_locales/ en  el,es,gu,hr,hu,id,nl,no,sl,sr",
+		"translate:5": "node tools/translate/index.js {{Google Translate code here}} app/_locales/ en  it,ja,kn,pt,pt-PT,zh,ru,hi,fi,nb",
+		"translate:6": "node tools/translate/index.js {{Google Translate code here}} app/_locales/ en  da,pl,ga,he,ro,sk,lt,af,sw,zu,cy",
+		"translate:7": "node tools/translate/index.js {{Google Translate code here}} app/_locales/ en  ka,mk,sq,hy,bs",
+		"translate:all": "npm run translate:1 && npm run translate:2 && npm run translate:3 && npm run translate:4 && npm run translate:5 && npm run translate:6 && npm run translate:7"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.22.9",
@@ -45,7 +53,12 @@
 		"vue-loader": "^17.2.2",
 		"webpack": "^5.88.1",
 		"webpack-cli": "^5.1.4",
-		"zip-webpack-plugin": "^4.0.1"
+		"zip-webpack-plugin": "^4.0.1",
+		"file-loader": "^6.2.0",
+		"fs": "0.0.2",
+		"google-translate": "^2.2.0",
+		"traverse": "^0.6.6",
+		"get-json": "^1.0.1"
 	},
 	"dependencies": {
 		"babel-jest": "^29.6.1",

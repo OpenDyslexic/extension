@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic for Edge",
+		"description": "Formatér sider ved hjælp af OpenDyslexic-skrifttypen og lav kontrasthjælp."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic til Firefox",
+		"description": "Formatér sider ved hjælp af OpenDyslexic-skrifttypen og lav kontrasthjælp."
+	},
+	"appName": {
+		"message": "OpenDyslexic til Chrome",
+		"description": "Formatér sider ved hjælp af OpenDyslexic-skrifttypen og lav kontrasthjælp."
+	},
+	"appTitle": {
+		"message": "Åben Ordblind",
+		"description": "Formatér sider ved hjælp af OpenDyslexic-skrifttypen og hjælp med lav kontrast."
+	},
+	"appDescription": {
+		"message": "Formatér sider ved hjælp af OpenDyslexic-skrifttypen og lav kontrasthjælp",
+		"description": "Formatér sider ved hjælp af OpenDyslexic-skrifttypen og lav kontrasthjælp"
+	},
+	"feature_specialized_font_options": {
+		"message": "Skrifttypeindstillinger"
+	},
+	"options": {
+		"message": "Valgmuligheder"
+	},
+	"settings": {
+		"message": "Indstillinger"
+	},
+	"selectedFontLabel": {
+		"message": "Valgt skrifttype til brug."
+	},
+	"enableFontLabel": {
+		"message": "Aktiver"
+	},
+	"googleDocsLabel": {
+		"message": "Google Docs"
+	},
+	"googleDocsTooltip": {
+		"message": "Aktiver fuld Google Docs-support."
+	},
+	"fontColorSetting": {
+		"message": "Farve"
+	},
+	"fontColorLabel": {
+		"message": "Skrifttype"
+	},
+	"fontColorTooltip": {
+		"message": "Skift skriftfarve."
+	},
+	"backgroundColorLabel": {
+		"message": "Baggrund"
+	},
+	"backgroundColorTooltip": {
+		"message": "Skift baggrundsfarven."
+	},
+	"personalSetting": {
+		"message": "Personlig"
+	},
+	"socialSetting": {
+		"message": "Social"
+	},
+	"codeSetting": {
+		"message": "Kildekode"
+	},
+	"followDyslexic": {
+		"message": "Følg OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Vi er på Github"
+	},
+	"followDyslexicToolTip": {
+		"message": "Følg OpenDyslexic på X"
+	},
+	"followAbbie": {
+		"message": "Støt OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Kommer snart"
+	},
+	"followAbbieToolTip": {
+		"message": "Støt skaberen af OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Følg Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Vedligeholdt af Robert James Gabriel"
+	},
+	"whatsNew": {
+		"message": "Hvad er nyt"
+	},
+	"bugs": {
+		"message": "Rapporter fejl om uoverensstemmelser"
+	},
+	"created_by": {
+		"message": "OpenDyslexic blev skabt Abbie Gonzalez"
+	},
+	"firefox": {
+		"message": "Firefox version"
+	},
+	"downloadOnFirefox": {
+		"message": "Tilgængelig på Firefox"
+	},
+	"firefoxText": {
+		"message": "Bruger du Firefox? Download det i dag."
+	},
+	"title_fonts": {
+		"message": "Skrifttyper"
+	},
+	"supportlSetting": {
+		"message": "Støtte"
+	},
+	"featureTint": {
+		"message": "Aktiver Overlay"
+	},
+	"supportToolTipTwo": {
+		"message": "Har du et problem? Kontakt support."
+	},
+	"reviews": {
+		"message": "Anmeldelser"
+	},
+	"review": {
+		"message": "Gennemgå"
+	},
+	"style": {
+		"message": "Stil"
+	},
+	"supportToolTip": {
+		"message": "Gennemgå denne udvidelse"
+	},
+	"websiteLabel": {
+		"message": "Hjemmeside"
+	},
+	"websiteTooltip": {
+		"message": "Support hjemmeside."
+	},
+	"saved": {
+		"message": "Indstillinger anvendt"
+	},
+	"helperbird": {
+		"message": "Opdag Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Oplev OpenDyslexic"
+	},
+	"on": {
+		"message": "På"
+	},
+	"off": {
+		"message": "Slukket"
+	}
+}

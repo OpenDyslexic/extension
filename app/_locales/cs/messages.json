@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic pro Edge",
+		"description": "Pomáhá formátovat stránky pomocí písma OpenDyslexic a nízkého kontrastu."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic pro Firefox",
+		"description": "Pomáhá formátovat stránky pomocí písma OpenDyslexic a nízkého kontrastu."
 	},
 	"appName": {
 		"message": "OpenDyslexic pro Chrome",
-		"description": "Formátujte stránky pomocí písma OpenDyslexic a nápovědy s nízkým kontrastem."
+		"description": "Pomáhá formátovat stránky pomocí písma OpenDyslexic a nízkého kontrastu."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Formátujte stránky pomocí písma OpenDyslexic a nápovědy s nízkým kontrastem."
+		"description": "Pomáhá formátovat stránky pomocí písma OpenDyslexic a nízkého kontrastu."
 	},
 	"appDescription": {
-		"message": "Formátujte stránky pomocí písma OpenDyslexic a nápovědy s nízkým kontrastem",
-		"description": "Formátujte stránky pomocí písma OpenDyslexic a nápovědy s nízkým kontrastem"
+		"message": "Pomáhá formátovat stránky pomocí písma OpenDyslexic a nízkého kontrastu",
+		"description": "Pomáhá formátovat stránky pomocí písma OpenDyslexic a nízkého kontrastu"
+	},
+	"feature_specialized_font_options": {
+		"message": "Možnosti písma"
 	},
 	"options": {
 		"message": "Možnosti"
@@ -32,10 +35,10 @@
 		"message": "Umožnit"
 	},
 	"googleDocsLabel": {
-		"message": "Google dokumenty"
+		"message": "Dokumenty Google"
 	},
 	"googleDocsTooltip": {
-		"message": "Povolte plnou podporu Dokumentů Google."
+		"message": "Povolit plnou podporu Dokumentů Google."
 	},
 	"fontColorSetting": {
 		"message": "Barva"
@@ -62,10 +65,13 @@
 		"message": "Zdrojový kód"
 	},
 	"followDyslexic": {
-		"message": "Postupujte podle OpenDyslexic"
+		"message": "Sledujte OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Jsme na Githubu"
 	},
 	"followDyslexicToolTip": {
-		"message": "Sledujte OpenDyslexic na Twitteru"
+		"message": "Sledujte OpenDyslexic na X"
 	},
 	"followAbbie": {
 		"message": "Podpora OpenDyslexic"
@@ -80,22 +86,31 @@
 		"message": "Sledujte Roberta Jamese"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Sledujte správce této aplikace."
+		"message": "Spravuje Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Co je nového"
 	},
+	"bugs": {
+		"message": "Nahlaste chyby na Discordech"
+	},
+	"created_by": {
+		"message": "OpenDyslexic byl vytvořen Abbie Gonzalez"
+	},
 	"firefox": {
-		"message": "Verze pro Firefox"
+		"message": "Verze Firefoxu"
+	},
+	"downloadOnFirefox": {
+		"message": "K dispozici ve Firefoxu"
 	},
 	"firefoxText": {
-		"message": "Použít Firefox? Stáhněte si jej ještě dnes."
+		"message": "Používat Firefox? Stáhněte si ji ještě dnes."
 	},
 	"title_fonts": {
 		"message": "Písma"
 	},
 	"supportlSetting": {
-		"message": "Podpěra, podpora"
+		"message": "Podpora"
 	},
 	"featureTint": {
 		"message": "Povolit překrytí"
@@ -107,22 +122,22 @@
 		"message": "Recenze"
 	},
 	"review": {
-		"message": "Posouzení"
+		"message": "Recenze"
 	},
 	"style": {
 		"message": "Styl"
 	},
 	"supportToolTip": {
-		"message": "Zanechte nebo si přečtěte recenze"
+		"message": "Zkontrolujte toto rozšíření"
 	},
 	"websiteLabel": {
-		"message": "webová stránka"
+		"message": "webové stránky"
 	},
 	"websiteTooltip": {
 		"message": "Web podpory."
 	},
 	"saved": {
-		"message": "Uložené"
+		"message": "Nastavení použito"
 	},
 	"helperbird": {
 		"message": "Objevte Helperbird"

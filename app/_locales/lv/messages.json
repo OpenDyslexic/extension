@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic priekš Edge",
+		"description": "Palīdz formatēt lapas, izmantojot OpenDyslexic fontu un zemu kontrastu."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic pārlūkprogrammai Firefox",
+		"description": "Palīdz formatēt lapas, izmantojot OpenDyslexic fontu un zemu kontrastu."
 	},
 	"appName": {
 		"message": "OpenDyslexic pārlūkam Chrome",
-		"description": "Formatējiet lapas, izmantojot fontu OpenDyslexic un palīdzību ar zemu kontrastu."
+		"description": "Palīdz formatēt lapas, izmantojot OpenDyslexic fontu un zemu kontrastu."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Formatējiet lapas, izmantojot fontu OpenDyslexic un palīdzību ar zemu kontrastu."
+		"description": "Palīdz formatēt lapas, izmantojot OpenDyslexic fontu un zemu kontrastu."
 	},
 	"appDescription": {
-		"message": "Formatējiet lapas, izmantojot fontu OpenDyslexic un palīdzību ar zemu kontrastu",
-		"description": "Formatējiet lapas, izmantojot fontu OpenDyslexic un palīdzību ar zemu kontrastu"
+		"message": "Palīdz formatēt lapas, izmantojot OpenDyslexic fontu un zemu kontrastu",
+		"description": "Palīdz formatēt lapas, izmantojot OpenDyslexic fontu un zemu kontrastu"
+	},
+	"feature_specialized_font_options": {
+		"message": "Fonta iespējas"
 	},
 	"options": {
 		"message": "Iespējas"
@@ -26,7 +29,7 @@
 		"message": "Iestatījumi"
 	},
 	"selectedFontLabel": {
-		"message": "Atlasīts izmantojamais fonts."
+		"message": "Atlasītais fonts lietošanai."
 	},
 	"enableFontLabel": {
 		"message": "Iespējot"
@@ -35,7 +38,7 @@
 		"message": "Google dokumenti"
 	},
 	"googleDocsTooltip": {
-		"message": "Iespējojiet pilnīgu Google dokumentu atbalstu."
+		"message": "Iespējot pilnu Google dokumentu atbalstu."
 	},
 	"fontColorSetting": {
 		"message": "Krāsa"
@@ -47,16 +50,16 @@
 		"message": "Mainiet fonta krāsu."
 	},
 	"backgroundColorLabel": {
-		"message": "Priekšvēsture"
+		"message": "Fons"
 	},
 	"backgroundColorTooltip": {
 		"message": "Mainiet fona krāsu."
 	},
 	"personalSetting": {
-		"message": "Personiski"
+		"message": "Personīgi"
 	},
 	"socialSetting": {
-		"message": "Sociālais"
+		"message": "Sociālie"
 	},
 	"codeSetting": {
 		"message": "Avota kods"
@@ -64,8 +67,11 @@
 	"followDyslexic": {
 		"message": "Sekojiet OpenDyslexic"
 	},
+	"weAreOnGithub": {
+		"message": "Mēs atrodamies vietnē Github"
+	},
 	"followDyslexicToolTip": {
-		"message": "Sekojiet OpenDyslexic vietnē Twitter"
+		"message": "Sekojiet OpenDyslexic vietnē X"
 	},
 	"followAbbie": {
 		"message": "Atbalstiet OpenDyslexic"
@@ -77,16 +83,25 @@
 		"message": "Atbalstiet OpenDyslexic veidotāju."
 	},
 	"followRobertJames": {
-		"message": "Seko Robert James"
+		"message": "Sekojiet Robertam Džeimsam"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Sekojiet šīs lietotnes uzturētājam."
+		"message": "Uztur Roberts Džeimss Gabriels"
 	},
 	"whatsNew": {
 		"message": "Kas jauns"
 	},
+	"bugs": {
+		"message": "Ziņojiet par kļūdām vietnē Discord"
+	},
+	"created_by": {
+		"message": "OpenDyslexic tika izveidota Abbie Gonzalez"
+	},
 	"firefox": {
 		"message": "Firefox versija"
+	},
+	"downloadOnFirefox": {
+		"message": "Pieejams pārlūkprogrammā Firefox"
 	},
 	"firefoxText": {
 		"message": "Vai izmantot Firefox? Lejupielādējiet to šodien."
@@ -101,28 +116,28 @@
 		"message": "Iespējot pārklājumu"
 	},
 	"supportToolTipTwo": {
-		"message": "Vai jums ir problēma? Sazinieties ar atbalsta dienestu."
+		"message": "Vai radās problēma? Sazinieties ar atbalsta dienestu."
 	},
 	"reviews": {
 		"message": "Atsauksmes"
 	},
 	"review": {
-		"message": "Pārskatīšana"
+		"message": "Pārskats"
 	},
 	"style": {
 		"message": "Stils"
 	},
 	"supportToolTip": {
-		"message": "Atstājiet vai lasiet atsauksmes"
+		"message": "Pārskatiet šo paplašinājumu"
 	},
 	"websiteLabel": {
-		"message": "Vietne"
+		"message": "Tīmekļa vietne"
 	},
 	"websiteTooltip": {
 		"message": "Atbalsta vietne."
 	},
 	"saved": {
-		"message": "Saglabāts"
+		"message": "Iestatījumi lietoti"
 	},
 	"helperbird": {
 		"message": "Atklājiet Helperbird"

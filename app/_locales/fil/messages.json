@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic para sa Edge",
+		"description": "I-format ang mga pahina gamit ang OpenDyslexic na font at tulong na mababa ang contrast."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic para sa Firefox",
+		"description": "I-format ang mga pahina gamit ang OpenDyslexic na font at tulong na mababa ang contrast."
 	},
 	"appName": {
 		"message": "OpenDyslexic para sa Chrome",
-		"description": "I-format ang mga pahina gamit ang OpenDyslexic font at mababang tulong ng kaibahan."
+		"description": "I-format ang mga pahina gamit ang OpenDyslexic na font at tulong na mababa ang contrast."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "I-format ang mga pahina gamit ang OpenDyslexic font at mababang tulong ng kaibahan."
+		"description": "I-format ang mga pahina gamit ang OpenDyslexic na font at tulong na mababa ang contrast."
 	},
 	"appDescription": {
-		"message": "I-format ang mga pahina gamit ang OpenDyslexic font at mababang tulong ng kaibahan",
-		"description": "I-format ang mga pahina gamit ang OpenDyslexic font at mababang tulong ng kaibahan"
+		"message": "I-format ang mga pahina gamit ang OpenDyslexic na font at tulong na mababa ang contrast",
+		"description": "I-format ang mga pahina gamit ang OpenDyslexic na font at tulong na mababa ang contrast"
+	},
+	"feature_specialized_font_options": {
+		"message": "Mga pagpipilian sa font"
 	},
 	"options": {
 		"message": "Mga pagpipilian"
@@ -26,7 +29,7 @@
 		"message": "Mga setting"
 	},
 	"selectedFontLabel": {
-		"message": "Napiling font na gagamitin."
+		"message": "Napiling Font na gagamitin."
 	},
 	"enableFontLabel": {
 		"message": "Paganahin"
@@ -35,7 +38,7 @@
 		"message": "Google Docs"
 	},
 	"googleDocsTooltip": {
-		"message": "Paganahin ang buong suporta ng Google Docs."
+		"message": "Paganahin ang buong suporta sa Google Docs."
 	},
 	"fontColorSetting": {
 		"message": "Kulay"
@@ -53,10 +56,10 @@
 		"message": "Baguhin ang kulay ng background."
 	},
 	"personalSetting": {
-		"message": "Pansarili"
+		"message": "Personal"
 	},
 	"socialSetting": {
-		"message": "Panlipunan"
+		"message": "Sosyal"
 	},
 	"codeSetting": {
 		"message": "Source Code"
@@ -64,29 +67,41 @@
 	"followDyslexic": {
 		"message": "Sundin ang OpenDyslexic"
 	},
+	"weAreOnGithub": {
+		"message": "Nasa Github kami"
+	},
 	"followDyslexicToolTip": {
-		"message": "Sundin ang OpenDyslexic sa Twitter"
+		"message": "Sundin ang OpenDyslexic sa X"
 	},
 	"followAbbie": {
 		"message": "Suportahan ang OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "Malapit na"
+		"message": "Paparating na"
 	},
 	"followAbbieToolTip": {
-		"message": "Suportahan ang tagalikha ng OpenDyslexic."
+		"message": "Suportahan ang lumikha ng OpenDyslexic."
 	},
 	"followRobertJames": {
 		"message": "Sundin si Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Sundin ang nagpapanatili ng app na ito."
+		"message": "Pinapanatili ni Robert James Gabriel"
 	},
 	"whatsNew": {
-		"message": "Ano ang bago"
+		"message": "Ano'ng bago"
+	},
+	"bugs": {
+		"message": "Mag-ulat ng Mga Bug sa Discords"
+	},
+	"created_by": {
+		"message": "Ang OpenDyslexic ay nilikha Abbie Gonzalez"
 	},
 	"firefox": {
 		"message": "Bersyon ng Firefox"
+	},
+	"downloadOnFirefox": {
+		"message": "Available sa Firefox"
 	},
 	"firefoxText": {
 		"message": "Gumamit ng Firefox? I-download ito ngayon."
@@ -101,19 +116,19 @@
 		"message": "Paganahin ang Overlay"
 	},
 	"supportToolTipTwo": {
-		"message": "Nagkakaroon ng isyu? Makipag-ugnay sa suporta."
+		"message": "Nagkakaroon ng isyu? Makipag-ugnayan sa suporta."
 	},
 	"reviews": {
 		"message": "Mga pagsusuri"
 	},
 	"review": {
-		"message": "Pagsusuri"
+		"message": "Balik-aral"
 	},
 	"style": {
-		"message": "Istilo"
+		"message": "Estilo"
 	},
 	"supportToolTip": {
-		"message": "Iwanan o basahin ang mga review"
+		"message": "Suriin ang Extension na ito"
 	},
 	"websiteLabel": {
 		"message": "Website"
@@ -122,7 +137,7 @@
 		"message": "Suporta sa website."
 	},
 	"saved": {
-		"message": "Nai-save"
+		"message": "Inilapat ang Mga Setting"
 	},
 	"helperbird": {
 		"message": "Tuklasin ang Helperbird"
@@ -131,9 +146,9 @@
 		"message": "Tuklasin ang OpenDyslexic"
 	},
 	"on": {
-		"message": "Sa"
+		"message": "Naka-on"
 	},
 	"off": {
-		"message": "Patay na"
+		"message": "Naka-off"
 	}
 }

@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "എഡ്ജിനുള്ള ഓപ്പൺ ഡിസ്ലെക്സിക്",
+		"description": "OpenDyslexic ഫോണ്ടും കുറഞ്ഞ കോൺട്രാസ്റ്റ് സഹായവും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റ് ചെയ്യുക."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "ഫയർഫോക്സിനുള്ള ഓപ്പൺ ഡിസ്ലെക്സിക്",
+		"description": "OpenDyslexic ഫോണ്ടും കുറഞ്ഞ കോൺട്രാസ്റ്റ് സഹായവും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റ് ചെയ്യുക."
 	},
 	"appName": {
-		"message": "Chrome- നുള്ള ഓപ്പൺ ഡിസ്‌ലെക്‌സിക്",
-		"description": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് ഫോണ്ടും കുറഞ്ഞ ദൃശ്യ തീവ്രതയും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റുചെയ്യുക."
+		"message": "Chrome-നുള്ള OpenDyslexic",
+		"description": "OpenDyslexic ഫോണ്ടും കുറഞ്ഞ കോൺട്രാസ്റ്റ് സഹായവും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റ് ചെയ്യുക."
 	},
 	"appTitle": {
-		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക്",
-		"description": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് ഫോണ്ടും കുറഞ്ഞ ദൃശ്യ തീവ്രതയും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റുചെയ്യുക."
+		"message": "ഓപ്പൺ ഡിസ്ലെക്സിക്",
+		"description": "OpenDyslexic ഫോണ്ടും കുറഞ്ഞ കോൺട്രാസ്റ്റ് സഹായവും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റ് ചെയ്യുക."
 	},
 	"appDescription": {
-		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് ഫോണ്ടും കുറഞ്ഞ ദൃശ്യ തീവ്രതയും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റുചെയ്യുക",
-		"description": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് ഫോണ്ടും കുറഞ്ഞ ദൃശ്യ തീവ്രതയും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റുചെയ്യുക"
+		"message": "OpenDyslexic ഫോണ്ടും കുറഞ്ഞ കോൺട്രാസ്റ്റ് സഹായവും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റ് ചെയ്യുക",
+		"description": "OpenDyslexic ഫോണ്ടും കുറഞ്ഞ കോൺട്രാസ്റ്റ് സഹായവും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റ് ചെയ്യുക"
+	},
+	"feature_specialized_font_options": {
+		"message": "ഫോണ്ട് ഓപ്ഷനുകൾ"
 	},
 	"options": {
 		"message": "ഓപ്ഷനുകൾ"
@@ -26,16 +29,16 @@
 		"message": "ക്രമീകരണങ്ങൾ"
 	},
 	"selectedFontLabel": {
-		"message": "ഉപയോഗിക്കാൻ ഫോണ്ട് തിരഞ്ഞെടുത്തു."
+		"message": "ഉപയോഗിക്കാനായി തിരഞ്ഞെടുത്ത ഫോണ്ട്."
 	},
 	"enableFontLabel": {
 		"message": "പ്രവർത്തനക്ഷമമാക്കുക"
 	},
 	"googleDocsLabel": {
-		"message": "Google ഡോക്സ്"
+		"message": "Google ഡോക്‌സ്"
 	},
 	"googleDocsTooltip": {
-		"message": "പൂർണ്ണ Google ഡോക്സ് പിന്തുണ പ്രാപ്തമാക്കുക."
+		"message": "പൂർണ്ണമായ Google ഡോക്‌സ് പിന്തുണ പ്രവർത്തനക്ഷമമാക്കുക."
 	},
 	"fontColorSetting": {
 		"message": "നിറം"
@@ -44,52 +47,64 @@
 		"message": "ഫോണ്ട്"
 	},
 	"fontColorTooltip": {
-		"message": "ഫോണ്ട് നിറം മാറ്റുക."
+		"message": "ഫോണ്ട് കളർ മാറ്റുക."
 	},
 	"backgroundColorLabel": {
 		"message": "പശ്ചാത്തലം"
 	},
 	"backgroundColorTooltip": {
-		"message": "പശ്ചാത്തല വർണ്ണം മാറ്റുക."
+		"message": "പശ്ചാത്തല നിറം മാറ്റുക."
 	},
 	"personalSetting": {
-		"message": "വ്യക്തിഗതം"
+		"message": "വ്യക്തിപരം"
 	},
 	"socialSetting": {
-		"message": "സാമൂഹിക"
+		"message": "സാമൂഹികം"
 	},
 	"codeSetting": {
-		"message": "സോഴ്സ് കോഡ്"
+		"message": "ഉറവിട കോഡ്"
 	},
 	"followDyslexic": {
-		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് പിന്തുടരുക"
+		"message": "OpenDyslexic പിന്തുടരുക"
+	},
+	"weAreOnGithub": {
+		"message": "ഞങ്ങൾ Github-ലാണ്"
 	},
 	"followDyslexicToolTip": {
-		"message": "Twitter- ൽ OpenDyslexic പിന്തുടരുക"
+		"message": "X-ൽ OpenDyslexic പിന്തുടരുക"
 	},
 	"followAbbie": {
-		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് പിന്തുണയ്‌ക്കുക"
+		"message": "OpenDyslexic പിന്തുണയ്ക്കുക"
 	},
 	"comingSoon": {
 		"message": "ഉടൻ വരുന്നു"
 	},
 	"followAbbieToolTip": {
-		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് സ്രഷ്‌ടാവിനെ പിന്തുണയ്‌ക്കുക."
+		"message": "ഓപ്പൺ ഡിസ്ലെക്സിക്കിൻ്റെ സ്രഷ്ടാവിനെ പിന്തുണയ്ക്കുക."
 	},
 	"followRobertJames": {
 		"message": "റോബർട്ട് ജെയിംസിനെ പിന്തുടരുക"
 	},
 	"followRobertJamesToolTip": {
-		"message": "ഈ അപ്ലിക്കേഷന്റെ പരിപാലകനെ പിന്തുടരുക."
+		"message": "റോബർട്ട് ജെയിംസ് ഗബ്രിയേൽ നിർവഹിച്ചത്"
 	},
 	"whatsNew": {
 		"message": "എന്താണ് പുതിയത്"
 	},
+	"bugs": {
+		"message": "അഭിപ്രായവ്യത്യാസങ്ങളിൽ ബഗുകൾ റിപ്പോർട്ട് ചെയ്യുക"
+	},
+	"created_by": {
+		"message": "ഓപ്പൺ ഡിസ്ലെക്സിക് സൃഷ്ടിച്ചത് എബി ഗോൺസാലസ് ആണ്"
+	},
 	"firefox": {
 		"message": "ഫയർഫോക്സ് പതിപ്പ്"
 	},
+	"downloadOnFirefox": {
+		"message": "ഫയർഫോക്സിൽ ലഭ്യമാണ്"
+	},
 	"firefoxText": {
-		"message": "ഫയർഫോക്സ് ഉപയോഗിക്കണോ? ഇന്നുതന്നെ ഡൗൺലോഡുചെയ്യുക."
+		"message": "ഫയർഫോക്സ് ഉപയോഗിക്കണോ? ഇന്ന് തന്നെ ഡൗൺലോഡ് ചെയ്യുക."
 	},
 	"title_fonts": {
 		"message": "ഫോണ്ടുകൾ"
@@ -101,7 +116,7 @@
 		"message": "ഓവർലേ പ്രവർത്തനക്ഷമമാക്കുക"
 	},
 	"supportToolTipTwo": {
-		"message": "ഒരു പ്രശ്നമുണ്ടോ? കോൺ‌ടാക്റ്റ് പിന്തുണ."
+		"message": "എന്തെങ്കിലും പ്രശ്നമുണ്ടോ? പിന്തുണയുമായി ബന്ധപ്പെടുക."
 	},
 	"reviews": {
 		"message": "അവലോകനങ്ങൾ"
@@ -113,7 +128,7 @@
 		"message": "ശൈലി"
 	},
 	"supportToolTip": {
-		"message": "അവലോകനങ്ങൾ ഉപേക്ഷിക്കുക അല്ലെങ്കിൽ വായിക്കുക"
+		"message": "ഈ വിപുലീകരണം അവലോകനം ചെയ്യുക"
 	},
 	"websiteLabel": {
 		"message": "വെബ്സൈറ്റ്"
@@ -122,18 +137,18 @@
 		"message": "പിന്തുണാ വെബ്സൈറ്റ്."
 	},
 	"saved": {
-		"message": "സംരക്ഷിച്ചു"
+		"message": "ക്രമീകരണങ്ങൾ പ്രയോഗിച്ചു"
 	},
 	"helperbird": {
 		"message": "ഹെൽപ്പർബേർഡ് കണ്ടെത്തുക"
 	},
 	"OpenDyslexic": {
-		"message": "ഓപ്പൺ ഡിസ്‌ലെക്‌സിക് കണ്ടെത്തുക"
+		"message": "OpenDyslexic കണ്ടെത്തുക"
 	},
 	"on": {
-		"message": "ഓണാണ്"
+		"message": "ഓൺ"
 	},
 	"off": {
-		"message": "ഓഫാണ്"
+		"message": "ഓഫ്"
 	}
 }

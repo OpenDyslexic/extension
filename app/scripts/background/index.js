@@ -9,11 +9,8 @@ chrome.storage.onChanged.addListener(async (changes, areaName) => {
 	const currentFont = await getStorage('font');
 	const isEnabled = await getStorage('enabled');
 
-    
-
 	if (changes.enabled) {
-
-        update({ state:  changes.enabled.newValue || false });
+		update({ state: changes.enabled.newValue || false });
 		const newMode = changes.enabled.newValue;
 		sendToAllTabs({
 			type: 'openDyslexicIsOn',
@@ -65,11 +62,9 @@ async function getStorage(key) {
 	return data;
 }
 
-
 /**
  * Load initial settings from storage.
  */
 chrome.storage.local.get(['enabled'], (data) => {
-	update({ state:  data.enabled || false });
-  });
-  
+	update({ state: data.enabled || false });
+});

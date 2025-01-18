@@ -1,5 +1,5 @@
 export function update(mail) {
-	console.log('ddd',mail);
+	console.log('ddd', mail);
 	if (mail.state === true) {
 		on();
 		return mail.state;

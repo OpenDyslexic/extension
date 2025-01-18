@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "Edge용 OpenDyslexic",
+		"description": "OpenDyslexic 글꼴과 낮은 대비 도움말을 사용하여 페이지 형식을 지정합니다."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "Firefox용 OpenDyslexic",
+		"description": "OpenDyslexic 글꼴과 낮은 대비 도움말을 사용하여 페이지 형식을 지정합니다."
 	},
 	"appName": {
-		"message": "Chrome 용 OpenDyslexic",
-		"description": "OpenDyslexic 글꼴 및 저 대비 도움말을 사용하여 페이지 형식을 지정합니다."
+		"message": "Chrome용 OpenDyslexic",
+		"description": "OpenDyslexic 글꼴과 낮은 대비 도움말을 사용하여 페이지 형식을 지정합니다."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "OpenDyslexic 글꼴 및 저 대비 도움말을 사용하여 페이지 형식을 지정합니다."
+		"message": "오픈디스렉식",
+		"description": "OpenDyslexic 글꼴과 낮은 대비 도움말을 사용하여 페이지 형식을 지정합니다."
 	},
 	"appDescription": {
-		"message": "OpenDyslexic 글꼴 및 저 대비 도움말을 사용하여 페이지 서식 지정",
-		"description": "OpenDyslexic 글꼴 및 저 대비 도움말을 사용하여 페이지 서식 지정"
+		"message": "OpenDyslexic 글꼴과 낮은 대비 도움말을 사용하여 페이지 형식 지정",
+		"description": "OpenDyslexic 글꼴과 낮은 대비 도움말을 사용하여 페이지 형식 지정"
+	},
+	"feature_specialized_font_options": {
+		"message": "글꼴 옵션"
 	},
 	"options": {
 		"message": "옵션"
@@ -26,25 +29,25 @@
 		"message": "설정"
 	},
 	"selectedFontLabel": {
-		"message": "사용할 글꼴을 선택했습니다."
+		"message": "사용할 글꼴을 선택합니다."
 	},
 	"enableFontLabel": {
-		"message": "활성화"
+		"message": "할 수 있게 하다"
 	},
 	"googleDocsLabel": {
 		"message": "구글 문서"
 	},
 	"googleDocsTooltip": {
-		"message": "전체 Google 문서 지원을 사용합니다."
+		"message": "Google Docs에 대한 전체 지원을 활성화합니다."
 	},
 	"fontColorSetting": {
-		"message": "색깔"
+		"message": "색상"
 	},
 	"fontColorLabel": {
-		"message": "폰트"
+		"message": "세례반"
 	},
 	"fontColorTooltip": {
-		"message": "글꼴 색상을 변경하십시오."
+		"message": "글꼴 색상을 변경합니다."
 	},
 	"backgroundColorLabel": {
 		"message": "배경"
@@ -53,43 +56,55 @@
 		"message": "배경색을 변경합니다."
 	},
 	"personalSetting": {
-		"message": "개인적인"
+		"message": "개인의"
 	},
 	"socialSetting": {
-		"message": "사회적인"
+		"message": "사회의"
 	},
 	"codeSetting": {
 		"message": "소스 코드"
 	},
 	"followDyslexic": {
-		"message": "OpenDyslexic 팔로우"
+		"message": "OpenDyslexic 팔로우하기"
+	},
+	"weAreOnGithub": {
+		"message": "우리는 Github에 있습니다"
 	},
 	"followDyslexicToolTip": {
-		"message": "Twitter에서 OpenDyslexic 팔로우"
+		"message": "X에서 OpenDyslexic을 팔로우하세요"
 	},
 	"followAbbie": {
 		"message": "OpenDyslexic 지원"
 	},
 	"comingSoon": {
-		"message": "곧 출시"
+		"message": "곧 출시 예정"
 	},
 	"followAbbieToolTip": {
-		"message": "OpenDyslexic의 제작자를 지원하십시오."
+		"message": "OpenDyslexic의 제작자를 지원해 주세요."
 	},
 	"followRobertJames": {
-		"message": "Robert James 팔로우"
+		"message": "로버트 제임스를 팔로우하세요"
 	},
 	"followRobertJamesToolTip": {
-		"message": "이 앱의 관리자를 따르십시오."
+		"message": "Robert James Gabriel이 유지 관리함"
 	},
 	"whatsNew": {
-		"message": "새로운 기능"
+		"message": "새로운 소식"
+	},
+	"bugs": {
+		"message": "Discords에서 버그 보고하기"
+	},
+	"created_by": {
+		"message": "OpenDyslexic은 Abbie Gonzalez가 만들었습니다."
 	},
 	"firefox": {
 		"message": "Firefox 버전"
 	},
+	"downloadOnFirefox": {
+		"message": "Firefox에서 사용 가능"
+	},
 	"firefoxText": {
-		"message": "Firefox를 사용하십니까? 오늘 다운로드하십시오."
+		"message": "Firefox를 사용하시나요? 오늘 다운로드하세요."
 	},
 	"title_fonts": {
 		"message": "글꼴"
@@ -101,39 +116,39 @@
 		"message": "오버레이 활성화"
 	},
 	"supportToolTipTwo": {
-		"message": "문제가 있습니까? 연락처 지원."
+		"message": "문제가 있나요? 지원팀에 문의하세요."
 	},
 	"reviews": {
 		"message": "리뷰"
 	},
 	"review": {
-		"message": "리뷰"
+		"message": "검토"
 	},
 	"style": {
 		"message": "스타일"
 	},
 	"supportToolTip": {
-		"message": "리뷰 남기기 또는 읽기"
+		"message": "이 확장 프로그램을 검토하세요"
 	},
 	"websiteLabel": {
-		"message": "웹 사이트"
+		"message": "웹사이트"
 	},
 	"websiteTooltip": {
-		"message": "지원 웹 사이트."
+		"message": "지원 웹사이트."
 	},
 	"saved": {
-		"message": "저장 됨"
+		"message": "적용된 설정"
 	},
 	"helperbird": {
-		"message": "Helperbird 살펴보기"
+		"message": "헬퍼버드를 발견하세요"
 	},
 	"OpenDyslexic": {
-		"message": "OpenDyslexic 알아보기"
+		"message": "OpenDyslexic을 발견하세요"
 	},
 	"on": {
-		"message": "의 위에"
+		"message": "~에"
 	},
 	"off": {
-		"message": "떨어져서"
+		"message": "끄다"
 	}
 }

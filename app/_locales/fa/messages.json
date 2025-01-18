@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic برای Edge",
+		"description": "فرمت صفحات با استفاده از فونت OpenDyslexic و کنتراست کم کمک می کند."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic برای فایرفاکس",
+		"description": "فرمت صفحات با استفاده از فونت OpenDyslexic و کنتراست کم کمک می کند."
 	},
 	"appName": {
-		"message": "OpenDyslexic برای Chrome",
-		"description": "با استفاده از قلم OpenDyslexic و کنتراست کم ، صفحات را قالب بندی کنید."
+		"message": "OpenDyslexic برای کروم",
+		"description": "فرمت صفحات با استفاده از فونت OpenDyslexic و کنتراست کم کمک می کند."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "با استفاده از قلم OpenDyslexic و کنتراست کم ، صفحات را قالب بندی کنید."
+		"description": "فرمت صفحات با استفاده از فونت OpenDyslexic و کنتراست کم کمک می کند."
 	},
 	"appDescription": {
-		"message": "با استفاده از قلم OpenDyslexic و کنتراست کم ، صفحات را قالب بندی کنید",
-		"description": "با استفاده از قلم OpenDyslexic و کنتراست کم ، صفحات را قالب بندی کنید"
+		"message": "فرمت صفحات با استفاده از فونت OpenDyslexic و کنتراست کم کمک می کند",
+		"description": "فرمت صفحات با استفاده از فونت OpenDyslexic و کنتراست کم کمک می کند"
+	},
+	"feature_specialized_font_options": {
+		"message": "گزینه های فونت"
 	},
 	"options": {
 		"message": "گزینه ها"
@@ -26,28 +29,28 @@
 		"message": "تنظیمات"
 	},
 	"selectedFontLabel": {
-		"message": "قلم را برای استفاده انتخاب کرد."
+		"message": "فونت انتخاب شده برای استفاده"
 	},
 	"enableFontLabel": {
 		"message": "فعال کردن"
 	},
 	"googleDocsLabel": {
-		"message": "پرونده های گوگل"
+		"message": "Google Docs"
 	},
 	"googleDocsTooltip": {
-		"message": "پشتیبانی کامل Google Docs را فعال کنید."
+		"message": "پشتیبانی کامل از Google Docs را فعال کنید."
 	},
 	"fontColorSetting": {
 		"message": "رنگ"
 	},
 	"fontColorLabel": {
-		"message": "قلم"
+		"message": "فونت"
 	},
 	"fontColorTooltip": {
-		"message": "رنگ قلم را تغییر دهید."
+		"message": "رنگ فونت را تغییر دهید"
 	},
 	"backgroundColorLabel": {
-		"message": "زمینه"
+		"message": "پس زمینه"
 	},
 	"backgroundColorTooltip": {
 		"message": "رنگ پس زمینه را تغییر دهید."
@@ -64,8 +67,11 @@
 	"followDyslexic": {
 		"message": "OpenDyslexic را دنبال کنید"
 	},
+	"weAreOnGithub": {
+		"message": "ما در Github هستیم"
+	},
 	"followDyslexicToolTip": {
-		"message": "OpenDyslexic را در توییتر دنبال کنید"
+		"message": "OpenDyslexic را در X دنبال کنید"
 	},
 	"followAbbie": {
 		"message": "از OpenDyslexic پشتیبانی کنید"
@@ -74,55 +80,64 @@
 		"message": "به زودی"
 	},
 	"followAbbieToolTip": {
-		"message": "از سازنده OpenDyslexic پشتیبانی کنید."
+		"message": "از سازنده OpenDyslexic حمایت کنید."
 	},
 	"followRobertJames": {
 		"message": "رابرت جیمز را دنبال کنید"
 	},
 	"followRobertJamesToolTip": {
-		"message": "نگهدارنده این برنامه را دنبال کنید."
+		"message": "توسط رابرت جیمز گابریل نگهداری می شود"
 	},
 	"whatsNew": {
-		"message": "چه جدید"
+		"message": "تازه چه خبر"
+	},
+	"bugs": {
+		"message": "گزارش اشکالات در Discords"
+	},
+	"created_by": {
+		"message": "OpenDyslexic Abbie Gonzalez ایجاد شد"
 	},
 	"firefox": {
 		"message": "نسخه فایرفاکس"
 	},
+	"downloadOnFirefox": {
+		"message": "در فایرفاکس موجود است"
+	},
 	"firefoxText": {
-		"message": "از فایرفاکس استفاده می کنید؟ امروز آن را بارگیری کنید."
+		"message": "از فایرفاکس استفاده کنید؟ همین امروز آن را دانلود کنید."
 	},
 	"title_fonts": {
-		"message": "قلم ها"
+		"message": "فونت ها"
 	},
 	"supportlSetting": {
-		"message": "حمایت کردن"
+		"message": "پشتیبانی کنید"
 	},
 	"featureTint": {
-		"message": "Overlay را فعال کنید"
+		"message": "همپوشانی را فعال کنید"
 	},
 	"supportToolTipTwo": {
-		"message": "مشکلی دارید؟ با پشتیبانی تماس بگیرید"
+		"message": "مشکلی دارید؟ با پشتیبانی تماس بگیرید."
 	},
 	"reviews": {
 		"message": "بررسی ها"
 	},
 	"review": {
-		"message": "مرور"
+		"message": "مرور کنید"
 	},
 	"style": {
 		"message": "سبک"
 	},
 	"supportToolTip": {
-		"message": "نظرات را بگذارید یا بخوانید"
+		"message": "این افزونه را مرور کنید"
 	},
 	"websiteLabel": {
-		"message": "سایت اینترنتی"
+		"message": "وب سایت"
 	},
 	"websiteTooltip": {
 		"message": "وب سایت پشتیبانی"
 	},
 	"saved": {
-		"message": "ذخیره"
+		"message": "تنظیمات اعمال شد"
 	},
 	"helperbird": {
 		"message": "Helperbird را کشف کنید"
@@ -131,7 +146,7 @@
 		"message": "OpenDyslexic را کشف کنید"
 	},
 	"on": {
-		"message": "بر"
+		"message": "روشن"
 	},
 	"off": {
 		"message": "خاموش"

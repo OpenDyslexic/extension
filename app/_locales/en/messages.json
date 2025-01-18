@@ -69,8 +69,12 @@
 	"followDyslexic": {
 		"message": "Follow OpenDyslexic"
 	},
+	"weAreOnGithub": {
+		"message": "We are on Github"
+	},
+
 	"followDyslexicToolTip": {
-		"message": "Follow OpenDyslexic on Twitter"
+		"message": "Follow OpenDyslexic on X"
 	},
 	"followAbbie": {
 		"message": "Support OpenDyslexic"
@@ -85,13 +89,22 @@
 		"message": "Follow Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Follow the maintainer of this app."
+		"message": "Mainted by Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "What`s new"
 	},
+	"bugs": {
+		"message": "Report Bugs on Discords"
+	},
+	"created_by": {
+		"message": "OpenDyslexic was created Abbie Gonzalez"
+	},
 	"firefox": {
 		"message": "Firefox Version"
+	},
+	"downloadOnFirefox": {
+		"message": "Available on Firefox"
 	},
 	"firefoxText": {
 		"message": "Use Firefox? Download it today."
@@ -122,7 +135,7 @@
 	},
 
 	"supportToolTip": {
-		"message": "Leave or read reviews"
+		"message": "Review this Extension"
 	},
 	"websiteLabel": {
 		"message": "Website"
@@ -131,7 +144,7 @@
 		"message": "Support website."
 	},
 	"saved": {
-		"message": "Saved"
+		"message": "Settings Applied"
 	},
 	"helperbird": {
 		"message": "Discover Helperbird"
@@ -139,6 +152,7 @@
 	"OpenDyslexic": {
 		"message": "Discover OpenDyslexic"
 	},
+
 	"on": {
 		"message": "On"
 	},

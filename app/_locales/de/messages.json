@@ -1,38 +1,41 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic für Edge",
+		"description": "Formatieren Sie Seiten mit der Schriftart OpenDyslexic und der Hilfe für geringen Kontrast."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic für Firefox",
+		"description": "Formatieren Sie Seiten mit der Schriftart OpenDyslexic und der Hilfe für geringen Kontrast."
 	},
 	"appName": {
 		"message": "OpenDyslexic für Chrome",
-		"description": "Formatieren Sie Seiten mit der OpenDyslexic-Schriftart und der Hilfe mit niedrigem Kontrast."
+		"description": "Formatieren Sie Seiten mit der Schriftart OpenDyslexic und der Hilfe für geringen Kontrast."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Formatieren Sie Seiten mit der OpenDyslexic-Schriftart und der Hilfe mit niedrigem Kontrast."
+		"message": "OffenDyslexisch",
+		"description": "Formatieren Sie Seiten mit der Schriftart OpenDyslexic und der Hilfe für geringen Kontrast."
 	},
 	"appDescription": {
-		"message": "Formatieren von Seiten mit der OpenDyslexic-Schriftart und Hilfe mit geringem Kontrast",
-		"description": "Formatieren von Seiten mit der OpenDyslexic-Schriftart und Hilfe mit geringem Kontrast"
+		"message": "Formatieren Sie Seiten mit der Schriftart OpenDyslexic und der Hilfe für niedrigen Kontrast",
+		"description": "Formatieren Sie Seiten mit der Schriftart OpenDyslexic und der Hilfe für niedrigen Kontrast"
+	},
+	"feature_specialized_font_options": {
+		"message": "Schriftartoptionen"
 	},
 	"options": {
 		"message": "Optionen"
 	},
 	"settings": {
-		"message": "die Einstellungen"
+		"message": "Einstellungen"
 	},
 	"selectedFontLabel": {
-		"message": "Ausgewählte Schriftart, die verwendet werden soll."
+		"message": "Zu verwendende Schriftart ausgewählt."
 	},
 	"enableFontLabel": {
 		"message": "Aktivieren"
 	},
 	"googleDocsLabel": {
-		"message": "Google Dokumente"
+		"message": "Google Docs"
 	},
 	"googleDocsTooltip": {
 		"message": "Aktivieren Sie die vollständige Google Docs-Unterstützung."
@@ -53,7 +56,7 @@
 		"message": "Ändern Sie die Hintergrundfarbe."
 	},
 	"personalSetting": {
-		"message": "persönlich"
+		"message": "Persönlich"
 	},
 	"socialSetting": {
 		"message": "Sozial"
@@ -64,32 +67,44 @@
 	"followDyslexic": {
 		"message": "Folgen Sie OpenDyslexic"
 	},
+	"weAreOnGithub": {
+		"message": "Wir sind auf Github"
+	},
 	"followDyslexicToolTip": {
-		"message": "Folgen Sie OpenDyslexic auf Twitter"
+		"message": "Folgen Sie OpenDyslexic auf X"
 	},
 	"followAbbie": {
 		"message": "Unterstützen Sie OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "Kommt bald"
+		"message": "Demnächst verfügbar"
 	},
 	"followAbbieToolTip": {
-		"message": "Unterstützen Sie den Designer der OpenDyslexic."
+		"message": "Unterstützen Sie den Entwickler von OpenDyslexic."
 	},
 	"followRobertJames": {
 		"message": "Folgen Sie Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Folgen Sie dem Betreuer dieser App."
+		"message": "Gewartet von Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Was ist neu"
 	},
+	"bugs": {
+		"message": "Fehler auf Discords melden"
+	},
+	"created_by": {
+		"message": "OpenDyslexic wurde erstellt von Abbie Gonzalez"
+	},
 	"firefox": {
 		"message": "Firefox-Version"
 	},
+	"downloadOnFirefox": {
+		"message": "Verfügbar auf Firefox"
+	},
 	"firefoxText": {
-		"message": "Firefox verwenden? Heute noch herunterladen."
+		"message": "Verwenden Sie Firefox? Laden Sie es noch heute herunter."
 	},
 	"title_fonts": {
 		"message": "Schriftarten"
@@ -98,10 +113,10 @@
 		"message": "Unterstützung"
 	},
 	"featureTint": {
-		"message": "Überlagerung aktivieren"
+		"message": "Overlay aktivieren"
 	},
 	"supportToolTipTwo": {
-		"message": "Haben Sie ein Problem? Kontaktieren Sie Support."
+		"message": "Liegt ein Problem vor? Wenden Sie sich an den Support."
 	},
 	"reviews": {
 		"message": "Bewertungen"
@@ -113,7 +128,7 @@
 		"message": "Stil"
 	},
 	"supportToolTip": {
-		"message": "Bewertungen hinterlassen oder lesen"
+		"message": "Bewerten Sie diese Erweiterung"
 	},
 	"websiteLabel": {
 		"message": "Webseite"
@@ -122,18 +137,18 @@
 		"message": "Support-Website."
 	},
 	"saved": {
-		"message": "Gespeichert"
+		"message": "Angewandte Einstellungen"
 	},
 	"helperbird": {
-		"message": "Helperbird entdecken"
+		"message": "Entdecken Sie Helperbird"
 	},
 	"OpenDyslexic": {
 		"message": "Entdecken Sie OpenDyslexic"
 	},
 	"on": {
-		"message": "an"
+		"message": "An"
 	},
 	"off": {
-		"message": "aus"
+		"message": "Aus"
 	}
 }

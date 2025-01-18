@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic สำหรับ Edge",
+		"description": "จัดรูปแบบหน้าโดยใช้แบบอักษร OpenDyslexic และความช่วยเหลือแบบคอนทราสต์ต่ำ"
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic สำหรับ Firefox",
+		"description": "จัดรูปแบบหน้าโดยใช้แบบอักษร OpenDyslexic และความช่วยเหลือแบบคอนทราสต์ต่ำ"
 	},
 	"appName": {
 		"message": "OpenDyslexic สำหรับ Chrome",
-		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ"
+		"description": "จัดรูปแบบหน้าโดยใช้แบบอักษร OpenDyslexic และความช่วยเหลือแบบคอนทราสต์ต่ำ"
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ"
+		"message": "โอเพ่นดิสเล็กซิก",
+		"description": "จัดรูปแบบหน้าโดยใช้แบบอักษร OpenDyslexic และความช่วยเหลือแบบคอนทราสต์ต่ำ"
 	},
 	"appDescription": {
-		"message": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ",
-		"description": "จัดรูปแบบหน้าโดยใช้ฟอนต์ OpenDyslexic และวิธีใช้คอนทราสต์ต่ำ"
+		"message": "จัดรูปแบบหน้าโดยใช้แบบอักษร OpenDyslexic และความช่วยเหลือแบบคอนทราสต์ต่ำ",
+		"description": "จัดรูปแบบหน้าโดยใช้แบบอักษร OpenDyslexic และความช่วยเหลือแบบคอนทราสต์ต่ำ"
+	},
+	"feature_specialized_font_options": {
+		"message": "ตัวเลือกแบบอักษร"
 	},
 	"options": {
 		"message": "ตัวเลือก"
@@ -26,16 +29,16 @@
 		"message": "การตั้งค่า"
 	},
 	"selectedFontLabel": {
-		"message": "ฟอนต์ที่เลือกไว้ใช้งาน"
+		"message": "แบบอักษรที่เลือกใช้"
 	},
 	"enableFontLabel": {
 		"message": "เปิดใช้งาน"
 	},
 	"googleDocsLabel": {
-		"message": "Google Docs"
+		"message": "เอกสารของ Google"
 	},
 	"googleDocsTooltip": {
-		"message": "เปิดใช้งานการสนับสนุน Google เอกสารเต็มรูปแบบ"
+		"message": "เปิดใช้งานการรองรับ Google Docs เต็มรูปแบบ"
 	},
 	"fontColorSetting": {
 		"message": "สี"
@@ -44,7 +47,7 @@
 		"message": "แบบอักษร"
 	},
 	"fontColorTooltip": {
-		"message": "เปลี่ยนสีแบบอักษร"
+		"message": "เปลี่ยนสีตัวอักษร"
 	},
 	"backgroundColorLabel": {
 		"message": "พื้นหลัง"
@@ -56,40 +59,52 @@
 		"message": "ส่วนตัว"
 	},
 	"socialSetting": {
-		"message": "สังคม"
+		"message": "ทางสังคม"
 	},
 	"codeSetting": {
-		"message": "รหัสแหล่งที่มา"
+		"message": "ซอร์สโค้ด"
 	},
 	"followDyslexic": {
 		"message": "ติดตาม OpenDyslexic"
 	},
+	"weAreOnGithub": {
+		"message": "เราอยู่ใน Github"
+	},
 	"followDyslexicToolTip": {
-		"message": "ติดตาม OpenDyslexic บน Twitter"
+		"message": "ติดตาม OpenDyslexic บน X"
 	},
 	"followAbbie": {
 		"message": "สนับสนุน OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "เร็ว ๆ นี้"
+		"message": "เร็วๆ นี้"
 	},
 	"followAbbieToolTip": {
 		"message": "สนับสนุนผู้สร้าง OpenDyslexic"
 	},
 	"followRobertJames": {
-		"message": "ติดตามโรเบิร์ตเจมส์"
+		"message": "ติดตามโรเบิร์ต เจมส์"
 	},
 	"followRobertJamesToolTip": {
-		"message": "ติดตามผู้ดูแลแอพนี้"
+		"message": "ดูแลโดยโรเบิร์ต เจมส์ กาเบรียล"
 	},
 	"whatsNew": {
 		"message": "มีอะไรใหม่"
 	},
+	"bugs": {
+		"message": "รายงานข้อบกพร่องบน Discords"
+	},
+	"created_by": {
+		"message": "OpenDyslexic ถูกสร้างขึ้นโดย Abbie Gonzalez"
+	},
 	"firefox": {
 		"message": "เวอร์ชัน Firefox"
 	},
+	"downloadOnFirefox": {
+		"message": "ใช้งานได้บน Firefox"
+	},
 	"firefoxText": {
-		"message": "ใช้ไฟร์ฟอกซ์? ดาวน์โหลดได้แล้ววันนี้"
+		"message": "ใช้ Firefox หรือไม่ ดาวน์โหลดเลยวันนี้"
 	},
 	"title_fonts": {
 		"message": "แบบอักษร"
@@ -98,22 +113,22 @@
 		"message": "สนับสนุน"
 	},
 	"featureTint": {
-		"message": "เปิดใช้งานการวางซ้อน"
+		"message": "เปิดใช้งานการซ้อนทับ"
 	},
 	"supportToolTipTwo": {
-		"message": "มีปัญหา? ติดต่อฝ่ายสนับสนุน"
+		"message": "มีปัญหาหรือไม่ ติดต่อฝ่ายสนับสนุน"
 	},
 	"reviews": {
-		"message": "ความคิดเห็น"
+		"message": "บทวิจารณ์"
 	},
 	"review": {
-		"message": "รีวิว"
+		"message": "ทบทวน"
 	},
 	"style": {
 		"message": "สไตล์"
 	},
 	"supportToolTip": {
-		"message": "ฝากหรืออ่านบทวิจารณ์"
+		"message": "ตรวจสอบส่วนขยายนี้"
 	},
 	"websiteLabel": {
 		"message": "เว็บไซต์"
@@ -122,7 +137,7 @@
 		"message": "เว็บไซต์สนับสนุน"
 	},
 	"saved": {
-		"message": "บันทึกแล้ว"
+		"message": "การตั้งค่าที่ใช้แล้ว"
 	},
 	"helperbird": {
 		"message": "ค้นพบ Helperbird"

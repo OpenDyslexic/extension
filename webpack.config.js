@@ -28,7 +28,7 @@ module.exports = {
 			import: './scripts/background/index.js',
 			filename: 'scripts/background.js'
 		},
-		'scripts/content': './scripts/content/index.js',
+		'scripts/engine': './scripts/content/engine.js',
 
 		'scripts/popup': './scripts/popup.js'
 	},

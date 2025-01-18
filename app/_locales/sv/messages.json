@@ -1,41 +1,44 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic för Edge",
+		"description": "Formatera sidor med typsnittet OpenDyslexic och hjälp med låg kontrast."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic för Firefox",
+		"description": "Formatera sidor med typsnittet OpenDyslexic och hjälp med låg kontrast."
 	},
 	"appName": {
 		"message": "OpenDyslexic för Chrome",
-		"description": "Formatera sidor med hjälp av OpenDyslexic-teckensnitt och hjälp med låg kontrast."
+		"description": "Formatera sidor med typsnittet OpenDyslexic och hjälp med låg kontrast."
 	},
 	"appTitle": {
-		"message": "OpenDyslexic",
-		"description": "Formatera sidor med hjälp av OpenDyslexic-teckensnitt och hjälp med låg kontrast."
+		"message": "Öppen Dyslektiker",
+		"description": "Formatera sidor med typsnittet OpenDyslexic och hjälp med låg kontrast."
 	},
 	"appDescription": {
-		"message": "Formatera sidor med hjälp av OpenDyslexic-teckensnitt och hjälp med låg kontrast",
-		"description": "Formatera sidor med hjälp av OpenDyslexic-teckensnitt och hjälp med låg kontrast"
+		"message": "Formatera sidor med typsnittet OpenDyslexic och hjälp med låg kontrast",
+		"description": "Formatera sidor med typsnittet OpenDyslexic och hjälp med låg kontrast"
+	},
+	"feature_specialized_font_options": {
+		"message": "Teckensnittsalternativ"
 	},
 	"options": {
-		"message": "alternativ"
+		"message": "Alternativ"
 	},
 	"settings": {
-		"message": "inställningar"
+		"message": "Inställningar"
 	},
 	"selectedFontLabel": {
-		"message": "Vald typsnitt som ska användas."
+		"message": "Valt teckensnitt att använda."
 	},
 	"enableFontLabel": {
-		"message": "Gör det möjligt"
+		"message": "Aktivera"
 	},
 	"googleDocsLabel": {
 		"message": "Google Dokument"
 	},
 	"googleDocsTooltip": {
-		"message": "Aktivera fullständigt stöd för Google Dokument."
+		"message": "Aktivera fullständig support för Google Dokument."
 	},
 	"fontColorSetting": {
 		"message": "Färg"
@@ -44,13 +47,13 @@
 		"message": "Font"
 	},
 	"fontColorTooltip": {
-		"message": "Ändra teckensnittsfärg."
+		"message": "Ändra teckensnittsfärgen."
 	},
 	"backgroundColorLabel": {
 		"message": "Bakgrund"
 	},
 	"backgroundColorTooltip": {
-		"message": "Ändra bakgrundsfärg."
+		"message": "Ändra bakgrundsfärgen."
 	},
 	"personalSetting": {
 		"message": "Personlig"
@@ -64,8 +67,11 @@
 	"followDyslexic": {
 		"message": "Följ OpenDyslexic"
 	},
+	"weAreOnGithub": {
+		"message": "Vi är på Github"
+	},
 	"followDyslexicToolTip": {
-		"message": "Följ OpenDyslexic på Twitter"
+		"message": "Följ OpenDyslexic på X"
 	},
 	"followAbbie": {
 		"message": "Stöd OpenDyslexic"
@@ -80,19 +86,28 @@
 		"message": "Följ Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Följ underhållaren av den här appen."
+		"message": "Underhålls av Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Vad är nytt"
 	},
+	"bugs": {
+		"message": "Rapportera buggar på discords"
+	},
+	"created_by": {
+		"message": "OpenDyslexic skapades Abbie Gonzalez"
+	},
 	"firefox": {
-		"message": "Firefox-version"
+		"message": "Firefox version"
+	},
+	"downloadOnFirefox": {
+		"message": "Tillgänglig på Firefox"
 	},
 	"firefoxText": {
-		"message": "Använd Firefox? Ladda ner den idag."
+		"message": "Använder du Firefox? Ladda ner den idag."
 	},
 	"title_fonts": {
-		"message": "Typsnitt"
+		"message": "Teckensnitt"
 	},
 	"supportlSetting": {
 		"message": "Stöd"
@@ -113,16 +128,16 @@
 		"message": "Stil"
 	},
 	"supportToolTip": {
-		"message": "Lämna eller läs recensioner"
+		"message": "Granska detta tillägg"
 	},
 	"websiteLabel": {
-		"message": "Hemsida"
+		"message": "Webbplats"
 	},
 	"websiteTooltip": {
 		"message": "Supportwebbplats."
 	},
 	"saved": {
-		"message": "Sparat"
+		"message": "Inställningar tillämpade"
 	},
 	"helperbird": {
 		"message": "Upptäck Helperbird"

@@ -1,26 +1,29 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic для Edge",
+		"description": "Форматуйте сторінки за допомогою шрифту OpenDyslexic і довідки з низьким контрастом."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic для Firefox",
+		"description": "Форматуйте сторінки за допомогою шрифту OpenDyslexic і довідки з низьким контрастом."
 	},
 	"appName": {
 		"message": "OpenDyslexic для Chrome",
-		"description": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом."
+		"description": "Форматуйте сторінки за допомогою шрифту OpenDyslexic і довідки з низьким контрастом."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом."
+		"description": "Форматуйте сторінки за допомогою шрифту OpenDyslexic і довідки з низьким контрастом."
 	},
 	"appDescription": {
-		"message": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом",
-		"description": "Форматування сторінок за допомогою шрифту OpenDyslexic та довідки з низьким контрастом"
+		"message": "Форматуйте сторінки за допомогою шрифту OpenDyslexic і довідки з низьким контрастом",
+		"description": "Форматуйте сторінки за допомогою шрифту OpenDyslexic і довідки з низьким контрастом"
+	},
+	"feature_specialized_font_options": {
+		"message": "Параметри шрифту"
 	},
 	"options": {
-		"message": "Варіанти"
+		"message": "Опції"
 	},
 	"settings": {
 		"message": "Налаштування"
@@ -47,49 +50,61 @@
 		"message": "Змініть колір шрифту."
 	},
 	"backgroundColorLabel": {
-		"message": "Передумови"
+		"message": "Фон"
 	},
 	"backgroundColorTooltip": {
-		"message": "Змініть колір тла."
+		"message": "Змініть колір фону."
 	},
 	"personalSetting": {
 		"message": "Особистий"
 	},
 	"socialSetting": {
-		"message": "Соціальна"
+		"message": "Соціальний"
 	},
 	"codeSetting": {
 		"message": "Вихідний код"
 	},
 	"followDyslexic": {
-		"message": "Дотримуйтесь OpenDyslexic"
+		"message": "Слідкуйте за OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Ми на Github"
 	},
 	"followDyslexicToolTip": {
-		"message": "Слідкуйте за OpenDyslexic у Twitter"
+		"message": "Слідкуйте за OpenDyslexic на X"
 	},
 	"followAbbie": {
 		"message": "Підтримка OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "Незабаром"
+		"message": "Скоро буде"
 	},
 	"followAbbieToolTip": {
-		"message": "Підтримка творця OpenDyslexic."
+		"message": "Підтримайте творця OpenDyslexic."
 	},
 	"followRobertJames": {
 		"message": "Слідуйте за Робертом Джеймсом"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Слідуйте за супровідником цього додатка."
+		"message": "Обслуговує Роберт Джеймс Габріель"
 	},
 	"whatsNew": {
 		"message": "Що нового"
 	},
+	"bugs": {
+		"message": "Повідомити про помилки в Discords"
+	},
+	"created_by": {
+		"message": "OpenDyslexic створила Еббі Гонсалес"
+	},
 	"firefox": {
 		"message": "Версія Firefox"
 	},
+	"downloadOnFirefox": {
+		"message": "Доступно у Firefox"
+	},
 	"firefoxText": {
-		"message": "Використовувати Firefox? Завантажте його сьогодні."
+		"message": "Користуватися Firefox? Завантажте його сьогодні."
 	},
 	"title_fonts": {
 		"message": "Шрифти"
@@ -101,19 +116,19 @@
 		"message": "Увімкнути накладання"
 	},
 	"supportToolTipTwo": {
-		"message": "Виникли проблеми? Зверніться до служби підтримки."
+		"message": "Виникла проблема? Зверніться до служби підтримки."
 	},
 	"reviews": {
 		"message": "Відгуки"
 	},
 	"review": {
-		"message": "Огляд"
+		"message": "огляд"
 	},
 	"style": {
 		"message": "Стиль"
 	},
 	"supportToolTip": {
-		"message": "Залишайте або читайте відгуки"
+		"message": "Перегляньте це розширення"
 	},
 	"websiteLabel": {
 		"message": "Веб-сайт"
@@ -122,10 +137,10 @@
 		"message": "Веб-сайт підтримки."
 	},
 	"saved": {
-		"message": "Збережено"
+		"message": "Налаштування застосовано"
 	},
 	"helperbird": {
-		"message": "Відкрийте Helperbird"
+		"message": "Відкрийте для себе Helperbird"
 	},
 	"OpenDyslexic": {
 		"message": "Відкрийте для себе OpenDyslexic"

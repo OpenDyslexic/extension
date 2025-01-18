@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic për Edge",
+		"description": "Formatoni faqet duke përdorur fontin OpenDyslexic dhe kontrast të ulët."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic për Firefox",
+		"description": "Formatoni faqet duke përdorur fontin OpenDyslexic dhe kontrast të ulët."
+	},
+	"appName": {
+		"message": "OpenDyslexic për Chrome",
+		"description": "Formatoni faqet duke përdorur fontin OpenDyslexic dhe kontrast të ulët."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Formatoni faqet duke përdorur fontin OpenDyslexic dhe kontrast të ulët."
+	},
+	"appDescription": {
+		"message": "Formatoni faqet duke përdorur fontin OpenDyslexic dhe kontrast të ulët",
+		"description": "Formatoni faqet duke përdorur fontin OpenDyslexic dhe kontrast të ulët"
+	},
+	"feature_specialized_font_options": {
+		"message": "Opsionet e shkronjave"
+	},
+	"options": {
+		"message": "Opsionet"
+	},
+	"settings": {
+		"message": "Cilësimet"
+	},
+	"selectedFontLabel": {
+		"message": "Fonti i zgjedhur për t'u përdorur."
+	},
+	"enableFontLabel": {
+		"message": "Aktivizo"
+	},
+	"googleDocsLabel": {
+		"message": "Google Docs"
+	},
+	"googleDocsTooltip": {
+		"message": "Aktivizo mbështetjen e plotë të Google Docs."
+	},
+	"fontColorSetting": {
+		"message": "Ngjyra"
+	},
+	"fontColorLabel": {
+		"message": "Fonti"
+	},
+	"fontColorTooltip": {
+		"message": "Ndryshoni ngjyrën e shkronjave."
+	},
+	"backgroundColorLabel": {
+		"message": "Sfondi"
+	},
+	"backgroundColorTooltip": {
+		"message": "Ndryshoni ngjyrën e sfondit."
+	},
+	"personalSetting": {
+		"message": "Personale"
+	},
+	"socialSetting": {
+		"message": "Sociale"
+	},
+	"codeSetting": {
+		"message": "Kodi burimor"
+	},
+	"followDyslexic": {
+		"message": "Ndiqni OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Jemi në Github"
+	},
+	"followDyslexicToolTip": {
+		"message": "Ndiqni OpenDyslexic në X"
+	},
+	"followAbbie": {
+		"message": "Mbështet OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Së shpejti"
+	},
+	"followAbbieToolTip": {
+		"message": "Mbështetni krijuesin e OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Ndiqni Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Mirëmbajtur nga Robert James Gabriel"
+	},
+	"whatsNew": {
+		"message": "Çfarë ka të re"
+	},
+	"bugs": {
+		"message": "Raportoni gabimet për mosmarrëveshjet"
+	},
+	"created_by": {
+		"message": "OpenDyslexic u krijua Abbie Gonzalez"
+	},
+	"firefox": {
+		"message": "Versioni i Firefox-it"
+	},
+	"downloadOnFirefox": {
+		"message": "E disponueshme në Firefox"
+	},
+	"firefoxText": {
+		"message": "Përdorni Firefox-in? Shkarkojeni sot."
+	},
+	"title_fonts": {
+		"message": "Fontet"
+	},
+	"supportlSetting": {
+		"message": "Mbështetje"
+	},
+	"featureTint": {
+		"message": "Aktivizo mbivendosjen"
+	},
+	"supportToolTipTwo": {
+		"message": "Keni një problem? Kontaktoni me mbështetjen."
+	},
+	"reviews": {
+		"message": "Shqyrtime"
+	},
+	"review": {
+		"message": "Rishikimi"
+	},
+	"style": {
+		"message": "Stili"
+	},
+	"supportToolTip": {
+		"message": "Rishiko këtë shtesë"
+	},
+	"websiteLabel": {
+		"message": "Faqja e internetit"
+	},
+	"websiteTooltip": {
+		"message": "Uebsajti i mbështetjes."
+	},
+	"saved": {
+		"message": "Cilësimet u aplikuan"
+	},
+	"helperbird": {
+		"message": "Zbuloni Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Zbuloni OpenDyslexic"
+	},
+	"on": {
+		"message": "Aktiv"
+	},
+	"off": {
+		"message": "Joaktiv"
+	}
+}

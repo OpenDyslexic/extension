@@ -1,23 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic لـ Edge",
+		"description": "تنسيق الصفحات باستخدام الخط OpenDyslexic ومساعدة التباين المنخفض."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Format pages using the OpenDyslexic font and low contrast help."
+		"message": "OpenDyslexic لمتصفح فايرفوكس",
+		"description": "تنسيق الصفحات باستخدام الخط OpenDyslexic ومساعدة التباين المنخفض."
 	},
 	"appName": {
 		"message": "OpenDyslexic لمتصفح Chrome",
-		"description": "تنسيق الصفحات باستخدام خط OpenDyslexic وتعليمات التباين المنخفض."
+		"description": "تنسيق الصفحات باستخدام الخط OpenDyslexic ومساعدة التباين المنخفض."
 	},
 	"appTitle": {
-		"message": "مفتوح",
-		"description": "تنسيق الصفحات باستخدام خط OpenDyslexic وتعليمات التباين المنخفض."
+		"message": "مفتوح ديسلكسيك",
+		"description": "تنسيق الصفحات باستخدام الخط OpenDyslexic ومساعدة التباين المنخفض."
 	},
 	"appDescription": {
-		"message": "تنسيق الصفحات باستخدام خط OpenDyslexic وتعليمات التباين المنخفض",
-		"description": "تنسيق الصفحات باستخدام خط OpenDyslexic وتعليمات التباين المنخفض"
+		"message": "تنسيق الصفحات باستخدام خط OpenDyslexic والمساعدة في التباين المنخفض",
+		"description": "تنسيق الصفحات باستخدام خط OpenDyslexic والمساعدة في التباين المنخفض"
+	},
+	"feature_specialized_font_options": {
+		"message": "خيارات الخط"
 	},
 	"options": {
 		"message": "خيارات"
@@ -26,19 +29,19 @@
 		"message": "إعدادات"
 	},
 	"selectedFontLabel": {
-		"message": "الخط المحدد المراد استخدامه."
+		"message": "الخط المحدد للاستخدام."
 	},
 	"enableFontLabel": {
-		"message": "ممكن"
+		"message": "يُمكَِن"
 	},
 	"googleDocsLabel": {
 		"message": "مستندات جوجل"
 	},
 	"googleDocsTooltip": {
-		"message": "تفعيل الدعم الكامل لمُحرر مستندات Google."
+		"message": "تمكين الدعم الكامل لـ Google Docs."
 	},
 	"fontColorSetting": {
-		"message": "اللون"
+		"message": "لون"
 	},
 	"fontColorLabel": {
 		"message": "الخط"
@@ -59,43 +62,55 @@
 		"message": "اجتماعي"
 	},
 	"codeSetting": {
-		"message": "مصدر الرمز"
+		"message": "الكود المصدر"
 	},
 	"followDyslexic": {
 		"message": "اتبع OpenDyslexic"
 	},
+	"weAreOnGithub": {
+		"message": "نحن على جيثب"
+	},
 	"followDyslexicToolTip": {
-		"message": "تابع OpenDyslexic على Twitter"
+		"message": "تابع OpenDyslexic على X"
 	},
 	"followAbbie": {
 		"message": "دعم OpenDyslexic"
 	},
 	"comingSoon": {
-		"message": "قريبا"
+		"message": "قريباً"
 	},
 	"followAbbieToolTip": {
-		"message": "دعم منشئ OpenDyslexic."
+		"message": "ادعم منشئ OpenDyslexic."
 	},
 	"followRobertJames": {
-		"message": "اتبع روبرت جيمس"
+		"message": "تابع روبرت جيمس"
 	},
 	"followRobertJamesToolTip": {
-		"message": "اتبع المشرف على هذا التطبيق."
+		"message": "تحت صيانة روبرت جيمس غابرييل"
 	},
 	"whatsNew": {
 		"message": "ما الجديد"
 	},
+	"bugs": {
+		"message": "الإبلاغ عن الأخطاء على Discords"
+	},
+	"created_by": {
+		"message": "تم إنشاء OpenDyslexic بواسطة Abbie Gonzalez"
+	},
 	"firefox": {
-		"message": "نسخة Firefox"
+		"message": "نسخة فايرفوكس"
+	},
+	"downloadOnFirefox": {
+		"message": "متوفر على فايرفوكس"
 	},
 	"firefoxText": {
-		"message": "هل تستخدم Firefox؟ حمله اليوم."
+		"message": "هل تستخدم فايرفوكس؟ قم بتنزيله اليوم."
 	},
 	"title_fonts": {
 		"message": "الخطوط"
 	},
 	"supportlSetting": {
-		"message": "الدعم"
+		"message": "يدعم"
 	},
 	"featureTint": {
 		"message": "تمكين التراكب"
@@ -107,13 +122,13 @@
 		"message": "المراجعات"
 	},
 	"review": {
-		"message": "إعادة النظر"
+		"message": "مراجعة"
 	},
 	"style": {
 		"message": "أسلوب"
 	},
 	"supportToolTip": {
-		"message": "اترك المراجعات أو اقرأها"
+		"message": "قم بمراجعة هذا الامتداد"
 	},
 	"websiteLabel": {
 		"message": "موقع إلكتروني"
@@ -122,7 +137,7 @@
 		"message": "موقع الدعم."
 	},
 	"saved": {
-		"message": "تم الحفظ"
+		"message": "تم تطبيق الإعدادات"
 	},
 	"helperbird": {
 		"message": "اكتشف Helperbird"

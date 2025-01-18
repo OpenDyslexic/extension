@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic dla Edge",
+		"description": "Formatuj strony korzystając z czcionki OpenDyslexic i pomocy o niskim kontraście."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic dla Firefoksa",
+		"description": "Formatuj strony korzystając z czcionki OpenDyslexic i pomocy o niskim kontraście."
+	},
+	"appName": {
+		"message": "OpenDyslexic dla Chrome",
+		"description": "Formatuj strony korzystając z czcionki OpenDyslexic i pomocy o niskim kontraście."
+	},
+	"appTitle": {
+		"message": "OtwórzDyslektyczny",
+		"description": "Formatuj strony korzystając z czcionki OpenDyslexic i pomocy o niskim kontraście."
+	},
+	"appDescription": {
+		"message": "Formatowanie stron przy użyciu czcionki OpenDyslexic i pomocy o niskim kontraście",
+		"description": "Formatowanie stron przy użyciu czcionki OpenDyslexic i pomocy o niskim kontraście"
+	},
+	"feature_specialized_font_options": {
+		"message": "Opcje czcionki"
+	},
+	"options": {
+		"message": "Opcje"
+	},
+	"settings": {
+		"message": "Ustawienia"
+	},
+	"selectedFontLabel": {
+		"message": "Wybrana czcionka do użycia."
+	},
+	"enableFontLabel": {
+		"message": "Włączać"
+	},
+	"googleDocsLabel": {
+		"message": "Dokumenty Google"
+	},
+	"googleDocsTooltip": {
+		"message": "Włącz pełną obsługę Dokumentów Google."
+	},
+	"fontColorSetting": {
+		"message": "Kolor"
+	},
+	"fontColorLabel": {
+		"message": "Chrzcielnica"
+	},
+	"fontColorTooltip": {
+		"message": "Zmień kolor czcionki."
+	},
+	"backgroundColorLabel": {
+		"message": "Tło"
+	},
+	"backgroundColorTooltip": {
+		"message": "Zmień kolor tła."
+	},
+	"personalSetting": {
+		"message": "Osobisty"
+	},
+	"socialSetting": {
+		"message": "Społeczny"
+	},
+	"codeSetting": {
+		"message": "Kod źródłowy"
+	},
+	"followDyslexic": {
+		"message": "Obserwuj OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Jesteśmy na Github"
+	},
+	"followDyslexicToolTip": {
+		"message": "Obserwuj OpenDyslexic na X"
+	},
+	"followAbbie": {
+		"message": "Wsparcie OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "Już wkrótce"
+	},
+	"followAbbieToolTip": {
+		"message": "Wesprzyj twórcę OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Śledź Roberta Jamesa"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Utrzymywany przez Roberta Jamesa Gabriela"
+	},
+	"whatsNew": {
+		"message": "Co nowego"
+	},
+	"bugs": {
+		"message": "Zgłaszaj błędy na Discordach"
+	},
+	"created_by": {
+		"message": "OpenDyslexic został stworzony przez Abbie Gonzalez"
+	},
+	"firefox": {
+		"message": "Wersja Firefox"
+	},
+	"downloadOnFirefox": {
+		"message": "Dostępne w przeglądarce Firefox"
+	},
+	"firefoxText": {
+		"message": "Używasz Firefoksa? Pobierz go już dziś."
+	},
+	"title_fonts": {
+		"message": "Czcionki"
+	},
+	"supportlSetting": {
+		"message": "Wsparcie"
+	},
+	"featureTint": {
+		"message": "Włącz nakładkę"
+	},
+	"supportToolTipTwo": {
+		"message": "Masz problem? Skontaktuj się z pomocą techniczną."
+	},
+	"reviews": {
+		"message": "Recenzje"
+	},
+	"review": {
+		"message": "Recenzja"
+	},
+	"style": {
+		"message": "Styl"
+	},
+	"supportToolTip": {
+		"message": "Przejrzyj to rozszerzenie"
+	},
+	"websiteLabel": {
+		"message": "Strona internetowa"
+	},
+	"websiteTooltip": {
+		"message": "Strona pomocy technicznej."
+	},
+	"saved": {
+		"message": "Ustawienia zastosowane"
+	},
+	"helperbird": {
+		"message": "Odkryj Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Odkryj OpenDyslexic"
+	},
+	"on": {
+		"message": "NA"
+	},
+	"off": {
+		"message": "Wyłączony"
+	}
+}

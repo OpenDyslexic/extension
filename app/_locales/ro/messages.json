@@ -1,0 +1,154 @@
+{
+	"appNameEdge": {
+		"message": "OpenDyslexic pentru Edge",
+		"description": "Formatați paginile folosind fontul OpenDyslexic și un contrast redus."
+	},
+	"appNameFirefox": {
+		"message": "OpenDyslexic pentru Firefox",
+		"description": "Formatați paginile folosind fontul OpenDyslexic și un contrast redus."
+	},
+	"appName": {
+		"message": "OpenDyslexic pentru Chrome",
+		"description": "Formatați paginile folosind fontul OpenDyslexic și un contrast redus."
+	},
+	"appTitle": {
+		"message": "OpenDyslexic",
+		"description": "Formatați paginile folosind fontul OpenDyslexic și un contrast redus."
+	},
+	"appDescription": {
+		"message": "Formatați paginile folosind fontul OpenDyslexic și un contrast redus",
+		"description": "Formatați paginile folosind fontul OpenDyslexic și un contrast redus"
+	},
+	"feature_specialized_font_options": {
+		"message": "Opțiuni de font"
+	},
+	"options": {
+		"message": "Opțiuni"
+	},
+	"settings": {
+		"message": "Setări"
+	},
+	"selectedFontLabel": {
+		"message": "Font selectat de utilizat."
+	},
+	"enableFontLabel": {
+		"message": "Permite"
+	},
+	"googleDocsLabel": {
+		"message": "Google Docs"
+	},
+	"googleDocsTooltip": {
+		"message": "Activați asistența completă pentru Documente Google."
+	},
+	"fontColorSetting": {
+		"message": "Culoare"
+	},
+	"fontColorLabel": {
+		"message": "Font"
+	},
+	"fontColorTooltip": {
+		"message": "Schimbați culoarea fontului."
+	},
+	"backgroundColorLabel": {
+		"message": "Fundal"
+	},
+	"backgroundColorTooltip": {
+		"message": "Schimbați culoarea de fundal."
+	},
+	"personalSetting": {
+		"message": "Personal"
+	},
+	"socialSetting": {
+		"message": "Social"
+	},
+	"codeSetting": {
+		"message": "Cod sursă"
+	},
+	"followDyslexic": {
+		"message": "Urmărește OpenDyslexic"
+	},
+	"weAreOnGithub": {
+		"message": "Suntem pe Github"
+	},
+	"followDyslexicToolTip": {
+		"message": "Urmărește OpenDyslexic pe X"
+	},
+	"followAbbie": {
+		"message": "Suport OpenDyslexic"
+	},
+	"comingSoon": {
+		"message": "În curând"
+	},
+	"followAbbieToolTip": {
+		"message": "Sprijiniți creatorul OpenDyslexic."
+	},
+	"followRobertJames": {
+		"message": "Urmărește-l pe Robert James"
+	},
+	"followRobertJamesToolTip": {
+		"message": "Menținută de Robert James Gabriel"
+	},
+	"whatsNew": {
+		"message": "Ce e nou"
+	},
+	"bugs": {
+		"message": "Raportați erori pe Discords"
+	},
+	"created_by": {
+		"message": "OpenDyslexic a fost creat Abbie Gonzalez"
+	},
+	"firefox": {
+		"message": "Versiunea Firefox"
+	},
+	"downloadOnFirefox": {
+		"message": "Disponibil pe Firefox"
+	},
+	"firefoxText": {
+		"message": "Folosești Firefox? Descărcați-l astăzi."
+	},
+	"title_fonts": {
+		"message": "Fonturi"
+	},
+	"supportlSetting": {
+		"message": "Sprijin"
+	},
+	"featureTint": {
+		"message": "Activați Suprapunerea"
+	},
+	"supportToolTipTwo": {
+		"message": "Ai o problemă? Contactați asistența."
+	},
+	"reviews": {
+		"message": "Recenzii"
+	},
+	"review": {
+		"message": "Recenzie"
+	},
+	"style": {
+		"message": "Stil"
+	},
+	"supportToolTip": {
+		"message": "Examinați această extensie"
+	},
+	"websiteLabel": {
+		"message": "Site-ul web"
+	},
+	"websiteTooltip": {
+		"message": "Site de suport."
+	},
+	"saved": {
+		"message": "Setări aplicate"
+	},
+	"helperbird": {
+		"message": "Descoperă Helperbird"
+	},
+	"OpenDyslexic": {
+		"message": "Descoperiți OpenDyslexic"
+	},
+	"on": {
+		"message": "Pe"
+	},
+	"off": {
+		"message": "Oprit"
+	}
+}
