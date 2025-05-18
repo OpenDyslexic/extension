@@ -1,88 +1,167 @@
+/*─────────────────────────────────────────────────
+  1) FONT FACE DECLARATIONS
+─────────────────────────────────────────────────*/
 @font-face {
 	font-family: 'OpenDyslexic';
-	src: url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/regular.otf')
-		format('opentype');
+	src:
+		local('OpenDyslexic Regular'),
+		local('OpenDyslexic'),
+		url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/regular.otf')
+			format('opentype');
+	font-weight: 400;
 	font-style: normal;
-	font-weight: normal;
+	font-display: swap;
+	/* unicode-range: U+000-5FF; */
 }
 
 @font-face {
-	font-family: 'OpenDyslexic Italic';
-	src: url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/italic.otf')
-		format('opentype');
-	font-style: normal;
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: 'OpenDyslexic Bold';
-	src: url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/bold.otf')
-		format('opentype');
-	font-style: normal;
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: 'OpenDyslexic Bold Italic';
-	src: url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/bold-italic.otf')
-		format('opentype');
-	font-style: normal;
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: 'opendyslexicmono';
-	src: url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/regular.otf')
-		format('opentype');
-}
-
-:root {
-	--opendyslexic-chrome-regular: 'OpenDyslexic';
-	--opendyslexic-chrome-italic: 'OpenDyslexic Italic';
-	--opendyslexic-chrome-bold: 'OpenDyslexic Bold';
-	--opendyslexic-chrome-bold-italic: 'OpenDyslexic Bold Italic';
-	--opendyslexic-chrome-mono: 'OpenDyslexic';
-}
-
-.helperbird-font-opendyslexic-regular  *:not([class*="icon"]):not([class*="material"]):not([class*="symbols"]):not([class*="font"]) {
-	font-family: var(--opendyslexic-chrome-regular);
-	font-weight: normal;
-	font-style: normal;
-	line-height: 150%;
-}
-
-.helperbird-font-opendyslexic-italic  *:not([class*="icon"]):not([class*="material"]):not([class*="symbols"]):not([class*="font"]) {
-	font-family: var(--opendyslexic-chrome-italic);
+	font-family: 'OpenDyslexic';
+	src:
+		local('OpenDyslexic Italic'),
+		url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/italic.otf')
+			format('opentype');
+	font-weight: 400;
 	font-style: italic;
-	line-height: 150%;
+	font-display: swap;
 }
 
-.helperbird-font-opendyslexic-bold  *:not([class*="icon"]):not([class*="material"]):not([class*="symbols"]):not([class*="font"]) {
-	font-family: var(--opendyslexic-chrome-bold);
-	font-weight: bold;
-	line-height: 150%;
+@font-face {
+	font-family: 'OpenDyslexic';
+	src:
+		local('OpenDyslexic Bold'),
+		url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/bold.otf')
+			format('opentype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
 }
 
-.helperbird-font-opendyslexic-bold-italic  *:not([class*="icon"]):not([class*="material"]):not([class*="symbols"]):not([class*="font"]) {
-	font-family: var(--opendyslexic-chrome-bold);
-	font-weight: bold;
-	line-height: 150%;
+@font-face {
+	font-family: 'OpenDyslexic';
+	src:
+		local('OpenDyslexic Bold Italic'),
+		url('{{$browser_extension_protocol}}assets/fonts/opendyslexic/bold-italic.otf')
+			format('opentype');
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
 }
 
+/*─────────────────────────────────────────────────
+  2) ROOT VARIABLES + SMOOTHING
+─────────────────────────────────────────────────*/
+:root {
+	--opendyslexic-family: 'OpenDyslexic', Arial, sans-serif;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/*─────────────────────────────────────────────────
+	3) YOUR HELPERBIRD CLASSES
+  ─────────────────────────────────────────────────*/
+/* regular */
+.helperbird-font-opendyslexic-regular
+	*:not([class*='icon']):not([class*='material'])
+	:not([class*='symbols']):not([class*='font']) {
+	font-family: var(--opendyslexic-family);
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.5;
+}
+
+/* italic */
+.helperbird-font-opendyslexic-italic
+	*:not([class*='icon']):not([class*='material'])
+	:not([class*='symbols']):not([class*='font']) {
+	font-family: var(--opendyslexic-family);
+	font-weight: 400;
+	font-style: italic;
+	line-height: 1.5;
+}
+
+/* bold */
+.helperbird-font-opendyslexic-bold
+	*:not([class*='icon']):not([class*='material'])
+	:not([class*='symbols']):not([class*='font']) {
+	font-family: var(--opendyslexic-family);
+	font-weight: 700;
+	font-style: normal;
+	line-height: 1.5;
+}
+
+/* bold-italic */
+.helperbird-font-opendyslexic-bold-italic
+	*:not([class*='icon']):not([class*='material'])
+	:not([class*='symbols']):not([class*='font']) {
+	font-family: var(--opendyslexic-family);
+	font-weight: 700;
+	font-style: italic;
+	line-height: 1.5;
+}
+
+/*─────────────────────────────────────────────────
+	4) ZEBRA STRIPES & HOVER EFFECTS
+  ─────────────────────────────────────────────────*/
 p.helperbird-font-opendyslexic-regular:nth-child(even),
 p.helperbird-font-opendyslexic-italic:nth-child(even),
 p.helperbird-font-opendyslexic-bold:nth-child(even),
+p.helperbird-font-opendyslexic-bold-italic:nth-child(even),
 li.helperbird-font-opendyslexic-regular:nth-child(even),
 li.helperbird-font-opendyslexic-italic:nth-child(even),
-li.helperbird-font-opendyslexic-bold:nth-child(even) {
-	opacity: rgba(0, 0, 0, 0.03);
+li.helperbird-font-opendyslexic-bold:nth-child(even),
+li.helperbird-font-opendyslexic-bold-italic:nth-child(even) {
+	opacity: 0.03;
 }
 
 p.helperbird-font-opendyslexic-regular:hover,
 p.helperbird-font-opendyslexic-italic:hover,
 p.helperbird-font-opendyslexic-bold:hover,
+p.helperbird-font-opendyslexic-bold-italic:hover,
 li.helperbird-font-opendyslexic-regular:hover,
 li.helperbird-font-opendyslexic-italic:hover,
-li.helperbird-font-opendyslexic-bold:hover {
+li.helperbird-font-opendyslexic-bold:hover,
+li.helperbird-font-opendyslexic-bold-italic:hover {
 	background-color: rgba(0, 0, 0, 0.09) !important;
+}
+
+/* force everything back to bold inside <b>/ <strong> */
+.helperbird-font-opendyslexic-regular b,
+.helperbird-font-opendyslexic-regular strong {
+  font-family: var(--opendyslexic-family) !important;  /* pick up your bold face */
+  font-weight: bolder !important;  /* or simply “bolder” */
+}
+
+/* ─────────────────────────────────────────────────
+   Base Bold Context (all text = 700)
+───────────────────────────────────────────────── */
+.helperbird-font-opendyslexic-bold *:not([class*="icon"]):not([class*="material"])
+  :not([class*="symbols"]):not([class*="font"]) {
+  font-weight: 700;
+}
+
+/* ─────────────────────────────────────────────────
+   Now: Make <b> & <strong> even bolder in that context
+───────────────────────────────────────────────── */
+.helperbird-font-opendyslexic-bold b,
+.helperbird-font-opendyslexic-bold strong {
+  /* if your font supports 900, awesome; otherwise UA will fake it */
+  font-weight: bolder !important;    
+}
+
+/* ─────────────────────────────────────────────────
+   And for Bold‐Italic mode:
+───────────────────────────────────────────────── */
+.helperbird-font-opendyslexic-bold-italic *:not([class*="icon"]):not([class*="material"])
+  :not([class*="symbols"]):not([class*="font"]) {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.helperbird-font-opendyslexic-bold-italic b,
+.helperbird-font-opendyslexic-bold-italic strong {
+  font-weight: bolder !important;
+  font-style: italic;
 }
