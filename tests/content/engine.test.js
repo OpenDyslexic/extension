@@ -140,6 +140,55 @@ describe('font application via messages', () => {
 
 		expect(document.getElementById(FONT_ID)).toBeNull();
 	});
+
+	it('preserves the original font for private-use glyphs', () => {
+		const icon = document.createElement('span');
+		icon.textContent = '\uE000';
+		document.body.appendChild(icon);
+
+		messageListener({
+			type: 'updateFont',
+			enabled: true,
+			font: 'regular'
+		});
+
+		expect(icon.classList.contains('opendyslexic-preserve-font')).toBe(true);
+	});
+
+	it('preserves private-use glyphs added after the font is enabled', async () => {
+		messageListener({
+			type: 'updateFont',
+			enabled: true,
+			font: 'regular'
+		});
+
+		const icon = document.createElement('span');
+		icon.textContent = '\uE000';
+		document.body.appendChild(icon);
+
+		await Promise.resolve();
+
+		expect(icon.classList.contains('opendyslexic-preserve-font')).toBe(true);
+	});
+
+	it('removes preserved font markers when disabled', () => {
+		const icon = document.createElement('span');
+		icon.textContent = '\uE000';
+		document.body.appendChild(icon);
+
+		messageListener({
+			type: 'updateFont',
+			enabled: true,
+			font: 'regular'
+		});
+		messageListener({
+			type: 'updateFont',
+			enabled: false,
+			font: 'regular'
+		});
+
+		expect(icon.classList.contains('opendyslexic-preserve-font')).toBe(false);
+	});
 });
 
 describe('style tag management', () => {
