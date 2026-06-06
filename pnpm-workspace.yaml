@@ -1,0 +1,14 @@
+# Packages must be a week old before installing
+minimumReleaseAge: 1440
+
+# Allow-list packages that can bypass the minimum release age check
+minimumReleaseAgeExclude:
+  - "@types/node"
+
+# Enforces minimum age requirement
+minimumReleaseAgeStrict: true
+
+# Disables post-install scripts common with supply-chain attacks
+ignoreScripts: true
+
+resolutionMode: highest

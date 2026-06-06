@@ -1,1 +1,4 @@
 *.yml
+dist/
+build/
+node_modules/

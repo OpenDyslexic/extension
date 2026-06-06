@@ -3,7 +3,9 @@ const CopyPlugin = require('copy-webpack-plugin');
 const ZipPlugin = require('zip-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 
-const manifestLocation = getManifestLocation(process.env.browser);
+const targetBrowser = process.env.browser || 'chrome';
+const distDir = path.resolve(__dirname, 'dist', targetBrowser);
+const manifestLocation = getManifestLocation(targetBrowser);
 const manifest = require(`./config/${manifestLocation}`);
 const versionNumber = manifest.version.split('.').join('-');
 
@@ -21,6 +23,10 @@ function getManifestLocation(browser) {
 module.exports = {
 	mode: 'production',
 	context: path.resolve(__dirname, 'app'),
+	output: {
+		path: distDir,
+		filename: '[name].js'
+	},
 	entry: {
 		'background': {
 			import: './scripts/background/index.js',
@@ -100,35 +106,35 @@ module.exports = {
 					context: path.resolve(__dirname, 'config'),
 
 					from: manifestLocation,
-					to: `${path.resolve(__dirname, 'dist')}/manifest.json`
+					to: `${distDir}/manifest.json`
 				},
 				{
 					from: './assets/fonts/',
-					to: path.resolve(__dirname, 'dist/assets/fonts/')
+					to: path.resolve(distDir, 'assets/fonts/')
 				},
 
 				{
 					from: './assets/styles/',
-					to: path.resolve(__dirname, 'dist/assets/css/')
+					to: path.resolve(distDir, 'assets/css/')
 				},
 				{
 					from: './_locales/',
-					to: path.resolve(__dirname, 'dist/_locales/')
+					to: path.resolve(distDir, '_locales/')
 				},
 				{
 					from: './assets/images/',
-					to: path.resolve(__dirname, 'dist/assets/images/')
+					to: path.resolve(distDir, 'assets/images/')
 				},
 				{
 					from: 'index.html',
-					to: path.resolve(__dirname, 'dist/')
+					to: path.resolve(distDir)
 				}
 			]
 		}),
 
 		new ZipPlugin({
-			path: `../build/${process.env.browser}/${versionNumber}/`,
-			filename: `opendyslexic-${process.env.browser}-${versionNumber}.zip`,
+			path: `../build/${versionNumber}/`,
+			filename: `opendyslexic-${targetBrowser}-${versionNumber}.zip`,
 			include: [
 				/\.js$/,
 				/\.json$/,

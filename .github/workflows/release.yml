@@ -20,22 +20,27 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
+          cache: 'pnpm'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Run tests
-        run: npm test
+        run: pnpm test
 
       - name: Build Chrome
-        run: npm run chrome
+        run: pnpm run chrome
 
       - name: Build Firefox
-        run: npm run firefox
+        run: pnpm run firefox
 
       - name: Build Edge
-        run: npm run edge
+        run: pnpm run edge
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4

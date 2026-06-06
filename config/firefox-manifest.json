@@ -1,7 +1,7 @@
 {
 	"name": "__MSG_appNameFirefox__",
 	"version": "2026.4.28",
-	"manifest_version": 3,
+	"manifest_version": 2,
 	"description": "__MSG_appDescription__",
 	"homepage_url": "https://opendyslexic.org",
 	"icons": {
@@ -13,7 +13,7 @@
 		"256": "assets/images/icons/icon-256.png",
 		"512": "assets/images/icons/icon-512.png"
 	},
-	"action": {
+	"browser_action": {
 		"default_icon": "assets/images/icons/icon-128.png",
 		"default_popup": "index.html"
 	},
@@ -27,23 +27,19 @@
 		}
 	],
 	"background": {
-		"service_worker": "scripts/background.js"
+		"scripts": ["scripts/background.js"],
+		"persistent": false
 	},
-	"browser_specific_settings": {
+	"applications": {
 		"gecko": {
 			"id": "{759dbb01-b646-4327-bf9e-69ca2543ef8d}",
 			"strict_min_version": "114.0"
 		}
 	},
 	"web_accessible_resources": [
-		{
-			"matches": ["http://*/*", "https://*/*", "file:///*/*"],
-			"resources": [
-				"assets/fonts/opendyslexic/bold.otf",
-				"assets/fonts/opendyslexic/italic.otf",
-				"assets/fonts/opendyslexic/regular.otf",
-				"assets/styles/core/opendyslexic.css"
-			]
-		}
+		"assets/fonts/opendyslexic/bold.otf",
+		"assets/fonts/opendyslexic/italic.otf",
+		"assets/fonts/opendyslexic/regular.otf",
+		"assets/styles/core/opendyslexic.css"
 	]
 }
