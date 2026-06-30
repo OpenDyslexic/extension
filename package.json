@@ -32,7 +32,7 @@
 		"translate:all": "npm run translate:1 && npm run translate:2 && npm run translate:3 && npm run translate:4 && npm run translate:5 && npm run translate:6 && npm run translate:7"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.22.9",
+		"@babel/core": "^7.29.6",
 		"@babel/preset-env": "^7.22.9",
 		"@meforma/vue-toaster": "^1.3.0",
 		"@tailwindcss/postcss": "^4.2.2",
