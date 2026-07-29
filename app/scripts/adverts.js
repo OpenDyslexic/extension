@@ -12,16 +12,13 @@ export default function getAdverts(i18n) {
 			href: 'https://www.x.com/opendyslexic',
 			text: i18n('followDyslexicToolTip')
 		},
-		{
-			href: 'https://addons.mozilla.org/en-US/firefox/addon/opendyslexic-for-firefox/',
-			text: i18n('downloadOnFirefox')
-		},
+	
 		{
 			href: 'https://www.patreon.com/opendyslexic',
 			text: i18n('created_by')
 		},
 		{
-			href: 'https://discord.com/invite/wRfymbz2',
+			href: 'https://discord.com/invite/J6EeMvSBYg',
 			text: i18n('bugs')
 		},
 		{

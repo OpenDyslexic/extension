@@ -32,13 +32,12 @@
 	"offline_enabled": true,
 	"web_accessible_resources": [
 		{
-			"matches": ["https://*/*"],
+			"matches": ["http://*/*", "https://*/*"],
 			"resources": [
 				"assets/fonts/opendyslexic/bold.otf",
 				"assets/fonts/opendyslexic/bold-italic.otf",
 				"assets/fonts/opendyslexic/italic.otf",
-				"assets/fonts/opendyslexic/regular.otf",
-				"assets/styles/core/opendyslexic.css"
+				"assets/fonts/opendyslexic/regular.otf"
 			]
 		}
 	]

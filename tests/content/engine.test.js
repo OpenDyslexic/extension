@@ -26,7 +26,7 @@ beforeEach(() => {
 describe('engine initialization', () => {
 	it('loads initial settings from storage', () => {
 		expect(chrome.storage.local.get).toHaveBeenCalledWith(
-			['enabled', 'font'],
+			['enabled', 'font', 'excludedSites'],
 			expect.any(Function)
 		);
 	});
@@ -174,6 +174,83 @@ describe('style tag management', () => {
 			enabled: false,
 			font: 'regular'
 		});
+
+		expect(document.getElementById(FONT_ID)).toBeNull();
+	});
+});
+
+describe('excluded sites', () => {
+	// jsdom serves these tests from http://localhost
+	it('does not apply the font on an excluded host', () => {
+		messageListener({
+			type: 'updateExcludedSites',
+			excludedSites: ['localhost'],
+			enabled: true,
+			font: 'regular'
+		});
+
+		expect(document.getElementById(FONT_ID)).toBeNull();
+		expect(document.body.className).toBe('');
+	});
+
+	it('applies the font when the host is not excluded', () => {
+		messageListener({
+			type: 'updateExcludedSites',
+			excludedSites: ['example.com'],
+			enabled: true,
+			font: 'regular'
+		});
+
+		expect(document.getElementById(FONT_ID)).not.toBeNull();
+		expect(document.body.className).toBe(`${BODY_CLASS_PREFIX}regular`);
+	});
+
+	it('removes an already applied font once the host is excluded', () => {
+		messageListener({
+			type: 'openDyslexicIsOn',
+			enabled: true,
+			font: 'bold'
+		});
+		expect(document.getElementById(FONT_ID)).not.toBeNull();
+
+		messageListener({
+			type: 'updateExcludedSites',
+			excludedSites: ['localhost'],
+			enabled: true,
+			font: 'bold'
+		});
+
+		expect(document.getElementById(FONT_ID)).toBeNull();
+	});
+
+	it('reapplies the font once the host is removed from the list', () => {
+		messageListener({
+			type: 'updateExcludedSites',
+			excludedSites: ['localhost'],
+			enabled: true,
+			font: 'regular'
+		});
+		expect(document.getElementById(FONT_ID)).toBeNull();
+
+		messageListener({
+			type: 'updateExcludedSites',
+			excludedSites: [],
+			enabled: true,
+			font: 'regular'
+		});
+
+		expect(document.getElementById(FONT_ID)).not.toBeNull();
+	});
+
+	it('keeps the exclusion in effect for later font changes', () => {
+		messageListener({
+			type: 'updateExcludedSites',
+			excludedSites: ['localhost'],
+			enabled: true,
+			font: 'regular'
+		});
+
+		messageListener({ type: 'updateFont', enabled: true, font: 'italic' });
 
 		expect(document.getElementById(FONT_ID)).toBeNull();
 	});

@@ -1,6 +1,6 @@
 {
 	"name": "__MSG_appName__",
-	"version": "2026.4.28",
+	"version": "2026.7.28",
 	"manifest_version": 3,
 	"description": "__MSG_appDescription__",
 	"homepage_url": "https://opendyslexic.org",
@@ -32,13 +32,12 @@
 	"offline_enabled": true,
 	"web_accessible_resources": [
 		{
-			"matches": ["https://*/*"],
+			"matches": ["http://*/*", "https://*/*"],
 			"resources": [
 				"assets/fonts/opendyslexic/bold.otf",
 				"assets/fonts/opendyslexic/bold-italic.otf",
 				"assets/fonts/opendyslexic/italic.otf",
-				"assets/fonts/opendyslexic/regular.otf",
-				"assets/styles/core/opendyslexic.css"
+				"assets/fonts/opendyslexic/regular.otf"
 			]
 		}
 	]

@@ -1,7 +1,9 @@
 import opendyslexic from '!!raw-loader!@styles/core/opendyslexic.css';
+import { isExcluded } from '@scripts/content/utils.js';
 
 let enabled = false;
 let currentFont = 'regular';
+let excludedSites = [];
 
 const FONT_ID = 'opendyslexic-font-styles';
 const BODY_CLASS_PREFIX = 'opendyslexic-font-';
@@ -53,19 +55,28 @@ function updateFontMode(mode, font) {
 	enabled = mode;
 	currentFont = font || 'regular';
 
-	if (enabled) {
+	if (enabled && !isExcluded(window.location.hostname, excludedSites)) {
 		applyFont(currentFont);
 	} else {
 		removeFont();
 	}
 }
 
-chrome.storage.local.get(['enabled', 'font'], (data) => {
+chrome.storage.local.get(['enabled', 'font', 'excludedSites'], (data) => {
+	excludedSites = data.excludedSites || [];
 	updateFontMode(data.enabled || false, data.font || 'regular');
 });
 
 chrome.runtime.onMessage.addListener((message) => {
-	if (message.type === 'openDyslexicIsOn' || message.type === 'updateFont') {
+	if (message.type === 'updateExcludedSites') {
+		excludedSites = message.excludedSites || [];
+	}
+
+	if (
+		message.type === 'openDyslexicIsOn' ||
+		message.type === 'updateFont' ||
+		message.type === 'updateExcludedSites'
+	) {
 		updateFontMode(message.enabled || false, message.font || 'regular');
 	}
 });

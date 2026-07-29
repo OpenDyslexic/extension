@@ -160,6 +160,40 @@
 			}
 		}
 	},
+	"excludedSites": {
+		"message": "Excluded sites",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Add",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "No sites excluded yet.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "You can exclude up to 5 sites.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "That site is already excluded.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Remove $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
+	},
 	"helperbird": {
 		"message": "Discover Helperbird"
 	},

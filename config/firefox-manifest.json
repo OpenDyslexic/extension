@@ -40,9 +40,9 @@
 			"matches": ["http://*/*", "https://*/*", "file:///*/*"],
 			"resources": [
 				"assets/fonts/opendyslexic/bold.otf",
+				"assets/fonts/opendyslexic/bold-italic.otf",
 				"assets/fonts/opendyslexic/italic.otf",
-				"assets/fonts/opendyslexic/regular.otf",
-				"assets/styles/core/opendyslexic.css"
+				"assets/fonts/opendyslexic/regular.otf"
 			]
 		}
 	]

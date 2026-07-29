@@ -5,8 +5,76 @@ import {
 	isChrome,
 	isFirefox,
 	isEdge,
-	isSafari
+	isSafari,
+	normaliseHost,
+	isExcluded,
+	MAX_EXCLUDED_SITES
 } from '../../app/scripts/content/utils';
+
+describe('normaliseHost', () => {
+	it.each([
+		['example.com', 'example.com'],
+		['  Example.COM  ', 'example.com'],
+		['www.example.com', 'example.com'],
+		['https://example.com', 'example.com'],
+		['http://www.example.com/some/path', 'example.com'],
+		['https://example.com:8443/x?y=1#z', 'example.com'],
+		['example.com/path', 'example.com'],
+		['docs.example.com', 'docs.example.com']
+	])('normalises %s to %s', (input, expected) => {
+		expect(normaliseHost(input)).toBe(expected);
+	});
+
+	it('returns an empty string for empty input', () => {
+		expect(normaliseHost('')).toBe('');
+		expect(normaliseHost(null)).toBe('');
+		expect(normaliseHost(undefined)).toBe('');
+	});
+});
+
+describe('isExcluded', () => {
+	it('matches an exact host', () => {
+		expect(isExcluded('example.com', ['example.com'])).toBe(true);
+	});
+
+	it('matches a subdomain of an excluded host', () => {
+		expect(isExcluded('docs.example.com', ['example.com'])).toBe(true);
+	});
+
+	it('ignores www on either side', () => {
+		expect(isExcluded('www.example.com', ['example.com'])).toBe(true);
+		expect(isExcluded('example.com', ['www.example.com'])).toBe(true);
+	});
+
+	it('does not match an unrelated host', () => {
+		expect(isExcluded('example.org', ['example.com'])).toBe(false);
+	});
+
+	it('does not match a host that merely ends with the same text', () => {
+		expect(isExcluded('notexample.com', ['example.com'])).toBe(false);
+	});
+
+	it('returns false for an empty or missing list', () => {
+		expect(isExcluded('example.com', [])).toBe(false);
+		expect(isExcluded('example.com', undefined)).toBe(false);
+		expect(isExcluded('example.com', null)).toBe(false);
+	});
+
+	it('returns false for an empty hostname', () => {
+		expect(isExcluded('', ['example.com'])).toBe(false);
+	});
+
+	it('skips empty entries in the list', () => {
+		expect(isExcluded('example.com', ['', null, 'example.com'])).toBe(true);
+		expect(isExcluded('example.com', ['', null])).toBe(false);
+	});
+});
+
+describe('MAX_EXCLUDED_SITES', () => {
+	it('caps the excluded list at five sites', () => {
+		expect(MAX_EXCLUDED_SITES).toBe(5);
+	});
+});
 
 describe('isEmpty', () => {
 	it('returns true for null', () => {

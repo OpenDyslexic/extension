@@ -125,6 +125,78 @@
 							</template>
 						</div>
 					</div>
+
+					<div class="my-4">
+						<h3 class="text-sm mb-2">
+							{{ $helperbird_i18n('excludedSites') }}
+							<span class="opacity-60">
+								{{ excludedSites.length }}/{{ maxSites }}
+							</span>
+						</h3>
+
+						<div class="join w-full">
+							<input
+								v-model="siteInput"
+								type="text"
+								class="input input-sm join-item w-full"
+								:placeholder="
+									$helperbird_i18n('sitePlaceholder')
+								"
+								:aria-label="$helperbird_i18n('excludedSites')"
+								:disabled="isExcludeListFull"
+								@keyup.enter="addSite"
+							/>
+							<button
+								type="button"
+								class="btn btn-sm btn-primary join-item"
+								:disabled="isExcludeListFull"
+								@click="addSite"
+							>
+								{{ $helperbird_i18n('addSite') }}
+							</button>
+						</div>
+
+						<ul
+							v-if="excludedSites.length"
+							class="mt-2 max-h-24 overflow-auto flex flex-col gap-1"
+							role="list"
+						>
+							<li
+								v-for="site in excludedSites"
+								:key="site"
+								class="flex items-center gap-2 text-sm"
+							>
+								<span class="truncate flex-1">{{ site }}</span>
+								<button
+									type="button"
+									class="btn btn-circle btn-xs btn-ghost"
+									:aria-label="
+										$helperbird_i18n('remove_site_x', site)
+									"
+									:title="
+										$helperbird_i18n('remove_site_x', site)
+									"
+									@click="removeSite(site)"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 -960 960 960"
+										class="h-3 w-3"
+										fill="currentColor"
+										aria-hidden="true"
+									>
+										<path
+											d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+										/>
+									</svg>
+								</button>
+							</li>
+						</ul>
+
+						<p v-else class="mt-2 text-xs opacity-60">
+							{{ $helperbird_i18n('noExcludedSites') }}
+						</p>
+					</div>
 				</div>
 			</div>
 		</main>
@@ -133,7 +205,11 @@
 
 <script>
 	import './index.css';
-	import { isEmpty } from '@scripts/content/utils';
+	import {
+		isEmpty,
+		normaliseHost,
+		MAX_EXCLUDED_SITES
+	} from '@scripts/content/utils';
 	import getAdverts from '@scripts/adverts';
 
 	const FONTS = [
@@ -150,29 +226,89 @@
 				enable: null,
 				adverts: getAdverts(this.$helperbird_i18n),
 				selectedFont: { title: 'OpenDyslexic', font: 'regular' },
-				fonts: FONTS
+				fonts: FONTS,
+				excludedSites: [],
+				siteInput: '',
+				maxSites: MAX_EXCLUDED_SITES
 			};
 		},
 
-		mounted() {
-			chrome.storage.local.get(['font', 'enabled'], (settings) => {
-				if (chrome.runtime.lastError) {
-					console.error(
-						'Storage error:',
-						chrome.runtime.lastError.message
-					);
-					return;
-				}
+		computed: {
+			isExcludeListFull() {
+				return this.excludedSites.length >= this.maxSites;
+			}
+		},
 
-				const found = this.fonts.find((f) => f.font === settings.font);
-				if (found) {
-					this.selectedFont = found;
+		mounted() {
+			chrome.storage.local.get(
+				['font', 'enabled', 'excludedSites'],
+				(settings) => {
+					if (chrome.runtime.lastError) {
+						console.error(
+							'Storage error:',
+							chrome.runtime.lastError.message
+						);
+						return;
+					}
+
+					const found = this.fonts.find(
+						(f) => f.font === settings.font
+					);
+					if (found) {
+						this.selectedFont = found;
+					}
+					this.enable = !!settings.enabled;
+					this.excludedSites = Array.isArray(settings.excludedSites)
+						? settings.excludedSites
+						: [];
 				}
-				this.enable = !!settings.enabled;
-			});
+			);
 		},
 
 		methods: {
+			addSite() {
+				const site = normaliseHost(this.siteInput);
+
+				if (isEmpty(site)) {
+					return;
+				}
+
+				if (this.isExcludeListFull) {
+					this.toaster({
+						message: this.$helperbird_i18n('excludeLimitReached'),
+						type: 'warning'
+					});
+					return;
+				}
+
+				if (this.excludedSites.includes(site)) {
+					this.toaster({
+						message: this.$helperbird_i18n('siteAlreadyExcluded'),
+						type: 'warning'
+					});
+					return;
+				}
+
+				this.excludedSites = [...this.excludedSites, site];
+				this.siteInput = '';
+				this.persistExcludedSites();
+			},
+
+			removeSite(site) {
+				this.excludedSites = this.excludedSites.filter(
+					(entry) => entry !== site
+				);
+				this.persistExcludedSites();
+			},
+
+			persistExcludedSites() {
+				this.sync('excludedSites', [...this.excludedSites]);
+				this.toaster({
+					message: this.$helperbird_i18n('saved'),
+					type: 'success'
+				});
+			},
+
 			sync(key, value) {
 				const setting = { [key]: value };
 				chrome.storage.local.set(setting);

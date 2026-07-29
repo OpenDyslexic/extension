@@ -24,6 +24,19 @@ chrome.storage.onChanged.addListener(async (changes, areaName) => {
 			enabled: isEnabled.found ? isEnabled.item : false
 		});
 	}
+
+	if (changes.excludedSites) {
+		const [isEnabled, currentFont] = await Promise.all([
+			getStorage('enabled'),
+			getStorage('font')
+		]);
+		sendToAllTabs({
+			type: 'updateExcludedSites',
+			excludedSites: changes.excludedSites.newValue || [],
+			enabled: isEnabled.found ? isEnabled.item : false,
+			font: currentFont.found ? currentFont.item : 'regular'
+		});
+	}
 });
 
 function sendToAllTabs(message) {

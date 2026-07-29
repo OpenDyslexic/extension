@@ -49,13 +49,117 @@
 		U+2000-206F, U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
 }
 
-body.opendyslexic-font-regular
+/*
+ * The content script sets exactly one body class. Each mode only declares the
+ * three custom properties below; the override itself is written once further
+ * down so the icon-font exclusion list lives in a single place.
+ */
+body.opendyslexic-font-regular {
+	--opendyslexic-active-family: var(--opendyslexic-regular);
+	--opendyslexic-active-style: normal;
+	--opendyslexic-active-weight: 400;
+}
+
+body.opendyslexic-font-italic {
+	--opendyslexic-active-family: var(--opendyslexic-italic);
+	--opendyslexic-active-style: italic;
+	--opendyslexic-active-weight: 400;
+}
+
+body.opendyslexic-font-bold {
+	--opendyslexic-active-family: var(--opendyslexic-bold);
+	--opendyslexic-active-style: normal;
+	--opendyslexic-active-weight: 700;
+}
+
+/*
+ * Icon fonts map their glyphs onto the private use area, so forcing
+ * OpenDyslexic on them replaces every icon with a tofu box. Three matching
+ * strategies are used below:
+ *
+ *   [class*='icon' i]               catch-all: any class mentioning "icon" in
+ *                                   any case. This single entry covers every
+ *                                   *icon* naming variant - google-material-icons,
+ *                                   material-icons-outlined, material-icons-round,
+ *                                   material-icons-sharp, material-icons-two-tone,
+ *                                   anticon, octicon, codicon, dashicons,
+ *                                   glyphicon, heroicon, iconify, iconoir,
+ *                                   ionicon, remixicon, slds-icon, tabler-icon,
+ *                                   simple-line-icons, flaticon-, el-icon,
+ *                                   q-icon, k-icon, ui-icon, dx-icon, bp5-icon,
+ *                                   chakra-icon, vaadin-icon, sap-icon,
+ *                                   flag-icon, icon_home, ms-Icon, MuiIcon,
+ *                                   spectrum-Icon, and anything else generated
+ *                                   by IcoMoon/Fontello-style tools.
+ *
+ *   [class~='x'] / [class*='x-']    families whose name has no "icon" in it and
+ *                                   whose prefix is long enough to be unique.
+ *
+ *   [class^='x-'] + [class*=' x-']  same, but anchored to the start of a class
+ *                                   name, for prefixes short enough to turn up
+ *                                   inside unrelated words ('pi-' in 'api-key').
+ *
+ * i:empty / span:empty / em:empty are a backstop for unknown icon fonts: an
+ * element with no child nodes renders only its ::before/::after glyph, which
+ * inherits font-family from the element itself. Form controls are deliberately
+ * not included - they hold real text.
+ */
+body:is(
+		.opendyslexic-font-regular,
+		.opendyslexic-font-italic,
+		.opendyslexic-font-bold
+	)
 	*:not(
 		:where(
-				svg,
+				/* Vector icons, icon custom elements, icon attributes */ svg,
 				svg *,
-				[class*='fui-'],
-				[class*='fa-'],
+				iconify-icon,
+				iconify-icon *,
+				ion-icon,
+				ion-icon *,
+				fa-icon,
+				fa-icon *,
+				mat-icon,
+				mat-icon *,
+				md-icon,
+				md-icon *,
+				mwc-icon,
+				mwc-icon *,
+				sl-icon,
+				sl-icon *,
+				cds-icon,
+				cds-icon *,
+				clr-icon,
+				clr-icon *,
+				iron-icon,
+				iron-icon *,
+				ha-icon,
+				ha-icon *,
+				svg-icon,
+				svg-icon *,
+				lord-icon,
+				lord-icon *,
+				[data-icon],
+				[data-icon] *,
+				[data-iconify],
+				[data-glyph],
+				[data-lucide],
+				[data-feather],
+				[data-fa-i2svg],
+				[uk-icon],
+
+				/* Any class mentioning "icon", in any case */ [class*='icon' i],
+				[class*='icon-' i] *,
+				[class*='-icon' i] *,
+				[class~='icon' i] *,
+				[class~='icons' i] *,
+
+				/* Empty elements: ::before/::after glyph carriers */ i:empty,
+				span:empty,
+				em:empty,
+
+				/* Font Awesome: free, pro, sharp, duotone, kits, Fork Awesome */
+					[class*='fa-'],
 				[class*='fa-'] *,
 				[class~='fa'],
 				[class~='fa'] *,
@@ -69,158 +173,192 @@ body.opendyslexic-font-regular
 				[class~='fal'] *,
 				[class~='fad'],
 				[class~='fad'] *,
-				[class~='material-icons'],
-				[class~='material-icons'] *,
-				[class*='material-symbols'],
+				[class~='fat'],
+				[class~='fass'],
+				[class~='fasr'],
+				[class~='fasl'],
+				[class~='fast'],
+				[class~='fasds'],
+				[class~='fak'],
+
+				/* Line Awesome */ [class~='la'],
+				[class~='las'],
+				[class~='lar'],
+				[class~='lab'],
+				[class~='lal'],
+				[class^='la-'],
+				[class*=' la-'],
+
+				/* Material: Google Icons/Symbols, MDI, Material Design Iconic */
+					[class*='material-symbols'],
 				[class*='material-symbols'] *,
 				[class*='google-material'],
 				[class*='google-material'] *,
-				[class~='google-material'],
-				[class~='google-material'] *,
-				[class*='google-material-icons'],
-				[class*='google-material-icons'] *,
-				[class~='google-material-icons'],
-				[class~='google-material-icons'] *,
-				[class*='glyphicon'],
-				[class*='glyphicon'] *,
-				[class*='bi-'],
-				[class*='bi-'] *,
-				[class*='icon-'],
-				[class*='icon-'] *,
-				[class$='-icon'],
-				[class$='-icon'] *,
-				[class*='ph-'],
-				[class*='ph-'] *,
-				[class*='ti-'],
-				[class*='ti-'] *,
-				[class*='ri-'],
-				[class*='ri-'] *,
-				[class*='icomoon'],
-				[class*='icomoon'] *
-			)
-	) {
-	font-family: var(--opendyslexic-regular), Arial, sans-serif !important;
-	font-weight: 400;
-	font-style: normal;
-	line-height: var(--opendyslexic-line-height);
-}
+				[class~='mdi'],
+				[class~='mdi'] *,
+				[class^='mdi-'],
+				[class*=' mdi-'],
+				[class^='mdil-'],
+				[class*=' mdil-'],
+				[class*='zmdi'],
+				[class*='zmdi'] *,
 
-body.opendyslexic-font-italic
-	*:not(
-		:where(
-				svg,
-				svg *,
+				/* Families whose names contain no "icon" */
+					/* Bootstrap Icons */ [class~='bi'],
+				[class^='bi-'],
+				[class*=' bi-'],
+				/* Ionicons, class form */ [class^='ion-'],
+				[class*=' ion-'],
+				[class*='icomoon'],
+				[class*='icomoon'] *,
+				[class*='icofont'],
+				[class*='glyph'],
+				[class*='glyph'] *,
+				[class*='typcn'],
+				[class*='typcn'] *,
+				[class*='themify'],
+				[class*='feather'],
+				[class*='feather'] *,
+				[class*='lucide'],
+				[class*='lucide'] *,
+				[class*='phosphor'],
+				[class*='tabler'],
+				[class*='linecons'],
+				[class*='entypo'],
+				[class*='fontello'],
+				[class*='fontelico'],
+				[class*='brandico'],
+				[class*='streamline'],
+				[class*='meteocons'],
+				[class*='metrize'],
+				[class*='pixeden'],
+				[class*='whhg'],
+				[class*='zocial'],
+				[class*='isax'],
+				[class*='nucleo'],
+				[class*='glyphter'],
+				[class*='fontisto'],
+				[class*='pictogram'],
 				[class*='fui-'],
-				[class*='fa-'],
-				[class*='fa-'] *,
-				[class~='fa'],
-				[class~='fa'] *,
-				[class~='fas'],
-				[class~='fas'] *,
-				[class~='far'],
-				[class~='far'] *,
-				[class~='fab'],
-				[class~='fab'] *,
-				[class~='fal'],
-				[class~='fal'] *,
-				[class~='fad'],
-				[class~='fad'] *,
-				[class~='material-icons'],
-				[class~='material-icons'] *,
-				[class*='material-symbols'],
-				[class*='material-symbols'] *,
-				[class*='google-material'],
-				[class*='google-material'] *,
-				[class~='google-material'],
-				[class~='google-material'] *,
-				[class*='google-material-icons'],
-				[class*='google-material-icons'] *,
-				[class~='google-material-icons'],
-				[class~='google-material-icons'] *,
-				[class*='glyphicon'],
-				[class*='glyphicon'] *,
-				[class*='bi-'],
-				[class*='bi-'] *,
-				[class*='icon-'],
-				[class*='icon-'] *,
-				[class$='-icon'],
-				[class$='-icon'] *,
-				[class*='ph-'],
+				[class*='mif-'],
+				[class*='mbri-'],
+				[class*='mgc_'],
+				[class*='maki-'],
+				[class*='pe-7s-'],
+				[class*='et-line'],
+				[class*='lsf'],
+				[class*='emojione'],
+				[class*='joypixels'],
+				[class*='twemoji'],
+				[class*='emoji'],
+				[class*='wp-smiley'],
+
+				/* Phosphor, Themify/Tabler, Remix, Boxicons */ [class*='ph-'],
 				[class*='ph-'] *,
+				[class~='ph'],
 				[class*='ti-'],
 				[class*='ti-'] *,
+				[class~='ti'],
 				[class*='ri-'],
 				[class*='ri-'] *,
-				[class*='icomoon'],
-				[class*='icomoon'] *
+				[class~='ri'],
+				[class~='bx'],
+				[class*='bx-'],
+				[class*='bxs-'],
+				[class*='bxl-'],
+				[class*='bxt-'],
+
+				/* Short prefixes, anchored to the start of a class name */
+					/* PrimeIcons */ [class~='pi'],
+				[class^='pi-'],
+				[class*=' pi-'],
+				/* Mono Icons */ [class~='mi'],
+				[class^='mi-'],
+				[class*=' mi-'],
+				/* Academicons */ [class~='ai'],
+				[class^='ai-'],
+				[class*=' ai-'],
+				/* Open Iconic */ [class~='oi'],
+				[class^='oi-'],
+				[class*=' oi-'],
+				/* Weather Icons */ [class~='wi'],
+				[class^='wi-'],
+				[class*=' wi-'],
+				/* Foundation, Fontisto, flag-icons */ [class~='fi'],
+				[class^='fi-'],
+				[class*=' fi-'],
+				/* Eva Icons */ [class~='eva'],
+				[class^='eva-'],
+				[class*=' eva-'],
+				/* Jam Icons */ [class~='jam'],
+				[class^='jam-'],
+				[class*=' jam-'],
+				/* Linearicons */ [class~='lnr'],
+				[class^='lnr-'],
+				[class*=' lnr-'],
+				/* LineIcons */ [class~='lni'],
+				[class^='lni-'],
+				[class*=' lni-'],
+				/* HugeIcons */ [class~='hgi'],
+				[class^='hgi-'],
+				[class*=' hgi-'],
+				/* Twemoji Awesome */ [class~='twa'],
+				[class^='twa-'],
+				[class*=' twa-'],
+				/* css.gg */ [class^='gg-'],
+				[class*=' gg-'],
+				/* Simple Icons */ [class^='si-'],
+				[class*=' si-'],
+				/* Nerd Fonts */ [class^='nf-'],
+				[class*=' nf-'],
+				/* Generic ico- generators */ [class^='ico-'],
+				[class*=' ico-'],
+				/* Coolicons */ [class~='ci'],
+				[class^='ci-'],
+				[class*=' ci-'],
+				/* Evil Icons */ [class^='ei-'],
+				[class*=' ei-'],
+				/* The Icon of */ [class^='tio-'],
+				[class*=' tio-'],
+				/* Unicons */ [class^='uil-'],
+				[class*=' uil-'],
+				[class^='uis-'],
+				[class*=' uis-'],
+				[class^='uit-'],
+				[class*=' uit-'],
+				[class^='uim-'],
+				[class*=' uim-'],
+				[class^='uir-'],
+				[class*=' uir-'],
+				/* CoreUI Icons */ [class^='cil-'],
+				[class*=' cil-'],
+				[class^='cib-'],
+				[class*=' cib-'],
+				[class^='cif-'],
+				[class*=' cif-'],
+
+				/* Formula rendering breaks under a forced font */ math,
+				math *,
+				mjx-container,
+				mjx-container *,
+				[class*='katex'],
+				[class*='katex'] *,
+				[class*='MathJax'],
+				[class*='MathJax'] *,
+				[class*='mathjax'],
+				[class*='mathjax'] *,
+				[class*='mwe-math'],
+				[class*='mwe-math'] *
 			)
 	) {
-	font-family: var(--opendyslexic-italic), Arial, sans-serif !important;
-	font-style: italic;
-	font-weight: 400;
+	font-family: var(--opendyslexic-active-family), Arial, sans-serif !important;
+	font-style: var(--opendyslexic-active-style);
+	font-weight: var(--opendyslexic-active-weight);
 	line-height: var(--opendyslexic-line-height);
 }
 
-body.opendyslexic-font-bold
-	*:not(
-		:where(
-				svg,
-				svg *,
-				[class*='fui-'],
-				[class*='fa-'],
-				[class*='fa-'] *,
-				[class~='fa'],
-				[class~='fa'] *,
-				[class~='fas'],
-				[class~='fas'] *,
-				[class~='far'],
-				[class~='far'] *,
-				[class~='fab'],
-				[class~='fab'] *,
-				[class~='fal'],
-				[class~='fal'] *,
-				[class~='fad'],
-				[class~='fad'] *,
-				[class~='material-icons'],
-				[class~='material-icons'] *,
-				[class*='material-symbols'],
-				[class*='material-symbols'] *,
-				[class*='google-material'],
-				[class*='google-material'] *,
-				[class~='google-material'],
-				[class~='google-material'] *,
-				[class*='google-material-icons'],
-				[class*='google-material-icons'] *,
-				[class~='google-material-icons'],
-				[class~='google-material-icons'] *,
-				[class*='glyphicon'],
-				[class*='glyphicon'] *,
-				[class*='bi-'],
-				[class*='bi-'] *,
-				[class*='icon-'],
-				[class*='icon-'] *,
-				[class$='-icon'],
-				[class$='-icon'] *,
-				[class*='ph-'],
-				[class*='ph-'] *,
-				[class*='ti-'],
-				[class*='ti-'] *,
-				[class*='ri-'],
-				[class*='ri-'] *,
-				[class*='icomoon'],
-				[class*='icomoon'] *
-			)
-	) {
-	font-family: var(--opendyslexic-bold), Arial, sans-serif !important;
-	font-weight: 700;
-	font-style: normal;
-	line-height: var(--opendyslexic-line-height);
-}
-
-body.opendyslexic-font-regular b,
-body.opendyslexic-font-regular strong,
-body.opendyslexic-font-italic b,
-body.opendyslexic-font-italic strong {
+body:is(.opendyslexic-font-regular, .opendyslexic-font-italic) b,
+body:is(.opendyslexic-font-regular, .opendyslexic-font-italic) strong {
 	font-family: var(--opendyslexic-bold), Arial, sans-serif !important;
 	font-weight: 700 !important;
 }

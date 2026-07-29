@@ -75,6 +75,28 @@ describe('storage change handling', () => {
 		expect(chrome.tabs.query).toHaveBeenCalled();
 	});
 
+	it('sends message to all tabs when excluded sites change', async () => {
+		chrome.storage.local.get.mockImplementation((key) =>
+			Promise.resolve({ [key]: undefined })
+		);
+		chrome.tabs.query.mockImplementation((query, callback) => {
+			callback([{ id: 1 }]);
+		});
+
+		await storageChangeListener(
+			{ excludedSites: { newValue: ['example.com'] } },
+			'local'
+		);
+
+		expect(chrome.tabs.sendMessage).toHaveBeenCalledWith(
+			1,
+			expect.objectContaining({
+				type: 'updateExcludedSites',
+				excludedSites: ['example.com']
+			})
+		);
+	});
+
 	it('updates badge when enabled changes', async () => {
 		jest.clearAllMocks();
 		chrome.storage.local.get.mockImplementation((key) =>

@@ -36,3 +36,42 @@ export function isChrome(agent, vendor) {
 export function isEmpty(value) {
 	return value == null || value === '';
 }
+
+export const MAX_EXCLUDED_SITES = 5;
+
+/**
+ * Reduce anything the user might paste in - a full URL, a host with a port,
+ * a leading www. - down to a bare, comparable hostname.
+ */
+export function normaliseHost(value) {
+	if (isEmpty(value)) {
+		return '';
+	}
+
+	return String(value)
+		.trim()
+		.toLowerCase()
+		.replace(/^[a-z][a-z0-9+.-]*:\/\//, '')
+		.split('/')[0]
+		.split('?')[0]
+		.split('#')[0]
+		.split(':')[0]
+		.replace(/^www\./, '');
+}
+
+/**
+ * A site is excluded when it matches an entry exactly or is a subdomain of
+ * one, so excluding 'example.com' also covers 'docs.example.com'.
+ */
+export function isExcluded(hostname, excludedSites) {
+	const host = normaliseHost(hostname);
+
+	if (isEmpty(host) || !Array.isArray(excludedSites)) {
+		return false;
+	}
+
+	return excludedSites.some((entry) => {
+		const site = normaliseHost(entry);
+		return !isEmpty(site) && (host === site || host.endsWith(`.${site}`));
+	});
+}
