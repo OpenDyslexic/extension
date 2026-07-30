@@ -1,26 +1,26 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic for Edge",
-		"description": "Formater sider ved hjelp av OpenDyslexic-fonten og hjelp med lav kontrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic for Firefox",
-		"description": "Formater sider ved hjelp av OpenDyslexic-fonten og hjelp med lav kontrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic for Chrome",
-		"description": "Formater sider ved hjelp av OpenDyslexic-fonten og hjelp med lav kontrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "Åpen Dyslektisk",
-		"description": "Formater sider ved hjelp av OpenDyslexic-fonten og hjelp med lav kontrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Formater sider ved hjelp av OpenDyslexic-fonten og hjelp med lav kontrast",
-		"description": "Formater sider ved hjelp av OpenDyslexic-fonten og hjelp med lav kontrast"
+		"message": "Formater sider med OpenDyslexic-fonten og lav kontrast",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
-		"message": "Skriftalternativer"
+		"message": "Fontvalg"
 	},
 	"options": {
 		"message": "Alternativer"
@@ -92,13 +92,13 @@
 		"message": "Hva er nytt"
 	},
 	"bugs": {
-		"message": "Rapporter feil på discords"
+		"message": "Rapporter feil på Discord"
 	},
 	"created_by": {
-		"message": "OpenDyslexic ble opprettet Abbie Gonzalez"
+		"message": "OpenDyslexic ble laget av Abbie Gonzalez"
 	},
 	"firefox": {
-		"message": "Firefox versjon"
+		"message": "Firefox-versjon"
 	},
 	"downloadOnFirefox": {
 		"message": "Tilgjengelig på Firefox"
@@ -128,7 +128,7 @@
 		"message": "Stil"
 	},
 	"supportToolTip": {
-		"message": "Se gjennom denne utvidelsen"
+		"message": "Vurder denne utvidelsen"
 	},
 	"websiteLabel": {
 		"message": "Nettsted"
@@ -138,6 +138,54 @@
 	},
 	"saved": {
 		"message": "Innstillinger brukt"
+	},
+	"toggleExtension": {
+		"message": "Slå OpenDyslexic på eller av",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Endre skrifttype til $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Utelatte nettsteder",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Legg til",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Ingen nettsteder er utelatt ennå.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Du kan utelate opptil 5 nettsteder.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Det nettstedet er allerede utelatt.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Fjern $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "Oppdag Helperbird"

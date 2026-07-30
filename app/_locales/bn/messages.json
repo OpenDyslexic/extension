@@ -1,26 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "এজ এর জন্য OpenDyslexic",
-		"description": "OpenDyslexic ফন্ট এবং কম কনট্রাস্ট সাহায্য ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন।"
+		"message": "Edge-এর জন্য OpenDyslexic",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
-		"message": "ফায়ারফক্সের জন্য OpenDyslexic",
-		"description": "OpenDyslexic ফন্ট এবং কম কনট্রাস্ট সাহায্য ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন।"
+		"message": "Firefox-এর জন্য OpenDyslexic",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
-		"message": "Chrome এর জন্য OpenDyslexic",
-		"description": "OpenDyslexic ফন্ট এবং কম কনট্রাস্ট সাহায্য ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন।"
+		"message": "Chrome-এর জন্য OpenDyslexic",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "OpenDyslexic ফন্ট এবং কম কনট্রাস্ট সাহায্য ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন।"
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "OpenDyslexic ফন্ট এবং কম কনট্রাস্ট সাহায্য ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন",
-		"description": "OpenDyslexic ফন্ট এবং কম কনট্রাস্ট সাহায্য ব্যবহার করে পৃষ্ঠাগুলি ফর্ম্যাট করুন"
+		"message": "OpenDyslexic ফন্ট এবং কম কনট্রাস্ট সহায়তা ব্যবহার করে পৃষ্ঠা ফরম্যাট করুন",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
-		"message": "ফন্ট বিকল্প"
+		"message": "ফন্টের বিকল্প"
 	},
 	"options": {
 		"message": "অপশন"
@@ -68,13 +68,13 @@
 		"message": "OpenDyslexic অনুসরণ করুন"
 	},
 	"weAreOnGithub": {
-		"message": "আমরা গিথুবে আছি"
+		"message": "আমরা Github-এ আছি"
 	},
 	"followDyslexicToolTip": {
 		"message": "X-এ OpenDyslexic অনুসরণ করুন"
 	},
 	"followAbbie": {
-		"message": "OpenDyslexic সমর্থন করুন"
+		"message": "OpenDyslexic-কে সমর্থন করুন"
 	},
 	"comingSoon": {
 		"message": "শীঘ্রই আসছে"
@@ -86,19 +86,19 @@
 		"message": "রবার্ট জেমস অনুসরণ করুন"
 	},
 	"followRobertJamesToolTip": {
-		"message": "রবার্ট জেমস গ্যাব্রিয়েল দ্বারা রক্ষণাবেক্ষণ"
+		"message": "পরিচালনা করেন Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "নতুন কি"
 	},
 	"bugs": {
-		"message": "Discords-এ বাগ রিপোর্ট করুন"
+		"message": "Discord-এ বাগ রিপোর্ট করুন"
 	},
 	"created_by": {
-		"message": "OpenDyslexic তৈরি করা হয়েছিল অ্যাবি গঞ্জালেজ"
+		"message": "OpenDyslexic তৈরি করেছেন Abbie Gonzalez"
 	},
 	"firefox": {
-		"message": "ফায়ারফক্স সংস্করণ"
+		"message": "Firefox সংস্করণ"
 	},
 	"downloadOnFirefox": {
 		"message": "ফায়ারফক্সে উপলব্ধ"
@@ -128,7 +128,7 @@
 		"message": "শৈলী"
 	},
 	"supportToolTip": {
-		"message": "এই এক্সটেনশন পর্যালোচনা করুন"
+		"message": "এই এক্সটেনশনটি রিভিউ করুন"
 	},
 	"websiteLabel": {
 		"message": "ওয়েবসাইট"
@@ -139,8 +139,56 @@
 	"saved": {
 		"message": "সেটিংস প্রয়োগ করা হয়েছে"
 	},
+	"toggleExtension": {
+		"message": "OpenDyslexic চালু বা বন্ধ করুন",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "ফন্ট $FONT$ এ পরিবর্তন করুন",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "বাদ দেওয়া সাইট",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "যোগ করুন",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "এখনও কোনো সাইট বাদ দেওয়া হয়নি।",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "আপনি সর্বোচ্চ 5টি সাইট বাদ দিতে পারবেন।",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "এই সাইটটি ইতিমধ্যেই বাদ দেওয়া হয়েছে।",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "$SITE$ সরান",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
+	},
 	"helperbird": {
-		"message": "হেল্পারবার্ড আবিষ্কার করুন"
+		"message": "Helperbird আবিষ্কার করুন"
 	},
 	"OpenDyslexic": {
 		"message": "OpenDyslexic আবিষ্কার করুন"

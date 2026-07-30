@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic для Edge",
-		"description": "Форматируйте страницы, используя шрифт OpenDyslexic и справку по низкой контрастности."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic для Firefox",
-		"description": "Форматируйте страницы, используя шрифт OpenDyslexic и справку по низкой контрастности."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic для Chrome",
-		"description": "Форматируйте страницы, используя шрифт OpenDyslexic и справку по низкой контрастности."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Форматируйте страницы, используя шрифт OpenDyslexic и справку по низкой контрастности."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Форматирование страниц с использованием шрифта OpenDyslexic и помощь с низкой контрастностью",
-		"description": "Форматирование страниц с использованием шрифта OpenDyslexic и помощь с низкой контрастностью"
+		"message": "Форматируйте страницы шрифтом OpenDyslexic с поддержкой низкой контрастности",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "Параметры шрифта"
@@ -71,10 +71,10 @@
 		"message": "Мы на Github"
 	},
 	"followDyslexicToolTip": {
-		"message": "Подпишитесь на OpenDyslexic на X"
+		"message": "Подпишитесь на OpenDyslexic в X"
 	},
 	"followAbbie": {
-		"message": "Поддержка OpenDyslexic"
+		"message": "Поддержите OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Вскоре"
@@ -86,7 +86,7 @@
 		"message": "Следуйте за Робертом Джеймсом"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Поддерживает Роберт Джеймс Габриэль"
+		"message": "Поддерживает Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Что нового?"
@@ -95,10 +95,10 @@
 		"message": "Сообщить об ошибках в Discord"
 	},
 	"created_by": {
-		"message": "OpenDyslexic была создана Эбби Гонсалес"
+		"message": "OpenDyslexic создала Abbie Gonzalez"
 	},
 	"firefox": {
-		"message": "Версия Firefox"
+		"message": "Версия для Firefox"
 	},
 	"downloadOnFirefox": {
 		"message": "Доступно в Firefox"
@@ -128,7 +128,7 @@
 		"message": "Стиль"
 	},
 	"supportToolTip": {
-		"message": "Просмотрите это расширение"
+		"message": "Оценить это расширение"
 	},
 	"websiteLabel": {
 		"message": "Веб-сайт"
@@ -139,16 +139,64 @@
 	"saved": {
 		"message": "Настройки применены"
 	},
+	"toggleExtension": {
+		"message": "Включить или выключить OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Изменить шрифт на $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Исключённые сайты",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Добавить",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Пока нет исключённых сайтов.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Можно исключить не более 5 сайтов.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Этот сайт уже исключён.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Удалить $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
+	},
 	"helperbird": {
-		"message": "Откройте для себя Helperbird"
+		"message": "Откройте Helperbird"
 	},
 	"OpenDyslexic": {
-		"message": "Откройте для себя OpenDyslexic"
+		"message": "Откройте OpenDyslexic"
 	},
 	"on": {
-		"message": "На"
+		"message": "Вкл."
 	},
 	"off": {
-		"message": "Выключенный"
+		"message": "Выкл."
 	}
 }

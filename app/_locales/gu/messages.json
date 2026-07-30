@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
-		"message": "એજ માટે OpenDyslexic",
-		"description": "OpenDyslexic ફોન્ટ અને ઓછી કોન્ટ્રાસ્ટ મદદનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો."
+		"message": "Edge માટે OpenDyslexic",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "Firefox માટે OpenDyslexic",
-		"description": "OpenDyslexic ફોન્ટ અને ઓછી કોન્ટ્રાસ્ટ મદદનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "Chrome માટે OpenDyslexic",
-		"description": "OpenDyslexic ફોન્ટ અને ઓછી કોન્ટ્રાસ્ટ મદદનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "ઓપનડિસલેક્સિક",
-		"description": "OpenDyslexic ફોન્ટ અને ઓછી કોન્ટ્રાસ્ટ મદદનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "OpenDyslexic ફોન્ટ અને ઓછી કોન્ટ્રાસ્ટ મદદનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો",
-		"description": "OpenDyslexic ફોન્ટ અને ઓછી કોન્ટ્રાસ્ટ મદદનો ઉપયોગ કરીને પૃષ્ઠોને ફોર્મેટ કરો"
+		"message": "OpenDyslexic ફોન્ટ અને ઓછા કોન્ટ્રાસ્ટ સહાય વડે પૃષ્ઠોને ફોર્મેટ કરો",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "ફોન્ટ વિકલ્પો"
@@ -68,13 +68,13 @@
 		"message": "OpenDyslexic અનુસરો"
 	},
 	"weAreOnGithub": {
-		"message": "અમે ગીથબ પર છીએ"
+		"message": "અમે Github પર છીએ"
 	},
 	"followDyslexicToolTip": {
 		"message": "X પર OpenDyslexic ને અનુસરો"
 	},
 	"followAbbie": {
-		"message": "OpenDyslexic ને સપોર્ટ કરો"
+		"message": "OpenDyslexic ને સમર્થન આપો"
 	},
 	"comingSoon": {
 		"message": "ટૂંક સમયમાં આવી રહ્યું છે"
@@ -86,19 +86,19 @@
 		"message": "રોબર્ટ જેમ્સને અનુસરો"
 	},
 	"followRobertJamesToolTip": {
-		"message": "રોબર્ટ જેમ્સ ગેબ્રિયલ દ્વારા જાળવણી"
+		"message": "સંચાલન Robert James Gabriel દ્વારા"
 	},
 	"whatsNew": {
 		"message": "નવું શું છે"
 	},
 	"bugs": {
-		"message": "ડિસ્કોર્ડ્સ પર બગ્સની જાણ કરો"
+		"message": "Discord પર બગ્સ રિપોર્ટ કરો"
 	},
 	"created_by": {
-		"message": "OpenDyslexic એબી ગોન્ઝાલેઝ બનાવવામાં આવી હતી"
+		"message": "OpenDyslexic Abbie Gonzalez દ્વારા બનાવવામાં આવ્યું"
 	},
 	"firefox": {
-		"message": "ફાયરફોક્સ સંસ્કરણ"
+		"message": "Firefox સંસ્કરણ"
 	},
 	"downloadOnFirefox": {
 		"message": "ફાયરફોક્સ પર ઉપલબ્ધ છે"
@@ -137,10 +137,58 @@
 		"message": "સપોર્ટ વેબસાઇટ."
 	},
 	"saved": {
-		"message": "સેટિંગ્સ લાગુ"
+		"message": "સેટિંગ્સ લાગુ કરવામાં આવી"
+	},
+	"toggleExtension": {
+		"message": "OpenDyslexic ચાલુ અથવા બંધ કરો",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "ફોન્ટ $FONT$ માં બદલો",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "બાકાત સાઇટ્સ",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "ઉમેરો",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "હજી કોઈ સાઇટ બાકાત નથી.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "તમે વધુમાં વધુ 5 સાઇટ બાકાત કરી શકો છો.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "તે સાઇટ પહેલેથી બાકાત છે.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "$SITE$ દૂર કરો",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
-		"message": "હેલ્પરબર્ડ શોધો"
+		"message": "Helperbird શોધો"
 	},
 	"OpenDyslexic": {
 		"message": "OpenDyslexic શોધો"

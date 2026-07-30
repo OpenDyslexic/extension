@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
-		"message": "എഡ്ജിനുള്ള ഓപ്പൺ ഡിസ്ലെക്സിക്",
-		"description": "OpenDyslexic ഫോണ്ടും കുറഞ്ഞ കോൺട്രാസ്റ്റ് സഹായവും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റ് ചെയ്യുക."
+		"message": "Edge-നുള്ള OpenDyslexic",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
-		"message": "ഫയർഫോക്സിനുള്ള ഓപ്പൺ ഡിസ്ലെക്സിക്",
-		"description": "OpenDyslexic ഫോണ്ടും കുറഞ്ഞ കോൺട്രാസ്റ്റ് സഹായവും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റ് ചെയ്യുക."
+		"message": "Firefox-നുള്ള OpenDyslexic",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "Chrome-നുള്ള OpenDyslexic",
-		"description": "OpenDyslexic ഫോണ്ടും കുറഞ്ഞ കോൺട്രാസ്റ്റ് സഹായവും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റ് ചെയ്യുക."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "ഓപ്പൺ ഡിസ്ലെക്സിക്",
-		"description": "OpenDyslexic ഫോണ്ടും കുറഞ്ഞ കോൺട്രാസ്റ്റ് സഹായവും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റ് ചെയ്യുക."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
 		"message": "OpenDyslexic ഫോണ്ടും കുറഞ്ഞ കോൺട്രാസ്റ്റ് സഹായവും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റ് ചെയ്യുക",
-		"description": "OpenDyslexic ഫോണ്ടും കുറഞ്ഞ കോൺട്രാസ്റ്റ് സഹായവും ഉപയോഗിച്ച് പേജുകൾ ഫോർമാറ്റ് ചെയ്യുക"
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "ഫോണ്ട് ഓപ്ഷനുകൾ"
@@ -68,13 +68,13 @@
 		"message": "OpenDyslexic പിന്തുടരുക"
 	},
 	"weAreOnGithub": {
-		"message": "ഞങ്ങൾ Github-ലാണ്"
+		"message": "ഞങ്ങൾ Github-ൽ ഉണ്ട്"
 	},
 	"followDyslexicToolTip": {
 		"message": "X-ൽ OpenDyslexic പിന്തുടരുക"
 	},
 	"followAbbie": {
-		"message": "OpenDyslexic പിന്തുണയ്ക്കുക"
+		"message": "OpenDyslexic-നെ പിന്തുണയ്ക്കുക"
 	},
 	"comingSoon": {
 		"message": "ഉടൻ വരുന്നു"
@@ -86,19 +86,19 @@
 		"message": "റോബർട്ട് ജെയിംസിനെ പിന്തുടരുക"
 	},
 	"followRobertJamesToolTip": {
-		"message": "റോബർട്ട് ജെയിംസ് ഗബ്രിയേൽ നിർവഹിച്ചത്"
+		"message": "പരിപാലിക്കുന്നത്: Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "എന്താണ് പുതിയത്"
 	},
 	"bugs": {
-		"message": "അഭിപ്രായവ്യത്യാസങ്ങളിൽ ബഗുകൾ റിപ്പോർട്ട് ചെയ്യുക"
+		"message": "Discord-ൽ ബഗുകൾ റിപ്പോർട്ട് ചെയ്യുക"
 	},
 	"created_by": {
-		"message": "ഓപ്പൺ ഡിസ്ലെക്സിക് സൃഷ്ടിച്ചത് എബി ഗോൺസാലസ് ആണ്"
+		"message": "OpenDyslexic സൃഷ്ടിച്ചത് Abbie Gonzalez"
 	},
 	"firefox": {
-		"message": "ഫയർഫോക്സ് പതിപ്പ്"
+		"message": "Firefox പതിപ്പ്"
 	},
 	"downloadOnFirefox": {
 		"message": "ഫയർഫോക്സിൽ ലഭ്യമാണ്"
@@ -128,7 +128,7 @@
 		"message": "ശൈലി"
 	},
 	"supportToolTip": {
-		"message": "ഈ വിപുലീകരണം അവലോകനം ചെയ്യുക"
+		"message": "ഈ എക്സ്റ്റൻഷൻ റിവ്യൂ ചെയ്യുക"
 	},
 	"websiteLabel": {
 		"message": "വെബ്സൈറ്റ്"
@@ -139,8 +139,56 @@
 	"saved": {
 		"message": "ക്രമീകരണങ്ങൾ പ്രയോഗിച്ചു"
 	},
+	"toggleExtension": {
+		"message": "OpenDyslexic ഓൺ അല്ലെങ്കിൽ ഓഫ് ചെയ്യുക",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "ഫോണ്ട് $FONT$ ആയി മാറ്റുക",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "ഒഴിവാക്കിയ സൈറ്റുകൾ",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "ചേർക്കുക",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "ഇതുവരെ സൈറ്റുകൾ ഒഴിവാക്കിയിട്ടില്ല.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "പരമാവധി 5 സൈറ്റുകൾ ഒഴിവാക്കാം.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "ആ സൈറ്റ് നേരത്തെ തന്നെ ഒഴിവാക്കിയിട്ടുണ്ട്.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "$SITE$ നീക്കംചെയ്യുക",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
+	},
 	"helperbird": {
-		"message": "ഹെൽപ്പർബേർഡ് കണ്ടെത്തുക"
+		"message": "Helperbird കണ്ടെത്തുക"
 	},
 	"OpenDyslexic": {
 		"message": "OpenDyslexic കണ്ടെത്തുക"

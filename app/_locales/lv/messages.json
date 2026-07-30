@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic priekš Edge",
-		"description": "Palīdz formatēt lapas, izmantojot OpenDyslexic fontu un zemu kontrastu."
+		"message": "OpenDyslexic pārlūkam Edge",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic pārlūkprogrammai Firefox",
-		"description": "Palīdz formatēt lapas, izmantojot OpenDyslexic fontu un zemu kontrastu."
+		"message": "OpenDyslexic pārlūkam Firefox",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic pārlūkam Chrome",
-		"description": "Palīdz formatēt lapas, izmantojot OpenDyslexic fontu un zemu kontrastu."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Palīdz formatēt lapas, izmantojot OpenDyslexic fontu un zemu kontrastu."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Palīdz formatēt lapas, izmantojot OpenDyslexic fontu un zemu kontrastu",
-		"description": "Palīdz formatēt lapas, izmantojot OpenDyslexic fontu un zemu kontrastu"
+		"message": "Formatējiet lapas ar OpenDyslexic fontu un zema kontrasta palīdzību",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "Fonta iespējas"
@@ -68,10 +68,10 @@
 		"message": "Sekojiet OpenDyslexic"
 	},
 	"weAreOnGithub": {
-		"message": "Mēs atrodamies vietnē Github"
+		"message": "Mēs esam Github"
 	},
 	"followDyslexicToolTip": {
-		"message": "Sekojiet OpenDyslexic vietnē X"
+		"message": "Sekojiet OpenDyslexic platformā X"
 	},
 	"followAbbie": {
 		"message": "Atbalstiet OpenDyslexic"
@@ -86,16 +86,16 @@
 		"message": "Sekojiet Robertam Džeimsam"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Uztur Roberts Džeimss Gabriels"
+		"message": "Uztur Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Kas jauns"
 	},
 	"bugs": {
-		"message": "Ziņojiet par kļūdām vietnē Discord"
+		"message": "Ziņojiet par kļūdām Discord"
 	},
 	"created_by": {
-		"message": "OpenDyslexic tika izveidota Abbie Gonzalez"
+		"message": "OpenDyslexic izveidoja Abbie Gonzalez"
 	},
 	"firefox": {
 		"message": "Firefox versija"
@@ -128,7 +128,7 @@
 		"message": "Stils"
 	},
 	"supportToolTip": {
-		"message": "Pārskatiet šo paplašinājumu"
+		"message": "Novērtējiet šo paplašinājumu"
 	},
 	"websiteLabel": {
 		"message": "Tīmekļa vietne"
@@ -138,6 +138,54 @@
 	},
 	"saved": {
 		"message": "Iestatījumi lietoti"
+	},
+	"toggleExtension": {
+		"message": "Ieslēgt vai izslēgt OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Mainīt fontu uz $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Izslēgtās vietnes",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Pievienot",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Vēl nav izslēgtu vietņu.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Varat izslēgt līdz 5 vietnēm.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Šī vietne jau ir izslēgta.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Noņemt $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "Atklājiet Helperbird"

@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
-		"message": "ОпенДислекиц за Едге",
-		"description": "Форматирајте странице користећи ОпенДислекиц фонт и помоћ са ниским контрастом."
+		"message": "OpenDyslexic за Edge",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
-		"message": "ОпенДислекиц за Фирефок",
-		"description": "Форматирајте странице користећи ОпенДислекиц фонт и помоћ са ниским контрастом."
+		"message": "OpenDyslexic за Firefox",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
-		"message": "ОпенДислекиц за Цхроме",
-		"description": "Форматирајте странице користећи ОпенДислекиц фонт и помоћ са ниским контрастом."
+		"message": "OpenDyslexic за Chrome",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "ОпенДислекиц",
-		"description": "Форматирајте странице користећи ОпенДислекиц фонт и помоћ са ниским контрастом."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Форматирајте странице користећи ОпенДислекиц фонт и помоћ са ниским контрастом",
-		"description": "Форматирајте странице користећи ОпенДислекиц фонт и помоћ са ниским контрастом"
+		"message": "Форматирајте странице помоћу фонта OpenDyslexic и помоћи са ниским контрастом",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "Опције фонта"
@@ -68,13 +68,13 @@
 		"message": "Пратите ОпенДислекиц"
 	},
 	"weAreOnGithub": {
-		"message": "Ми смо на Гитхуб-у"
+		"message": "Налазимо се на Github-у"
 	},
 	"followDyslexicToolTip": {
-		"message": "Пратите ОпенДислекиц на Кс"
+		"message": "Пратите OpenDyslexic на X-у"
 	},
 	"followAbbie": {
-		"message": "Подршка ОпенДислекиц"
+		"message": "Подржите OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Ускоро"
@@ -86,19 +86,19 @@
 		"message": "Пратите Роберта Џејмса"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Одржава Роберт Јамес Габриел"
+		"message": "Одржава Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Шта има ново"
 	},
 	"bugs": {
-		"message": "Пријавите грешке у Дисцордс-у"
+		"message": "Пријавите грешке на Discord-у"
 	},
 	"created_by": {
-		"message": "ОпенДислекиц је креирана Аббие Гонзалез"
+		"message": "OpenDyslexic је креирала Abbie Gonzalez"
 	},
 	"firefox": {
-		"message": "Фирефок верзија"
+		"message": "Firefox верзија"
 	},
 	"downloadOnFirefox": {
 		"message": "Доступно на Фирефок-у"
@@ -125,10 +125,10 @@
 		"message": "Преглед"
 	},
 	"style": {
-		"message": "Стиле"
+		"message": "Стил"
 	},
 	"supportToolTip": {
-		"message": "Прегледајте ово проширење"
+		"message": "Оцените ово проширење"
 	},
 	"websiteLabel": {
 		"message": "Вебсите"
@@ -139,16 +139,64 @@
 	"saved": {
 		"message": "Подешавања су примењена"
 	},
+	"toggleExtension": {
+		"message": "Укључи или искључи OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Промени фонт на $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Изузети сајтови",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Додај",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Још нема изузетих сајтова.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Можете изузети до 5 сајтова.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Тај сајт је већ изузет.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Уклони $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
+	},
 	"helperbird": {
-		"message": "Откријте Хелпербирд"
+		"message": "Откријте Helperbird"
 	},
 	"OpenDyslexic": {
-		"message": "Откријте ОпенДислекиц"
+		"message": "Откријте OpenDyslexic"
 	},
 	"on": {
-		"message": "Он"
+		"message": "Укључено"
 	},
 	"off": {
-		"message": "Офф"
+		"message": "Искључено"
 	}
 }

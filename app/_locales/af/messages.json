@@ -1,26 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "OpenDislexic vir Edge",
-		"description": "Formateer bladsye deur die OpenDyslexic-lettertipe en lae kontrashulp te gebruik."
+		"message": "OpenDyslexic vir Edge",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic vir Firefox",
-		"description": "Formateer bladsye deur die OpenDyslexic-lettertipe en lae kontrashulp te gebruik."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic vir Chrome",
-		"description": "Formateer bladsye deur die OpenDyslexic-lettertipe en lae kontrashulp te gebruik."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "Oop Disleksies",
-		"description": "Formateer bladsye deur die OpenDyslexic-lettertipe en lae kontrashulp te gebruik."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Formateer bladsye deur die OpenDyslexic-lettertipe en lae kontrashulp te gebruik",
-		"description": "Formateer bladsye deur die OpenDyslexic-lettertipe en lae kontrashulp te gebruik"
+		"message": "Formateer bladsye met die OpenDyslexic-lettertipe en lae-kontras hulp",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
-		"message": "Lettertipe opsies"
+		"message": "Lettertipe-opsies"
 	},
 	"options": {
 		"message": "Opsies"
@@ -74,7 +74,7 @@
 		"message": "Volg OpenDyslexic op X"
 	},
 	"followAbbie": {
-		"message": "Ondersteun OpenDislexic"
+		"message": "Ondersteun OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Binnekort beskikbaar"
@@ -92,13 +92,13 @@
 		"message": "Wat is nuut"
 	},
 	"bugs": {
-		"message": "Rapporteer foute oor onenighede"
+		"message": "Rapporteer foute op Discord"
 	},
 	"created_by": {
-		"message": "OpenDyslexic is geskep Abbie Gonzalez"
+		"message": "OpenDyslexic is deur Abbie Gonzalez geskep"
 	},
 	"firefox": {
-		"message": "Firefox weergawe"
+		"message": "Firefox-weergawe"
 	},
 	"downloadOnFirefox": {
 		"message": "Beskikbaar op Firefox"
@@ -128,7 +128,7 @@
 		"message": "Styl"
 	},
 	"supportToolTip": {
-		"message": "Hersien hierdie uitbreiding"
+		"message": "Beoordeel hierdie uitbreiding"
 	},
 	"websiteLabel": {
 		"message": "Webwerf"
@@ -138,6 +138,54 @@
 	},
 	"saved": {
 		"message": "Instellings toegepas"
+	},
+	"toggleExtension": {
+		"message": "Skakel OpenDyslexic aan of af",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Verander lettertipe na $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Uitgesluite webwerwe",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Voeg by",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Nog geen webwerwe uitgesluit nie.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Jy kan tot 5 webwerwe uitsluit.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Daardie webwerf is reeds uitgesluit.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Verwyder $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "Ontdek Helperbird"

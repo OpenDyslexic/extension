@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
 		"message": "Edge용 OpenDyslexic",
-		"description": "OpenDyslexic 글꼴과 낮은 대비 도움말을 사용하여 페이지 형식을 지정합니다."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "Firefox용 OpenDyslexic",
-		"description": "OpenDyslexic 글꼴과 낮은 대비 도움말을 사용하여 페이지 형식을 지정합니다."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "Chrome용 OpenDyslexic",
-		"description": "OpenDyslexic 글꼴과 낮은 대비 도움말을 사용하여 페이지 형식을 지정합니다."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "오픈디스렉식",
-		"description": "OpenDyslexic 글꼴과 낮은 대비 도움말을 사용하여 페이지 형식을 지정합니다."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "OpenDyslexic 글꼴과 낮은 대비 도움말을 사용하여 페이지 형식 지정",
-		"description": "OpenDyslexic 글꼴과 낮은 대비 도움말을 사용하여 페이지 형식 지정"
+		"message": "OpenDyslexic 글꼴과 저대비 도움말로 페이지 서식을 지정합니다",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "글꼴 옵션"
@@ -68,13 +68,13 @@
 		"message": "OpenDyslexic 팔로우하기"
 	},
 	"weAreOnGithub": {
-		"message": "우리는 Github에 있습니다"
+		"message": "Github에서 만나보세요"
 	},
 	"followDyslexicToolTip": {
-		"message": "X에서 OpenDyslexic을 팔로우하세요"
+		"message": "X에서 OpenDyslexic 팔로우"
 	},
 	"followAbbie": {
-		"message": "OpenDyslexic 지원"
+		"message": "OpenDyslexic 후원하기"
 	},
 	"comingSoon": {
 		"message": "곧 출시 예정"
@@ -86,16 +86,16 @@
 		"message": "로버트 제임스를 팔로우하세요"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Robert James Gabriel이 유지 관리함"
+		"message": "관리자: Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "새로운 소식"
 	},
 	"bugs": {
-		"message": "Discords에서 버그 보고하기"
+		"message": "Discord에서 버그 신고"
 	},
 	"created_by": {
-		"message": "OpenDyslexic은 Abbie Gonzalez가 만들었습니다."
+		"message": "OpenDyslexic은 Abbie Gonzalez가 만들었습니다"
 	},
 	"firefox": {
 		"message": "Firefox 버전"
@@ -128,7 +128,7 @@
 		"message": "스타일"
 	},
 	"supportToolTip": {
-		"message": "이 확장 프로그램을 검토하세요"
+		"message": "이 확장 프로그램 리뷰하기"
 	},
 	"websiteLabel": {
 		"message": "웹사이트"
@@ -137,18 +137,66 @@
 		"message": "지원 웹사이트."
 	},
 	"saved": {
-		"message": "적용된 설정"
+		"message": "설정이 적용되었습니다"
+	},
+	"toggleExtension": {
+		"message": "OpenDyslexic 켜기 또는 끄기",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "글꼴을 $FONT$(으)로 변경",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "제외된 사이트",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "추가",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "아직 제외된 사이트가 없습니다.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "최대 5개의 사이트를 제외할 수 있습니다.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "이미 제외된 사이트입니다.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "$SITE$ 제거",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
-		"message": "헬퍼버드를 발견하세요"
+		"message": "Helperbird 알아보기"
 	},
 	"OpenDyslexic": {
-		"message": "OpenDyslexic을 발견하세요"
+		"message": "OpenDyslexic 알아보기"
 	},
 	"on": {
-		"message": "~에"
+		"message": "켜짐"
 	},
 	"off": {
-		"message": "끄다"
+		"message": "꺼짐"
 	}
 }

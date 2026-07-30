@@ -1,26 +1,26 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic สำหรับ Edge",
-		"description": "จัดรูปแบบหน้าโดยใช้แบบอักษร OpenDyslexic และความช่วยเหลือแบบคอนทราสต์ต่ำ"
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic สำหรับ Firefox",
-		"description": "จัดรูปแบบหน้าโดยใช้แบบอักษร OpenDyslexic และความช่วยเหลือแบบคอนทราสต์ต่ำ"
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic สำหรับ Chrome",
-		"description": "จัดรูปแบบหน้าโดยใช้แบบอักษร OpenDyslexic และความช่วยเหลือแบบคอนทราสต์ต่ำ"
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "โอเพ่นดิสเล็กซิก",
-		"description": "จัดรูปแบบหน้าโดยใช้แบบอักษร OpenDyslexic และความช่วยเหลือแบบคอนทราสต์ต่ำ"
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "จัดรูปแบบหน้าโดยใช้แบบอักษร OpenDyslexic และความช่วยเหลือแบบคอนทราสต์ต่ำ",
-		"description": "จัดรูปแบบหน้าโดยใช้แบบอักษร OpenDyslexic และความช่วยเหลือแบบคอนทราสต์ต่ำ"
+		"message": "จัดรูปแบบหน้าเว็บด้วยฟอนต์ OpenDyslexic และตัวช่วยคอนทราสต์ต่ำ",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
-		"message": "ตัวเลือกแบบอักษร"
+		"message": "ตัวเลือกฟอนต์"
 	},
 	"options": {
 		"message": "ตัวเลือก"
@@ -68,7 +68,7 @@
 		"message": "ติดตาม OpenDyslexic"
 	},
 	"weAreOnGithub": {
-		"message": "เราอยู่ใน Github"
+		"message": "เราอยู่บน Github"
 	},
 	"followDyslexicToolTip": {
 		"message": "ติดตาม OpenDyslexic บน X"
@@ -86,16 +86,16 @@
 		"message": "ติดตามโรเบิร์ต เจมส์"
 	},
 	"followRobertJamesToolTip": {
-		"message": "ดูแลโดยโรเบิร์ต เจมส์ กาเบรียล"
+		"message": "ดูแลโดย Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "มีอะไรใหม่"
 	},
 	"bugs": {
-		"message": "รายงานข้อบกพร่องบน Discords"
+		"message": "รายงานข้อบกพร่องบน Discord"
 	},
 	"created_by": {
-		"message": "OpenDyslexic ถูกสร้างขึ้นโดย Abbie Gonzalez"
+		"message": "OpenDyslexic สร้างโดย Abbie Gonzalez"
 	},
 	"firefox": {
 		"message": "เวอร์ชัน Firefox"
@@ -128,7 +128,7 @@
 		"message": "สไตล์"
 	},
 	"supportToolTip": {
-		"message": "ตรวจสอบส่วนขยายนี้"
+		"message": "ให้คะแนนส่วนขยายนี้"
 	},
 	"websiteLabel": {
 		"message": "เว็บไซต์"
@@ -137,7 +137,55 @@
 		"message": "เว็บไซต์สนับสนุน"
 	},
 	"saved": {
-		"message": "การตั้งค่าที่ใช้แล้ว"
+		"message": "ใช้การตั้งค่าแล้ว"
+	},
+	"toggleExtension": {
+		"message": "เปิดหรือปิด OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "เปลี่ยนฟอนต์เป็น $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "เว็บไซต์ที่ยกเว้น",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "เพิ่ม",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "ยังไม่มีเว็บไซต์ที่ยกเว้น",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "คุณสามารถยกเว้นได้สูงสุด 5 เว็บไซต์",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "เว็บไซต์นี้ถูกยกเว้นอยู่แล้ว",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "ลบ $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "ค้นพบ Helperbird"
@@ -146,7 +194,7 @@
 		"message": "ค้นพบ OpenDyslexic"
 	},
 	"on": {
-		"message": "บน"
+		"message": "เปิด"
 	},
 	"off": {
 		"message": "ปิด"

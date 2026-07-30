@@ -89,16 +89,16 @@
 		"message": "Follow Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Mainted by Robert James Gabriel"
+		"message": "Maintained by Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "What`s new"
 	},
 	"bugs": {
-		"message": "Report Bugs on Discords"
+		"message": "Report bugs on Discord"
 	},
 	"created_by": {
-		"message": "OpenDyslexic was created Abbie Gonzalez"
+		"message": "OpenDyslexic was created by Abbie Gonzalez"
 	},
 	"firefox": {
 		"message": "Firefox Version"
