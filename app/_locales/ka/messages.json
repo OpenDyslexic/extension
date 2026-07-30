@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "ეხმარება გვერდების ფორმატირებას OpenDyslexic შრიფტისა და დაბალი კონტრასტის გამოყენებით."
+		"message": "OpenDyslexic Edge-ისთვის",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic Firefox-ისთვის",
-		"description": "გვერდების ფორმატირება OpenDyslexic შრიფტის და დაბალი კონტრასტის გამოყენებით დაგეხმარებათ."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic Chrome-ისთვის",
-		"description": "ეხმარება გვერდების ფორმატირებას OpenDyslexic შრიფტისა და დაბალი კონტრასტის გამოყენებით."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "ეხმარება გვერდების ფორმატირებას OpenDyslexic შრიფტისა და დაბალი კონტრასტის გამოყენებით."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "ეხმარება გვერდების ფორმატირებას OpenDyslexic შრიფტისა და დაბალი კონტრასტის გამოყენებით",
-		"description": "ეხმარება გვერდების ფორმატირებას OpenDyslexic შრიფტისა და დაბალი კონტრასტის გამოყენებით"
+		"message": "დააფორმატეთ გვერდები OpenDyslexic-ის შრიფტითა და დაბალი კონტრასტის დახმარებით",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "შრიფტის პარამეტრები"
@@ -71,10 +71,10 @@
 		"message": "ჩვენ Github-ზე ვართ"
 	},
 	"followDyslexicToolTip": {
-		"message": "მიჰყევით OpenDyslexic X-ზე"
+		"message": "მიჰყევით OpenDyslexic-ს X-ზე"
 	},
 	"followAbbie": {
-		"message": "OpenDyslexic-ის მხარდაჭერა"
+		"message": "დაუჭირეთ მხარი OpenDyslexic-ს"
 	},
 	"comingSoon": {
 		"message": "მალე მოვა"
@@ -86,16 +86,16 @@
 		"message": "მიჰყევით რობერტ ჯეიმსს"
 	},
 	"followRobertJamesToolTip": {
-		"message": "შესრულებულია რობერტ ჯეიმს გაბრიელის მიერ"
+		"message": "მხარდაჭერა: Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "რა არის ახალი"
 	},
 	"bugs": {
-		"message": "შეატყობინეთ შეცდომები უთანხმოების შესახებ"
+		"message": "შეცდომების შეტყობინება Discord-ზე"
 	},
 	"created_by": {
-		"message": "OpenDyslexic შეიქმნა Abbie Gonzalez"
+		"message": "OpenDyslexic შექმნა Abbie Gonzalez-მა"
 	},
 	"firefox": {
 		"message": "Firefox-ის ვერსია"
@@ -128,7 +128,7 @@
 		"message": "სტილი"
 	},
 	"supportToolTip": {
-		"message": "გადახედეთ ამ გაფართოებას"
+		"message": "შეაფასეთ ეს გაფართოება"
 	},
 	"websiteLabel": {
 		"message": "საიტი"
@@ -137,7 +137,55 @@
 		"message": "მხარდაჭერის საიტი."
 	},
 	"saved": {
-		"message": "პარამეტრები გამოიყენება"
+		"message": "პარამეტრები გამოყენებულია"
+	},
+	"toggleExtension": {
+		"message": "OpenDyslexic-ის ჩართვა ან გამორთვა",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "შრიფტის შეცვლა $FONT$-ით",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "გამორიცხული საიტები",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "დამატება",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "ჯერ არ არის გამორიცხული საიტები.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "შეგიძლიათ გამორიცხოთ მაქსიმუმ 5 საიტი.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "ეს საიტი უკვე გამორიცხულია.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "$SITE$-ის წაშლა",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "აღმოაჩინეთ Helperbird"
@@ -146,9 +194,9 @@
 		"message": "აღმოაჩინეთ OpenDyslexic"
 	},
 	"on": {
-		"message": "ჩართულია"
+		"message": "ჩართული"
 	},
 	"off": {
-		"message": "გამორთულია"
+		"message": "გამორთული"
 	}
 }

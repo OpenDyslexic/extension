@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic για Edge",
-		"description": "Μορφοποιήστε σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic για Firefox",
-		"description": "Μορφοποιήστε σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic για Chrome",
-		"description": "Μορφοποιήστε σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Μορφοποιήστε σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Μορφοποιήστε σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης",
-		"description": "Μορφοποιήστε σελίδες χρησιμοποιώντας τη γραμματοσειρά OpenDyslexic και τη βοήθεια χαμηλής αντίθεσης"
+		"message": "Μορφοποιήστε σελίδες με τη γραμματοσειρά OpenDyslexic και βοήθεια χαμηλής αντίθεσης",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "Επιλογές γραμματοσειράς"
@@ -74,7 +74,7 @@
 		"message": "Ακολουθήστε το OpenDyslexic στο X"
 	},
 	"followAbbie": {
-		"message": "Υποστήριξη OpenDyslexic"
+		"message": "Υποστηρίξτε το OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Προσεχώς"
@@ -86,16 +86,16 @@
 		"message": "Ακολουθήστε τον Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Συντήρηση από τον Robert James Gabriel"
+		"message": "Συντηρείται από τον Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Τι νέο υπάρχει"
 	},
 	"bugs": {
-		"message": "Αναφορά σφαλμάτων στις διαφορές"
+		"message": "Αναφορά σφαλμάτων στο Discord"
 	},
 	"created_by": {
-		"message": "Το OpenDyslexic δημιουργήθηκε η Abbie Gonzalez"
+		"message": "Το OpenDyslexic δημιουργήθηκε από την Abbie Gonzalez"
 	},
 	"firefox": {
 		"message": "Έκδοση Firefox"
@@ -128,7 +128,7 @@
 		"message": "Στυλ"
 	},
 	"supportToolTip": {
-		"message": "Ελέγξτε αυτήν την επέκταση"
+		"message": "Αξιολογήστε αυτήν την επέκταση"
 	},
 	"websiteLabel": {
 		"message": "Δικτυακός τόπος"
@@ -137,7 +137,55 @@
 		"message": "Ιστότοπος υποστήριξης."
 	},
 	"saved": {
-		"message": "Εφαρμόστηκαν ρυθμίσεις"
+		"message": "Οι ρυθμίσεις εφαρμόστηκαν"
+	},
+	"toggleExtension": {
+		"message": "Ενεργοποίηση ή απενεργοποίηση του OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Αλλαγή γραμματοσειράς σε $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Εξαιρούμενοι ιστότοποι",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Προσθήκη",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Δεν έχουν εξαιρεθεί ιστότοποι ακόμη.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Μπορείτε να εξαιρέσετε έως 5 ιστότοπους.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Αυτός ο ιστότοπος έχει ήδη εξαιρεθεί.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Αφαίρεση $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "Ανακαλύψτε το Helperbird"
@@ -146,9 +194,9 @@
 		"message": "Ανακαλύψτε το OpenDyslexic"
 	},
 	"on": {
-		"message": "Επί"
+		"message": "Ενεργό"
 	},
 	"off": {
-		"message": "Μακριά από"
+		"message": "Ανενεργό"
 	}
 }

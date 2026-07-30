@@ -1,4 +1,4 @@
-import opendyslexic from '!!raw-loader!@styles/core/opendyslexic.css';
+import opendyslexic from '@styles/core/opendyslexic.css?raw';
 import { isExcluded } from '@scripts/content/utils.js';
 
 let enabled = false;

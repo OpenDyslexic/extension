@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
-		"message": "ओपनडिस्लेक्सिक फॉर एज",
-		"description": "ओपनडिस्लेक्सिक फ़ॉन्ट और कम कंट्रास्ट सहायता का उपयोग करके पृष्ठों को प्रारूपित करें।"
+		"message": "Edge के लिए OpenDyslexic",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
-		"message": "फ़ायरफ़ॉक्स के लिए OpenDyslexic",
-		"description": "ओपनडिस्लेक्सिक फ़ॉन्ट और कम कंट्रास्ट सहायता का उपयोग करके पृष्ठों को प्रारूपित करें।"
+		"message": "Firefox के लिए OpenDyslexic",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
-		"message": "क्रोम के लिए OpenDyslexic",
-		"description": "ओपनडिस्लेक्सिक फ़ॉन्ट और कम कंट्रास्ट सहायता का उपयोग करके पृष्ठों को प्रारूपित करें।"
+		"message": "Chrome के लिए OpenDyslexic",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "ओपनडिस्लेक्सिक",
-		"description": "ओपनडिस्लेक्सिक फ़ॉन्ट और कम कंट्रास्ट सहायता का उपयोग करके पृष्ठों को प्रारूपित करें।"
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "ओपनडिस्लेक्सिक फ़ॉन्ट और कम कंट्रास्ट सहायता का उपयोग करके पृष्ठों को प्रारूपित करें",
-		"description": "ओपनडिस्लेक्सिक फ़ॉन्ट और कम कंट्रास्ट सहायता का उपयोग करके पृष्ठों को प्रारूपित करें"
+		"message": "OpenDyslexic फ़ॉन्ट और कम कंट्रास्ट सहायता से पेज फ़ॉर्मैट करें",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "फ़ॉन्ट विकल्प"
@@ -68,10 +68,10 @@
 		"message": "OpenDyslexic को फ़ॉलो करें"
 	},
 	"weAreOnGithub": {
-		"message": "हम गिटहब पर हैं"
+		"message": "हम Github पर हैं"
 	},
 	"followDyslexicToolTip": {
-		"message": "OpenDyslexic को X पर फ़ॉलो करें"
+		"message": "X पर OpenDyslexic को फ़ॉलो करें"
 	},
 	"followAbbie": {
 		"message": "OpenDyslexic का समर्थन करें"
@@ -86,19 +86,19 @@
 		"message": "रॉबर्ट जेम्स का अनुसरण करें"
 	},
 	"followRobertJamesToolTip": {
-		"message": "रॉबर्ट जेम्स गेब्रियल द्वारा अनुरक्षित"
+		"message": "Robert James Gabriel द्वारा अनुरक्षित"
 	},
 	"whatsNew": {
 		"message": "नया क्या है"
 	},
 	"bugs": {
-		"message": "डिस्कॉर्ड पर बग की रिपोर्ट करें"
+		"message": "Discord पर बग रिपोर्ट करें"
 	},
 	"created_by": {
-		"message": "OpenDyslexic का निर्माण Abbie Gonzalez ने किया था"
+		"message": "OpenDyslexic को Abbie Gonzalez ने बनाया"
 	},
 	"firefox": {
-		"message": "फ़ायरफ़ॉक्स संस्करण"
+		"message": "Firefox संस्करण"
 	},
 	"downloadOnFirefox": {
 		"message": "फ़ायरफ़ॉक्स पर उपलब्ध"
@@ -139,14 +139,62 @@
 	"saved": {
 		"message": "सेटिंग्स लागू की गईं"
 	},
+	"toggleExtension": {
+		"message": "OpenDyslexic चालू या बंद करें",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "फ़ॉन्ट को $FONT$ में बदलें",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "बाहर रखी गई साइटें",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "जोड़ें",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "अभी तक कोई साइट बाहर नहीं रखी गई है।",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "आप अधिकतम 5 साइटें बाहर रख सकते हैं।",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "वह साइट पहले से बाहर रखी गई है।",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "$SITE$ हटाएं",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
+	},
 	"helperbird": {
-		"message": "हेल्परबर्ड खोजें"
+		"message": "Helperbird खोजें"
 	},
 	"OpenDyslexic": {
-		"message": "OpenDyslexic के बारे में जानें"
+		"message": "OpenDyslexic खोजें"
 	},
 	"on": {
-		"message": "पर"
+		"message": "चालू"
 	},
 	"off": {
 		"message": "बंद"

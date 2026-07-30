@@ -1,26 +1,26 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic pentru Edge",
-		"description": "Formatați paginile folosind fontul OpenDyslexic și un contrast redus."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic pentru Firefox",
-		"description": "Formatați paginile folosind fontul OpenDyslexic și un contrast redus."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic pentru Chrome",
-		"description": "Formatați paginile folosind fontul OpenDyslexic și un contrast redus."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Formatați paginile folosind fontul OpenDyslexic și un contrast redus."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Formatați paginile folosind fontul OpenDyslexic și un contrast redus",
-		"description": "Formatați paginile folosind fontul OpenDyslexic și un contrast redus"
+		"message": "Formatați paginile cu fontul OpenDyslexic și ajutor cu contrast redus",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
-		"message": "Opțiuni de font"
+		"message": "Opțiuni font"
 	},
 	"options": {
 		"message": "Opțiuni"
@@ -68,13 +68,13 @@
 		"message": "Urmărește OpenDyslexic"
 	},
 	"weAreOnGithub": {
-		"message": "Suntem pe Github"
+		"message": "Ne găsiți pe Github"
 	},
 	"followDyslexicToolTip": {
-		"message": "Urmărește OpenDyslexic pe X"
+		"message": "Urmăriți OpenDyslexic pe X"
 	},
 	"followAbbie": {
-		"message": "Suport OpenDyslexic"
+		"message": "Susțineți OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "În curând"
@@ -86,19 +86,19 @@
 		"message": "Urmărește-l pe Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Menținută de Robert James Gabriel"
+		"message": "Întreținut de Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Ce e nou"
 	},
 	"bugs": {
-		"message": "Raportați erori pe Discords"
+		"message": "Raportați erori pe Discord"
 	},
 	"created_by": {
-		"message": "OpenDyslexic a fost creat Abbie Gonzalez"
+		"message": "OpenDyslexic a fost creat de Abbie Gonzalez"
 	},
 	"firefox": {
-		"message": "Versiunea Firefox"
+		"message": "Versiune Firefox"
 	},
 	"downloadOnFirefox": {
 		"message": "Disponibil pe Firefox"
@@ -128,7 +128,7 @@
 		"message": "Stil"
 	},
 	"supportToolTip": {
-		"message": "Examinați această extensie"
+		"message": "Evaluați această extensie"
 	},
 	"websiteLabel": {
 		"message": "Site-ul web"
@@ -139,16 +139,64 @@
 	"saved": {
 		"message": "Setări aplicate"
 	},
+	"toggleExtension": {
+		"message": "Activează sau dezactivează OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Schimbă fontul în $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Site-uri excluse",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Adaugă",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Nu există încă site-uri excluse.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Poți exclude până la 5 site-uri.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Acest site este deja exclus.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Elimină $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
+	},
 	"helperbird": {
-		"message": "Descoperă Helperbird"
+		"message": "Descoperiți Helperbird"
 	},
 	"OpenDyslexic": {
 		"message": "Descoperiți OpenDyslexic"
 	},
 	"on": {
-		"message": "Pe"
+		"message": "Activat"
 	},
 	"off": {
-		"message": "Oprit"
+		"message": "Dezactivat"
 	}
 }

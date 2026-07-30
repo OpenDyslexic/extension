@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic dla Edge",
-		"description": "Formatuj strony korzystając z czcionki OpenDyslexic i pomocy o niskim kontraście."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic dla Firefoksa",
-		"description": "Formatuj strony korzystając z czcionki OpenDyslexic i pomocy o niskim kontraście."
+		"message": "OpenDyslexic dla Firefox",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic dla Chrome",
-		"description": "Formatuj strony korzystając z czcionki OpenDyslexic i pomocy o niskim kontraście."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OtwórzDyslektyczny",
-		"description": "Formatuj strony korzystając z czcionki OpenDyslexic i pomocy o niskim kontraście."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Formatowanie stron przy użyciu czcionki OpenDyslexic i pomocy o niskim kontraście",
-		"description": "Formatowanie stron przy użyciu czcionki OpenDyslexic i pomocy o niskim kontraście"
+		"message": "Formatuj strony za pomocą czcionki OpenDyslexic i pomocy o niskim kontraście",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "Opcje czcionki"
@@ -74,7 +74,7 @@
 		"message": "Obserwuj OpenDyslexic na X"
 	},
 	"followAbbie": {
-		"message": "Wsparcie OpenDyslexic"
+		"message": "Wspieraj OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Już wkrótce"
@@ -86,19 +86,19 @@
 		"message": "Śledź Roberta Jamesa"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Utrzymywany przez Roberta Jamesa Gabriela"
+		"message": "Opiekun: Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Co nowego"
 	},
 	"bugs": {
-		"message": "Zgłaszaj błędy na Discordach"
+		"message": "Zgłoś błędy na Discordzie"
 	},
 	"created_by": {
-		"message": "OpenDyslexic został stworzony przez Abbie Gonzalez"
+		"message": "OpenDyslexic stworzyła Abbie Gonzalez"
 	},
 	"firefox": {
-		"message": "Wersja Firefox"
+		"message": "Wersja dla Firefox"
 	},
 	"downloadOnFirefox": {
 		"message": "Dostępne w przeglądarce Firefox"
@@ -128,7 +128,7 @@
 		"message": "Styl"
 	},
 	"supportToolTip": {
-		"message": "Przejrzyj to rozszerzenie"
+		"message": "Oceń to rozszerzenie"
 	},
 	"websiteLabel": {
 		"message": "Strona internetowa"
@@ -139,6 +139,54 @@
 	"saved": {
 		"message": "Ustawienia zastosowane"
 	},
+	"toggleExtension": {
+		"message": "Włącz lub wyłącz OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Zmień czcionkę na $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Wykluczone witryny",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Dodaj",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Nie wykluczono jeszcze żadnej witryny.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Możesz wykluczyć maksymalnie 5 witryn.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Ta witryna jest już wykluczona.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Usuń $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
+	},
 	"helperbird": {
 		"message": "Odkryj Helperbird"
 	},
@@ -146,9 +194,9 @@
 		"message": "Odkryj OpenDyslexic"
 	},
 	"on": {
-		"message": "NA"
+		"message": "Włączone"
 	},
 	"off": {
-		"message": "Wyłączony"
+		"message": "Wyłączone"
 	}
 }

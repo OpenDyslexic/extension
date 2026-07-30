@@ -12,7 +12,7 @@ export default function getAdverts(i18n) {
 			href: 'https://www.x.com/opendyslexic',
 			text: i18n('followDyslexicToolTip')
 		},
-	
+
 		{
 			href: 'https://www.patreon.com/opendyslexic',
 			text: i18n('created_by')

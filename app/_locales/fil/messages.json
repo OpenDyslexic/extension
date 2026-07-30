@@ -1,26 +1,26 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic para sa Edge",
-		"description": "I-format ang mga pahina gamit ang OpenDyslexic na font at tulong na mababa ang contrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic para sa Firefox",
-		"description": "I-format ang mga pahina gamit ang OpenDyslexic na font at tulong na mababa ang contrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic para sa Chrome",
-		"description": "I-format ang mga pahina gamit ang OpenDyslexic na font at tulong na mababa ang contrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "I-format ang mga pahina gamit ang OpenDyslexic na font at tulong na mababa ang contrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "I-format ang mga pahina gamit ang OpenDyslexic na font at tulong na mababa ang contrast",
-		"description": "I-format ang mga pahina gamit ang OpenDyslexic na font at tulong na mababa ang contrast"
+		"message": "I-format ang mga pahina gamit ang OpenDyslexic font at tulong sa mababang kontrast",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
-		"message": "Mga pagpipilian sa font"
+		"message": "Mga opsyon sa font"
 	},
 	"options": {
 		"message": "Mga pagpipilian"
@@ -71,7 +71,7 @@
 		"message": "Nasa Github kami"
 	},
 	"followDyslexicToolTip": {
-		"message": "Sundin ang OpenDyslexic sa X"
+		"message": "Sundan ang OpenDyslexic sa X"
 	},
 	"followAbbie": {
 		"message": "Suportahan ang OpenDyslexic"
@@ -92,10 +92,10 @@
 		"message": "Ano'ng bago"
 	},
 	"bugs": {
-		"message": "Mag-ulat ng Mga Bug sa Discords"
+		"message": "Mag-ulat ng mga bug sa Discord"
 	},
 	"created_by": {
-		"message": "Ang OpenDyslexic ay nilikha Abbie Gonzalez"
+		"message": "Ginawa ang OpenDyslexic ni Abbie Gonzalez"
 	},
 	"firefox": {
 		"message": "Bersyon ng Firefox"
@@ -128,7 +128,7 @@
 		"message": "Estilo"
 	},
 	"supportToolTip": {
-		"message": "Suriin ang Extension na ito"
+		"message": "Suriin ang extension na ito"
 	},
 	"websiteLabel": {
 		"message": "Website"
@@ -137,7 +137,55 @@
 		"message": "Suporta sa website."
 	},
 	"saved": {
-		"message": "Inilapat ang Mga Setting"
+		"message": "Inilapat ang mga setting"
+	},
+	"toggleExtension": {
+		"message": "I-on o i-off ang OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Palitan ang font sa $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Mga hindi kasamang site",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Idagdag",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Wala pang site na hindi kasama.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Maaari kang mag-exclude ng hanggang 5 site.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Naka-exclude na ang site na iyon.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Alisin ang $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "Tuklasin ang Helperbird"

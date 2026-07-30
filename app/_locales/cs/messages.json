@@ -1,26 +1,26 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic pro Edge",
-		"description": "Pomáhá formátovat stránky pomocí písma OpenDyslexic a nízkého kontrastu."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic pro Firefox",
-		"description": "Pomáhá formátovat stránky pomocí písma OpenDyslexic a nízkého kontrastu."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic pro Chrome",
-		"description": "Pomáhá formátovat stránky pomocí písma OpenDyslexic a nízkého kontrastu."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Pomáhá formátovat stránky pomocí písma OpenDyslexic a nízkého kontrastu."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Pomáhá formátovat stránky pomocí písma OpenDyslexic a nízkého kontrastu",
-		"description": "Pomáhá formátovat stránky pomocí písma OpenDyslexic a nízkého kontrastu"
+		"message": "Formátujte stránky pomocí fontu OpenDyslexic a nízkého kontrastu",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
-		"message": "Možnosti písma"
+		"message": "Možnosti fontu"
 	},
 	"options": {
 		"message": "Možnosti"
@@ -68,13 +68,13 @@
 		"message": "Sledujte OpenDyslexic"
 	},
 	"weAreOnGithub": {
-		"message": "Jsme na Githubu"
+		"message": "Najdete nás na Githubu"
 	},
 	"followDyslexicToolTip": {
 		"message": "Sledujte OpenDyslexic na X"
 	},
 	"followAbbie": {
-		"message": "Podpora OpenDyslexic"
+		"message": "Podpořte OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Již brzy"
@@ -92,13 +92,13 @@
 		"message": "Co je nového"
 	},
 	"bugs": {
-		"message": "Nahlaste chyby na Discordech"
+		"message": "Nahlaste chyby na Discordu"
 	},
 	"created_by": {
-		"message": "OpenDyslexic byl vytvořen Abbie Gonzalez"
+		"message": "OpenDyslexic vytvořila Abbie Gonzalez"
 	},
 	"firefox": {
-		"message": "Verze Firefoxu"
+		"message": "Verze pro Firefox"
 	},
 	"downloadOnFirefox": {
 		"message": "K dispozici ve Firefoxu"
@@ -128,7 +128,7 @@
 		"message": "Styl"
 	},
 	"supportToolTip": {
-		"message": "Zkontrolujte toto rozšíření"
+		"message": "Ohodnoťte toto rozšíření"
 	},
 	"websiteLabel": {
 		"message": "webové stránky"
@@ -139,6 +139,54 @@
 	"saved": {
 		"message": "Nastavení použito"
 	},
+	"toggleExtension": {
+		"message": "Zapnout nebo vypnout OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Změnit font na $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Vyloučené stránky",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Přidat",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Zatím nejsou vyloučeny žádné stránky.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Můžete vyloučit až 5 stránek.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Tato stránka je již vyloučena.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Odebrat $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
+	},
 	"helperbird": {
 		"message": "Objevte Helperbird"
 	},
@@ -146,7 +194,7 @@
 		"message": "Objevte OpenDyslexic"
 	},
 	"on": {
-		"message": "Na"
+		"message": "Zapnuto"
 	},
 	"off": {
 		"message": "Vypnuto"

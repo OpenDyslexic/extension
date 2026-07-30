@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic untuk Edge",
-		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic untuk Firefox",
-		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic untuk Chrome",
-		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah",
-		"description": "Format halaman menggunakan fon OpenDyslexic dan bantuan kontras rendah"
+		"message": "Formatkan halaman dengan fon OpenDyslexic dan bantuan kontras rendah",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "Pilihan fon"
@@ -68,7 +68,7 @@
 		"message": "Ikuti OpenDyslexic"
 	},
 	"weAreOnGithub": {
-		"message": "Kami berada di Github"
+		"message": "Kami ada di Github"
 	},
 	"followDyslexicToolTip": {
 		"message": "Ikuti OpenDyslexic di X"
@@ -86,16 +86,16 @@
 		"message": "Ikuti Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Diselenggarakan oleh Robert James Gabriel"
+		"message": "Diselenggara oleh Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Apa yang baru"
 	},
 	"bugs": {
-		"message": "Laporkan Pepijat pada Discords"
+		"message": "Laporkan pepijat di Discord"
 	},
 	"created_by": {
-		"message": "OpenDyslexic telah dicipta Abbie Gonzalez"
+		"message": "OpenDyslexic dicipta oleh Abbie Gonzalez"
 	},
 	"firefox": {
 		"message": "Versi Firefox"
@@ -128,7 +128,7 @@
 		"message": "Gaya"
 	},
 	"supportToolTip": {
-		"message": "Semak Sambungan ini"
+		"message": "Nilai sambungan ini"
 	},
 	"websiteLabel": {
 		"message": "laman web"
@@ -137,7 +137,55 @@
 		"message": "Laman web sokongan."
 	},
 	"saved": {
-		"message": "Tetapan Digunakan"
+		"message": "Tetapan digunakan"
+	},
+	"toggleExtension": {
+		"message": "Hidupkan atau matikan OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Tukar fon kepada $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Laman web dikecualikan",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Tambah",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Belum ada laman web dikecualikan.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Anda boleh mengecualikan sehingga 5 laman web.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Laman web itu sudah dikecualikan.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Buang $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "Temui Helperbird"
@@ -146,7 +194,7 @@
 		"message": "Temui OpenDyslexic"
 	},
 	"on": {
-		"message": "hidup"
+		"message": "Hidup"
 	},
 	"off": {
 		"message": "Mati"

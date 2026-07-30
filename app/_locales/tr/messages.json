@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
 		"message": "Edge için OpenDyslexic",
-		"description": "Sayfaları OpenDyslexic yazı tipini ve düşük kontrastı kullanarak biçimlendirmek yardımcı olur."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "Firefox için OpenDyslexic",
-		"description": "Sayfaları OpenDyslexic yazı tipini ve düşük kontrastı kullanarak biçimlendirmek yardımcı olur."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "Chrome için OpenDyslexic",
-		"description": "Sayfaları OpenDyslexic yazı tipini ve düşük kontrastı kullanarak biçimlendirmek yardımcı olur."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "AçıkDisleksik",
-		"description": "Sayfaları OpenDyslexic yazı tipini ve düşük kontrastı kullanarak biçimlendirmek yardımcı olur."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Sayfaları OpenDyslexic yazı tipini ve düşük kontrast yardımını kullanarak biçimlendirin",
-		"description": "Sayfaları OpenDyslexic yazı tipini ve düşük kontrast yardımını kullanarak biçimlendirin"
+		"message": "Sayfaları OpenDyslexic yazı tipi ve düşük kontrast yardımıyla biçimlendirin",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "Yazı tipi seçenekleri"
@@ -68,7 +68,7 @@
 		"message": "OpenDyslexic'i takip edin"
 	},
 	"weAreOnGithub": {
-		"message": "Biz Github'dayız"
+		"message": "Github'dayız"
 	},
 	"followDyslexicToolTip": {
 		"message": "OpenDyslexic'i X'te takip edin"
@@ -86,19 +86,19 @@
 		"message": "Robert James'i takip edin"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Robert James Gabriel tarafından yönetilmektedir"
+		"message": "Robert James Gabriel tarafından sürdürülüyor"
 	},
 	"whatsNew": {
 		"message": "Yenilikler"
 	},
 	"bugs": {
-		"message": "Discord'larda Hataları Bildirin"
+		"message": "Discord'da hata bildirin"
 	},
 	"created_by": {
-		"message": "OpenDyslexic Abbie Gonzalez tarafından yaratıldı"
+		"message": "OpenDyslexic'i Abbie Gonzalez oluşturdu"
 	},
 	"firefox": {
-		"message": "Firefox Sürümü"
+		"message": "Firefox sürümü"
 	},
 	"downloadOnFirefox": {
 		"message": "Firefox'ta mevcuttur"
@@ -128,7 +128,7 @@
 		"message": "Stil"
 	},
 	"supportToolTip": {
-		"message": "Bu Uzantıyı inceleyin"
+		"message": "Bu uzantıyı değerlendirin"
 	},
 	"websiteLabel": {
 		"message": "Web sitesi"
@@ -137,7 +137,55 @@
 		"message": "Destek web sitesi."
 	},
 	"saved": {
-		"message": "Ayarlar Uygulandı"
+		"message": "Ayarlar uygulandı"
+	},
+	"toggleExtension": {
+		"message": "OpenDyslexic'i aç veya kapat",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Yazı tipini $FONT$ olarak değiştir",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Hariç tutulan siteler",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Ekle",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Henüz hariç tutulan site yok.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "En fazla 5 site hariç tutabilirsiniz.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Bu site zaten hariç tutuluyor.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "$SITE$ sitesini kaldır",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "Helperbird'ü keşfedin"

@@ -13,8 +13,9 @@
 	font-display: swap;
 	font-style: italic;
 	font-weight: 700;
-	unicode-range: U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF,
-		U+2000-206F, U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
+	unicode-range:
+		U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF, U+2000-206F,
+		U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
 }
 @font-face {
 	font-family: 'OpenDyslexic';
@@ -23,8 +24,9 @@
 	font-display: swap;
 	font-style: normal;
 	font-weight: 400;
-	unicode-range: U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF,
-		U+2000-206F, U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
+	unicode-range:
+		U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF, U+2000-206F,
+		U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
 }
 
 @font-face {
@@ -34,8 +36,9 @@
 	font-display: swap;
 	font-style: italic;
 	font-weight: 400;
-	unicode-range: U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF,
-		U+2000-206F, U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
+	unicode-range:
+		U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF, U+2000-206F,
+		U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
 }
 
 @font-face {
@@ -45,8 +48,9 @@
 	font-display: swap;
 	font-style: normal;
 	font-weight: 700;
-	unicode-range: U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF,
-		U+2000-206F, U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
+	unicode-range:
+		U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF, U+2000-206F,
+		U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
 }
 
 /*
@@ -103,6 +107,24 @@ body.opendyslexic-font-bold {
  * element with no child nodes renders only its ::before/::after glyph, which
  * inherits font-family from the element itself. Form controls are deliberately
  * not included - they hold real text.
+ *
+ * [role='img'] catches emoji and glyph carriers that declare themselves as
+ * images rather than text, e.g. <span role="img" aria-label="fire">.
+ *
+ * [aria-hidden='true'] is listed WITHOUT a descendant combinator, and that is
+ * load-bearing. Never write [aria-hidden='true'] *.
+ *
+ * aria-hidden means "hidden from assistive technology", not "is an icon", so it
+ * catches far more than glyphs. Dialog libraries (MUI, react-modal, Radix) set
+ * aria-hidden="true" on the app root while a modal is open; with the descendant
+ * form, opening a dialog strips the font from the entire page until it closes.
+ * Matching the element alone keeps every child styled, so only the container
+ * itself is skipped.
+ *
+ * The residual cost is that a leaf element holding visible text is skipped too,
+ * as in <span aria-hidden="true">$42</span><span class="sr-only">42 dollars</span>.
+ * That is accepted as the cheaper failure: one short duplicated string keeps the
+ * site font, rather than icons turning into tofu boxes across the page.
  */
 body:is(
 		.opendyslexic-font-regular,
@@ -147,6 +169,10 @@ body:is(
 				[data-feather],
 				[data-fa-i2svg],
 				[uk-icon],
+				[role='img'],
+				[role='img'] *,
+				/* element only - see the note above, never add a descendant here */
+					[aria-hidden='true'],
 
 				/* Any class mentioning "icon", in any case */ [class*='icon' i],
 				[class*='icon-' i] *,
@@ -351,7 +377,8 @@ body:is(
 				[class*='mwe-math'] *
 			)
 	) {
-	font-family: var(--opendyslexic-active-family), Arial, sans-serif !important;
+	font-family:
+		var(--opendyslexic-active-family), Arial, sans-serif !important;
 	font-style: var(--opendyslexic-active-style);
 	font-weight: var(--opendyslexic-active-weight);
 	line-height: var(--opendyslexic-line-height);

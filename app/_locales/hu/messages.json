@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Az oldalak formázása OpenDyslexic betűtípussal és alacsony kontraszttal."
+		"message": "OpenDyslexic Edge-hez",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic for Firefox",
-		"description": "Az oldalak formázása OpenDyslexic betűtípussal és alacsony kontraszttal."
+		"message": "OpenDyslexic Firefoxhoz",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic Chrome-hoz",
-		"description": "Az oldalak formázása OpenDyslexic betűtípussal és alacsony kontraszttal."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Az oldalak formázása OpenDyslexic betűtípussal és alacsony kontraszttal."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Az oldalak formázása OpenDyslexic betűtípussal és alacsony kontraszttal",
-		"description": "Az oldalak formázása OpenDyslexic betűtípussal és alacsony kontraszttal"
+		"message": "Oldalak formázása az OpenDyslexic betűtípussal és alacsony kontrasztú segítséggel",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "Betűtípus-beállítások"
@@ -68,13 +68,13 @@
 		"message": "Kövesse az OpenDyslexic-et"
 	},
 	"weAreOnGithub": {
-		"message": "A Githubon vagyunk"
+		"message": "Megtalálsz minket a Githubon"
 	},
 	"followDyslexicToolTip": {
-		"message": "Kövesse az OpenDyslexicot az X-en"
+		"message": "Kövesd az OpenDyslexicet az X-en"
 	},
 	"followAbbie": {
-		"message": "Az OpenDyslexic támogatása"
+		"message": "Támogasd az OpenDyslexicet"
 	},
 	"comingSoon": {
 		"message": "Hamarosan"
@@ -86,16 +86,16 @@
 		"message": "Kövesd Robert Jamest"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Robert James Gabriel karbantartója"
+		"message": "Fenntartja Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Mi újság"
 	},
 	"bugs": {
-		"message": "Jelentse a hibákat a Discord-on"
+		"message": "Hibák jelentése a Discordon"
 	},
 	"created_by": {
-		"message": "Az OpenDyslexic-et Abbie Gonzalez hozta létre"
+		"message": "Az OpenDyslexicet Abbie Gonzalez készítette"
 	},
 	"firefox": {
 		"message": "Firefox verzió"
@@ -128,7 +128,7 @@
 		"message": "Stílus"
 	},
 	"supportToolTip": {
-		"message": "Tekintse át ezt a bővítményt"
+		"message": "Értékeld ezt a kiegészítőt"
 	},
 	"websiteLabel": {
 		"message": "Weboldal"
@@ -139,16 +139,64 @@
 	"saved": {
 		"message": "Beállítások alkalmazva"
 	},
+	"toggleExtension": {
+		"message": "OpenDyslexic be- vagy kikapcsolása",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Betűtípus váltása erre: $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Kizárt webhelyek",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Hozzáadás",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Még nincs kizárt webhely.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Legfeljebb 5 webhelyet zárhat ki.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Ez a webhely már ki van zárva.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "$SITE$ eltávolítása",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
+	},
 	"helperbird": {
-		"message": "Fedezze fel a Helperbirdot"
+		"message": "Ismerd meg a Helperbirdöt"
 	},
 	"OpenDyslexic": {
-		"message": "Fedezze fel az OpenDyslexicot"
+		"message": "Ismerd meg az OpenDyslexicet"
 	},
 	"on": {
-		"message": "On"
+		"message": "Be"
 	},
 	"off": {
-		"message": "Le"
+		"message": "Ki"
 	}
 }

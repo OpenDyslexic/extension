@@ -1,26 +1,26 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic برای Edge",
-		"description": "فرمت صفحات با استفاده از فونت OpenDyslexic و کنتراست کم کمک می کند."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
-		"message": "OpenDyslexic برای فایرفاکس",
-		"description": "فرمت صفحات با استفاده از فونت OpenDyslexic و کنتراست کم کمک می کند."
+		"message": "OpenDyslexic برای Firefox",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
-		"message": "OpenDyslexic برای کروم",
-		"description": "فرمت صفحات با استفاده از فونت OpenDyslexic و کنتراست کم کمک می کند."
+		"message": "OpenDyslexic برای Chrome",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "فرمت صفحات با استفاده از فونت OpenDyslexic و کنتراست کم کمک می کند."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "فرمت صفحات با استفاده از فونت OpenDyslexic و کنتراست کم کمک می کند",
-		"description": "فرمت صفحات با استفاده از فونت OpenDyslexic و کنتراست کم کمک می کند"
+		"message": "قالب‌بندی صفحات با قلم OpenDyslexic و کمک کنتراست کم",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
-		"message": "گزینه های فونت"
+		"message": "گزینه‌های قلم"
 	},
 	"options": {
 		"message": "گزینه ها"
@@ -74,7 +74,7 @@
 		"message": "OpenDyslexic را در X دنبال کنید"
 	},
 	"followAbbie": {
-		"message": "از OpenDyslexic پشتیبانی کنید"
+		"message": "از OpenDyslexic حمایت کنید"
 	},
 	"comingSoon": {
 		"message": "به زودی"
@@ -86,19 +86,19 @@
 		"message": "رابرت جیمز را دنبال کنید"
 	},
 	"followRobertJamesToolTip": {
-		"message": "توسط رابرت جیمز گابریل نگهداری می شود"
+		"message": "نگهداری توسط Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "تازه چه خبر"
 	},
 	"bugs": {
-		"message": "گزارش اشکالات در Discords"
+		"message": "گزارش اشکال در Discord"
 	},
 	"created_by": {
-		"message": "OpenDyslexic Abbie Gonzalez ایجاد شد"
+		"message": "OpenDyslexic توسط Abbie Gonzalez ساخته شد"
 	},
 	"firefox": {
-		"message": "نسخه فایرفاکس"
+		"message": "نسخه Firefox"
 	},
 	"downloadOnFirefox": {
 		"message": "در فایرفاکس موجود است"
@@ -128,7 +128,7 @@
 		"message": "سبک"
 	},
 	"supportToolTip": {
-		"message": "این افزونه را مرور کنید"
+		"message": "به این افزونه امتیاز دهید"
 	},
 	"websiteLabel": {
 		"message": "وب سایت"
@@ -138,6 +138,54 @@
 	},
 	"saved": {
 		"message": "تنظیمات اعمال شد"
+	},
+	"toggleExtension": {
+		"message": "روشن یا خاموش کردن OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "تغییر قلم به $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "سایت‌های مستثنا",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "افزودن",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "هنوز هیچ سایتی مستثنا نشده است.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "می‌توانید حداکثر 5 سایت را مستثنا کنید.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "این سایت قبلاً مستثنا شده است.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "حذف $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "Helperbird را کشف کنید"

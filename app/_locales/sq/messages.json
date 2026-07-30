@@ -1,26 +1,26 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic për Edge",
-		"description": "Formatoni faqet duke përdorur fontin OpenDyslexic dhe kontrast të ulët."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic për Firefox",
-		"description": "Formatoni faqet duke përdorur fontin OpenDyslexic dhe kontrast të ulët."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic për Chrome",
-		"description": "Formatoni faqet duke përdorur fontin OpenDyslexic dhe kontrast të ulët."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OpenDyslexic",
-		"description": "Formatoni faqet duke përdorur fontin OpenDyslexic dhe kontrast të ulët."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Formatoni faqet duke përdorur fontin OpenDyslexic dhe kontrast të ulët",
-		"description": "Formatoni faqet duke përdorur fontin OpenDyslexic dhe kontrast të ulët"
+		"message": "Formatoni faqet me fontin OpenDyslexic dhe ndihmë me kontrast të ulët",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
-		"message": "Opsionet e shkronjave"
+		"message": "Opsionet e fontit"
 	},
 	"options": {
 		"message": "Opsionet"
@@ -68,13 +68,13 @@
 		"message": "Ndiqni OpenDyslexic"
 	},
 	"weAreOnGithub": {
-		"message": "Jemi në Github"
+		"message": "Ne jemi në Github"
 	},
 	"followDyslexicToolTip": {
 		"message": "Ndiqni OpenDyslexic në X"
 	},
 	"followAbbie": {
-		"message": "Mbështet OpenDyslexic"
+		"message": "Mbështetni OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Së shpejti"
@@ -86,19 +86,19 @@
 		"message": "Ndiqni Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Mirëmbajtur nga Robert James Gabriel"
+		"message": "Mirëmbahet nga Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Çfarë ka të re"
 	},
 	"bugs": {
-		"message": "Raportoni gabimet për mosmarrëveshjet"
+		"message": "Raportoni defektet në Discord"
 	},
 	"created_by": {
-		"message": "OpenDyslexic u krijua Abbie Gonzalez"
+		"message": "OpenDyslexic u krijua nga Abbie Gonzalez"
 	},
 	"firefox": {
-		"message": "Versioni i Firefox-it"
+		"message": "Versioni për Firefox"
 	},
 	"downloadOnFirefox": {
 		"message": "E disponueshme në Firefox"
@@ -128,7 +128,7 @@
 		"message": "Stili"
 	},
 	"supportToolTip": {
-		"message": "Rishiko këtë shtesë"
+		"message": "Vlerësoni këtë shtesë"
 	},
 	"websiteLabel": {
 		"message": "Faqja e internetit"
@@ -138,6 +138,54 @@
 	},
 	"saved": {
 		"message": "Cilësimet u aplikuan"
+	},
+	"toggleExtension": {
+		"message": "Aktivizo ose çaktivizo OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Ndrysho fontin në $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Faqet e përjashtuara",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Shto",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Nuk është përjashtuar ende asnjë faqe.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Mund të përjashtoni deri në 5 faqe.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Kjo faqe është përjashtuar tashmë.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Hiq $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "Zbuloni Helperbird"

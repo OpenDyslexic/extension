@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic cho Edge",
-		"description": "Định dạng trang bằng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic cho Firefox",
-		"description": "Định dạng trang bằng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
-		"message": "OpenDyslexic dành cho Chrome",
-		"description": "Định dạng trang bằng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
+		"message": "OpenDyslexic cho Chrome",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "MởDyslexic",
-		"description": "Định dạng trang bằng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Định dạng các trang bằng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp",
-		"description": "Định dạng các trang bằng phông chữ OpenDyslexic và trợ giúp độ tương phản thấp"
+		"message": "Định dạng trang web bằng phông chữ OpenDyslexic và hỗ trợ độ tương phản thấp",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "Tùy chọn phông chữ"
@@ -68,13 +68,13 @@
 		"message": "Theo dõi OpenDyslexic"
 	},
 	"weAreOnGithub": {
-		"message": "Chúng tôi đang ở trên Github"
+		"message": "Chúng tôi có mặt trên Github"
 	},
 	"followDyslexicToolTip": {
 		"message": "Theo dõi OpenDyslexic trên X"
 	},
 	"followAbbie": {
-		"message": "Hỗ trợ OpenDyslexic"
+		"message": "Ủng hộ OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Sắp ra mắt"
@@ -92,10 +92,10 @@
 		"message": "Có gì mới"
 	},
 	"bugs": {
-		"message": "Báo cáo lỗi trên Discords"
+		"message": "Báo lỗi trên Discord"
 	},
 	"created_by": {
-		"message": "OpenDyslexic được tạo ra bởi Abbie Gonzalez"
+		"message": "OpenDyslexic được tạo bởi Abbie Gonzalez"
 	},
 	"firefox": {
 		"message": "Phiên bản Firefox"
@@ -125,10 +125,10 @@
 		"message": "Ôn tập"
 	},
 	"style": {
-		"message": "Phong cách"
+		"message": "Kiểu chữ"
 	},
 	"supportToolTip": {
-		"message": "Đánh giá phần mở rộng này"
+		"message": "Đánh giá tiện ích này"
 	},
 	"websiteLabel": {
 		"message": "Trang web"
@@ -137,7 +137,55 @@
 		"message": "Trang web hỗ trợ."
 	},
 	"saved": {
-		"message": "Cài đặt được áp dụng"
+		"message": "Đã áp dụng cài đặt"
+	},
+	"toggleExtension": {
+		"message": "Bật hoặc tắt OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Đổi phông chữ thành $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Trang web bị loại trừ",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Thêm",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Chưa có trang web nào bị loại trừ.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Bạn có thể loại trừ tối đa 5 trang web.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Trang web đó đã bị loại trừ.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Xóa $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "Khám phá Helperbird"
@@ -146,7 +194,7 @@
 		"message": "Khám phá OpenDyslexic"
 	},
 	"on": {
-		"message": "TRÊN"
+		"message": "Bật"
 	},
 	"off": {
 		"message": "Tắt"

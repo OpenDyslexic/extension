@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Formáidigh na leathanaigh ag baint úsáide as an gcló OpenDyslexic agus cabhair codarsnachta íseal."
+		"message": "OpenDyslexic le haghaidh Edge",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic le haghaidh Firefox",
-		"description": "Formáidigh na leathanaigh ag baint úsáide as an gcló OpenDyslexic agus cabhair codarsnachta íseal."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
-		"message": "Opendyslexic do chrome",
-		"description": "Formáidigh na leathanaigh ag baint úsáide as an gcló OpenDyslexic agus cabhair codarsnachta íseal."
+		"message": "OpenDyslexic le haghaidh Chrome",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OscailteDisléicse",
-		"description": "Formáidigh na leathanaigh ag baint úsáide as an gcló OpenDyslexic agus cabhair codarsnachta íseal."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Formáidigh na leathanaigh ag baint úsáide as an gcló OpenDyslexic agus cabhair codarsnachta íseal",
-		"description": "Formáidigh na leathanaigh ag baint úsáide as an gcló OpenDyslexic agus cabhair codarsnachta íseal"
+		"message": "Formáidigh leathanaigh le cló OpenDyslexic agus cabhair codarsnachta ísle",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "Roghanna cló"
@@ -68,7 +68,7 @@
 		"message": "Lean OpenDyslexic"
 	},
 	"weAreOnGithub": {
-		"message": "Tá muid ar Github"
+		"message": "Táimid ar Github"
 	},
 	"followDyslexicToolTip": {
 		"message": "Lean OpenDyslexic ar X"
@@ -86,16 +86,16 @@
 		"message": "Lean Robert James"
 	},
 	"followRobertJamesToolTip": {
-		"message": "Arna chothabháil ag Robert James Gabriel"
+		"message": "Á chothabháil ag Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "Cad atá nua"
 	},
 	"bugs": {
-		"message": "Tuairiscigh fabhtanna ar Neamhcordaí"
+		"message": "Tuairiscigh fabhtanna ar Discord"
 	},
 	"created_by": {
-		"message": "Cruthaíodh OpenDyslexic Abbie Gonzalez"
+		"message": "Chruthaigh Abbie Gonzalez OpenDyslexic"
 	},
 	"firefox": {
 		"message": "Leagan Firefox"
@@ -128,7 +128,7 @@
 		"message": "Stíl"
 	},
 	"supportToolTip": {
-		"message": "Déan athbhreithniú ar an Síneadh seo"
+		"message": "Déan léirmheas ar an síneadh seo"
 	},
 	"websiteLabel": {
 		"message": "Suíomh Gréasáin"
@@ -137,18 +137,66 @@
 		"message": "Suíomh gréasáin tacaíochta."
 	},
 	"saved": {
-		"message": "Socruithe Curtha i bhFeidhm"
+		"message": "Socruithe curtha i bhfeidhm"
+	},
+	"toggleExtension": {
+		"message": "Cas OpenDyslexic air nó as",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Athraigh an cló go $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Suímh eisiata",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Cuir leis",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Níl aon suíomh eisiata go fóill.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Is féidir leat suas le 5 shuíomh a eisiamh.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Tá an suíomh sin eisiata cheana féin.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Bain $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
-		"message": "Faigh amach Helperbird"
+		"message": "Faigh amach faoi Helperbird"
 	},
 	"OpenDyslexic": {
-		"message": "Faigh amach OpenDyslexic"
+		"message": "Faigh amach faoi OpenDyslexic"
 	},
 	"on": {
-		"message": "Ar"
+		"message": "Ar siúl"
 	},
 	"off": {
-		"message": "as"
+		"message": "As"
 	}
 }

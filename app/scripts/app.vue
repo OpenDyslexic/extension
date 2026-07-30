@@ -200,6 +200,17 @@
 				</div>
 			</div>
 		</main>
+
+		<div
+			v-if="toast"
+			class="toast toast-bottom toast-center z-50"
+			role="status"
+			aria-live="polite"
+		>
+			<div :class="['alert', toast.alertClass, 'rounded-full shadow-lg']">
+				<span>{{ toast.message }}</span>
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -218,6 +229,17 @@
 		{ title: 'OpenDyslexic Italic', font: 'italic' }
 	];
 
+	const TOAST_DURATION = 3000;
+
+	// The popup sits on a green background (#55b685 in assets/styles/app.css), so
+	// success deliberately uses the info colour - a green toast disappears into it.
+	const TOAST_CLASSES = {
+		success: 'alert-info',
+		error: 'alert-error',
+		warning: 'alert-warning',
+		info: 'alert-info'
+	};
+
 	export default {
 		inject: ['$helperbird_i18n'],
 
@@ -229,7 +251,9 @@
 				fonts: FONTS,
 				excludedSites: [],
 				siteInput: '',
-				maxSites: MAX_EXCLUDED_SITES
+				maxSites: MAX_EXCLUDED_SITES,
+				toast: null,
+				toastTimer: null
 			};
 		},
 
@@ -263,6 +287,10 @@
 						: [];
 				}
 			);
+		},
+
+		unmounted() {
+			clearTimeout(this.toastTimer);
 		},
 
 		methods: {
@@ -342,19 +370,17 @@
 
 				if (isEmpty(msg)) return;
 
-				switch (type) {
-					case 'success':
-						this.$toast.info(msg);
-						break;
-					case 'error':
-						this.$toast.error(msg);
-						break;
-					case 'warning':
-						this.$toast.warning(msg);
-						break;
-					default:
-						this.$toast.info(msg);
-				}
+				// Only ever one toast on screen, matching the previous behaviour.
+				clearTimeout(this.toastTimer);
+
+				this.toast = {
+					message: msg,
+					alertClass: TOAST_CLASSES[type] || TOAST_CLASSES.info
+				};
+
+				this.toastTimer = setTimeout(() => {
+					this.toast = null;
+				}, TOAST_DURATION);
 			}
 		}
 	};

@@ -1,26 +1,26 @@
 {
 	"appNameEdge": {
-		"message": "Edge 向け OpenDyslexic",
-		"description": "OpenDyslexic フォントと低コントラストのヘルプを使用してページをフォーマットします。"
+		"message": "OpenDyslexic for Edge",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
-		"message": "Firefox 用 OpenDyslexic",
-		"description": "OpenDyslexic フォントと低コントラストのヘルプを使用してページをフォーマットします。"
+		"message": "OpenDyslexic for Firefox",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
-		"message": "Chrome 向け OpenDyslexic",
-		"description": "OpenDyslexic フォントと低コントラストのヘルプを使用してページをフォーマットします。"
+		"message": "OpenDyslexic for Chrome",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "オープンディスレクシック",
-		"description": "OpenDyslexic フォントと低コントラストのヘルプを使用してページをフォーマットします。"
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "OpenDyslexicフォントと低コントラストヘルプを使用してページをフォーマットする",
-		"description": "OpenDyslexicフォントと低コントラストヘルプを使用してページをフォーマットする"
+		"message": "OpenDyslexic フォントと低コントラスト表示でページを整えます",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
-		"message": "フォントオプション"
+		"message": "フォント設定"
 	},
 	"options": {
 		"message": "オプション"
@@ -68,13 +68,13 @@
 		"message": "OpenDyslexicをフォロー"
 	},
 	"weAreOnGithub": {
-		"message": "私たちはGithubにいます"
+		"message": "Github で公開しています"
 	},
 	"followDyslexicToolTip": {
-		"message": "XでOpenDyslexicをフォロー"
+		"message": "X で OpenDyslexic をフォロー"
 	},
 	"followAbbie": {
-		"message": "OpenDyslexicをサポートする"
+		"message": "OpenDyslexic を支援する"
 	},
 	"comingSoon": {
 		"message": "近日公開"
@@ -86,19 +86,19 @@
 		"message": "ロバート・ジェームズをフォロー"
 	},
 	"followRobertJamesToolTip": {
-		"message": "ロバート・ジェームズ・ガブリエルが管理"
+		"message": "メンテナー: Robert James Gabriel"
 	},
 	"whatsNew": {
 		"message": "新着情報"
 	},
 	"bugs": {
-		"message": "Discordでバグを報告する"
+		"message": "Discord でバグを報告"
 	},
 	"created_by": {
-		"message": "OpenDyslexicはアビー・ゴンザレスによって創設されました"
+		"message": "OpenDyslexic は Abbie Gonzalez が制作しました"
 	},
 	"firefox": {
-		"message": "Firefox バージョン"
+		"message": "Firefox 版"
 	},
 	"downloadOnFirefox": {
 		"message": "Firefoxで利用可能"
@@ -128,7 +128,7 @@
 		"message": "スタイル"
 	},
 	"supportToolTip": {
-		"message": "この拡張機能を確認する"
+		"message": "この拡張機能をレビュー"
 	},
 	"websiteLabel": {
 		"message": "Webサイト"
@@ -137,16 +137,64 @@
 		"message": "サポートウェブサイト。"
 	},
 	"saved": {
-		"message": "設定が適用されました"
+		"message": "設定を適用しました"
+	},
+	"toggleExtension": {
+		"message": "OpenDyslexic のオン/オフを切り替える",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "フォントを $FONT$ に変更",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "除外するサイト",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "追加",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "除外したサイトはまだありません。",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "除外できるサイトは 5 件までです。",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "そのサイトはすでに除外されています。",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "$SITE$ を削除",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
-		"message": "Helperbird について知る"
+		"message": "Helperbird を見る"
 	},
 	"OpenDyslexic": {
-		"message": "OpenDyslexic について知る"
+		"message": "OpenDyslexic を見る"
 	},
 	"on": {
-		"message": "の上"
+		"message": "オン"
 	},
 	"off": {
 		"message": "オフ"

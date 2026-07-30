@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
-		"message": "OpenDyslexic for Edge",
-		"description": "Fformatio tudalennau gan ddefnyddio ffont OpenDyslexic a chymorth cyferbyniad isel."
+		"message": "OpenDyslexic ar gyfer Edge",
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic ar gyfer Firefox",
-		"description": "Fformatio tudalennau gan ddefnyddio ffont OpenDyslexic a chymorth cyferbyniad isel."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic ar gyfer Chrome",
-		"description": "Fformatio tudalennau gan ddefnyddio ffont OpenDyslexic a chymorth cyferbyniad isel."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "AgoredDyslecsig",
-		"description": "Fformatio tudalennau gan ddefnyddio ffont OpenDyslexic a chymorth cyferbyniad isel."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Fformatio tudalennau gan ddefnyddio ffont OpenDyslexic a chymorth cyferbyniad isel",
-		"description": "Fformatio tudalennau gan ddefnyddio ffont OpenDyslexic a chymorth cyferbyniad isel"
+		"message": "Fformatio tudalennau gan ddefnyddio'r ffont OpenDyslexic a chymorth cyferbyniad isel",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "Opsiynau ffont"
@@ -68,13 +68,13 @@
 		"message": "Dilynwch OpenDyslexic"
 	},
 	"weAreOnGithub": {
-		"message": "Rydyn ni ar Github"
+		"message": "Rydym ar Github"
 	},
 	"followDyslexicToolTip": {
 		"message": "Dilynwch OpenDyslexic ar X"
 	},
 	"followAbbie": {
-		"message": "Cefnogi OpenDyslexic"
+		"message": "Cefnogwch OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Yn dod yn fuan"
@@ -92,10 +92,10 @@
 		"message": "Beth sy'n newydd"
 	},
 	"bugs": {
-		"message": "Rhoi Gwybod am Fygiau ar Anghytundebau"
+		"message": "Adrodd am wallau ar Discord"
 	},
 	"created_by": {
-		"message": "Crëwyd OpenDyslexic Abbie Gonzalez"
+		"message": "Crëwyd OpenDyslexic gan Abbie Gonzalez"
 	},
 	"firefox": {
 		"message": "Fersiwn Firefox"
@@ -128,7 +128,7 @@
 		"message": "Arddull"
 	},
 	"supportToolTip": {
-		"message": "Adolygu'r Estyniad hwn"
+		"message": "Adolygu'r estyniad hwn"
 	},
 	"websiteLabel": {
 		"message": "Gwefan"
@@ -137,7 +137,55 @@
 		"message": "Gwefan cefnogi."
 	},
 	"saved": {
-		"message": "Gosodiadau Cymhwysol"
+		"message": "Gosodiadau wedi'u cymhwyso"
+	},
+	"toggleExtension": {
+		"message": "Troi OpenDyslexic ymlaen neu i ffwrdd",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Newid y ffont i $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Gwefannau wedi'u heithrio",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Ychwanegu",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Dim gwefannau wedi'u heithrio eto.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Gallwch eithrio hyd at 5 gwefan.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Mae'r wefan honno wedi'i heithrio eisoes.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Tynnu $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "Darganfod Helperbird"
@@ -146,7 +194,7 @@
 		"message": "Darganfod OpenDyslexic"
 	},
 	"on": {
-		"message": "Ar"
+		"message": "Ymlaen"
 	},
 	"off": {
 		"message": "I ffwrdd"

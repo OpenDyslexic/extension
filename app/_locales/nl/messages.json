@@ -1,26 +1,26 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic voor Edge",
-		"description": "Maak pagina's op met het OpenDyslexic-lettertype en hulp bij laag contrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic voor Firefox",
-		"description": "Maak pagina's op met het OpenDyslexic-lettertype en hulp bij laag contrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic voor Chrome",
-		"description": "Maak pagina's op met het OpenDyslexic-lettertype en hulp bij laag contrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "OpenDyslectisch",
-		"description": "Maak pagina's op met het OpenDyslexic-lettertype en hulp bij laag contrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Pagina's opmaken met behulp van het OpenDyslexic-lettertype en hulp bij laag contrast",
-		"description": "Pagina's opmaken met behulp van het OpenDyslexic-lettertype en hulp bij laag contrast"
+		"message": "Pagina's opmaken met het OpenDyslexic-lettertype en hulp bij laag contrast",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
-		"message": "Lettertype opties"
+		"message": "Lettertype-opties"
 	},
 	"options": {
 		"message": "Opties"
@@ -68,7 +68,7 @@
 		"message": "Volg OpenDyslexic"
 	},
 	"weAreOnGithub": {
-		"message": "Wij zijn op Github"
+		"message": "Je vindt ons op Github"
 	},
 	"followDyslexicToolTip": {
 		"message": "Volg OpenDyslexic op X"
@@ -92,10 +92,10 @@
 		"message": "Wat is er nieuw"
 	},
 	"bugs": {
-		"message": "Bugs melden op Discords"
+		"message": "Bugs melden op Discord"
 	},
 	"created_by": {
-		"message": "OpenDyslexic is opgericht door Abbie Gonzalez"
+		"message": "OpenDyslexic is gemaakt door Abbie Gonzalez"
 	},
 	"firefox": {
 		"message": "Firefox-versie"
@@ -128,7 +128,7 @@
 		"message": "Stijl"
 	},
 	"supportToolTip": {
-		"message": "Bekijk deze extensie"
+		"message": "Beoordeel deze extensie"
 	},
 	"websiteLabel": {
 		"message": "Website"
@@ -139,6 +139,54 @@
 	"saved": {
 		"message": "Instellingen toegepast"
 	},
+	"toggleExtension": {
+		"message": "OpenDyslexic aan- of uitzetten",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Lettertype wijzigen naar $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Uitgesloten websites",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Toevoegen",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Nog geen websites uitgesloten.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Je kunt maximaal 5 websites uitsluiten.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Die website is al uitgesloten.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "$SITE$ verwijderen",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
+	},
 	"helperbird": {
 		"message": "Ontdek Helperbird"
 	},
@@ -146,7 +194,7 @@
 		"message": "Ontdek OpenDyslexic"
 	},
 	"on": {
-		"message": "Op"
+		"message": "Aan"
 	},
 	"off": {
 		"message": "Uit"

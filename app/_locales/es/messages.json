@@ -1,23 +1,23 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic para Edge",
-		"description": "Formatee las páginas utilizando la fuente OpenDyslexic y la ayuda de bajo contraste."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic para Firefox",
-		"description": "Formatee las páginas utilizando la fuente OpenDyslexic y la ayuda de bajo contraste."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic para Chrome",
-		"description": "Formatee las páginas utilizando la fuente OpenDyslexic y la ayuda de bajo contraste."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "Disléxico abierto",
-		"description": "Formatee las páginas utilizando la fuente OpenDyslexic y la ayuda de bajo contraste."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Dar formato a las páginas utilizando la fuente OpenDyslexic y la ayuda de bajo contraste",
-		"description": "Dar formato a las páginas utilizando la fuente OpenDyslexic y la ayuda de bajo contraste"
+		"message": "Formatea las páginas con la fuente OpenDyslexic y ayuda de bajo contraste",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
 		"message": "Opciones de fuente"
@@ -74,7 +74,7 @@
 		"message": "Sigue a OpenDyslexic en X"
 	},
 	"followAbbie": {
-		"message": "Apoya a OpenDyslexic"
+		"message": "Apoya OpenDyslexic"
 	},
 	"comingSoon": {
 		"message": "Muy pronto"
@@ -92,13 +92,13 @@
 		"message": "¿Qué hay de nuevo?"
 	},
 	"bugs": {
-		"message": "Informar errores en Discord"
+		"message": "Informa de errores en Discord"
 	},
 	"created_by": {
 		"message": "OpenDyslexic fue creado por Abbie Gonzalez"
 	},
 	"firefox": {
-		"message": "Versión de Firefox"
+		"message": "Versión para Firefox"
 	},
 	"downloadOnFirefox": {
 		"message": "Disponible en Firefox"
@@ -128,7 +128,7 @@
 		"message": "Estilo"
 	},
 	"supportToolTip": {
-		"message": "Revisar esta extensión"
+		"message": "Valora esta extensión"
 	},
 	"websiteLabel": {
 		"message": "Sitio web"
@@ -137,18 +137,66 @@
 		"message": "Sitio web de soporte."
 	},
 	"saved": {
-		"message": "Configuraciones aplicadas"
+		"message": "Configuración aplicada"
+	},
+	"toggleExtension": {
+		"message": "Activar o desactivar OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Cambiar la fuente a $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Sitios web excluidos",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Añadir",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Todavía no hay sitios web excluidos.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Puedes excluir hasta 5 sitios web.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Ese sitio web ya está excluido.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Eliminar $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
-		"message": "Descubra Helperbird"
+		"message": "Descubre Helperbird"
 	},
 	"OpenDyslexic": {
-		"message": "Descubra OpenDyslexic"
+		"message": "Descubre OpenDyslexic"
 	},
 	"on": {
-		"message": "En"
+		"message": "Activado"
 	},
 	"off": {
-		"message": "Apagado"
+		"message": "Desactivado"
 	}
 }

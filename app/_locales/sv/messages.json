@@ -1,26 +1,26 @@
 {
 	"appNameEdge": {
 		"message": "OpenDyslexic för Edge",
-		"description": "Formatera sidor med typsnittet OpenDyslexic och hjälp med låg kontrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appNameFirefox": {
 		"message": "OpenDyslexic för Firefox",
-		"description": "Formatera sidor med typsnittet OpenDyslexic och hjälp med låg kontrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appName": {
 		"message": "OpenDyslexic för Chrome",
-		"description": "Formatera sidor med typsnittet OpenDyslexic och hjälp med låg kontrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appTitle": {
 		"message": "Öppen Dyslektiker",
-		"description": "Formatera sidor med typsnittet OpenDyslexic och hjälp med låg kontrast."
+		"description": "Format pages using the OpenDyslexic font and low contrast help."
 	},
 	"appDescription": {
-		"message": "Formatera sidor med typsnittet OpenDyslexic och hjälp med låg kontrast",
-		"description": "Formatera sidor med typsnittet OpenDyslexic och hjälp med låg kontrast"
+		"message": "Formatera sidor med typsnittet OpenDyslexic och lågkontrasthjälp",
+		"description": "Format pages using the OpenDyslexic font and low contrast help"
 	},
 	"feature_specialized_font_options": {
-		"message": "Teckensnittsalternativ"
+		"message": "Typsnittsalternativ"
 	},
 	"options": {
 		"message": "Alternativ"
@@ -68,7 +68,7 @@
 		"message": "Följ OpenDyslexic"
 	},
 	"weAreOnGithub": {
-		"message": "Vi är på Github"
+		"message": "Vi finns på Github"
 	},
 	"followDyslexicToolTip": {
 		"message": "Följ OpenDyslexic på X"
@@ -92,13 +92,13 @@
 		"message": "Vad är nytt"
 	},
 	"bugs": {
-		"message": "Rapportera buggar på discords"
+		"message": "Rapportera fel på Discord"
 	},
 	"created_by": {
-		"message": "OpenDyslexic skapades Abbie Gonzalez"
+		"message": "OpenDyslexic skapades av Abbie Gonzalez"
 	},
 	"firefox": {
-		"message": "Firefox version"
+		"message": "Firefox-version"
 	},
 	"downloadOnFirefox": {
 		"message": "Tillgänglig på Firefox"
@@ -128,7 +128,7 @@
 		"message": "Stil"
 	},
 	"supportToolTip": {
-		"message": "Granska detta tillägg"
+		"message": "Betygsätt det här tillägget"
 	},
 	"websiteLabel": {
 		"message": "Webbplats"
@@ -138,6 +138,54 @@
 	},
 	"saved": {
 		"message": "Inställningar tillämpade"
+	},
+	"toggleExtension": {
+		"message": "Slå på eller av OpenDyslexic",
+		"description": "Aria-label for the master enable/disable toggle in the popup"
+	},
+	"change_font_to_x": {
+		"message": "Ändra teckensnitt till $FONT$",
+		"description": "Aria-label and tooltip for each font selector button. $FONT$ is the human-readable font title.",
+		"placeholders": {
+			"font": {
+				"content": "$1",
+				"example": "OpenDyslexic Bold"
+			}
+		}
+	},
+	"excludedSites": {
+		"message": "Undantagna webbplatser",
+		"description": "Heading for the list of websites where the font is not applied"
+	},
+	"sitePlaceholder": {
+		"message": "example.com",
+		"description": "Placeholder for the excluded site input"
+	},
+	"addSite": {
+		"message": "Lägg till",
+		"description": "Button that adds the typed website to the excluded list"
+	},
+	"noExcludedSites": {
+		"message": "Inga webbplatser är undantagna än.",
+		"description": "Shown when the excluded site list is empty"
+	},
+	"excludeLimitReached": {
+		"message": "Du kan undanta upp till 5 webbplatser.",
+		"description": "Shown when the user tries to exceed the excluded site limit"
+	},
+	"siteAlreadyExcluded": {
+		"message": "Den webbplatsen är redan undantagen.",
+		"description": "Shown when the typed site is already on the excluded list"
+	},
+	"remove_site_x": {
+		"message": "Ta bort $SITE$",
+		"description": "Aria-label and tooltip for the button removing an excluded site. $SITE$ is the hostname.",
+		"placeholders": {
+			"site": {
+				"content": "$1",
+				"example": "example.com"
+			}
+		}
 	},
 	"helperbird": {
 		"message": "Upptäck Helperbird"

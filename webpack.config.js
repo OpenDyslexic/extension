@@ -34,10 +34,6 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.styl(us)?$/,
-				use: ['style-loader', 'css-loader', 'stylus-loader']
-			},
-			{
 				test: /\.vue$/,
 				loader: 'vue-loader',
 				options: {
@@ -45,18 +41,15 @@ module.exports = {
 				}
 			},
 			{
-				test: /\.js$/,
-				exclude: /(node_modules)/,
-				use: {
-					loader: 'babel-loader',
-					options: {
-						presets: ['@babel/preset-env']
-					}
-				}
+				// `import x from './foo.css?raw'` yields the stylesheet as a
+				// string, for the content script to inject into the page.
+				test: /\.css$/,
+				resourceQuery: /raw/,
+				type: 'asset/source'
 			},
-
 			{
 				test: /\.css$/,
+				resourceQuery: { not: [/raw/] },
 				use: [
 					'style-loader',
 					'css-loader',
@@ -70,22 +63,6 @@ module.exports = {
 									'./postcss.config.js'
 								)
 							}
-						}
-					}
-				]
-			},
-			{
-				test: /\.(txt|pdf)$/i,
-				use: 'raw-loader'
-			},
-			{
-				test: /\.(png|jpe?g|gif)$/i,
-				use: [
-					{
-						loader: 'file-loader',
-						options: {
-							name: 'images/[name].[ext]',
-							publicPath: '..'
 						}
 					}
 				]
@@ -142,6 +119,12 @@ module.exports = {
 			]
 		})
 	],
+
+	// The packaged .zip is the release artefact, not something a browser loads,
+	// so exclude it from webpack's asset-size hints. Real bundles are still checked.
+	performance: {
+		assetFilter: (filename) => !filename.endsWith('.zip')
+	},
 
 	resolve: {
 		extensions: ['.js', '.vue', '.json'],
