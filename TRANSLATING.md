@@ -23,10 +23,10 @@ This is the standard [browser extension i18n format](https://developer.chrome.co
 }
 ```
 
--   **Key** (`addSite`) — referenced from the code. **Never translate or rename a key.**
--   **`message`** — the text users see. **This is the only field you translate.**
--   **`description`** — a note for developers. Users never see it. Leave it in English.
--   **`placeholders`** — dynamic values injected at runtime. See below.
+- **Key** (`addSite`) — referenced from the code. **Never translate or rename a key.**
+- **`message`** — the text users see. **This is the only field you translate.**
+- **`description`** — a note for developers. Users never see it. Leave it in English.
+- **`placeholders`** — dynamic values injected at runtime. See below.
 
 ### Placeholders
 
@@ -95,14 +95,14 @@ Here is the English source:
 
 ## ✅ Before opening a pull request
 
--   Save the result as `app/_locales/<locale>/messages.json`.
--   Confirm the file is valid JSON and has the same keys as `en`:
+- Save the result as `app/_locales/<locale>/messages.json`.
+- Confirm the file is valid JSON and has the same keys as `en`:
 
 ```bash
 node -e "const en=require('./app/_locales/en/messages.json'),t=require('./app/_locales/LOCALE/messages.json'),m=Object.keys(en).filter(k=>!(k in t));console.log(m.length?'Missing: '+m.join(', '):'All keys present')"
 ```
 
--   Check the popup renders correctly. Load the unpacked extension (see the [README](./README.md)), then set your browser's display language to your locale.
+- Check the popup renders correctly. Load the unpacked extension (see the [README](./README.md)), then set your browser's display language to your locale.
 
 ## 🈳 Locales currently in the repo
 
@@ -130,8 +130,8 @@ The 28 live keys have been reviewed and rewritten across all 58 locales. The 30 
 
 Worth knowing, because the same traps apply to any new locale:
 
--   **Standalone words were translated by dictionary sense, not by role.** `On` and `Off` label a toggle, but they came out as prepositions in over twenty locales — French "Sur", Japanese "の上" ("on top of"), Russian "На", Chinese "在"/"离开" ("leave"), Korean "~에" (a grammatical particle), Serbian "Он" ("he").
--   **Brand names were transliterated.** 34 locales lost at least one. Serbian was the worst: "Цхроме" for "Chrome" — a letter-by-letter transliteration that reads nothing like the product.
--   **Tense and part of speech drifted.** "Settings Applied" (a confirmation) became a noun phrase or present continuous in several locales, and Welsh had "Gosodiadau Cymhwysol" — "applicable settings".
+- **Standalone words were translated by dictionary sense, not by role.** `On` and `Off` label a toggle, but they came out as prepositions in over twenty locales — French "Sur", Japanese "の上" ("on top of"), Russian "На", Chinese "在"/"离开" ("leave"), Korean "~에" (a grammatical particle), Serbian "Он" ("he").
+- **Brand names were transliterated.** 34 locales lost at least one. Serbian was the worst: "Цхроме" for "Chrome" — a letter-by-letter transliteration that reads nothing like the product.
+- **Tense and part of speech drifted.** "Settings Applied" (a confirmation) became a noun phrase or present continuous in several locales, and Welsh had "Gosodiadau Cymhwysol" — "applicable settings".
 
 Keep product names (`OpenDyslexic`, `Chrome`, `Firefox`, `Edge`, `Github`, `Discord`, `Helperbird`, `X`) and the credited people (`Abbie Gonzalez`, `Robert James Gabriel`) in Latin script, exactly as in `en`. Attach your language's grammatical particles around them rather than respelling them.

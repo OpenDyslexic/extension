@@ -4,8 +4,9 @@
 	font-display: swap;
 	font-style: normal;
 	font-weight: 400;
-	unicode-range: U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF,
-		U+2000-206F, U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
+	unicode-range:
+		U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF, U+2000-206F,
+		U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
 }
 
 @font-face {
@@ -14,8 +15,9 @@
 	font-display: swap;
 	font-style: italic;
 	font-weight: 400;
-	unicode-range: U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF,
-		U+2000-206F, U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
+	unicode-range:
+		U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF, U+2000-206F,
+		U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
 }
 
 @font-face {
@@ -24,8 +26,9 @@
 	font-display: swap;
 	font-weight: 700;
 	font-style: normal;
-	unicode-range: U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF,
-		U+2000-206F, U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
+	unicode-range:
+		U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF, U+2000-206F,
+		U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
 }
 
 @font-face {
@@ -34,8 +37,9 @@
 	font-display: swap;
 	font-weight: 700;
 	font-style: italic;
-	unicode-range: U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF,
-		U+2000-206F, U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
+	unicode-range:
+		U+0000-024F, U+0300-036F, U+02B0-02FF, U+03C0, U+1E00-1EFF, U+2000-206F,
+		U+20AC, U+2122-2126, U+2200-22FF, U+25CA, U+FB01-FB02;
 }
 
 .viewport,

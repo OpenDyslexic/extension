@@ -6,7 +6,7 @@ Three related pieces of work:
 
 1. **Dependencies** — 33 declared packages down to 17, and `npm audit` from 17 vulnerabilities (4 critical) to **zero**.
 2. **Build** — Babel removed entirely, the deprecated `raw-loader` replaced with a webpack built-in, and all three browser targets now compile **warning-free**.
-3. **Translations** — the 9 keys that were missing from every non-English locale are filled in, and the pre-existing machine translations of every *live* key have been corrected across all 57 locales.
+3. **Translations** — the 9 keys that were missing from every non-English locale are filled in, and the pre-existing machine translations of every _live_ key have been corrected across all 57 locales.
 
 No user-facing feature changes. The popup gains a rebuilt toast component that behaves like the old one.
 
@@ -31,11 +31,11 @@ Two packages are deliberately **not** on latest, because latest breaks the build
 
 Three entries, all cleaning up Jest's own transitive tree. Together they take `npm install` from six deprecation warnings to one and cut ~50 packages.
 
-| Override | Why |
-| --- | --- |
+| Override                  | Why                                                                                                                                                                       |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `brace-expansion: ^5.0.8` | Jest pulls a version with two DoS advisories. npm's suggested fix is a destructive major downgrade elsewhere. Removing this reintroduces **19** high-severity advisories. |
-| `test-exclude: ^7.0.1` | `babel-plugin-istanbul` still asks for v6, which drags in `glob@7` and the abandoned, memory-leaking `inflight`. |
-| `glob: ^13.0.6` | Jest asks for `^10.5.0`; that maintainer deprecates every trailing version, so 10 *and* 11 both warn. |
+| `test-exclude: ^7.0.1`    | `babel-plugin-istanbul` still asks for v6, which drags in `glob@7` and the abandoned, memory-leaking `inflight`.                                                          |
+| `glob: ^13.0.6`           | Jest asks for `^10.5.0`; that maintainer deprecates every trailing version, so 10 _and_ 11 both warn.                                                                     |
 
 ### One warning left, deliberately
 
@@ -59,24 +59,24 @@ Three entries, all cleaning up Jest's own transitive tree. Together they take `n
 
 ### `raw-loader` → `asset/source`
 
-`raw-loader` is deprecated. `engine.js` needs the OpenDyslexic stylesheet as a *string* to inject into pages, so the two `.css` rules are now split on `resourceQuery`: `?raw` yields text via webpack's built-in `asset/source`, everything else goes through PostCSS. Verified the embedded stylesheet is complete — 4 `@font-face`, 7 `font-family`, 4 `url()`, 7 `font-weight` and all 4 `{{$browser_extension_protocol}}` placeholders match the source file exactly.
+`raw-loader` is deprecated. `engine.js` needs the OpenDyslexic stylesheet as a _string_ to inject into pages, so the two `.css` rules are now split on `resourceQuery`: `?raw` yields text via webpack's built-in `asset/source`, everything else goes through PostCSS. Verified the embedded stylesheet is complete — 4 `@font-face`, 7 `font-family`, 4 `url()`, 7 `font-weight` and all 4 `{{$browser_extension_protocol}}` placeholders match the source file exactly.
 
 ⚠️ Keep the `resourceQuery: { not: [/raw/] }` guard on the second rule, or the raw import gets processed as a stylesheet.
 
 ### Warning-free builds
 
-Store screenshots moved out of `app/` to `store/screenshots/`, so they are no longer bundled into the shipped zip. That left webpack flagging *its own output zip* as an oversized web asset, which is a false positive — a `performance.assetFilter` now excludes `.zip`, so real bundle regressions stay visible.
+Store screenshots moved out of `app/` to `store/screenshots/`, so they are no longer bundled into the shipped zip. That left webpack flagging _its own output zip_ as an oversized web asset, which is a false positive — a `performance.assetFilter` now excludes `.zip`, so real bundle regressions stay visible.
 
 ### Size impact
 
-| Artefact | Before | After | |
-| --- | --- | --- | --- |
-| `background.js` | 5,544 B | **1,479 B** | −73% |
-| `engine.js` | 13,510 B | 13,471 B | ~0 |
-| `popup.js` | 145,742 B | 159,872 B | **+14,130 B** |
-| Packaged `.zip` | 2,200,516 B | **468,238 B** | −79% |
-| Declared deps | 33 | **17** | |
-| Installed packages | 1,020 | **493** | |
+| Artefact           | Before      | After         |               |
+| ------------------ | ----------- | ------------- | ------------- |
+| `background.js`    | 5,544 B     | **1,479 B**   | −73%          |
+| `engine.js`        | 13,510 B    | 13,471 B      | ~0            |
+| `popup.js`         | 145,742 B   | 159,872 B     | **+14,130 B** |
+| Packaged `.zip`    | 2,200,516 B | **468,238 B** | −79%          |
+| Declared deps      | 33          | **17**        |               |
+| Installed packages | 1,020       | **493**       |               |
 
 `background.js` shrank by three quarters because Babel was injecting async-to-generator helpers for `async` functions the target browsers support natively.
 
@@ -112,9 +112,9 @@ These would have propagated into every translation:
 
 **Only 28 of the 58 keys are actually referenced** by the code or manifests; the other 30 are leftovers from an earlier popup. I corrected the live ones and left the dead ones alone. What the old automated script had got wrong:
 
-- **`On`/`Off` were prepositions in 26+ locales** — translated by dictionary sense rather than by their role as toggle states. French "Sur", Japanese "の上" (*on top of*), Chinese "离开" (*leave*), Korean "~에" (a grammatical particle), Serbian "Он" (*he*).
+- **`On`/`Off` were prepositions in 26+ locales** — translated by dictionary sense rather than by their role as toggle states. French "Sur", Japanese "の上" (_on top of_), Chinese "离开" (_leave_), Korean "~에" (a grammatical particle), Serbian "Он" (_he_).
 - **34 locales lost at least one brand name.** Serbian was worst — its entire file was transliterated English, including **"Цхроме" for "Chrome"**, a letter-by-letter transliteration that reads nothing like the product. Fully rewritten.
-- **Tense and part-of-speech drift** on "Settings Applied": Welsh read "Gosodiadau Cymhwysol" (*applicable settings*); Korean and German were noun phrases.
+- **Tense and part-of-speech drift** on "Settings Applied": Welsh read "Gosodiadau Cymhwysol" (_applicable settings_); Korean and German were noun phrases.
 
 Product names (`OpenDyslexic`, `Chrome`, `Firefox`, `Edge`, `Github`, `Discord`, `Helperbird`, `X`) and credited people (`Abbie Gonzalez`, `Robert James Gabriel`) now stay in Latin script everywhere, with each language's grammatical particles attached around them.
 

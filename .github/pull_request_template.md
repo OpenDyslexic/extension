@@ -4,8 +4,8 @@ A few sentences describing the overall goals of the pull request's commits.
 
 # Checklist
 
--   [ ] Wrote documentation on this page
--   [ ] Formated code
+- [ ] Wrote documentation on this page
+- [ ] Formated code
 
 ## Impacted Areas in Application
 

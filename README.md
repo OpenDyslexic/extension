@@ -10,16 +10,16 @@ Open-Dyslexic is an open-source font designed to improve readability for readers
 
 ## 🧩 Extensions
 
--   [Chrome](https://chrome.google.com/webstore/detail/opendyslexic-for-chrome/cdnapgfjopgaggbmfgbiinmmbdcglnam)
--   [Firefox](https://addons.mozilla.org/firefox/addon/opendyslexic-for-firefox/)
--   [Edge](https://microsoftedge.microsoft.com/addons/detail/opendyslexic/)
+- [Chrome](https://chrome.google.com/webstore/detail/opendyslexic-for-chrome/cdnapgfjopgaggbmfgbiinmmbdcglnam)
+- [Firefox](https://addons.mozilla.org/firefox/addon/opendyslexic-for-firefox/)
+- [Edge](https://microsoftedge.microsoft.com/addons/detail/opendyslexic/)
 
 ## 🤝 Support
 
 OpenDyslexic for Chrome is an MIT-licensed open-source project, and its ongoing development is made possible entirely by the support of these awesome backers. If you'd like to join them, please consider:
 
--   [Become a backer on GitHub](https://github.com/sponsors/RobertJGabriel)
--   [Become a backer or sponsor on Patreon](https://patreon.com/opendyslexic).
+- [Become a backer on GitHub](https://github.com/sponsors/RobertJGabriel)
+- [Become a backer or sponsor on Patreon](https://patreon.com/opendyslexic).
 
 ### What's the difference between Patreon and GitHub?
 
@@ -94,18 +94,18 @@ Store listing screenshots live in `store/screenshots/`, deliberately outside `ap
 
 Please don't "fix" these without checking the build:
 
--   **There is no Babel, and the bundle is not transpiled.** Manifest V3 requires Chrome 88+, and the Firefox manifest sets `strict_min_version` to 114. The source only uses arrow functions, `async`, and spread — all supported well below those floors — so webpack ships the syntax as written. Adding `babel-loader` back inflated `background.js` from 1.4 KB to 5.5 KB with async-to-generator helpers those browsers don't need. If you ever need a lower floor, add a `browserslist` key rather than reintroducing a blanket ES5 transpile.
--   **Jest transforms with `@swc/jest`, not `babel-jest`.** Its only job is turning the source's ESM into CJS, because the test files use `import` and the package is not `"type": "module"`. This replaced 80 `@babel/*` packages with three, and cut the test run roughly in half.
--   **`?raw` CSS imports use webpack's built-in `asset/source`.** `app/scripts/content/engine.js` needs the OpenDyslexic stylesheet as a string to inject into pages. The two `.css` rules in `webpack.config.js` are split on `resourceQuery` so `?raw` yields text while every other stylesheet goes through PostCSS. This replaced the deprecated `raw-loader`; keep the `resourceQuery: { not: [/raw/] }` guard or the raw import will be processed as a stylesheet instead.
--   **`engines.node` is `>=22.11.0`.** The strictest dependency (`webpack-cli`) only needs Node 20.9, but Node 20 went end-of-life in April 2026, so the project targets 22. `.github/workflows/release.yml` matches this — bump both together.
+- **There is no Babel, and the bundle is not transpiled.** Manifest V3 requires Chrome 88+, and the Firefox manifest sets `strict_min_version` to 114. The source only uses arrow functions, `async`, and spread — all supported well below those floors — so webpack ships the syntax as written. Adding `babel-loader` back inflated `background.js` from 1.4 KB to 5.5 KB with async-to-generator helpers those browsers don't need. If you ever need a lower floor, add a `browserslist` key rather than reintroducing a blanket ES5 transpile.
+- **Jest transforms with `@swc/jest`, not `babel-jest`.** Its only job is turning the source's ESM into CJS, because the test files use `import` and the package is not `"type": "module"`. This replaced 80 `@babel/*` packages with three, and cut the test run roughly in half.
+- **`?raw` CSS imports use webpack's built-in `asset/source`.** `app/scripts/content/engine.js` needs the OpenDyslexic stylesheet as a string to inject into pages. The two `.css` rules in `webpack.config.js` are split on `resourceQuery` so `?raw` yields text while every other stylesheet goes through PostCSS. This replaced the deprecated `raw-loader`; keep the `resourceQuery: { not: [/raw/] }` guard or the raw import will be processed as a stylesheet instead.
+- **`engines.node` is `>=22.11.0`.** The strictest dependency (`webpack-cli`) only needs Node 20.9, but Node 20 went end-of-life in April 2026, so the project targets 22. `.github/workflows/release.yml` matches this — bump both together.
 
 ### The `overrides` block
 
 Every entry exists to clean up Jest's own transitive tree. None of these are our direct dependencies, so the only lever is `overrides`. Re-run `npm run test -- --coverage` after touching any of them — plain `npm test` does **not** exercise `test-exclude` or `glob`.
 
--   **`brace-expansion: ^5.0.8`** — Jest pulls a version with two DoS advisories. npm's suggested fix is a destructive major downgrade elsewhere; this forces the patched release, which is dual-published so CommonJS consumers still work. Removing it reintroduces 19 high-severity advisories.
--   **`test-exclude: ^7.0.1`** — `babel-plugin-istanbul` still asks for `test-exclude@^6`, which drags in `glob@7` and the abandoned, memory-leaking `inflight`. Version 7 moved to `glob@^10`, so this drops both.
--   **`glob: ^13.0.6`** — Jest asks for `glob@^10.5.0`, and that package's maintainer deprecates every trailing version, so 10 _and_ 11 both warn on install. 13 is current and satisfies Node 22.
+- **`brace-expansion: ^5.0.8`** — Jest pulls a version with two DoS advisories. npm's suggested fix is a destructive major downgrade elsewhere; this forces the patched release, which is dual-published so CommonJS consumers still work. Removing it reintroduces 19 high-severity advisories.
+- **`test-exclude: ^7.0.1`** — `babel-plugin-istanbul` still asks for `test-exclude@^6`, which drags in `glob@7` and the abandoned, memory-leaking `inflight`. Version 7 moved to `glob@^10`, so this drops both.
+- **`glob: ^13.0.6`** — Jest asks for `glob@^10.5.0`, and that package's maintainer deprecates every trailing version, so 10 _and_ 11 both warn on install. 13 is current and satisfies Node 22.
 
 Together these take `npm install` from six deprecation warnings to one and cut about 50 packages.
 
